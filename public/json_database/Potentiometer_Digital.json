@@ -1,0 +1,6489 @@
+{
+    "AD5160": {
+        "description": "",
+        "keywords": "digital potentiometer",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5160.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-8",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "V_{DD}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "CLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "SDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "AD5160_0_1",
+            "AD5160_1_1"
+        ]
+    },
+    "AD5253": {
+        "description": "",
+        "keywords": "digital potentiometer",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5253_5254.pdf",
+        "footprint": "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AD5254": {
+        "description": "",
+        "keywords": "digital potentiometer",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5253_5254.pdf",
+        "footprint": "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "W0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "B0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "3",
+                "name": "A0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "4",
+                "name": "AD0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "~{WP}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "W1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "B1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "A1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "11",
+                "name": "A2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "12",
+                "name": "B2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "13",
+                "name": "W2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "14",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "15",
+                "name": "DGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "16",
+                "name": "AD1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "17",
+                "name": "A3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "18",
+                "name": "B3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "19",
+                "name": "W3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "20",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 22.86
+                }
+            }
+        ],
+        "units": [
+            "AD5254_0_1",
+            "AD5254_1_1"
+        ]
+    },
+    "AD5272BCP": {
+        "description": "",
+        "keywords": "digital potentiometer",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5272_5274.pdf",
+        "footprint": "Package_CSP:LFCSP-WD-10-1EP_3x3mm_P0.5mm_EP1.64x2.38mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "2",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "5",
+                "name": "EXT_CAP",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "7",
+                "name": "~{RESET}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "9",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "10",
+                "name": "ADDR",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "VSS",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            }
+        ],
+        "units": [
+            "AD5272BCP_0_1",
+            "AD5272BCP_1_1"
+        ]
+    },
+    "AD5272BRM": {
+        "description": "",
+        "keywords": "digital potentiometer",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5272_5274.pdf",
+        "footprint": "Package_SO:MSOP-10_3x3mm_P0.5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "2",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "5",
+                "name": "EXT_CAP",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "7",
+                "name": "~{RESET}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "9",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "10",
+                "name": "ADDR",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "AD5272BRM_0_1",
+            "AD5272BRM_1_1"
+        ]
+    },
+    "AD5274BCP": {
+        "description": "",
+        "keywords": "digital potentiometer",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5272_5274.pdf",
+        "footprint": "Package_CSP:LFCSP-WD-10-1EP_3x3mm_P0.5mm_EP1.64x2.38mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AD5274BRM": {
+        "description": "",
+        "keywords": "digital potentiometer",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5272_5274.pdf",
+        "footprint": "Package_SO:MSOP-10_3x3mm_P0.5mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AD5280": {
+        "description": "",
+        "keywords": "digital potentiometer",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5280_5282.pdf",
+        "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "5",
+                "name": "~{SHDN}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "AD0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "9",
+                "name": "AD1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "11",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "12",
+                "name": "O2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "13",
+                "name": "VLOG",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "14",
+                "name": "O1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "AD5280_0_1",
+            "AD5280_1_1"
+        ]
+    },
+    "AD5282": {
+        "description": "",
+        "keywords": "digital potentiometer",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5280_5282.pdf",
+        "footprint": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "O1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "A1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "W1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "B1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "6",
+                "name": "~{SHDN}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "8",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "AD0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "10",
+                "name": "AD1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "11",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "12",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "13",
+                "name": "VLOG",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "14",
+                "name": "B2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "15",
+                "name": "W2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "16",
+                "name": "A2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "AD5282_0_1",
+            "AD5282_1_1"
+        ]
+    },
+    "AD5290": {
+        "description": "",
+        "keywords": "analog-devices ",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5290.pdf",
+        "footprint": "Package_SO:MSOP-10_3x3mm_P0.5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "V_{SS}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "5",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "CLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "SDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "SDO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "9",
+                "name": "V_{DD}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "10",
+                "name": "W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "AD5290_0_1",
+            "AD5290_1_1"
+        ]
+    },
+    "AD5293": {
+        "description": "",
+        "keywords": "R POT",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf",
+        "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{RST}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "Vss-",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "3",
+                "name": "RH",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "RW",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "RL",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "Vdd+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "7",
+                "name": "EXT_CAP",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "Vlog",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "9",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "10",
+                "name": "SDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "11",
+                "name": "CLK",
+                "type": "input",
+                "style": "clock",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "12",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "13",
+                "name": "SDO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "14",
+                "name": "RDY",
+                "type": "open_collector",
+                "style": "output_low",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "AD5293_0_1",
+            "AD5293_1_1"
+        ]
+    },
+    "DS1267_DIP": {
+        "description": "",
+        "keywords": "Dual Digital Potentiometer Maxim",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/DS1267.pdf",
+        "footprint": "Package_DIP:DIP-14_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VB",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "2",
+                "name": "H1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "L1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "W1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "~{Reset}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "CLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "8",
+                "name": "DQ",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "COUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "10",
+                "name": "L0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "H0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "12",
+                "name": "W0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "13",
+                "name": "SOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "14",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            }
+        ],
+        "units": [
+            "DS1267_DIP_0_1",
+            "DS1267_DIP_1_1"
+        ]
+    },
+    "DS1267_SOIC": {
+        "description": "",
+        "keywords": "Dual Digital Potentiometer Maxim",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/DS1267.pdf",
+        "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VB",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "3",
+                "name": "H1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "L1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "W1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "~{Reset}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "CLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "9",
+                "name": "DQ",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "COUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "11",
+                "name": "L0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "12",
+                "name": "H0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "13",
+                "name": "W0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "14",
+                "name": "SOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "16",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            }
+        ],
+        "units": [
+            "DS1267_SOIC_0_1",
+            "DS1267_SOIC_1_1"
+        ]
+    },
+    "DS1267_TSSOP": {
+        "description": "",
+        "keywords": "Dual Digital Potentiometer Maxim",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/DS1267.pdf",
+        "footprint": "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VB",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "3",
+                "name": "H1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "L1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "W1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "~{Reset}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "CLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "10",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "11",
+                "name": "DQ",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "13",
+                "name": "COUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "14",
+                "name": "L0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "15",
+                "name": "H0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "16",
+                "name": "W0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "17",
+                "name": "SOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "20",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            }
+        ],
+        "units": [
+            "DS1267_TSSOP_0_1",
+            "DS1267_TSSOP_1_1"
+        ]
+    },
+    "DS1882E": {
+        "description": "",
+        "keywords": "digital potentiometer",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/DS1882.pdf",
+        "footprint": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "A2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "A1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "V-",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "5",
+                "name": "A0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "W0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "L0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "H0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "L1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "H1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "W1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "12",
+                "name": "~{CE}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "13",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "14",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "15",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "16",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            }
+        ],
+        "units": [
+            "DS1882E_0_1",
+            "DS1882E_1_1"
+        ]
+    },
+    "DS3502": {
+        "description": "",
+        "keywords": "High-Voltage digital potentiometer Analog Maxim nonvolatile",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/DS3502.pdf",
+        "footprint": "Package_SO:MSOP-10_3x3mm_P0.5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "A1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "A0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "RH",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "RW",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "8",
+                "name": "RL",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "9",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "10",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "DS3502_0_1",
+            "DS3502_1_1"
+        ]
+    },
+    "MAX5436": {
+        "description": "",
+        "keywords": "digital potentiometer resistor variable",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX5436-MAX5439.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "SCLK",
+                "type": "input",
+                "style": "clock",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "Din",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "CS",
+                "type": "input",
+                "style": "inverted",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -3.81
+                }
+            },
+            {
+                "number": "4",
+                "name": "Gnd",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -8.89
+                }
+            },
+            {
+                "number": "5",
+                "name": "V-",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -8.89
+                }
+            },
+            {
+                "number": "6",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 8.89
+                }
+            },
+            {
+                "number": "7",
+                "name": "H",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 3.81
+                }
+            },
+            {
+                "number": "8",
+                "name": "W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "9",
+                "name": "L",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -3.81
+                }
+            },
+            {
+                "number": "10",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 8.89
+                }
+            }
+        ],
+        "units": [
+            "MAX5436_0_1",
+            "MAX5436_1_1"
+        ]
+    },
+    "MAX5438": {
+        "description": "",
+        "keywords": "digital potentiometer resistor variable",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX5436-MAX5439.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP4011-xxxxMS": {
+        "description": "",
+        "keywords": "Digital Pot Potentiometer Up Down",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/21978c.pdf, MSOP-8",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "U/~{D}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "MCP4011-xxxxMS_0_1",
+            "MCP4011-xxxxMS_1_1"
+        ]
+    },
+    "MCP4011-xxxxSN": {
+        "description": "",
+        "keywords": "Digital Pot Potentiometer Up Down",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/21978c.pdf, SOIC-8",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "U/~{D}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "MCP4011-xxxxSN_0_1",
+            "MCP4011-xxxxSN_1_1"
+        ]
+    },
+    "MCP4012-xxxxCH": {
+        "description": "",
+        "keywords": "Digital Pot Potentiometer Up Down",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/21978c.pdf, SOT-23-6",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "U/~{D}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "MCP4012-xxxxCH_0_1",
+            "MCP4012-xxxxCH_1_1"
+        ]
+    },
+    "MCP4013-xxxxCH": {
+        "description": "",
+        "keywords": "Digital Pot Potentiometer Up Down",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/21978c.pdf, SOT-23-6",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "U/~{D}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "MCP4013-xxxxCH_0_1",
+            "MCP4013-xxxxCH_1_1"
+        ]
+    },
+    "MCP4014-xxxxOT": {
+        "description": "",
+        "keywords": "Digital Pot Potentiometer Up Down",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/21978c.pdf, SOT-23-5",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "U/~{D}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "MCP4014-xxxxOT_1_1"
+        ]
+    },
+    "MCP4017-xxxxLT": {
+        "description": "",
+        "keywords": "TWI pot rheostat",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/22147a.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "MCP4017-xxxxLT_0_0",
+            "MCP4017-xxxxLT_1_1"
+        ]
+    },
+    "MCP4018-xxxxLT": {
+        "description": "",
+        "keywords": "TWI pot",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/22147a.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "MCP4018-xxxxLT_0_1",
+            "MCP4018-xxxxLT_1_1"
+        ]
+    },
+    "MCP4019-xxxxLT": {
+        "description": "",
+        "keywords": "TWI pot rheostat",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/22147a.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-353_SC-70-5",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "MCP4019-xxxxLT_0_0",
+            "MCP4019-xxxxLT_0_1",
+            "MCP4019-xxxxLT_1_1"
+        ]
+    },
+    "MCP4021-xxxxMS": {
+        "description": "",
+        "keywords": "Digital Pot Potentiometer Up Down",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/21945e.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP4021-xxxxSN": {
+        "description": "",
+        "keywords": "Digital Pot Potentiometer Up Down",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/21945e.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP4022-xxxxCH": {
+        "description": "",
+        "keywords": "Digital Pot Potentiometer Up Down",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/21945e.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP4023-xxxxCH": {
+        "description": "",
+        "keywords": "Digital Pot Potentiometer Up Down",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/21945e.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP4024-xxxxOT": {
+        "description": "",
+        "keywords": "Digital Pot Potentiometer Up Down",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/21945e.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP41010": {
+        "description": "",
+        "keywords": "R POT",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "input_low",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "SCK",
+                "type": "passive",
+                "style": "clock",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "SI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "PA0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "PW0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "PB0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "MCP41010_0_1",
+            "MCP41010_1_1"
+        ]
+    },
+    "MCP41050": {
+        "description": "",
+        "keywords": "R POT",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP41100": {
+        "description": "",
+        "keywords": "R POT",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP4131-xxxx-P": {
+        "description": "",
+        "keywords": "digipot RAM 7-bit 7bit",
+        "datasheet": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/22060b.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "SCK",
+                "type": "input",
+                "style": "clock",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "SDI/SDO",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "V_{SS}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "P0A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "P0W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "P0B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "V_{DD}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "MCP4131-xxxx-P_0_0",
+            "MCP4131-xxxx-P_0_1",
+            "MCP4131-xxxx-P_1_1"
+        ]
+    },
+    "MCP4132-xxxx-P": {
+        "description": "",
+        "keywords": "potentiometer digipot RAM 7-bit 7bit",
+        "datasheet": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/22060b.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "SCK",
+                "type": "input",
+                "style": "clock",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "SDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "V_{SS}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "P0W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "P0B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "SDO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "V_{DD}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "MCP4132-xxxx-P_0_0",
+            "MCP4132-xxxx-P_0_1",
+            "MCP4132-xxxx-P_1_0",
+            "MCP4132-xxxx-P_1_1"
+        ]
+    },
+    "MCP4141-xxxx-P": {
+        "description": "",
+        "keywords": "digipot EE 7-bit 7bit",
+        "datasheet": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/22059b.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP4142-xxxx-P": {
+        "description": "",
+        "keywords": "potentiometer digipot EE 7-bit 7bit",
+        "datasheet": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/22059b.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP4151-xxxx-P": {
+        "description": "",
+        "keywords": "digipot RAM 8-bit 8bit",
+        "datasheet": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/22060b.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP4152-xxxx-P": {
+        "description": "",
+        "keywords": "potentiometer digipot RAM 8-bit 8bit",
+        "datasheet": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/22060b.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP4161-xxxx-P": {
+        "description": "",
+        "keywords": "digipot EE 8-bit 8bit",
+        "datasheet": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/22059b.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP4162-xxxx-P": {
+        "description": "",
+        "keywords": "potentiometer digipot EE 8-bit 8bit",
+        "datasheet": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/22059b.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP41U83x-xxxx-7N": {
+        "description": "",
+        "keywords": "Microchip MCP41U83T-502E/7N MCP41U83T-103E/7N MCP41U83T-203E/7N MCP41U83T-503E/7N MCP41U83T-104E/7N",
+        "datasheet": "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP41U83-Data-Sheet-DS20007000.pdf",
+        "footprint": "Package_DFN_QFN:Texas_RSA_VQFN-16-1EP_4x4mm_P0.65mm_EP2.7x2.7mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "SDO/A1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "SCK/SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "SDI/SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "~{CS}/A0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "SPI2C",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "DGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "7",
+                "name": "P0B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "P0W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "9",
+                "name": "P0A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "10",
+                "name": "V_{SS}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "11",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -3.81
+                }
+            },
+            {
+                "number": "12",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "13",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -6.35
+                }
+            },
+            {
+                "number": "14",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "15",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -8.89
+                }
+            },
+            {
+                "number": "16",
+                "name": "V_{DD}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "17",
+                "name": "EP",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -12.7
+                }
+            }
+        ],
+        "units": [
+            "MCP41U83x-xxxx-7N_0_1",
+            "MCP41U83x-xxxx-7N_1_1"
+        ]
+    },
+    "MCP41U83x-xxxx-ST": {
+        "description": "",
+        "keywords": "Microchip MCP41U83T-502E/ST MCP41U83T-103E/ST MCP41U83T-203E/ST MCP41U83T-503E/ST MCP41U83T-104E/ST",
+        "datasheet": "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP41U83-Data-Sheet-DS20007000.pdf",
+        "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "V_{DD}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "2",
+                "name": "SDO/A1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "SCK/SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "SDI/SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "~{CS}/A0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "SPI2C",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "DGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "8",
+                "name": "P0B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "9",
+                "name": "P0W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "10",
+                "name": "P0A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "V_{SS}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "12",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "13",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -6.35
+                }
+            },
+            {
+                "number": "14",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "MCP41U83x-xxxx-ST_0_1",
+            "MCP41U83x-xxxx-ST_1_1"
+        ]
+    },
+    "MCP42010": {
+        "description": "",
+        "keywords": "R POT",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "input_low",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "SCK",
+                "type": "input",
+                "style": "clock",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "SI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "5",
+                "name": "PB1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "PW1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "PA1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "PA0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "PW0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "10",
+                "name": "PB0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "~{RS}",
+                "type": "input",
+                "style": "input_low",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "12",
+                "name": "~{SHDN}",
+                "type": "input",
+                "style": "input_low",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "13",
+                "name": "SO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "14",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            }
+        ],
+        "units": [
+            "MCP42010_0_1",
+            "MCP42010_1_1"
+        ]
+    },
+    "MCP42050": {
+        "description": "",
+        "keywords": "R POT",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP42100": {
+        "description": "",
+        "keywords": "R POT",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP4251-xxxx-ML": {
+        "description": "",
+        "keywords": "Digital Pot Potentiometer",
+        "datasheet": "http://ww1.microchip.com/downloads/en/devicedoc/22060b.pdf",
+        "footprint": "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.5x2.5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "SCK",
+                "type": "input",
+                "style": "clock",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "SDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "4",
+                "name": "VSS",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "5",
+                "name": "P1B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "P1W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "P1A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "P0A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "P0W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "10",
+                "name": "P0B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "12",
+                "name": "~{WP}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "13",
+                "name": "~{SHDN}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "14",
+                "name": "SDO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "15",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "16",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "17",
+                "name": "EP",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "MCP4251-xxxx-ML_0_1",
+            "MCP4251-xxxx-ML_1_1"
+        ]
+    },
+    "MCP4251-xxxx-P": {
+        "description": "",
+        "keywords": "Digital Pot Potentiometer",
+        "datasheet": "http://ww1.microchip.com/downloads/en/devicedoc/22060b.pdf",
+        "footprint": "Package_DIP:DIP-14_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "SCK",
+                "type": "input",
+                "style": "clock",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "SDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "5",
+                "name": "P1B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "P1W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "P1A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "P0A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "P0W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "10",
+                "name": "P0B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "~{WP}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "12",
+                "name": "~{SHDN}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "13",
+                "name": "SDO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "14",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            }
+        ],
+        "units": [
+            "MCP4251-xxxx-P_0_1",
+            "MCP4251-xxxx-P_1_1"
+        ]
+    },
+    "MCP4251-xxxx-SL": {
+        "description": "",
+        "keywords": "Digital Pot Potentiometer",
+        "datasheet": "http://ww1.microchip.com/downloads/en/devicedoc/22060b.pdf",
+        "footprint": "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "SCK",
+                "type": "input",
+                "style": "clock",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "SDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "5",
+                "name": "P1B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "P1W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "P1A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "P0A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "P0W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "10",
+                "name": "P0B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "~{WP}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "12",
+                "name": "~{SHDN}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "13",
+                "name": "SDO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "14",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            }
+        ],
+        "units": [
+            "MCP4251-xxxx-SL_1_1"
+        ]
+    },
+    "MCP4251-xxxx-ST": {
+        "description": "",
+        "keywords": "Digital Pot Potentiometer",
+        "datasheet": "http://ww1.microchip.com/downloads/en/devicedoc/22060b.pdf",
+        "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "SCK",
+                "type": "input",
+                "style": "clock",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "SDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "5",
+                "name": "P1B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "P1W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "P1A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "P0A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "P0W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "10",
+                "name": "P0B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "~{WP}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "12",
+                "name": "~{SHDN}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "13",
+                "name": "SDO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "14",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            }
+        ],
+        "units": [
+            "MCP4251-xxxx-ST_1_1"
+        ]
+    },
+    "MCP4431-xxxx-ST": {
+        "description": "",
+        "keywords": "Digital Pot Potentiometer DigiPot",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/22267A_MCP4431.pdf",
+        "footprint": "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "P3A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "P3W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "P3B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "HVC/A0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "8",
+                "name": "P1B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "9",
+                "name": "P1W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "10",
+                "name": "P1A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "P0A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "12",
+                "name": "P0W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "13",
+                "name": "P0B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "14",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "15",
+                "name": "~{RESET}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "16",
+                "name": "A1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "17",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "18",
+                "name": "P2B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "19",
+                "name": "P2W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "20",
+                "name": "P2A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "MCP4431-xxxx-ST_1_1",
+            "MCP4431-xxxx-ST_2_1",
+            "MCP4431-xxxx-ST_3_1",
+            "MCP4431-xxxx-ST_4_1",
+            "MCP4431-xxxx-ST_5_1"
+        ]
+    },
+    "MCP4441-xxxx-ST": {
+        "description": "",
+        "keywords": "Digital Pot Potentiometer DigiPot",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/22267A_MCP4431.pdf",
+        "footprint": "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP4451-xxxx-ST": {
+        "description": "",
+        "keywords": "Digital Pot Potentiometer DigiPot",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/22267A_MCP4431.pdf",
+        "footprint": "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP4461-xxxx-ST": {
+        "description": "",
+        "keywords": "Digital Pot Potentiometer DigiPot",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/22267A_MCP4431.pdf",
+        "footprint": "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP45HV31-MQ": {
+        "description": "",
+        "keywords": "I2C Potentiometer pot digital",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/20005304A.pdf",
+        "footprint": "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP45HV31-ST": {
+        "description": "",
+        "keywords": "I2C Potentiometer pot digital",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/20005304A.pdf",
+        "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP45HV51-MQ": {
+        "description": "",
+        "keywords": "I2C Potentiometer pot digital",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/20005304A.pdf",
+        "footprint": "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VL",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "A1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "A0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "~{WLAT}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "~{SHDN}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "NC",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -12.7,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "9",
+                "name": "NC",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -10.16,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "10",
+                "name": "NC",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -7.62,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "11",
+                "name": "DGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "12",
+                "name": "V-",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "13",
+                "name": "P0B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "14",
+                "name": "P0W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "15",
+                "name": "P0A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "16",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "17",
+                "name": "NC",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "18",
+                "name": "NC",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 7.62,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "19",
+                "name": "NC",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 10.16,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "20",
+                "name": "NC",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 12.7,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "21",
+                "name": "EP",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "MCP45HV51-MQ_0_1",
+            "MCP45HV51-MQ_1_1"
+        ]
+    },
+    "MCP45HV51-ST": {
+        "description": "",
+        "keywords": "I2C Potentiometer pot digital",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/20005304A.pdf",
+        "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VL",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "A1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "A0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "~{WLAT}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "NC",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "8",
+                "name": "~{SHDN}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "DGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "10",
+                "name": "V-",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "11",
+                "name": "P0B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "12",
+                "name": "P0W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "13",
+                "name": "P0A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "14",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 15.24
+                }
+            }
+        ],
+        "units": [
+            "MCP45HV51-ST_0_1",
+            "MCP45HV51-ST_1_1"
+        ]
+    },
+    "TPL0401A-10-Q1": {
+        "description": "",
+        "keywords": "Digital Pot Potentiometer I2C",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/tpl0401a-10-q1.pdf",
+        "footprint": "Package_TO_SOT_SMD:Texas_R-PDSO-G6",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "3",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "W",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "H",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "TPL0401A-10-Q1_0_1",
+            "TPL0401A-10-Q1_1_1"
+        ]
+    },
+    "TPL0401B-10-Q1": {
+        "description": "",
+        "keywords": "Digital Pot Potentiometer I2C",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/tpl0401a-10-q1.pdf",
+        "footprint": "Package_TO_SOT_SMD:Texas_R-PDSO-G6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "X9118": {
+        "description": "",
+        "keywords": "digital potentiometer",
+        "datasheet": "http://www.intersil.com/content/dam/Intersil/documents/x911/x9118.pdf",
+        "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "V+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "A0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "SCL",
+                "type": "input",
+                "style": "clock",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "~{WP}",
+                "type": "input",
+                "style": "input_low",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "8",
+                "name": "V-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "A1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "RW0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "12",
+                "name": "RH0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "13",
+                "name": "RL0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "14",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            }
+        ],
+        "units": [
+            "X9118_0_0",
+            "X9118_0_1",
+            "X9118_1_1"
+        ]
+    },
+    "X9250": {
+        "description": "",
+        "keywords": "potentiometer resistor variable digital",
+        "datasheet": "https://www.intersil.com/content/dam/Intersil/documents/x925/x9250.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "SOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "2",
+                "name": "A0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "RW3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "4",
+                "name": "RH3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "5",
+                "name": "RL3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "6",
+                "name": "V+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "7",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "8",
+                "name": "RL0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "9",
+                "name": "RH0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "10",
+                "name": "RW0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "11",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "input_low",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "12",
+                "name": "~{WP}",
+                "type": "input",
+                "style": "input_low",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "13",
+                "name": "SIN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "14",
+                "name": "A1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "15",
+                "name": "RL1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "16",
+                "name": "RH1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "17",
+                "name": "RW1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "18",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "19",
+                "name": "V-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "20",
+                "name": "RW2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "21",
+                "name": "RH2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "22",
+                "name": "RL2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "23",
+                "name": "SCL",
+                "type": "input",
+                "style": "clock",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "24",
+                "name": "~{HOLD}",
+                "type": "input",
+                "style": "input_low",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "X9250_0_0",
+            "X9250_0_1",
+            "X9250_1_1"
+        ]
+    },
+    "X9258": {
+        "description": "",
+        "keywords": "potentiometer resistor variable digital",
+        "datasheet": "http://www.intersil.com/content/dam/intersil/documents/x925/x9258.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "2",
+                "name": "A0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "RW3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "4",
+                "name": "RH3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "5",
+                "name": "RL3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "6",
+                "name": "V+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "7",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "8",
+                "name": "RL0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "9",
+                "name": "RH0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "10",
+                "name": "RW0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "11",
+                "name": "A2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "12",
+                "name": "~{WP}",
+                "type": "input",
+                "style": "input_low",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "13",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "14",
+                "name": "A1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "15",
+                "name": "RL1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "16",
+                "name": "RH1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "17",
+                "name": "RW1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "18",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "19",
+                "name": "V-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "20",
+                "name": "RW2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "21",
+                "name": "RH2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "22",
+                "name": "RL2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "23",
+                "name": "SCL",
+                "type": "input",
+                "style": "clock",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "24",
+                "name": "A3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "X9258_0_0",
+            "X9258_0_1",
+            "X9258_1_1"
+        ]
+    }
+}

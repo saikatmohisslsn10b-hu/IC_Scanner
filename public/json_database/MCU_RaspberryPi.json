@@ -1,0 +1,2449 @@
+{
+    "RP2040": {
+        "description": "",
+        "keywords": "RPi Pico USB QSPI I2C UART SC0914",
+        "datasheet": "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "IOVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "2",
+                "name": "GPIO0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "3",
+                "name": "GPIO1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "4",
+                "name": "GPIO2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "5",
+                "name": "GPIO3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "6",
+                "name": "GPIO4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "7",
+                "name": "GPIO5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "8",
+                "name": "GPIO6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "9",
+                "name": "GPIO7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "10",
+                "name": "IOVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "11",
+                "name": "GPIO8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "12",
+                "name": "GPIO9",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "13",
+                "name": "GPIO10",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "14",
+                "name": "GPIO11",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "15",
+                "name": "GPIO12",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "16",
+                "name": "GPIO13",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "17",
+                "name": "GPIO14",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "18",
+                "name": "GPIO15",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "19",
+                "name": "TESTEN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "20",
+                "name": "XIN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "21",
+                "name": "XOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "22",
+                "name": "IOVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "23",
+                "name": "DVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 12.7,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "24",
+                "name": "SWCLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "25",
+                "name": "SWDIO",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "26",
+                "name": "RUN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "27",
+                "name": "GPIO16",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "28",
+                "name": "GPIO17",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "29",
+                "name": "GPIO18",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "30",
+                "name": "GPIO19",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "31",
+                "name": "GPIO20",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "32",
+                "name": "GPIO21",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "33",
+                "name": "IOVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "34",
+                "name": "GPIO22",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "35",
+                "name": "GPIO23",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "36",
+                "name": "GPIO24",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "37",
+                "name": "GPIO25",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "38",
+                "name": "GPIO26/ADC0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "39",
+                "name": "GPIO27/ADC1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "40",
+                "name": "GPIO28/ADC2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "41",
+                "name": "GPIO29/ADC3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -38.1
+                }
+            },
+            {
+                "number": "42",
+                "name": "IOVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "43",
+                "name": "ADC_AVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -10.16,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "44",
+                "name": "VREG_VIN",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "45",
+                "name": "VREG_VOUT",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "46",
+                "name": "USB_DM",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "47",
+                "name": "USB_DP",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "48",
+                "name": "USB_VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -12.7,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "49",
+                "name": "IOVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "50",
+                "name": "DVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 12.7,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "51",
+                "name": "QSPI_SD3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "52",
+                "name": "QSPI_SCLK",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "53",
+                "name": "QSPI_SD0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "54",
+                "name": "QSPI_SD2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "55",
+                "name": "QSPI_SD1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "56",
+                "name": "~{QSPI_SS}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "57",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -45.72
+                }
+            }
+        ],
+        "units": [
+            "RP2040_0_1",
+            "RP2040_1_1"
+        ]
+    },
+    "RP2350A": {
+        "description": "",
+        "keywords": "RPi Pico USB QSPI I2C UART ADC SC1509",
+        "datasheet": "https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf",
+        "footprint": "Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "IOVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "2",
+                "name": "GPIO0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "3",
+                "name": "GPIO1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "4",
+                "name": "GPIO2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "5",
+                "name": "GPIO3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "6",
+                "name": "DVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 12.7,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "7",
+                "name": "GPIO4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "8",
+                "name": "GPIO5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "9",
+                "name": "GPIO6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "10",
+                "name": "GPIO7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "11",
+                "name": "IOVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "12",
+                "name": "GPIO8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "13",
+                "name": "GPIO9",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "14",
+                "name": "GPIO10",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "15",
+                "name": "GPIO11",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "16",
+                "name": "GPIO12",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "17",
+                "name": "GPIO13",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "18",
+                "name": "GPIO14",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "19",
+                "name": "GPIO15",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "20",
+                "name": "IOVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "21",
+                "name": "XIN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "22",
+                "name": "XOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "23",
+                "name": "DVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 12.7,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "24",
+                "name": "SWCLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "25",
+                "name": "SWDIO",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "26",
+                "name": "RUN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "27",
+                "name": "GPIO16",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "28",
+                "name": "GPIO17",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "29",
+                "name": "GPIO18",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "30",
+                "name": "IOVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "31",
+                "name": "GPIO19",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "32",
+                "name": "GPIO20",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "33",
+                "name": "GPIO21",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "34",
+                "name": "GPIO22",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "35",
+                "name": "GPIO23",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "36",
+                "name": "GPIO24",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "37",
+                "name": "GPIO25",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "38",
+                "name": "IOVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "39",
+                "name": "DVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 12.7,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "40",
+                "name": "GPIO26/ADC0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "41",
+                "name": "GPIO27/ADC1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "42",
+                "name": "GPIO28/ADC2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "43",
+                "name": "GPIO29/ADC3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -38.1
+                }
+            },
+            {
+                "number": "44",
+                "name": "ADC_AVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -10.16,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "45",
+                "name": "IOVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "46",
+                "name": "VREG_AVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -17.78,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "47",
+                "name": "VREG_PGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -45.72
+                }
+            },
+            {
+                "number": "48",
+                "name": "VREG_LX",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "49",
+                "name": "VREG_VIN",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "50",
+                "name": "VREG_FB",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "51",
+                "name": "USB_DM",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "52",
+                "name": "USB_DP",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "53",
+                "name": "USB_OTP_VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -12.7,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "54",
+                "name": "QSPI_IOVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "55",
+                "name": "QSPI_SD3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "56",
+                "name": "QSPI_SCLK",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "57",
+                "name": "QSPI_SD0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "58",
+                "name": "QSPI_SD2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "59",
+                "name": "QSPI_SD1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "60",
+                "name": "~{QSPI_SS}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "61",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -45.72
+                }
+            }
+        ],
+        "units": [
+            "RP2350A_0_1",
+            "RP2350A_1_0",
+            "RP2350A_1_1"
+        ]
+    },
+    "RP2350B": {
+        "description": "",
+        "keywords": "RPi Pico USB QSPI I2C UART ADC SC1510",
+        "datasheet": "https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf",
+        "footprint": "Package_DFN_QFN:QFN-80-1EP_10x10mm_P0.4mm_EP3.4x3.4mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "GPIO4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "2",
+                "name": "GPIO5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "3",
+                "name": "GPIO6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "4",
+                "name": "GPIO7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "5",
+                "name": "IOVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 55.88
+                }
+            },
+            {
+                "number": "6",
+                "name": "GPIO8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "7",
+                "name": "GPIO9",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "8",
+                "name": "GPIO10",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "9",
+                "name": "GPIO11",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "10",
+                "name": "DVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 12.7,
+                    "y": 55.88
+                }
+            },
+            {
+                "number": "11",
+                "name": "GPIO12",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "12",
+                "name": "GPIO13",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "13",
+                "name": "GPIO14",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "14",
+                "name": "GPIO15",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "15",
+                "name": "IOVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 55.88
+                }
+            },
+            {
+                "number": "16",
+                "name": "GPIO16",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "17",
+                "name": "GPIO17",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "18",
+                "name": "GPIO18",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "19",
+                "name": "GPIO19",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "20",
+                "name": "GPIO20",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "21",
+                "name": "GPIO21",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "22",
+                "name": "GPIO22",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "23",
+                "name": "GPIO23",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "24",
+                "name": "IOVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 55.88
+                }
+            },
+            {
+                "number": "25",
+                "name": "GPIO24",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "26",
+                "name": "GPIO25",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "27",
+                "name": "GPIO26",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "28",
+                "name": "GPIO27",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "29",
+                "name": "IOVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 55.88
+                }
+            },
+            {
+                "number": "30",
+                "name": "XIN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "31",
+                "name": "XOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "32",
+                "name": "DVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 12.7,
+                    "y": 55.88
+                }
+            },
+            {
+                "number": "33",
+                "name": "SWCLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "34",
+                "name": "SWDIO",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "35",
+                "name": "RUN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "36",
+                "name": "GPIO28",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "37",
+                "name": "GPIO29",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "38",
+                "name": "GPIO30",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "39",
+                "name": "GPIO31",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "40",
+                "name": "GPIO32",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "41",
+                "name": "IOVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 55.88
+                }
+            },
+            {
+                "number": "42",
+                "name": "GPIO33",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "43",
+                "name": "GPIO34",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -38.1
+                }
+            },
+            {
+                "number": "44",
+                "name": "GPIO35",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -40.64
+                }
+            },
+            {
+                "number": "45",
+                "name": "GPIO36",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "46",
+                "name": "GPIO37",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -45.72
+                }
+            },
+            {
+                "number": "47",
+                "name": "GPIO38",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -48.26
+                }
+            },
+            {
+                "number": "48",
+                "name": "GPIO39",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -50.8
+                }
+            },
+            {
+                "number": "49",
+                "name": "GPIO40/ADC0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "50",
+                "name": "IOVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 55.88
+                }
+            },
+            {
+                "number": "51",
+                "name": "DVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 12.7,
+                    "y": 55.88
+                }
+            },
+            {
+                "number": "52",
+                "name": "GPIO41/ADC1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "53",
+                "name": "GPIO42/ADC2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -38.1
+                }
+            },
+            {
+                "number": "54",
+                "name": "GPIO43/ADC3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -40.64
+                }
+            },
+            {
+                "number": "55",
+                "name": "GPIO44/ADC4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "56",
+                "name": "GPIO45/ADC5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -45.72
+                }
+            },
+            {
+                "number": "57",
+                "name": "GPIO46/ADC6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -48.26
+                }
+            },
+            {
+                "number": "58",
+                "name": "GPIO47/ADC7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -50.8
+                }
+            },
+            {
+                "number": "59",
+                "name": "ADC_AVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -10.16,
+                    "y": 55.88
+                }
+            },
+            {
+                "number": "60",
+                "name": "IOVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 55.88
+                }
+            },
+            {
+                "number": "61",
+                "name": "VREG_AVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -17.78,
+                    "y": 55.88
+                }
+            },
+            {
+                "number": "62",
+                "name": "VREG_PGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -58.42
+                }
+            },
+            {
+                "number": "63",
+                "name": "VREG_LX",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 55.88
+                }
+            },
+            {
+                "number": "64",
+                "name": "VREG_VIN",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 55.88
+                }
+            },
+            {
+                "number": "65",
+                "name": "VREG_FB",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 55.88
+                }
+            },
+            {
+                "number": "66",
+                "name": "USB_DM",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "67",
+                "name": "USB_DP",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "68",
+                "name": "USB_OTP_VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -12.7,
+                    "y": 55.88
+                }
+            },
+            {
+                "number": "69",
+                "name": "QSPI_IOVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 55.88
+                }
+            },
+            {
+                "number": "70",
+                "name": "QSPI_SD3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "71",
+                "name": "QSPI_SCLK",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "72",
+                "name": "QSPI_SD0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "73",
+                "name": "QSPI_SD2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "74",
+                "name": "QSPI_SD1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "75",
+                "name": "~{QSPI_SS}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "76",
+                "name": "IOVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 55.88
+                }
+            },
+            {
+                "number": "77",
+                "name": "GPIO0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 48.26
+                }
+            },
+            {
+                "number": "78",
+                "name": "GPIO1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "79",
+                "name": "GPIO2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "80",
+                "name": "GPIO3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "81",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -58.42
+                }
+            }
+        ],
+        "units": [
+            "RP2350B_0_1",
+            "RP2350B_1_0",
+            "RP2350B_1_1"
+        ]
+    },
+    "RP2354A": {
+        "description": "",
+        "keywords": "RPi Pico USB QSPI I2C UART ADC SC1511",
+        "datasheet": "https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf",
+        "footprint": "Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RP2354B": {
+        "description": "",
+        "keywords": "RPi Pico USB QSPI I2C UART ADC SC1512",
+        "datasheet": "https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf",
+        "footprint": "Package_DFN_QFN:QFN-80-1EP_10x10mm_P0.4mm_EP3.4x3.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    }
+}

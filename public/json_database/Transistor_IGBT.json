@@ -1,0 +1,100 @@
+{
+    "IRG4PF50W": {
+        "description": "",
+        "keywords": "N-Channel IGBT Power Transistor",
+        "datasheet": "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf",
+        "footprint": "Package_TO_SOT_THT:TO-247-3_Vertical",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "E",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "IRG4PF50W_0_1",
+            "IRG4PF50W_1_1"
+        ]
+    },
+    "STGP7NC60HD": {
+        "description": "",
+        "keywords": "N-Channel very fast IGBT with ultrafast diode Power Transistor",
+        "datasheet": "http://www.farnell.com/datasheets/2309889.pdf",
+        "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "E",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "STGP7NC60HD_0_1",
+            "STGP7NC60HD_1_1"
+        ]
+    }
+}

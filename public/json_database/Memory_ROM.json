@@ -1,0 +1,712 @@
+{
+    "XC18V01SO20": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "https://docs.amd.com/api/khub/documents/6MAHUFe3JhpT1bdCspA7mQ/content",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "D0",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "2",
+                "name": "D2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "CLK",
+                "type": "input",
+                "style": "clock",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -6.35
+                }
+            },
+            {
+                "number": "4",
+                "name": "TDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "TMS",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "6",
+                "name": "TCK",
+                "type": "input",
+                "style": "clock",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "7",
+                "name": "D4/CF",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "OE/RESET",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 1.27
+                }
+            },
+            {
+                "number": "9",
+                "name": "D6",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "10",
+                "name": "CE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -1.27
+                }
+            },
+            {
+                "number": "11",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "12",
+                "name": "D7",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "13",
+                "name": "CEO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -3.81
+                }
+            },
+            {
+                "number": "14",
+                "name": "D5",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "15",
+                "name": "D3",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "16",
+                "name": "D1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "17",
+                "name": "TDO",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "18",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "19",
+                "name": "VCCO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "20",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -12.7
+                }
+            }
+        ],
+        "units": [
+            "XC18V01SO20_0_1",
+            "XC18V01SO20_1_1"
+        ]
+    },
+    "XCF08P": {
+        "description": "",
+        "keywords": "PROM FLASH",
+        "datasheet": "https://www.xilinx.com/support/documentation/data_sheets/ds123.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "A1",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -16.51,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "A2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -16.51,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "A3",
+                "name": "OE/RST",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -16.51,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "A5",
+                "name": "D6",
+                "type": "tri_state",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 16.51,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "A6",
+                "name": "D7",
+                "type": "tri_state",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 16.51,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "B1",
+                "name": "VCCINT",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 16.51,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "B2",
+                "name": "VCCO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 16.51,
+                    "y": -19.05
+                }
+            },
+            {
+                "number": "B3",
+                "name": "CLK",
+                "type": "input",
+                "style": "clock",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -16.51,
+                    "y": 0
+                }
+            },
+            {
+                "number": "B4",
+                "name": "CE",
+                "type": "input",
+                "style": "input_low",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -16.51,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "B5",
+                "name": "D5",
+                "type": "tri_state",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 16.51,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "B6",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -16.51,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "C1",
+                "name": "BUSY",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -16.51,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "C2",
+                "name": "CLKOUT",
+                "type": "output",
+                "style": "clock",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 16.51,
+                    "y": 0
+                }
+            },
+            {
+                "number": "C5",
+                "name": "D4",
+                "type": "tri_state",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 16.51,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "C6",
+                "name": "VCCO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 16.51,
+                    "y": -21.59
+                }
+            },
+            {
+                "number": "D1",
+                "name": "CF",
+                "type": "bidirectional",
+                "style": "input_low",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -16.51,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "D2",
+                "name": "CEO",
+                "type": "output",
+                "style": "output_low",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 16.51,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "D5",
+                "name": "D3",
+                "type": "tri_state",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 16.51,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "D6",
+                "name": "VCCO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 16.51,
+                    "y": -26.67
+                }
+            },
+            {
+                "number": "E1",
+                "name": "VCCINT",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 16.51,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "E2",
+                "name": "TMS",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -16.51,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "E5",
+                "name": "D2",
+                "type": "tri_state",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 16.51,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "E6",
+                "name": "TDO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -16.51,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "F1",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -16.51,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "F5",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -16.51,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "F6",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -16.51,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "G1",
+                "name": "TDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -16.51,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "G3",
+                "name": "REV-SEL0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -16.51,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "G4",
+                "name": "REV-SEL1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -16.51,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "G5",
+                "name": "VCCO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 16.51,
+                    "y": -24.13
+                }
+            },
+            {
+                "number": "G6",
+                "name": "VCCINT",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 16.51,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "H1",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -16.51,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "H2",
+                "name": "VCCJ",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 16.51,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "H3",
+                "name": "TCK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -16.51,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "H4",
+                "name": "/EN-EXT-SEL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -16.51,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "H5",
+                "name": "D1",
+                "type": "tri_state",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 16.51,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "H6",
+                "name": "D0",
+                "type": "tri_state",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 16.51,
+                    "y": 30.48
+                }
+            }
+        ],
+        "units": [
+            "XCF08P_0_1",
+            "XCF08P_1_1"
+        ]
+    }
+}

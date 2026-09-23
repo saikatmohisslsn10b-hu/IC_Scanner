@@ -1,0 +1,1526 @@
+{
+    "6AK8": {
+        "description": "",
+        "keywords": "diode triode valve",
+        "datasheet": "https://frank.pocnet.net/sheets/082/e/EABC80.pdf",
+        "footprint": "Valve:Valve_Noval_P",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "9AK8": {
+        "description": "",
+        "keywords": "diode triode valve",
+        "datasheet": "https://frank.pocnet.net/sheets/082/e/EABC80.pdf",
+        "footprint": "Valve:Valve_Noval_P",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CK548DX": {
+        "description": "",
+        "keywords": "subminiature pentode valve",
+        "datasheet": "",
+        "footprint": "Valve:Valve_Mini_Pentode_Linear",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CK6418": {
+        "description": "",
+        "keywords": "subminiature pentode valve",
+        "datasheet": "https://frank.pocnet.net/sheets/127/6/6418.pdf",
+        "footprint": "Valve:Valve_Mini_Pentode_Linear",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "P",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "2",
+                "name": "G2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "F+,G3",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "G1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "F+,G3",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            }
+        ],
+        "units": [
+            "CK6418_0_1",
+            "CK6418_1_0",
+            "CK6418_1_1",
+            "CK6418_2_1"
+        ]
+    },
+    "EABC80": {
+        "description": "",
+        "keywords": "diode triode valve",
+        "datasheet": "https://frank.pocnet.net/sheets/082/e/EABC80.pdf",
+        "footprint": "Valve:Valve_Noval_P",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "A2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "K",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "F1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -8.89
+                }
+            },
+            {
+                "number": "5",
+                "name": "F2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -8.89
+                }
+            },
+            {
+                "number": "6",
+                "name": "A3",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "7",
+                "name": "K",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "8",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "9",
+                "name": "A2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "EABC80_0_1",
+            "EABC80_1_0",
+            "EABC80_1_1",
+            "EABC80_2_1",
+            "EABC80_3_0",
+            "EABC80_3_1",
+            "EABC80_4_1"
+        ]
+    },
+    "EC92": {
+        "description": "",
+        "keywords": "triode valve",
+        "datasheet": "http://www.r-type.org/pdfs/ec92.pdf",
+        "footprint": "Valve:Valve_Mini_P",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "F1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -8.89
+                }
+            },
+            {
+                "number": "4",
+                "name": "F2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -8.89
+                }
+            },
+            {
+                "number": "6",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "K",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            }
+        ],
+        "units": [
+            "EC92_0_1",
+            "EC92_1_0",
+            "EC92_1_1",
+            "EC92_2_1"
+        ]
+    },
+    "ECC81": {
+        "description": "",
+        "keywords": "triode valve",
+        "datasheet": "http://www.r-type.org/pdfs/ecc81.pdf",
+        "footprint": "Valve:Valve_Noval_P",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "K",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "F1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -11.43
+                }
+            },
+            {
+                "number": "5",
+                "name": "F1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -11.43
+                }
+            },
+            {
+                "number": "6",
+                "name": "A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "7",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "8",
+                "name": "K",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "9",
+                "name": "F2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -11.43
+                }
+            }
+        ],
+        "units": [
+            "ECC81_0_1",
+            "ECC81_1_0",
+            "ECC81_1_1",
+            "ECC81_2_0",
+            "ECC81_2_1",
+            "ECC81_3_1"
+        ]
+    },
+    "ECC83": {
+        "description": "",
+        "keywords": "triode valve",
+        "datasheet": "http://www.r-type.org/pdfs/ecc83.pdf",
+        "footprint": "Valve:Valve_Noval_P",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ECC88": {
+        "description": "",
+        "keywords": "triode valve",
+        "datasheet": "http://www.r-type.org/pdfs/ecc88.pdf",
+        "footprint": "Valve:Valve_Noval_P",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "K",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "F1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -11.43
+                }
+            },
+            {
+                "number": "5",
+                "name": "F2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -11.43
+                }
+            },
+            {
+                "number": "6",
+                "name": "A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "7",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "8",
+                "name": "K",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            }
+        ],
+        "units": [
+            "ECC88_0_1",
+            "ECC88_1_0",
+            "ECC88_1_1",
+            "ECC88_2_0",
+            "ECC88_2_1",
+            "ECC88_3_1"
+        ]
+    },
+    "ECH81": {
+        "description": "",
+        "keywords": "triode heptode valve",
+        "datasheet": "http://www.r-type.org/pdfs/ech81.pdf",
+        "footprint": "Valve:Valve_Noval_P",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "G2_G4",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 3.81
+                }
+            },
+            {
+                "number": "2",
+                "name": "G1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -3.81
+                }
+            },
+            {
+                "number": "3",
+                "name": "K",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "4",
+                "name": "F1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -13.97
+                }
+            },
+            {
+                "number": "5",
+                "name": "F2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -13.97
+                }
+            },
+            {
+                "number": "6",
+                "name": "A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 13.97
+                }
+            },
+            {
+                "number": "7",
+                "name": "G3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 1.27
+                }
+            },
+            {
+                "number": "8",
+                "name": "A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 13.97
+                }
+            },
+            {
+                "number": "9",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "ECH81_0_1",
+            "ECH81_1_0",
+            "ECH81_1_1",
+            "ECH81_2_0",
+            "ECH81_2_1",
+            "ECH81_3_1"
+        ]
+    },
+    "ECL82": {
+        "description": "",
+        "keywords": "triode pentode valve",
+        "datasheet": "http://www.r-type.org/pdfs/ecl82.pdf",
+        "footprint": "Valve:Valve_Noval_P",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "K_G3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "G1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "F1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "F2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "6",
+                "name": "A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "7",
+                "name": "G2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "8",
+                "name": "K",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "9",
+                "name": "A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "ECL82_0_1",
+            "ECL82_1_0",
+            "ECL82_1_1",
+            "ECL82_2_0",
+            "ECL82_2_1",
+            "ECL82_3_1"
+        ]
+    },
+    "ECL86": {
+        "description": "",
+        "keywords": "triode pentode valve",
+        "datasheet": "http://www.r-type.org/pdfs/ecl86.pdf",
+        "footprint": "Valve:Valve_Noval_P",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "K",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "G2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "F1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "F2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "6",
+                "name": "A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "7",
+                "name": "K_G3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "8",
+                "name": "G1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "9",
+                "name": "A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "ECL86_0_1",
+            "ECL86_1_1",
+            "ECL86_2_0",
+            "ECL86_2_1",
+            "ECL86_3_1"
+        ]
+    },
+    "EF80": {
+        "description": "",
+        "keywords": "pentode valve",
+        "datasheet": "http://www.r-type.org/pdfs/ef80.pdf",
+        "footprint": "Valve:Valve_Noval_P",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "2",
+                "name": "G1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -1.27
+                }
+            },
+            {
+                "number": "3",
+                "name": "F1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "F1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "F2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "6",
+                "name": "S",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -3.81
+                }
+            },
+            {
+                "number": "7",
+                "name": "A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 11.43
+                }
+            },
+            {
+                "number": "8",
+                "name": "G2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 1.27
+                }
+            },
+            {
+                "number": "9",
+                "name": "G3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 3.81
+                }
+            }
+        ],
+        "units": [
+            "EF80_0_1",
+            "EF80_1_0",
+            "EF80_1_1",
+            "EF80_2_1"
+        ]
+    },
+    "EF83": {
+        "description": "",
+        "keywords": "pentode valve",
+        "datasheet": "http://www.r-type.org/pdfs/ef83.pdf",
+        "footprint": "Valve:Valve_Noval_P",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "G2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 1.27
+                }
+            },
+            {
+                "number": "3",
+                "name": "K",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -8.89
+                }
+            },
+            {
+                "number": "4",
+                "name": "F1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "F2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "6",
+                "name": "A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 11.43
+                }
+            },
+            {
+                "number": "7",
+                "name": "S",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -3.81
+                }
+            },
+            {
+                "number": "8",
+                "name": "G3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 3.81
+                }
+            },
+            {
+                "number": "9",
+                "name": "G1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -1.27
+                }
+            }
+        ],
+        "units": [
+            "EF83_0_1",
+            "EF83_1_0",
+            "EF83_1_1",
+            "EF83_2_1"
+        ]
+    },
+    "EF85": {
+        "description": "",
+        "keywords": "pentode valve",
+        "datasheet": "",
+        "footprint": "Valve:Valve_Noval_P",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "EF86": {
+        "description": "",
+        "keywords": "pentode valve",
+        "datasheet": "",
+        "footprint": "Valve:Valve_Noval_P",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "EL34": {
+        "description": "",
+        "keywords": "pentode valve",
+        "datasheet": "http://www.r-type.org/pdfs/el34.pdf",
+        "footprint": "Valve:Valve_Octal",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "G3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 3.81
+                }
+            },
+            {
+                "number": "2",
+                "name": "F1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 11.43
+                }
+            },
+            {
+                "number": "4",
+                "name": "G2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 1.27
+                }
+            },
+            {
+                "number": "5",
+                "name": "G1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -1.27
+                }
+            },
+            {
+                "number": "7",
+                "name": "F2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "8",
+                "name": "F1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -8.89
+                }
+            }
+        ],
+        "units": [
+            "EL34_0_1",
+            "EL34_1_0",
+            "EL34_1_1",
+            "EL34_2_1"
+        ]
+    },
+    "EL84": {
+        "description": "",
+        "keywords": "pentode valve",
+        "datasheet": "http://www.r-type.org/pdfs/el84.pdf",
+        "footprint": "Valve:Valve_Noval_P",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "2",
+                "name": "G1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -1.27
+                }
+            },
+            {
+                "number": "3",
+                "name": "K_G3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -8.89
+                }
+            },
+            {
+                "number": "4",
+                "name": "F1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "F2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "7",
+                "name": "A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 11.43
+                }
+            },
+            {
+                "number": "9",
+                "name": "G2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 1.27
+                }
+            }
+        ],
+        "units": [
+            "EL84_0_1",
+            "EL84_1_0",
+            "EL84_1_1",
+            "EL84_2_1"
+        ]
+    },
+    "EM84": {
+        "description": "",
+        "keywords": "indicator tube valve magic eye",
+        "datasheet": "http://www.r-type.org/pdfs/em84.pdf",
+        "footprint": "Valve:Valve_Noval_P",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "K",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -8.89
+                }
+            },
+            {
+                "number": "4",
+                "name": "F1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "F2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "6",
+                "name": "L",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 11.43
+                }
+            },
+            {
+                "number": "7",
+                "name": "ST",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "9",
+                "name": "A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "EM84_0_1",
+            "EM84_1_0",
+            "EM84_1_1",
+            "EM84_2_0",
+            "EM84_2_1",
+            "EM84_3_1"
+        ]
+    },
+    "JAN6418": {
+        "description": "",
+        "keywords": "subminiature pentode valve",
+        "datasheet": "https://frank.pocnet.net/sheets/127/6/6418.pdf",
+        "footprint": "Valve:Valve_Mini_Pentode_Linear",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NOS-6418": {
+        "description": "",
+        "keywords": "subminiature pentode valve",
+        "datasheet": "https://frank.pocnet.net/sheets/127/6/6418.pdf",
+        "footprint": "Valve:Valve_Mini_Pentode_Linear",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PABC80": {
+        "description": "",
+        "keywords": "diode triode valve",
+        "datasheet": "https://frank.pocnet.net/sheets/082/e/EABC80.pdf",
+        "footprint": "Valve:Valve_Noval_P",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "STABI": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "footprint": "Valve:Valve_Glimm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "3",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "K",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "STABI_1_0",
+            "STABI_1_1"
+        ]
+    },
+    "UABC80": {
+        "description": "",
+        "keywords": "diode triode valve",
+        "datasheet": "https://frank.pocnet.net/sheets/082/e/EABC80.pdf",
+        "footprint": "Valve:Valve_Noval_P",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    }
+}

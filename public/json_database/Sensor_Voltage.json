@@ -1,0 +1,75 @@
+{
+    "LV25-P": {
+        "description": "",
+        "keywords": "Voltage transducer",
+        "datasheet": "https://www.lem.com/sites/default/files/products_datasheets/lv_25-p.pdf",
+        "footprint": "Sensor_Voltage:LEM_LV25-P",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "HV+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "HV-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "M",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "V-",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "LV25-P_0_1",
+            "LV25-P_1_1"
+        ]
+    }
+}

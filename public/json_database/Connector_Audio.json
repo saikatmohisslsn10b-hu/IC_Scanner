@@ -1,0 +1,5639 @@
+{
+    "AudioJack2": {
+        "description": "",
+        "keywords": "audio jack receptacle mono phone headphone TS connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "AudioJack2_0_1",
+            "AudioJack2_1_1"
+        ]
+    },
+    "AudioJack2_Dual_Ground_Switch": {
+        "description": "",
+        "keywords": "audio jack dual receptacle mono headphones phone TS connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "G",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "S1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "S2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "SN1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "SN2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "T2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "TN1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "TN2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "AudioJack2_Dual_Ground_Switch_0_1",
+            "AudioJack2_Dual_Ground_Switch_1_1",
+            "AudioJack2_Dual_Ground_Switch_2_1"
+        ]
+    },
+    "AudioJack2_Dual_Switch": {
+        "description": "",
+        "keywords": "audio jack dual receptacle mono headphones phone TS connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "S1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "S2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "SN1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "SN2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "T2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "TN1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "TN2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "AudioJack2_Dual_Switch_0_1",
+            "AudioJack2_Dual_Switch_1_1",
+            "AudioJack2_Dual_Switch_2_1"
+        ]
+    },
+    "AudioJack2_Ground": {
+        "description": "",
+        "keywords": "audio jack receptacle mono phone headphone TS connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "G",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "AudioJack2_Ground_0_1",
+            "AudioJack2_Ground_1_1"
+        ]
+    },
+    "AudioJack2_Ground_Switch": {
+        "description": "",
+        "keywords": "audio jack receptacle mono headphones phone TS connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "G",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "SN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "TN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "AudioJack2_Ground_Switch_0_1",
+            "AudioJack2_Ground_Switch_1_1"
+        ]
+    },
+    "AudioJack2_Ground_SwitchT": {
+        "description": "",
+        "keywords": "audio jack receptacle mono headphones phone TS connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "G",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "TN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "AudioJack2_Ground_SwitchT_0_1",
+            "AudioJack2_Ground_SwitchT_1_1"
+        ]
+    },
+    "AudioJack2_Switch": {
+        "description": "",
+        "keywords": "audio jack receptacle mono headphones phone TS connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "SN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "TN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "AudioJack2_Switch_0_1",
+            "AudioJack2_Switch_1_1"
+        ]
+    },
+    "AudioJack2_SwitchT": {
+        "description": "",
+        "keywords": "audio jack receptacle mono headphones phone TS connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "TN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "AudioJack2_SwitchT_0_1",
+            "AudioJack2_SwitchT_1_1"
+        ]
+    },
+    "AudioJack3": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones phones TRS connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "R",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "AudioJack3_0_1",
+            "AudioJack3_1_1"
+        ]
+    },
+    "AudioJack3_Dual_Ground_Switch": {
+        "description": "",
+        "keywords": "audio jack dual receptacle stereo headphones phones TRS connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "G",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "R1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "R2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "RN1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "RN2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "S1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "S2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "SN1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "SN2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "T2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "TN1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "TN2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "AudioJack3_Dual_Ground_Switch_0_1",
+            "AudioJack3_Dual_Ground_Switch_1_1",
+            "AudioJack3_Dual_Ground_Switch_2_1"
+        ]
+    },
+    "AudioJack3_Dual_Switch": {
+        "description": "",
+        "keywords": "audio jack dual receptacle stereo headphones phones TRS connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "R1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "R2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "RN1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "RN2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "S1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "S2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "SN1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "SN2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "T2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "TN1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "TN2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "AudioJack3_Dual_Switch_0_1",
+            "AudioJack3_Dual_Switch_1_1",
+            "AudioJack3_Dual_Switch_2_1"
+        ]
+    },
+    "AudioJack3_Ground": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones phones TRS connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "G",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "R",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "AudioJack3_Ground_0_1",
+            "AudioJack3_Ground_1_1"
+        ]
+    },
+    "AudioJack3_Ground_Switch": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones phones TRS connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "G",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "R",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "RN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "SN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "TN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "AudioJack3_Ground_Switch_0_1",
+            "AudioJack3_Ground_Switch_1_1"
+        ]
+    },
+    "AudioJack3_Ground_SwitchTR": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones phones TRS connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "G",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "R",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "RN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "TN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "AudioJack3_Ground_SwitchTR_0_1",
+            "AudioJack3_Ground_SwitchTR_1_1"
+        ]
+    },
+    "AudioJack3_Switch": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "R",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "RN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "SN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "TN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "AudioJack3_Switch_0_1",
+            "AudioJack3_Switch_1_1"
+        ]
+    },
+    "AudioJack3_SwitchT": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones phones TRS connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "R",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "TN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "AudioJack3_SwitchT_0_1",
+            "AudioJack3_SwitchT_1_1"
+        ]
+    },
+    "AudioJack3_SwitchTR": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones phones TRS connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "R",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "RN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "TN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "AudioJack3_SwitchTR_0_1",
+            "AudioJack3_SwitchTR_1_1"
+        ]
+    },
+    "AudioJack4": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones TRRS connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "R1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "R2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "AudioJack4_0_1",
+            "AudioJack4_1_1"
+        ]
+    },
+    "AudioJack4_Ground": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones TRRS connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "G",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "R1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "R2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "AudioJack4_Ground_0_1",
+            "AudioJack4_Ground_1_1"
+        ]
+    },
+    "AudioJack4_Ground_SwitchTR1": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones phones TRS connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "G",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "R1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "R1N",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "R2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "TN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "AudioJack4_Ground_SwitchTR1_0_1",
+            "AudioJack4_Ground_SwitchTR1_1_1"
+        ]
+    },
+    "AudioJack4_SwitchT1": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones phones connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "R1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "R2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "TN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "AudioJack4_SwitchT1_0_1",
+            "AudioJack4_SwitchT1_1_1"
+        ]
+    },
+    "AudioJack4_SwitchTR1": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones phones TRS connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "R1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "R1N",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "R2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "TN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "AudioJack4_SwitchTR1_0_1",
+            "AudioJack4_SwitchTR1_1_1"
+        ]
+    },
+    "AudioJack5": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones TRRRS connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "R1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "R2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "R3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "AudioJack5_0_1",
+            "AudioJack5_1_1"
+        ]
+    },
+    "AudioJack5_Ground": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones TRRRS connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "G",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "R1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "R2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "R3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "AudioJack5_Ground_0_1",
+            "AudioJack5_Ground_1_1"
+        ]
+    },
+    "AudioPlug2": {
+        "description": "",
+        "keywords": "audio jack plug stereo headphones TRRS connector 2.5mm 3.5mm 6.35mm",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "AudioPlug2_0_0",
+            "AudioPlug2_0_1",
+            "AudioPlug2_1_1"
+        ]
+    },
+    "AudioPlug3": {
+        "description": "",
+        "keywords": "audio jack plug stereo headphones TRRS connector 2.5mm 3.5mm 6.35mm",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "R",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "AudioPlug3_0_0",
+            "AudioPlug3_0_1",
+            "AudioPlug3_1_0",
+            "AudioPlug3_1_1"
+        ]
+    },
+    "AudioPlug4": {
+        "description": "",
+        "keywords": "audio jack plug stereo headphones TRRS connector 2.5mm 3.5mm",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "R1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "R2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "AudioPlug4_0_0",
+            "AudioPlug4_0_1",
+            "AudioPlug4_1_1"
+        ]
+    },
+    "NC3FAAH-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3faah-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAAH-0_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAAH": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3faah",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAAH_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAAH1-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3faah1-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAAH1-0_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAAH1-DA": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3faah1-da",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAAH1-DA_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAAH1": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3faah1",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAAH1_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAAH2-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3faah2-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAAH2-0_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAAH2": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3faah2",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAAH2_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAAV-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3faav-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAAV-0_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAAV": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3faav",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAAV_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAAV1-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3faav1-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAAV1-0_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAAV1-DA": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3faav1-da",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAAV1-DA_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAAV1": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3faav1",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAAV1_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAAV2-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3faav2-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAAV2-0_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAAV2": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3faav2",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAAV2_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAH-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fah-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAH-0_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAH": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fah",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAH_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAH1-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fah1-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAH1-0_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAH1-DA": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fah1-da",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAH1-DA_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAH1": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fah1",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAH1_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAH2-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fah2-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAH2-0_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAH2-DA": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fah2-da",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAH2-DA_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAH2": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fah2",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAH2_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAHL-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fahl-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAHL-0_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAHL1-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fahl1-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAHL1-0_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAHL1": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fahl1",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAHL1_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAHR-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fahr-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAHR-0_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAHR1-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fahr1-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAHR1-0_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAHR1": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fahr1",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAHR1_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAHR2-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fahr2-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAHR2-0_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAHR2": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fahr2",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAHR2_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAV-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fav-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAV-0_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAV": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fav",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAV_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAV1-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fav1-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAV1-0_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAV1-DA": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fav1-da",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAV1-DA_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAV1": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fav1",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAV1_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAV2-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fav2-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAV2-0_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAV2-DA": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fav2-da",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAV2-DA_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FAV2": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fav2",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FAV2_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FBH1-B": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fbh1-b",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FBH1-B_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FBH1-DA": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fbh1-da",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FBH1-DA_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FBH1-E": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fbh1-e",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FBH1-E_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FBH1": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fbh1",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FBH1_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FBH2-B": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fbh2-b",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FBH2-B_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FBH2-DA": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fbh2-da",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FBH2-DA_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FBH2-E": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fbh2-e",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FBH2-E_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FBH2": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fbh2",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FBH2_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FBHL1": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fbhl1",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FBHL1_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FBV1-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fbv1-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FBV1-0_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FBV1-B": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fbv1-b",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FBV1-B_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FBV1-DA": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fbv1-da",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FBV1-DA_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FBV1": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fbv1",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FBV1_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FBV2-B": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fbv2-b",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FBV2-B_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FBV2-DA": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fbv2-da",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FBV2-DA_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FBV2-SW": {
+        "description": "",
+        "keywords": "xlr connector spdt switch neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fbv2-sw",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FBV2-SW_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3FBV2": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3fbv2",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3FBV2_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MAAH-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3maah-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MAAH-0_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MAAH-1": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3maah-1",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MAAH-1_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MAAH": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3maah",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MAAH_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MAAV-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3maav-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MAAV-0_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MAAV-1": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3maav-1",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MAAV-1_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MAAV": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3maav",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MAAV_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MAFH-PH": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mafh-ph",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MAFH-PH_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MAH-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mah-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MAH-0_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MAH": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mah",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MAH_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MAHL": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mahl",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MAHL_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MAHR": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mahr",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MAHR_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MAMH-PH": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mamh-ph",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MAMH-PH_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MAV-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mav-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MAV-0_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MAV": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mav",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MAV_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MBH-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mbh-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MBH-0_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MBH-1": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mbh-1",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MBH-1_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MBH-B": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mbh-b",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MBH-B_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MBH-E": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mbh-e",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MBH-E_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MBH": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mbh",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MBH_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MBHL-B": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mbhl-b",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MBHL-B_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MBHL": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mbhl",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MBHL_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MBHR-B": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mbhr-b",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MBHR-B_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MBHR": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mbhr",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MBHR_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MBV-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mbv-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MBV-0_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MBV-1": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mbv-1",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MBV-1_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MBV-B": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mbv-b",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MBV-B_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MBV-E": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mbv-e",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MBV-E_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MBV-SW": {
+        "description": "",
+        "keywords": "xlr connector spdt switch neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mbv-sw",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MBV-SW_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC3MBV": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc3mbv",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC3MBV_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC4FAH-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc4fah-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC4FAH-0_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC4FAH": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc4fah",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC4FAH_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC4FAV-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc4fav-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC4FAV-0_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC4FAV": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc4fav",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC4FAV_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC4FBH": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc4fbh",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC4FBH_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC4FBV": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc4fbv",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC4FBV_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC4MAH": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc4mah",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC4MAH_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC4MAV": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc4mav",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC4MAV_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC4MBH": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc4mbh",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC4MBH_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC4MBV": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc4mbv",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC4MBV_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC5FAH-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc5fah-0",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC5FAH-0_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC5FAH-DA": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc5fah-da",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC5FAH-DA_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC5FAH": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc5fah",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC5FAH_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC5FAV-DA": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc5fav-da",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC5FAV-DA_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC5FAV-SW": {
+        "description": "",
+        "keywords": "xlr connector spdt switch neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc5fav-sw",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC5FAV-SW_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC5FAV": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc5fav",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC5FAV_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC5FBH-B": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc5fbh-b",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC5FBH-B_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC5FBH": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc5fbh",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC5FBH_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC5FBV-B": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc5fbv-b",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC5FBV-B_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC5FBV-SW": {
+        "description": "",
+        "keywords": "xlr connector spdt switch neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc5fbv-sw",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC5FBV-SW_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC5FBV": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc5fbv",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC5FBV_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC5MAH": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc5mah",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC5MAH_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC5MAV-SW": {
+        "description": "",
+        "keywords": "xlr connector spdt switch neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc5mav-sw",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC5MAV-SW_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC5MAV": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc5mav",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC5MAV_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC5MBH-B": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc5mbh-b",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC5MBH-B_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC5MBH": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc5mbh",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC5MBH_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC5MBV-B": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc5mbv-b",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC5MBV-B_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC5MBV-SW": {
+        "description": "",
+        "keywords": "xlr connector spdt switch neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc5mbv-sw",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC5MBV-SW_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NC5MBV": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nc5mbv",
+        "footprint": "Connector_Audio:Jack_XLR_Neutrik_NC5MBV_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCJ10FI-H-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/ncj10fi-h-0",
+        "footprint": "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ10FI-H-0_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCJ10FI-H": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/ncj10fi-h",
+        "footprint": "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ10FI-H_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCJ10FI-V-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/ncj10fi-v-0",
+        "footprint": "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ10FI-V-0_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCJ10FI-V": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/ncj10fi-v",
+        "footprint": "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ10FI-V_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCJ5FI-H-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/ncj5fi-h-0",
+        "footprint": "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ5FI-H-0_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCJ5FI-H": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/ncj5fi-h",
+        "footprint": "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ5FI-H_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCJ5FI-V-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/ncj5fi-v-0",
+        "footprint": "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ5FI-V-0_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCJ5FI-V": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/ncj5fi-v",
+        "footprint": "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ5FI-V_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCJ6FA-H-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/ncj6fa-h-0",
+        "footprint": "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCJ6FA-H-DA": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/ncj6fa-h-da",
+        "footprint": "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-DA_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCJ6FA-H": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/ncj6fa-h",
+        "footprint": "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCJ6FA-V-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/ncj6fa-v-0",
+        "footprint": "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FA-V-0_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCJ6FA-V-DA": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/ncj6fa-v-da",
+        "footprint": "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FA-V-DA_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCJ6FA-V": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/ncj6fa-v",
+        "footprint": "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FA-V_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCJ6FI-H-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/ncj6fi-h-0",
+        "footprint": "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FI-H-0_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCJ6FI-H": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/ncj6fi-h",
+        "footprint": "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FI-H_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCJ6FI-V-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/ncj6fi-v-0",
+        "footprint": "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FI-V-0_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCJ6FI-V": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/ncj6fi-v",
+        "footprint": "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FI-V_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCJ9FI-H-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/ncj9fi-h-0",
+        "footprint": "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ9FI-H-0_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCJ9FI-H": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/ncj9fi-h",
+        "footprint": "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ9FI-H_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCJ9FI-V-0": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/ncj9fi-v-0",
+        "footprint": "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ9FI-V-0_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCJ9FI-V": {
+        "description": "",
+        "keywords": "xlr connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/ncj9fi-v",
+        "footprint": "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ9FI-V_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NJ2FD-V": {
+        "description": "",
+        "keywords": "audio jack receptacle mono phone headphone TS connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nj2fd-v",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NJ2FD-V_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NJ3FD-V": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones phones TRS connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nj3fd-v",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NJ3FD-V_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NJ5FD-V": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones phones TRS connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nj5fd-v",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NJ5FD-V_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NJ6FD-V": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nj6fd-v",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NJ6FD-V_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NJ6TB-V": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nj6tb-v",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NJ6TB-V_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NL2MDXX-H-3": {
+        "description": "",
+        "keywords": "speakon connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nl2mdxx-h-3",
+        "footprint": "Connector_Audio:Jack_speakON_Neutrik_NL2MDXX-H-3_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NL2MDXX-V": {
+        "description": "",
+        "keywords": "speakon connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nl2mdxx-v",
+        "footprint": "Connector_Audio:Jack_speakON_Neutrik_NL2MDXX-V_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NL4MDXX-H-2": {
+        "description": "",
+        "keywords": "speakon connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nl4mdxx-h-2",
+        "footprint": "Connector_Audio:Jack_speakON_Neutrik_NL4MDXX-H-2_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NL4MDXX-H-3": {
+        "description": "",
+        "keywords": "speakon connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nl4mdxx-h-3",
+        "footprint": "Connector_Audio:Jack_speakON_Neutrik_NL4MDXX-H-3_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NL4MDXX-V-2": {
+        "description": "",
+        "keywords": "speakon connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nl4mdxx-v-2",
+        "footprint": "Connector_Audio:Jack_speakON_Neutrik_NL4MDXX-V-2_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NL4MDXX-V-3": {
+        "description": "",
+        "keywords": "speakon connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nl4mdxx-v-3",
+        "footprint": "Connector_Audio:Jack_speakON_Neutrik_NL4MDXX-V-3_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NL4MDXX-V": {
+        "description": "",
+        "keywords": "speakon connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nl4mdxx-v",
+        "footprint": "Connector_Audio:Jack_speakON_Neutrik_NL4MDXX-V_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NL8MDXX-V-3": {
+        "description": "",
+        "keywords": "speakon connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nl8mdxx-v-3",
+        "footprint": "Connector_Audio:Jack_speakON_Neutrik_NL8MDXX-V-3_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NL8MDXX-V": {
+        "description": "",
+        "keywords": "speakon connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nl8mdxx-v",
+        "footprint": "Connector_Audio:Jack_speakON_Neutrik_NL8MDXX-V_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NLJ2MDXX-H": {
+        "description": "",
+        "keywords": "speakon connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nlj2mdxx-h",
+        "footprint": "Connector_Audio:Jack_speakON-6.35mm_Neutrik_NLJ2MDXX-H_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NLJ2MDXX-V": {
+        "description": "",
+        "keywords": "speakon connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nlj2mdxx-v",
+        "footprint": "Connector_Audio:Jack_speakON-6.35mm_Neutrik_NLJ2MDXX-V_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NLT4MD-V": {
+        "description": "",
+        "keywords": "speakon connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nlt4md-v",
+        "footprint": "Connector_Audio:Jack_speakON_Neutrik_NLT4MD-V_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NMJ4HCD2": {
+        "description": "",
+        "keywords": "audio jack receptacle mono headphones phone TS connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nmj4hcd2",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HCD2_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NMJ4HFD2": {
+        "description": "",
+        "keywords": "audio jack receptacle mono headphones phone TS connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nmj4hfd2",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HFD2_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NMJ4HFD3": {
+        "description": "",
+        "keywords": "audio jack receptacle mono headphones phone TS connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nmj4hfd3",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HFD3_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NMJ4HHD2": {
+        "description": "",
+        "keywords": "audio jack receptacle mono headphones phone TS connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nmj4hhd2",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HHD2_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NMJ6HCD2": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nmj6hcd2",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NMJ6HCD3": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nmj6hcd3",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HCD3_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NMJ6HFD2-AU": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nmj6hfd2-au",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HFD2-AU_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NMJ6HFD2": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nmj6hfd2",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HFD2_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NMJ6HFD3": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nmj6hfd3",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HFD3_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NMJ6HFD4": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nmj6hfd4",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HFD4_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NMJ6HHD2": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nmj6hhd2",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HHD2_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NRJ3HF-1": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones phones TRS connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nrj3hf-1",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NRJ3HF-1_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NRJ4HF-1": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones phones TRS connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nrj4hf-1",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NRJ4HF-1_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NRJ4HF": {
+        "description": "",
+        "keywords": "audio jack dual receptacle mono headphones phone TS connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nrj4hf",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NRJ4HF_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NRJ4HH-1": {
+        "description": "",
+        "keywords": "audio jack receptacle mono headphones phone TS connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nrj4hh-1",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NRJ4HH-1_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NRJ4HH": {
+        "description": "",
+        "keywords": "audio jack receptacle mono headphones phone TS connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nrj4hh",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NRJ4HH_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NRJ6HF-1-AU": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones phones TRS connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nrj6hf-1-au",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HF-1-AU_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NRJ6HF-1": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones phones TRS connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nrj6hf-1",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HF-1_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NRJ6HF-AU": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nrj6hf-au",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HF-AU_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NRJ6HF": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nrj6hf",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HF_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NRJ6HH-1": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones phones TRS connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nrj6hh-1",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HH-1_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NRJ6HH-AU": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nrj6hh-au",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HH-AU_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NRJ6HH": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nrj6hh",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HH_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NRJ6HM-1-AU": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nrj6hm-1-au",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HM-1-AU_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NRJ6HM-1-PRE": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones phones TRS connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nrj6hm-1-pre",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HM-1-PRE_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NRJ6HM-1": {
+        "description": "",
+        "keywords": "audio jack receptacle stereo headphones connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nrj6hm-1",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HM-1_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NSJ12HC": {
+        "description": "",
+        "keywords": "audio jack dual receptacle stereo headphones phones TRS connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nsj12hc",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NSJ12HC_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NSJ12HF-1": {
+        "description": "",
+        "keywords": "audio jack dual receptacle stereo headphones phones TRS connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nsj12hf-1",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NSJ12HF-1_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NSJ12HH-1": {
+        "description": "",
+        "keywords": "audio jack dual receptacle stereo headphones phones TRS connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nsj12hh-1",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NSJ12HH-1_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NSJ12HL": {
+        "description": "",
+        "keywords": "audio jack dual receptacle stereo headphones phones TRS connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nsj12hl",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NSJ12HL_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NSJ8HC": {
+        "description": "",
+        "keywords": "audio jack dual receptacle mono headphones phone TS connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nsj8hc",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NSJ8HC_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NSJ8HL": {
+        "description": "",
+        "keywords": "audio jack dual receptacle mono headphones phone TS connector neutrik",
+        "datasheet": "https://www.neutrik.com/en/product/nsj8hl",
+        "footprint": "Connector_Audio:Jack_6.35mm_Neutrik_NSJ8HL_Horizontal",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SpeakON_NL2": {
+        "description": "",
+        "keywords": "speakon connector",
+        "datasheet": "http://www.neutrik.com/en/speakon/",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1+",
+                "name": "1+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "1-",
+                "name": "1-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SpeakON_NL2_0_1",
+            "SpeakON_NL2_1_1"
+        ]
+    },
+    "SpeakON_NL2_AudioJack2_Combo": {
+        "description": "",
+        "keywords": "speakon connector",
+        "datasheet": "http://www.neutrik.com/en/speakon/",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1+",
+                "name": "1+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "1-",
+                "name": "1-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SpeakON_NL2_AudioJack2_Combo_0_0",
+            "SpeakON_NL2_AudioJack2_Combo_0_1",
+            "SpeakON_NL2_AudioJack2_Combo_1_1"
+        ]
+    },
+    "SpeakON_NL4": {
+        "description": "",
+        "keywords": "speakon connector",
+        "datasheet": "http://www.neutrik.com/en/speakon/",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1+",
+                "name": "1+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "1-",
+                "name": "1-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2+",
+                "name": "2+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "2-",
+                "name": "2-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SpeakON_NL4_0_1",
+            "SpeakON_NL4_1_1"
+        ]
+    },
+    "SpeakON_NL4_Switch": {
+        "description": "",
+        "keywords": "speakon connector",
+        "datasheet": "http://www.neutrik.com/en/speakon/",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1+",
+                "name": "1+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "1+N",
+                "name": "1+N",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "1-",
+                "name": "1-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "1-N",
+                "name": "1-N",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2+",
+                "name": "2+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "2+N",
+                "name": "2+N",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "2-",
+                "name": "2-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2-N",
+                "name": "2-N",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "SpeakON_NL4_Switch_0_1",
+            "SpeakON_NL4_Switch_1_1"
+        ]
+    },
+    "SpeakON_NL8": {
+        "description": "",
+        "keywords": "speakon connector",
+        "datasheet": "http://www.neutrik.com/en/speakon/",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1+",
+                "name": "1+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "1-",
+                "name": "1-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2+",
+                "name": "2+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2-",
+                "name": "2-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "3+",
+                "name": "3+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3-",
+                "name": "3-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4+",
+                "name": "4+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4-",
+                "name": "4-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "SpeakON_NL8_0_1",
+            "SpeakON_NL8_1_1"
+        ]
+    },
+    "XLR3": {
+        "description": "",
+        "keywords": "xlr connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "XLR3_0_1"
+        ]
+    },
+    "XLR3_AudioJack2_Combo": {
+        "description": "",
+        "keywords": "xlr connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "XLR3_AudioJack2_Combo_1_1",
+            "XLR3_AudioJack2_Combo_2_1"
+        ]
+    },
+    "XLR3_AudioJack2_Combo_Ground": {
+        "description": "",
+        "keywords": "xlr connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "G",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "XLR3_AudioJack2_Combo_Ground_1_1",
+            "XLR3_AudioJack2_Combo_Ground_2_1"
+        ]
+    },
+    "XLR3_AudioJack3_Combo": {
+        "description": "",
+        "keywords": "xlr connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "R",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "XLR3_AudioJack3_Combo_1_1",
+            "XLR3_AudioJack3_Combo_2_1"
+        ]
+    },
+    "XLR3_AudioJack3_Combo_Ground": {
+        "description": "",
+        "keywords": "xlr connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "G",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "R",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "XLR3_AudioJack3_Combo_Ground_1_1",
+            "XLR3_AudioJack3_Combo_Ground_2_1"
+        ]
+    },
+    "XLR3_AudioJack3_Combo_GroundSwitch_Switch": {
+        "description": "",
+        "keywords": "xlr connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "G",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "GN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "R",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "RN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "SN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "TN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "XLR3_AudioJack3_Combo_GroundSwitch_Switch_1_1",
+            "XLR3_AudioJack3_Combo_GroundSwitch_Switch_2_1"
+        ]
+    },
+    "XLR3_AudioJack3_Combo_Ground_Switch": {
+        "description": "",
+        "keywords": "xlr connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "G",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "R",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "RN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "SN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "TN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "XLR3_AudioJack3_Combo_Ground_Switch_1_1",
+            "XLR3_AudioJack3_Combo_Ground_Switch_2_1"
+        ]
+    },
+    "XLR3_AudioJack3_Combo_Switch": {
+        "description": "",
+        "keywords": "xlr connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "R",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "RN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "S",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "SN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "TN",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "XLR3_AudioJack3_Combo_Switch_1_1",
+            "XLR3_AudioJack3_Combo_Switch_2_1"
+        ]
+    },
+    "XLR3_Ground": {
+        "description": "",
+        "keywords": "xlr connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "G",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "XLR3_Ground_0_1",
+            "XLR3_Ground_1_1"
+        ]
+    },
+    "XLR3_Ground_Switched": {
+        "description": "",
+        "keywords": "xlr connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "G",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "N",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "NC",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "NO",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "XLR3_Ground_Switched_1_1",
+            "XLR3_Ground_Switched_2_1"
+        ]
+    },
+    "XLR3_Switched": {
+        "description": "",
+        "keywords": "xlr connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "N",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "NC",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "NO",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "XLR3_Switched_1_1",
+            "XLR3_Switched_2_1"
+        ]
+    },
+    "XLR4": {
+        "description": "",
+        "keywords": "xlr connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "XLR4_0_1",
+            "XLR4_1_1"
+        ]
+    },
+    "XLR4_Ground": {
+        "description": "",
+        "keywords": "xlr connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "G",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "XLR4_Ground_0_1",
+            "XLR4_Ground_1_1"
+        ]
+    },
+    "XLR5": {
+        "description": "",
+        "keywords": "xlr connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "P1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "P2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "P3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "P3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "P5",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "XLR5_0_1",
+            "XLR5_1_1"
+        ]
+    },
+    "XLR5_Ground": {
+        "description": "",
+        "keywords": "xlr connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "P1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "P2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "P3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "P3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "P5",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "G",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "XLR5_Ground_0_1",
+            "XLR5_Ground_1_1"
+        ]
+    },
+    "XLR5_Ground_Switched": {
+        "description": "",
+        "keywords": "xlr connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "P1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "P2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "P3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "P3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "P5",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "G",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "N",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "NC",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "NO",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "XLR5_Ground_Switched_1_1",
+            "XLR5_Ground_Switched_2_1"
+        ]
+    },
+    "XLR6": {
+        "description": "",
+        "keywords": "xlr connector",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "P1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "P2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "P3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "P3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "P5",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "P6",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "XLR6_0_1",
+            "XLR6_1_1"
+        ]
+    }
+}

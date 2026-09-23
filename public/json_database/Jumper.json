@@ -1,0 +1,475 @@
+{
+    "Jumper_2_Bridged": {
+        "description": "",
+        "keywords": "Jumper SPST",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "Jumper_2_Bridged_0_0",
+            "Jumper_2_Bridged_0_1",
+            "Jumper_2_Bridged_1_1"
+        ]
+    },
+    "Jumper_2_Open": {
+        "description": "",
+        "keywords": "Jumper SPST",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "Jumper_2_Open_0_0",
+            "Jumper_2_Open_0_1",
+            "Jumper_2_Open_1_1"
+        ]
+    },
+    "Jumper_2_Small_Bridged": {
+        "description": "",
+        "keywords": "Jumper SPST",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -2.54,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 2.54,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "Jumper_2_Small_Bridged_0_0",
+            "Jumper_2_Small_Bridged_0_1",
+            "Jumper_2_Small_Bridged_1_1"
+        ]
+    },
+    "Jumper_2_Small_Open": {
+        "description": "",
+        "keywords": "Jumper SPST",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -2.54,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 2.54,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "Jumper_2_Small_Open_0_0",
+            "Jumper_2_Small_Open_0_1",
+            "Jumper_2_Small_Open_1_1"
+        ]
+    },
+    "Jumper_3_Bridged12": {
+        "description": "",
+        "keywords": "Jumper SPDT",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -3.81
+                }
+            },
+            {
+                "number": "3",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "Jumper_3_Bridged12_0_0",
+            "Jumper_3_Bridged12_0_1",
+            "Jumper_3_Bridged12_1_1"
+        ]
+    },
+    "Jumper_3_Open": {
+        "description": "",
+        "keywords": "Jumper SPDT",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -3.81
+                }
+            },
+            {
+                "number": "3",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "Jumper_3_Open_0_0",
+            "Jumper_3_Open_0_1",
+            "Jumper_3_Open_1_1"
+        ]
+    },
+    "SolderJumper_2_Bridged": {
+        "description": "",
+        "keywords": "solder jumper SPST",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SolderJumper_2_Bridged_0_1",
+            "SolderJumper_2_Bridged_1_1"
+        ]
+    },
+    "SolderJumper_2_Open": {
+        "description": "",
+        "keywords": "solder jumper SPST",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SolderJumper_2_Open_0_1",
+            "SolderJumper_2_Open_1_1"
+        ]
+    },
+    "SolderJumper_3_Bridged12": {
+        "description": "",
+        "keywords": "Solder Jumper SPDT",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -3.81
+                }
+            },
+            {
+                "number": "3",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SolderJumper_3_Bridged12_0_1",
+            "SolderJumper_3_Bridged12_1_1"
+        ]
+    },
+    "SolderJumper_3_Bridged123": {
+        "description": "",
+        "keywords": "Solder Jumper SPDT",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -3.81
+                }
+            },
+            {
+                "number": "3",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SolderJumper_3_Bridged123_0_1",
+            "SolderJumper_3_Bridged123_1_1"
+        ]
+    },
+    "SolderJumper_3_Open": {
+        "description": "",
+        "keywords": "Solder Jumper SPDT",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -3.81
+                }
+            },
+            {
+                "number": "3",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SolderJumper_3_Open_0_1",
+            "SolderJumper_3_Open_1_1"
+        ]
+    }
+}

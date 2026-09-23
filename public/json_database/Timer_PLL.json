@@ -1,0 +1,3783 @@
+{
+    "ADF4002BCPZ": {
+        "description": "",
+        "keywords": "Analog Devices PFD",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADF4002.pdf",
+        "footprint": "Package_CSP:LFCSP-20-1EP_4x4mm_P0.5mm_EP2.1x2.1mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "CPGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "2",
+                "name": "AGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "3",
+                "name": "AGND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "4",
+                "name": "RFINB",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "RFINA",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "AVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "7",
+                "name": "AVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "8",
+                "name": "REFIN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "9",
+                "name": "DGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "10",
+                "name": "DGND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "11",
+                "name": "CE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "12",
+                "name": "CLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "13",
+                "name": "DATA",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "14",
+                "name": "LE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "15",
+                "name": "MUXOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "16",
+                "name": "DVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "17",
+                "name": "DVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "18",
+                "name": "VP",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "19",
+                "name": "RSET",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "20",
+                "name": "CP",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "21",
+                "name": "AGND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -17.78
+                }
+            }
+        ],
+        "units": [
+            "ADF4002BCPZ_0_1",
+            "ADF4002BCPZ_1_1"
+        ]
+    },
+    "ADF4002BRUZ": {
+        "description": "",
+        "keywords": "Analog Devices PFD",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADF4002.pdf",
+        "footprint": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "RSET",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "2",
+                "name": "CP",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "CPGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "4",
+                "name": "AGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "5",
+                "name": "RFINB",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "RFINA",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "AVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "8",
+                "name": "REFIN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "9",
+                "name": "DGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "10",
+                "name": "CE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "11",
+                "name": "CLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "12",
+                "name": "DATA",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "13",
+                "name": "LE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "14",
+                "name": "MUXOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "15",
+                "name": "DVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "16",
+                "name": "VP",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 17.78
+                }
+            }
+        ],
+        "units": [
+            "ADF4002BRUZ_0_1",
+            "ADF4002BRUZ_1_1"
+        ]
+    },
+    "ADF4158": {
+        "description": "",
+        "keywords": "fractional-N PLL",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADF4158.pdf",
+        "footprint": "Package_CSP:LFCSP-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "CPGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "2",
+                "name": "AGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "3",
+                "name": "AGND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "4",
+                "name": "RFINB",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "RFINA",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "6",
+                "name": "AVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "7",
+                "name": "AVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "8",
+                "name": "AVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "9",
+                "name": "REFIN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "DGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "11",
+                "name": "SDGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "12",
+                "name": "TXDATA",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "13",
+                "name": "CE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "14",
+                "name": "CLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "15",
+                "name": "DATA",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "16",
+                "name": "LE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "17",
+                "name": "MUXOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "18",
+                "name": "SDVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "19",
+                "name": "DVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "20",
+                "name": "SW1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "21",
+                "name": "SW2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "22",
+                "name": "VP",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "23",
+                "name": "RSET",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "24",
+                "name": "CP",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "25",
+                "name": "AGND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -17.78
+                }
+            }
+        ],
+        "units": [
+            "ADF4158_0_1",
+            "ADF4158_1_1"
+        ]
+    },
+    "ADF4350": {
+        "description": "",
+        "keywords": "fractional-N PLL",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADF4350.pdf",
+        "footprint": "Package_CSP:LFCSP-32-1EP_5x5mm_P0.5mm_EP3.25x3.25mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ADF4351": {
+        "description": "",
+        "keywords": "fractional-N PLL",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADF4351.pdf",
+        "footprint": "Package_CSP:LFCSP-32-1EP_5x5mm_P0.5mm_EP3.25x3.25mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "CLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "DATA",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "3",
+                "name": "LE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "CE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "SW",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "6",
+                "name": "Vp",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -10.16,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "7",
+                "name": "CPout",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "8",
+                "name": "CPGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -10.16,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "9",
+                "name": "AGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -7.62,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "10",
+                "name": "AVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -7.62,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "11",
+                "name": "AGNDVCO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "12",
+                "name": "RF_OUT_A+",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "13",
+                "name": "RF_OUT_A-",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "14",
+                "name": "RF_OUT_B+",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "15",
+                "name": "RF_OUT_B-",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "16",
+                "name": "VVCO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "17",
+                "name": "VVCO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "18",
+                "name": "AGNDVCO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "19",
+                "name": "TEMP",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "20",
+                "name": "VTUNE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "21",
+                "name": "AGNDVCO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "22",
+                "name": "RSET",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "23",
+                "name": "VCOM",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "24",
+                "name": "VREF",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "25",
+                "name": "LD",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "26",
+                "name": "PDB_RF",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "27",
+                "name": "DGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "28",
+                "name": "DVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "29",
+                "name": "REFIN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "30",
+                "name": "MUXOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "31",
+                "name": "SDGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "32",
+                "name": "SDVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "33",
+                "name": "EP",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 7.62,
+                    "y": -27.94
+                }
+            }
+        ],
+        "units": [
+            "ADF4351_0_1",
+            "ADF4351_1_1"
+        ]
+    },
+    "CDCVF2505": {
+        "description": "",
+        "keywords": "pll clock driver",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/cdcvf2505.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "CLKIN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "1Y1",
+                "type": "tri_state",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "1Y0",
+                "type": "tri_state",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "1Y2",
+                "type": "tri_state",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "7",
+                "name": "1Y3",
+                "type": "tri_state",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "CLKOUT",
+                "type": "tri_state",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "CDCVF2505_0_1",
+            "CDCVF2505_1_1"
+        ]
+    },
+    "CS2000-CP": {
+        "description": "",
+        "keywords": "Clock Synthesizer Multiplier",
+        "datasheet": "https://statics.cirrus.com/pubs/proDatasheet/CS2000-CP_F3.pdf",
+        "footprint": "Package_SO:MSOP-10_3x3mm_P0.5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "3",
+                "name": "CLK_OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "AUX_OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "CLK_IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "XTO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "XTI/REF_CLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "AD0/~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "9",
+                "name": "SCL/CCLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "SDA/CDIN",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "CS2000-CP_0_1",
+            "CS2000-CP_1_1"
+        ]
+    },
+    "ICS525-01R": {
+        "description": "",
+        "keywords": "Configurable clock",
+        "datasheet": "https://www.idt.com/document/dst/525-01-02-datasheet",
+        "footprint": "Package_SO:SSOP-28_3.9x9.9mm_P0.635mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "R5",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "R6",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "S0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "S1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "S2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "7",
+                "name": "X1/ICLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "8",
+                "name": "X2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "9",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -38.1
+                }
+            },
+            {
+                "number": "10",
+                "name": "V0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "11",
+                "name": "V1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "12",
+                "name": "V2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "13",
+                "name": "V3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "14",
+                "name": "V4",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "15",
+                "name": "V5",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "16",
+                "name": "V6",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "17",
+                "name": "V7",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "18",
+                "name": "V8",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "19",
+                "name": "~{PD}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "20",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -38.1
+                }
+            },
+            {
+                "number": "21",
+                "name": "CLK",
+                "type": "tri_state",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "22",
+                "name": "REF",
+                "type": "tri_state",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "23",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "24",
+                "name": "R0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "25",
+                "name": "R1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "26",
+                "name": "R2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "27",
+                "name": "R3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "28",
+                "name": "R4",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 12.7
+                }
+            }
+        ],
+        "units": [
+            "ICS525-01R_0_1",
+            "ICS525-01R_1_1"
+        ]
+    },
+    "ICS525R-02": {
+        "description": "",
+        "keywords": "Configurable clock",
+        "datasheet": "https://www.idt.com/document/dst/525-01-02-datasheet",
+        "footprint": "Package_SO:SSOP-28_3.9x9.9mm_P0.635mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Si5342A-D": {
+        "description": "",
+        "keywords": "Clock Jitter Attenuator Multiplier",
+        "datasheet": "https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf",
+        "footprint": "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "IN1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "2",
+                "name": "IN1b",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "3",
+                "name": "IN_SEL0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "4",
+                "name": "X1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "XA",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "XB",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "X2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "VDDA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -7.62,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "9",
+                "name": "VDDA",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -7.62,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "10",
+                "name": "IN2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "11",
+                "name": "IN2b",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "12",
+                "name": "~{OE}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "13",
+                "name": "SDA/SDIO",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "14",
+                "name": "SCLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "15",
+                "name": "A1/SDO",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "16",
+                "name": "A0/~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "17",
+                "name": "~{RST}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "18",
+                "name": "VDDO0",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "19",
+                "name": "OUT0b",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "20",
+                "name": "OUT0",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "21",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "22",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "23",
+                "name": "VDDO1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "24",
+                "name": "OUT1b",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "25",
+                "name": "OUT1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "26",
+                "name": "VDDS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "27",
+                "name": "~{LOL}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 0
+                }
+            },
+            {
+                "number": "28",
+                "name": "~{LOS_XAXB}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "29",
+                "name": "VDDS",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "30",
+                "name": "~{LOS0}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "31",
+                "name": "~{LOS1}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "32",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "33",
+                "name": "~{INTR}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "34",
+                "name": "VDDS",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "35",
+                "name": "~{LOS2}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "36",
+                "name": "~{LOS3}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "37",
+                "name": "IN_SEL1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "38",
+                "name": "I2C_SEL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "39",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "40",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "41",
+                "name": "IN3/FB_IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "42",
+                "name": "IN3b/FB_INb",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "43",
+                "name": "IN0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "44",
+                "name": "IN0b",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "45",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -40.64
+                }
+            }
+        ],
+        "units": [
+            "Si5342A-D_0_1",
+            "Si5342A-D_1_1"
+        ]
+    },
+    "Si5342B-D": {
+        "description": "",
+        "keywords": "Clock Jitter Attenuator Multiplier",
+        "datasheet": "https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf",
+        "footprint": "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Si5342C-D": {
+        "description": "",
+        "keywords": "Clock Jitter Attenuator Multiplier",
+        "datasheet": "https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf",
+        "footprint": "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Si5342D-D": {
+        "description": "",
+        "keywords": "Clock Jitter Attenuator Multiplier",
+        "datasheet": "https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf",
+        "footprint": "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Si5344A-D": {
+        "description": "",
+        "keywords": "Clock Jitter Attenuator Multiplier",
+        "datasheet": "https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf",
+        "footprint": "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "IN1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "2",
+                "name": "IN1b",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "3",
+                "name": "IN_SEL0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "4",
+                "name": "X1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "XA",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "XB",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "X2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "VDDA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -10.16,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "9",
+                "name": "VDDA",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -10.16,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "10",
+                "name": "IN2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "11",
+                "name": "IN2b",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "12",
+                "name": "~{OE}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "13",
+                "name": "SDA/SDIO",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "14",
+                "name": "SCLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "15",
+                "name": "A1/SDO",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "16",
+                "name": "A0/~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "17",
+                "name": "~{RST}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "18",
+                "name": "VDDO0",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "19",
+                "name": "OUT0b",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "20",
+                "name": "OUT0",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "21",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -7.62,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "22",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "23",
+                "name": "VDDO1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "24",
+                "name": "OUT1b",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "25",
+                "name": "OUT1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "26",
+                "name": "VDDS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "27",
+                "name": "~{LOL}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "28",
+                "name": "~{LOS_XAXB}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "29",
+                "name": "VDDO2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "30",
+                "name": "OUT2b",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "31",
+                "name": "OUT2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "32",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -7.62,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "33",
+                "name": "~{INTR}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 0
+                }
+            },
+            {
+                "number": "34",
+                "name": "VDDO3",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 10.16,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "35",
+                "name": "OUT3b",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "36",
+                "name": "OUT3",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "37",
+                "name": "IN_SEL1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "38",
+                "name": "I2C_SEL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "39",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -7.62,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "40",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -7.62,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "41",
+                "name": "IN3/FB_IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "42",
+                "name": "IN3b/FB_INb",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "43",
+                "name": "IN0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "44",
+                "name": "IN0b",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "45",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -40.64
+                }
+            }
+        ],
+        "units": [
+            "Si5344A-D_0_1",
+            "Si5344A-D_1_1"
+        ]
+    },
+    "Si5344B-D": {
+        "description": "",
+        "keywords": "Clock Jitter Attenuator Multiplier",
+        "datasheet": "https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf",
+        "footprint": "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Si5344C-D": {
+        "description": "",
+        "keywords": "Clock Jitter Attenuator Multiplier",
+        "datasheet": "https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf",
+        "footprint": "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Si5344D-D": {
+        "description": "",
+        "keywords": "Clock Jitter Attenuator Multiplier",
+        "datasheet": "https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf",
+        "footprint": "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Si5345A-D": {
+        "description": "",
+        "keywords": "Clock Jitter Attenuator Multiplier",
+        "datasheet": "https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf",
+        "footprint": "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP5.2x5.2mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "IN1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "2",
+                "name": "IN1b",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "3",
+                "name": "IN_SEL0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "4",
+                "name": "IN_SEL1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "5",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "6",
+                "name": "~{RST}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "X1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "8",
+                "name": "XA",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "XB",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 0
+                }
+            },
+            {
+                "number": "10",
+                "name": "X2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "~{OE}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "12",
+                "name": "~{INTR}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -38.1
+                }
+            },
+            {
+                "number": "13",
+                "name": "VDDA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -15.24,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "14",
+                "name": "IN2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "15",
+                "name": "IN2b",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "16",
+                "name": "SCLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -38.1
+                }
+            },
+            {
+                "number": "17",
+                "name": "A1/SDO",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "18",
+                "name": "SDA/SDIO",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "19",
+                "name": "A0/~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -40.64
+                }
+            },
+            {
+                "number": "20",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "21",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "22",
+                "name": "VDDO0",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -7.62,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "23",
+                "name": "OUT0b",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "24",
+                "name": "OUT0",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "25",
+                "name": "FDEC",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "26",
+                "name": "VDDO1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "27",
+                "name": "OUT1b",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "28",
+                "name": "OUT1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "29",
+                "name": "VDDO2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "30",
+                "name": "OUT2b",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "31",
+                "name": "OUT2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "32",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -12.7,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "33",
+                "name": "VDDO3",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "34",
+                "name": "OUT3b",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "35",
+                "name": "OUT3",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "36",
+                "name": "VDDO4",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "37",
+                "name": "OUT4b",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "38",
+                "name": "OUT4",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "39",
+                "name": "I2C_SEL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "40",
+                "name": "VDDO5",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "41",
+                "name": "OUT5b",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 0
+                }
+            },
+            {
+                "number": "42",
+                "name": "OUT5",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "43",
+                "name": "VDDO6",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "44",
+                "name": "OUT6b",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "45",
+                "name": "OUT6",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "46",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -12.7,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "47",
+                "name": "~{LOL}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -40.64
+                }
+            },
+            {
+                "number": "48",
+                "name": "FINC",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "49",
+                "name": "VDDO7",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 10.16,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "50",
+                "name": "OUT7b",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "51",
+                "name": "OUT7",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "52",
+                "name": "VDDO8",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 12.7,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "53",
+                "name": "OUT8b",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "54",
+                "name": "OUT8",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "55",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "56",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "57",
+                "name": "VDDO9",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 15.24,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "58",
+                "name": "OUT9b",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "59",
+                "name": "OUT9",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "60",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -12.7,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "61",
+                "name": "IN3/FB_IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "62",
+                "name": "IN3b/FB_INb",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "63",
+                "name": "IN0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "64",
+                "name": "IN0b",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "65",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -45.72
+                }
+            }
+        ],
+        "units": [
+            "Si5345A-D_0_1",
+            "Si5345A-D_1_1"
+        ]
+    },
+    "Si5345B-D": {
+        "description": "",
+        "keywords": "Clock Jitter Attenuator Multiplier",
+        "datasheet": "https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf",
+        "footprint": "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP5.2x5.2mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Si5345C-D": {
+        "description": "",
+        "keywords": "Clock Jitter Attenuator Multiplier",
+        "datasheet": "https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf",
+        "footprint": "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP5.2x5.2mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Si5345D-D": {
+        "description": "",
+        "keywords": "Clock Jitter Attenuator Multiplier",
+        "datasheet": "https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf",
+        "footprint": "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP5.2x5.2mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    }
+}

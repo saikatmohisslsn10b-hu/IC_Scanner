@@ -1,0 +1,5394 @@
+{
+    "CY7C68013A-56LTX": {
+        "description": "",
+        "keywords": "FX2LP 8-bit USB MCU",
+        "datasheet": "http://www.cypress.com/file/138911/download",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP4.5x5.2mm_ThermalVias_TopTented",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "RDY0/SLRD",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "RDY1/SLWR",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "AVCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "4",
+                "name": "XTALOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "5",
+                "name": "XTALIN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "6",
+                "name": "AGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -50.8
+                }
+            },
+            {
+                "number": "7",
+                "name": "AVCC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "8",
+                "name": "D+",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "D-",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "10",
+                "name": "AGND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -50.8
+                }
+            },
+            {
+                "number": "11",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "12",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -50.8
+                }
+            },
+            {
+                "number": "13",
+                "name": "IFCLK",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "14",
+                "name": "RESERVED",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -10.16,
+                    "y": -50.8
+                }
+            },
+            {
+                "number": "15",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "16",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "17",
+                "name": "VCC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "18",
+                "name": "PB0/FD0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "19",
+                "name": "PB1/FD1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "20",
+                "name": "PB2/FD2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "21",
+                "name": "PB3/FD3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "22",
+                "name": "PB4/FD4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "23",
+                "name": "PB5/FD5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "24",
+                "name": "PB6/FD6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "25",
+                "name": "PB7/FD7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "26",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -50.8
+                }
+            },
+            {
+                "number": "27",
+                "name": "VCC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "28",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -50.8
+                }
+            },
+            {
+                "number": "29",
+                "name": "CTL0/FLAGA",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "30",
+                "name": "CTL1/FLAGB",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "31",
+                "name": "CTL2/FLAGC",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "32",
+                "name": "VCC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "33",
+                "name": "PA0/~{INT0}",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "34",
+                "name": "PA1/~{INT1}",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "35",
+                "name": "PA2/SLOE",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "36",
+                "name": "PA3/WU2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "37",
+                "name": "PA4/FIOADDR0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "38",
+                "name": "PA5/FIOADDR1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "39",
+                "name": "PA6/PKTEND",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -38.1
+                }
+            },
+            {
+                "number": "40",
+                "name": "PA7/FLAGD/~{SLCS}",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -40.64
+                }
+            },
+            {
+                "number": "41",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -50.8
+                }
+            },
+            {
+                "number": "42",
+                "name": "~{RESET}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "43",
+                "name": "VCC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "44",
+                "name": "WAKEUP",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "45",
+                "name": "PD0/FD8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "46",
+                "name": "PD1/FD9",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "47",
+                "name": "PD2/FD10",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "48",
+                "name": "PD3/FD11",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "49",
+                "name": "PD4/FD12",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "50",
+                "name": "PD5/FD13",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "51",
+                "name": "PD6/FD14",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "52",
+                "name": "PD7/FD15",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "53",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -50.8
+                }
+            },
+            {
+                "number": "54",
+                "name": "CLKOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "55",
+                "name": "VCC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "56",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -50.8
+                }
+            },
+            {
+                "number": "57",
+                "name": "EP",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -50.8
+                }
+            }
+        ],
+        "units": [
+            "CY7C68013A-56LTX_0_1",
+            "CY7C68013A-56LTX_1_1"
+        ]
+    },
+    "CY7C68013A-56PVX": {
+        "description": "",
+        "keywords": "FX2LP 8-bit USB MCU",
+        "datasheet": "http://www.cypress.com/file/138911/download",
+        "footprint": "Package_SO:SSOP-56_7.5x18.5mm_P0.635mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "PD5/FD13",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "2",
+                "name": "PD6/FD14",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "PD7/FD15",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -50.8
+                }
+            },
+            {
+                "number": "5",
+                "name": "CLKOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "7",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -50.8
+                }
+            },
+            {
+                "number": "8",
+                "name": "RDY0/SLRD",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "9",
+                "name": "RDY1/SLWR",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "10",
+                "name": "AVCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "11",
+                "name": "XTALOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "12",
+                "name": "XTALIN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "13",
+                "name": "AGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -50.8
+                }
+            },
+            {
+                "number": "14",
+                "name": "AVCC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "15",
+                "name": "D+",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "16",
+                "name": "D-",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "17",
+                "name": "AGND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -50.8
+                }
+            },
+            {
+                "number": "18",
+                "name": "VCC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "19",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -50.8
+                }
+            },
+            {
+                "number": "20",
+                "name": "IFCLK",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "21",
+                "name": "RESERVED",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -10.16,
+                    "y": -50.8
+                }
+            },
+            {
+                "number": "22",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "23",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "24",
+                "name": "VCC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "25",
+                "name": "PB0/FD0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "26",
+                "name": "PB1/FD1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "27",
+                "name": "PB2/FD2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "28",
+                "name": "PB3/FD3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "29",
+                "name": "PB4/FD4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "30",
+                "name": "PB5/FD5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "31",
+                "name": "PB6/FD6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "32",
+                "name": "PB7/FD7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "33",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -50.8
+                }
+            },
+            {
+                "number": "34",
+                "name": "VCC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "35",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -50.8
+                }
+            },
+            {
+                "number": "36",
+                "name": "CTL0/FLAGA",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "37",
+                "name": "CTL1/FLAGB",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "38",
+                "name": "CTL2/FLAGC",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "39",
+                "name": "VCC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "40",
+                "name": "PA0/~{INT0}",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "41",
+                "name": "PA1/~{INT1}",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "42",
+                "name": "PA2/SLOE",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "43",
+                "name": "PA3/WU2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "44",
+                "name": "PA4/FIOADDR0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "45",
+                "name": "PA5/FIOADDR1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "46",
+                "name": "PA6/PKTEND",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -38.1
+                }
+            },
+            {
+                "number": "47",
+                "name": "PA7/FLAGD/~{SLCS}",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -40.64
+                }
+            },
+            {
+                "number": "48",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -50.8
+                }
+            },
+            {
+                "number": "49",
+                "name": "~{RESET}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "50",
+                "name": "VCC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "51",
+                "name": "WAKEUP",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "52",
+                "name": "PD0/FD8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "53",
+                "name": "PD1/FD9",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "54",
+                "name": "PD2/FD10",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "55",
+                "name": "PD3/FD11",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "56",
+                "name": "PD4/FD12",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 15.24
+                }
+            }
+        ],
+        "units": [
+            "CY7C68013A-56PVX_0_1",
+            "CY7C68013A-56PVX_1_1"
+        ]
+    },
+    "CY7C68014A-56LTX": {
+        "description": "",
+        "keywords": "FX2LP 8-bit USB MCU",
+        "datasheet": "http://www.cypress.com/file/138911/download",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP4.5x5.2mm_ThermalVias_TopTented",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CY7C68014A-56PVX": {
+        "description": "",
+        "keywords": "FX2LP 8-bit USB MCU",
+        "datasheet": "http://www.cypress.com/file/138911/download",
+        "footprint": "Package_SO:SSOP-56_7.5x18.5mm_P0.635mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CY8C4127LQI-BL453": {
+        "description": "",
+        "keywords": "CYPRESS PSOC BLE CY8 CY8C4 ARM CORTEX M0 BLUETOOTH QFN",
+        "datasheet": "http://www.cypress.com/file/137466/download",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CY8C4127LQI-BL473": {
+        "description": "",
+        "keywords": "CYPRESS PSOC BLE CY8 CY8C4 ARM CORTEX M0 BLUETOOTH QFN",
+        "datasheet": "http://www.cypress.com/file/137466/download",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CY8C4127LQI-BL483": {
+        "description": "",
+        "keywords": "CYPRESS PSOC BLE CY8 CY8C4 ARM CORTEX M0 BLUETOOTH QFN",
+        "datasheet": "http://www.cypress.com/file/137466/download",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CY8C4127LQI-BL493": {
+        "description": "",
+        "keywords": "CYPRESS PSOC BLE CY8 CY8C4 ARM CORTEX M0 BLUETOOTH QFN",
+        "datasheet": "http://www.cypress.com/file/137466/download",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CY8C4245AXI-M445": {
+        "description": "",
+        "keywords": "Cypress Microcontroller Arm CapSense LCD",
+        "datasheet": "https://www.cypress.com/file/139956/download",
+        "footprint": "Package_QFP:TQFP-64_14x14mm_P0.8mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "P1.7/VREF",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "P2.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "P2.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "P2.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "5",
+                "name": "P2.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "6",
+                "name": "P2.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "7",
+                "name": "P2.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "8",
+                "name": "P2.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "9",
+                "name": "P2.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "10",
+                "name": "VSSA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "11",
+                "name": "VDDA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "12",
+                "name": "P6.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "13",
+                "name": "P6.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "14",
+                "name": "P6.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "15",
+                "name": "P6.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "16",
+                "name": "P6.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "17",
+                "name": "VSSIO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 10.16,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "18",
+                "name": "P3.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "19",
+                "name": "P3.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "20",
+                "name": "P3.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "21",
+                "name": "P3.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "22",
+                "name": "P3.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "23",
+                "name": "P3.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "24",
+                "name": "P3.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "25",
+                "name": "P3.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "26",
+                "name": "VDDIO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 10.16,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "27",
+                "name": "P4.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "28",
+                "name": "P4.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "29",
+                "name": "P4.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "30",
+                "name": "P4.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "31",
+                "name": "P4.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "32",
+                "name": "P4.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "33",
+                "name": "P4.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 0
+                }
+            },
+            {
+                "number": "37",
+                "name": "P7.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "38",
+                "name": "P7.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -38.1
+                }
+            },
+            {
+                "number": "39",
+                "name": "P0.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "40",
+                "name": "P0.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "41",
+                "name": "P0.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "42",
+                "name": "P0.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "43",
+                "name": "P0.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "44",
+                "name": "P0.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "45",
+                "name": "P0.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "46",
+                "name": "P0.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "47",
+                "name": "XRES",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "48",
+                "name": "VCCD",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -7.62,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "49",
+                "name": "VSSD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "50",
+                "name": "VDDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "51",
+                "name": "P5.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "52",
+                "name": "P5.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "53",
+                "name": "P5.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "54",
+                "name": "P5.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "55",
+                "name": "P5.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "56",
+                "name": "VDDA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "57",
+                "name": "VSSA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "58",
+                "name": "P1.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "59",
+                "name": "P1.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "60",
+                "name": "P1.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "61",
+                "name": "P1.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "62",
+                "name": "P1.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "63",
+                "name": "P1.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "64",
+                "name": "P1.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "CY8C4245AXI-M445_0_1",
+            "CY8C4245AXI-M445_1_1"
+        ]
+    },
+    "CY8C4245AZI-M445": {
+        "description": "",
+        "keywords": "Cypress Microcontroller Arm CapSense LCD",
+        "datasheet": "https://www.cypress.com/file/139956/download",
+        "footprint": "Package_QFP:TQFP-64_10x10mm_P0.5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "P1.7/VREF",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "P2.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "P2.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "P2.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "5",
+                "name": "P2.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "6",
+                "name": "P2.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "7",
+                "name": "P2.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "8",
+                "name": "P2.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "9",
+                "name": "P2.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "10",
+                "name": "VSSA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "11",
+                "name": "VDDA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "12",
+                "name": "P6.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "13",
+                "name": "P6.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "14",
+                "name": "P6.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "15",
+                "name": "P6.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "16",
+                "name": "P6.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "17",
+                "name": "VSSIO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 10.16,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "18",
+                "name": "P3.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "19",
+                "name": "P3.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "20",
+                "name": "P3.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "21",
+                "name": "P3.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "22",
+                "name": "P3.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "23",
+                "name": "P3.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "24",
+                "name": "P3.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "25",
+                "name": "P3.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "26",
+                "name": "VDDIO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 10.16,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "27",
+                "name": "P4.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "28",
+                "name": "P4.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "29",
+                "name": "P4.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "30",
+                "name": "P4.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "31",
+                "name": "P4.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "32",
+                "name": "P4.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "33",
+                "name": "P4.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 0
+                }
+            },
+            {
+                "number": "37",
+                "name": "P7.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "38",
+                "name": "P7.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -38.1
+                }
+            },
+            {
+                "number": "39",
+                "name": "P0.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "40",
+                "name": "P0.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "41",
+                "name": "P0.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "42",
+                "name": "P0.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "43",
+                "name": "P0.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "44",
+                "name": "P0.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "45",
+                "name": "P0.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "46",
+                "name": "P0.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "47",
+                "name": "XRES",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "48",
+                "name": "VCCD",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -7.62,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "49",
+                "name": "VSSD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "50",
+                "name": "VDDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "51",
+                "name": "P5.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "52",
+                "name": "P5.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "53",
+                "name": "P5.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "54",
+                "name": "P5.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "55",
+                "name": "P5.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "56",
+                "name": "VDDA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "57",
+                "name": "VSSA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "58",
+                "name": "P1.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "59",
+                "name": "P1.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "60",
+                "name": "P1.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "61",
+                "name": "P1.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "62",
+                "name": "P1.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "63",
+                "name": "P1.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "64",
+                "name": "P1.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "CY8C4245AZI-M445_0_1",
+            "CY8C4245AZI-M445_1_1"
+        ]
+    },
+    "CY8C4246AXI-M445": {
+        "description": "",
+        "keywords": "Cypress Microcontroller Arm CapSense LCD",
+        "datasheet": "https://www.cypress.com/file/139956/download",
+        "footprint": "Package_QFP:TQFP-64_14x14mm_P0.8mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CY8C4246AZI-M445": {
+        "description": "",
+        "keywords": "Cypress Microcontroller Arm CapSense LCD",
+        "datasheet": "https://www.cypress.com/file/139956/download",
+        "footprint": "Package_QFP:TQFP-64_10x10mm_P0.5mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CY8C4246AZI-M475": {
+        "description": "",
+        "keywords": "Cypress Microcontroller Arm IDAC",
+        "datasheet": "https://www.cypress.com/file/139956/download",
+        "footprint": "Package_QFP:TQFP-64_10x10mm_P0.5mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CY8C4247AXI-M485": {
+        "description": "",
+        "keywords": "Cypress Microcontroller Arm CapSense IDAC LCD CAN",
+        "datasheet": "https://www.cypress.com/file/139956/download",
+        "footprint": "Package_QFP:TQFP-64_14x14mm_P0.8mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CY8C4247AZI-M475": {
+        "description": "",
+        "keywords": "Cypress Microcontroller Arm IDAC",
+        "datasheet": "https://www.cypress.com/file/139956/download",
+        "footprint": "Package_QFP:TQFP-64_10x10mm_P0.5mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CY8C4247AZI-M485": {
+        "description": "",
+        "keywords": "Cypress Microcontroller Arm CapSense IDAC LCD CAN",
+        "datasheet": "https://www.cypress.com/file/139956/download",
+        "footprint": "Package_QFP:TQFP-64_10x10mm_P0.5mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CY8C4247LQI-BL453": {
+        "description": "",
+        "keywords": "CYPRESS PSOC BLE CY8 CY8C4 ARM CORTEX M0 BLUETOOTH QFN",
+        "datasheet": "http://www.cypress.com/file/137466/download",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CY8C4247LQI-BL463": {
+        "description": "",
+        "keywords": "CYPRESS PSOC BLE CY8 CY8C4 ARM CORTEX M0 BLUETOOTH QFN",
+        "datasheet": "http://www.cypress.com/file/137466/download",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CY8C4247LQI-BL473": {
+        "description": "",
+        "keywords": "CYPRESS PSOC BLE CY8 CY8C4 ARM CORTEX M0 BLUETOOTH QFN",
+        "datasheet": "http://www.cypress.com/file/137466/download",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CY8C4247LQI-BL483": {
+        "description": "",
+        "keywords": "CYPRESS PSOC BLE CY8 CY8C4 ARM CORTEX M0 BLUETOOTH QFN",
+        "datasheet": "http://www.cypress.com/file/137466/download",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CY8C4247LQI-BL493": {
+        "description": "",
+        "keywords": "CYPRESS PSOC BLE CY8 CY8C4 ARM CORTEX M0 BLUETOOTH QFN",
+        "datasheet": "http://www.cypress.com/file/137466/download",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CY8C4247LQQ-BL483": {
+        "description": "",
+        "keywords": "CYPRESS PSOC BLE CY8 CY8C4 ARM CORTEX M0 BLUETOOTH QFN",
+        "datasheet": "http://www.cypress.com/file/137466/download",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CY8C4xx7LQI-4xx": {
+        "description": "",
+        "keywords": "CYPRESS PSOC BLE CY8 CY8C4 ARM CORTEX M0 BLUETOOTH QFN",
+        "datasheet": "http://www.cypress.com/file/137466/download",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -7.62,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "2",
+                "name": "XTAL32O/P6.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 10.16,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "3",
+                "name": "XTAL32I/P6.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 12.7,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "4",
+                "name": "XRES",
+                "type": "input",
+                "style": "inverted",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "5",
+                "name": "P4.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "P4.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "P5.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "8",
+                "name": "P5.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "9",
+                "name": "VSSD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -12.7,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "10",
+                "name": "VDDR",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 17.78,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "11",
+                "name": "GANT1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "12",
+                "name": "ANT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "13",
+                "name": "GANT2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "14",
+                "name": "VDDR",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 15.24,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "15",
+                "name": "VDDR",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 12.7,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "16",
+                "name": "XTAL24I",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "17",
+                "name": "XTAL24O",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "18",
+                "name": "VDDR",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 10.16,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "19",
+                "name": "P0.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "20",
+                "name": "P0.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "21",
+                "name": "P0.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "22",
+                "name": "P0.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "23",
+                "name": "VDDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -10.16,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "24",
+                "name": "P0.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "25",
+                "name": "P0.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "26",
+                "name": "P0.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "27",
+                "name": "P0.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "28",
+                "name": "P1.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "29",
+                "name": "P1.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "30",
+                "name": "P1.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "31",
+                "name": "P1.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "32",
+                "name": "P1.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 0
+                }
+            },
+            {
+                "number": "33",
+                "name": "P1.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "34",
+                "name": "P1.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "35",
+                "name": "P1.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "36",
+                "name": "VDDA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "37",
+                "name": "P2.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "38",
+                "name": "P2.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "39",
+                "name": "P2.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "40",
+                "name": "P2.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "41",
+                "name": "P2.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "42",
+                "name": "P2.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "43",
+                "name": "P2.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "44",
+                "name": "P2.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "45",
+                "name": "VREF",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "46",
+                "name": "VDDA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "47",
+                "name": "P3.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "48",
+                "name": "P3.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "49",
+                "name": "P3.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "50",
+                "name": "P3.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "51",
+                "name": "P3.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "52",
+                "name": "P3.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "53",
+                "name": "P3.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "54",
+                "name": "P3.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "55",
+                "name": "VSSA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -10.16,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "56",
+                "name": "VCCD",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -15.24,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "57",
+                "name": "GND_EP",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -7.62,
+                    "y": -43.18
+                }
+            }
+        ],
+        "units": [
+            "CY8C4xx7LQI-4xx_1_0",
+            "CY8C4xx7LQI-4xx_1_1"
+        ]
+    },
+    "CYBL10161-56LQXI": {
+        "description": "",
+        "keywords": "CYPRESS PROC BLE CY8BL ARM CORTEX M0 BLUETOOTH QFN",
+        "datasheet": "http://www.cypress.com/documentation/datasheets/cybl10x6x-family-datasheet-programmable-radio-chip-bluetooth-low-energy",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CYBL10162-56LQXI": {
+        "description": "",
+        "keywords": "CYPRESS PROC BLE CY8BL ARM CORTEX M0 BLUETOOTH QFN",
+        "datasheet": "http://www.cypress.com/documentation/datasheets/cybl10x6x-family-datasheet-programmable-radio-chip-bluetooth-low-energy",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CYBL10163-56LQXI": {
+        "description": "",
+        "keywords": "CYPRESS PROC BLE CY8BL ARM CORTEX M0 BLUETOOTH QFN",
+        "datasheet": "http://www.cypress.com/documentation/datasheets/cybl10x6x-family-datasheet-programmable-radio-chip-bluetooth-low-energy",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CYBL10461-56LQXI": {
+        "description": "",
+        "keywords": "CYPRESS PROC BLE CY8BL ARM CORTEX M0 BLUETOOTH QFN",
+        "datasheet": "http://www.cypress.com/documentation/datasheets/cybl10x6x-family-datasheet-programmable-radio-chip-bluetooth-low-energy",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CYBL10462-56LQXI": {
+        "description": "",
+        "keywords": "CYPRESS PROC BLE CY8BL ARM CORTEX M0 BLUETOOTH QFN",
+        "datasheet": "http://www.cypress.com/documentation/datasheets/cybl10x6x-family-datasheet-programmable-radio-chip-bluetooth-low-energy",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CYBL10463-56LQXI": {
+        "description": "",
+        "keywords": "CYPRESS PROC BLE CY8BL ARM CORTEX M0 BLUETOOTH QFN",
+        "datasheet": "http://www.cypress.com/documentation/datasheets/cybl10x6x-family-datasheet-programmable-radio-chip-bluetooth-low-energy",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CYBL10561-56LQXI": {
+        "description": "",
+        "keywords": "CYPRESS PROC BLE CY8BL ARM CORTEX M0 BLUETOOTH QFN",
+        "datasheet": "http://www.cypress.com/documentation/datasheets/cybl10x6x-family-datasheet-programmable-radio-chip-bluetooth-low-energy",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CYBL10562-56LQXI": {
+        "description": "",
+        "keywords": "CYPRESS PROC BLE CY8BL ARM CORTEX M0 BLUETOOTH QFN",
+        "datasheet": "http://www.cypress.com/documentation/datasheets/cybl10x6x-family-datasheet-programmable-radio-chip-bluetooth-low-energy",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CYBL10563-56LQXI": {
+        "description": "",
+        "keywords": "CYPRESS PROC BLE CY8BL ARM CORTEX M0 BLUETOOTH QFN",
+        "datasheet": "http://www.cypress.com/documentation/datasheets/cybl10x6x-family-datasheet-programmable-radio-chip-bluetooth-low-energy",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CYBL10563-56LQXQ": {
+        "description": "",
+        "keywords": "CYPRESS PROC BLE CY8BL ARM CORTEX M0 BLUETOOTH QFN",
+        "datasheet": "http://www.cypress.com/documentation/datasheets/cybl10x6x-family-datasheet-programmable-radio-chip-bluetooth-low-energy",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CYBL10563-68FLXIT": {
+        "description": "",
+        "keywords": "CYPRESS PROC BLE CY8BL ARM CORTEX M0 BLUETOOTH WLCSP",
+        "datasheet": "http://www.cypress.com/documentation/datasheets/cybl10x6x-family-datasheet-programmable-radio-chip-bluetooth-low-energy",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CYBL10563-68FNXIT": {
+        "description": "",
+        "keywords": "CYPRESS PROC BLE CY8BL ARM CORTEX M0 BLUETOOTH WLCSP",
+        "datasheet": "http://www.cypress.com/documentation/datasheets/cybl10x6x-family-datasheet-programmable-radio-chip-bluetooth-low-energy",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "11",
+                "name": "GANT1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "36",
+                "name": "VDDA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "57",
+                "name": "GND_EP",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -55.88
+                }
+            },
+            {
+                "number": "A1",
+                "name": "VREF",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "A2",
+                "name": "VSSA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -7.62,
+                    "y": -55.88
+                }
+            },
+            {
+                "number": "A3",
+                "name": "P3.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "A4",
+                "name": "P3.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "A5",
+                "name": "VSSD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -25.4,
+                    "y": -55.88
+                }
+            },
+            {
+                "number": "A6",
+                "name": "VSSA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -55.88
+                }
+            },
+            {
+                "number": "A7",
+                "name": "VCCD",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -15.24,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "A8",
+                "name": "VDDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -10.16,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "B1",
+                "name": "P2.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "B2",
+                "name": "VSSA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -55.88
+                }
+            },
+            {
+                "number": "B3",
+                "name": "P2.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "B4",
+                "name": "P3.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "B5",
+                "name": "P3.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "B6",
+                "name": "P3.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "B7",
+                "name": "XTAL32I/P6.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -40.64
+                }
+            },
+            {
+                "number": "B8",
+                "name": "XTAL32O/P6.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -38.1
+                }
+            },
+            {
+                "number": "C1",
+                "name": "VSSA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -55.88
+                }
+            },
+            {
+                "number": "C2",
+                "name": "P2.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "C3",
+                "name": "P2.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "C4",
+                "name": "P3.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": 0
+                }
+            },
+            {
+                "number": "C5",
+                "name": "P3.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "C6",
+                "name": "P3.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "C7",
+                "name": "XRES",
+                "type": "input",
+                "style": "inverted",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "C8",
+                "name": "P4.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "D1",
+                "name": "P1.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "D2",
+                "name": "VDDA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "D3",
+                "name": "P2.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "D4",
+                "name": "P2.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "D5",
+                "name": "P2.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "D6",
+                "name": "VSSD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -22.86,
+                    "y": -55.88
+                }
+            },
+            {
+                "number": "D7",
+                "name": "P4.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "D8",
+                "name": "P5.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "E1",
+                "name": "P1.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "E2",
+                "name": "P1.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "E3",
+                "name": "P1.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 0
+                }
+            },
+            {
+                "number": "E4",
+                "name": "P1.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "E5",
+                "name": "P1.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "E6",
+                "name": "P2.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "E7",
+                "name": "P5.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "E8",
+                "name": "VSSD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -20.32,
+                    "y": -55.88
+                }
+            },
+            {
+                "number": "F1",
+                "name": "VSSD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -17.78,
+                    "y": -55.88
+                }
+            },
+            {
+                "number": "F2",
+                "name": "P0.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "F3",
+                "name": "P0.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "F4",
+                "name": "P1.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "F5",
+                "name": "P1.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "F6",
+                "name": "VSSR",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 12.7,
+                    "y": -55.88
+                }
+            },
+            {
+                "number": "F7",
+                "name": "VSSR",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 15.24,
+                    "y": -55.88
+                }
+            },
+            {
+                "number": "F8",
+                "name": "VDDR",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 12.7,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "G1",
+                "name": "P0.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "G2",
+                "name": "VDDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -7.62,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "G3",
+                "name": "P0.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "G4",
+                "name": "VSSD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -15.24,
+                    "y": -55.88
+                }
+            },
+            {
+                "number": "G5",
+                "name": "VSSR",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 17.78,
+                    "y": -55.88
+                }
+            },
+            {
+                "number": "G6",
+                "name": "VSSR",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 20.32,
+                    "y": -55.88
+                }
+            },
+            {
+                "number": "G7",
+                "name": "GANT2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "G8",
+                "name": "VSSR",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 22.86,
+                    "y": -55.88
+                }
+            },
+            {
+                "number": "H1",
+                "name": "P0.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "H2",
+                "name": "P0.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "H3",
+                "name": "XTAL24O",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -38.1
+                }
+            },
+            {
+                "number": "H4",
+                "name": "XTAL24I",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -40.64
+                }
+            },
+            {
+                "number": "H5",
+                "name": "VSSR",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 25.4,
+                    "y": -55.88
+                }
+            },
+            {
+                "number": "H6",
+                "name": "VSSR",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 27.94,
+                    "y": -55.88
+                }
+            },
+            {
+                "number": "H7",
+                "name": "ANT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "J1",
+                "name": "P0.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "J2",
+                "name": "P0.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "J3",
+                "name": "VDDR",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 15.24,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "J4",
+                "name": "VDDR",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 17.78,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "J7",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": 30.48
+                }
+            }
+        ],
+        "units": [
+            "CYBL10563-68FNXIT_1_0",
+            "CYBL10563-68FNXIT_1_1"
+        ]
+    },
+    "CYBL10x6x-56LQxx": {
+        "description": "",
+        "keywords": "CYPRESS PROC BLE CY8BL ARM CORTEX M0 BLUETOOTH QFN",
+        "datasheet": "http://www.cypress.com/documentation/datasheets/cybl10x6x-family-datasheet-programmable-radio-chip-bluetooth-low-energy",
+        "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -7.62,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "2",
+                "name": "XTAL32O/P6.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 10.16,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "3",
+                "name": "XTAL32I/P6.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 12.7,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "4",
+                "name": "XRES",
+                "type": "input",
+                "style": "inverted",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "5",
+                "name": "P4.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "P4.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "7",
+                "name": "P5.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "8",
+                "name": "P5.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "9",
+                "name": "VSSD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -12.7,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "10",
+                "name": "VDDR",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 20.32,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "11",
+                "name": "GANT1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "12",
+                "name": "ANT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "13",
+                "name": "GANT2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "14",
+                "name": "VDDR",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 17.78,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "15",
+                "name": "VDDR",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 15.24,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "16",
+                "name": "XTAL24I",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "17",
+                "name": "XTAL24O",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "18",
+                "name": "VDDR",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 12.7,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "19",
+                "name": "P0.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "20",
+                "name": "P0.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "21",
+                "name": "P0.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "22",
+                "name": "P0.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "23",
+                "name": "VDDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -10.16,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "24",
+                "name": "P0.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "25",
+                "name": "P0.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "26",
+                "name": "P0.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "27",
+                "name": "P0.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "28",
+                "name": "P1.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "29",
+                "name": "P1.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "30",
+                "name": "P1.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "31",
+                "name": "P1.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "32",
+                "name": "P1.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": 0
+                }
+            },
+            {
+                "number": "33",
+                "name": "P1.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "34",
+                "name": "P1.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "35",
+                "name": "P1.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "36",
+                "name": "VDDA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "37",
+                "name": "P2.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "38",
+                "name": "P2.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "39",
+                "name": "P2.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "40",
+                "name": "P2.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "41",
+                "name": "P2.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "42",
+                "name": "P2.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "43",
+                "name": "P2.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "44",
+                "name": "P2.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -35.56,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "45",
+                "name": "VREF",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "46",
+                "name": "VDDA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "47",
+                "name": "P3.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "48",
+                "name": "P3.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "49",
+                "name": "P3.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "50",
+                "name": "P3.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "51",
+                "name": "P3.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "52",
+                "name": "P3.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "53",
+                "name": "P3.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "54",
+                "name": "P3.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 35.56,
+                    "y": 0
+                }
+            },
+            {
+                "number": "55",
+                "name": "VSSA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -10.16,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "56",
+                "name": "VCCD",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -15.24,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "57",
+                "name": "GND_EP",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -7.62,
+                    "y": -43.18
+                }
+            }
+        ],
+        "units": [
+            "CYBL10x6x-56LQxx_1_0",
+            "CYBL10x6x-56LQxx_1_1"
+        ]
+    }
+}

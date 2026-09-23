@@ -1,0 +1,5527 @@
+{
+    "AD8202": {
+        "description": "",
+        "keywords": "highside HS current sense amplifier linear buffered monitor preamp",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8202.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "-IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "A1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "A2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "+Vs",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "+IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "AD8202_0_1",
+            "AD8202_1_1"
+        ]
+    },
+    "AD8203": {
+        "description": "",
+        "keywords": "highside HS current sense amplifier linear buffered monitor preamp",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8203.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "-IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "A1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "A2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "+Vs",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "+IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "AD8203_0_1",
+            "AD8203_1_1"
+        ]
+    },
+    "AD8205": {
+        "description": "",
+        "keywords": "highside HS difference amplifier linear buffered",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8205.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AD8206": {
+        "description": "",
+        "keywords": "highside HS current sense amplifier linear buffered",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8206.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AD8208": {
+        "description": "",
+        "keywords": "highside HS current sense amplifier linear buffered monitor preamp",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8208.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AD8209": {
+        "description": "",
+        "keywords": "highside HS current sense amplifier linear buffered monitor preamp",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8209.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AD8210": {
+        "description": "",
+        "keywords": "highside HS current sense amplifier linear buffered",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8210.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "-IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "Vref2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "Vref1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "+IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "AD8210_0_1",
+            "AD8210_1_1"
+        ]
+    },
+    "AD8211": {
+        "description": "",
+        "keywords": "highside HS current sense amplifier linear buffered",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8211.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "Vin+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "Vin-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "AD8211_0_1",
+            "AD8211_1_1"
+        ]
+    },
+    "AD8212": {
+        "description": "",
+        "keywords": "highside HS current sense shunt monitor amplifier linear",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8212.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "COM",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "BIAS",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "Iout",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "ALPHA",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "Vsns",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "AD8212_0_1",
+            "AD8212_1_1"
+        ]
+    },
+    "AD8213": {
+        "description": "",
+        "keywords": "highside HS current sense amplifier linear buffered dual monitor",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8213.pdf",
+        "footprint": "Package_SO:MSOP-10_3x3mm_P0.5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "-IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "+IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "CF",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "CF",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "8",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "9",
+                "name": "+IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "10",
+                "name": "-IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "AD8213_0_1",
+            "AD8213_1_1",
+            "AD8213_2_1"
+        ]
+    },
+    "AD8215": {
+        "description": "",
+        "keywords": "highside HS current sense amplifier linear buffered monitor",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8215.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "-IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "+IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "AD8215_0_1",
+            "AD8215_1_1"
+        ]
+    },
+    "AD8216": {
+        "description": "",
+        "keywords": "HS difference amplifier linear",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8216.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AD8217": {
+        "description": "",
+        "keywords": "highside HS current sense amplifier linear buffered monitor",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8217.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "+IN",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "-IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "AD8217_0_1",
+            "AD8217_1_1"
+        ]
+    },
+    "AD8218xCP": {
+        "description": "",
+        "keywords": "highside HS current sense amplifier linear buffered",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8218.pdf",
+        "footprint": "Package_CSP:LFCSP-8-1EP_3x2mm_P0.5mm_EP1.6x1.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "+IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "Vs",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "ENB",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "REF",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "-IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "9",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            }
+        ],
+        "units": [
+            "AD8218xCP_0_1",
+            "AD8218xCP_1_1"
+        ]
+    },
+    "AD8218xRM": {
+        "description": "",
+        "keywords": "highside HS current sense amplifier linear buffered",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8218.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "+IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "Vs",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "ENB",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "REF",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "-IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "AD8218xRM_0_1",
+            "AD8218xRM_1_1"
+        ]
+    },
+    "AD8219": {
+        "description": "",
+        "keywords": "highside HS current sense amplifier linear buffered monitor",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8219.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "+IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "Vs",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "-IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "AD8219_0_1",
+            "AD8219_1_1"
+        ]
+    },
+    "AD8417": {
+        "description": "",
+        "keywords": "highside HS current sense amplifier linear",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8417.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "IN-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "REF2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "VS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "REF1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "IN+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "AD8417_0_1",
+            "AD8417_1_1"
+        ]
+    },
+    "AD8418": {
+        "description": "",
+        "keywords": "highside HS current sense amplifier linear",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "BQ500100DCK": {
+        "description": "",
+        "keywords": "Current shunt monitor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/bq500100.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "BQ500100DCK_0_1",
+            "BQ500100DCK_1_1"
+        ]
+    },
+    "INA138": {
+        "description": "",
+        "keywords": "current sense shunt monitor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina138.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "INA138_0_1",
+            "INA138_1_1"
+        ]
+    },
+    "INA139": {
+        "description": "",
+        "keywords": "current sense shunt monitor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina169.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA168": {
+        "description": "",
+        "keywords": "current sense shunt monitor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina138.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA169": {
+        "description": "",
+        "keywords": "current sense shunt monitor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina169.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA180A1": {
+        "description": "",
+        "keywords": "current monitor shunt sensor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina180.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "INA180A1_0_1",
+            "INA180A1_1_1"
+        ]
+    },
+    "INA180A2": {
+        "description": "",
+        "keywords": "current monitor shunt sensor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina180.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA180A3": {
+        "description": "",
+        "keywords": "current monitor shunt sensor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina180.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA180A4": {
+        "description": "",
+        "keywords": "current monitor shunt sensor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina180.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA180B1": {
+        "description": "",
+        "keywords": "current monitor shunt sensor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina180.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "INA180B1_0_1",
+            "INA180B1_1_1"
+        ]
+    },
+    "INA180B2": {
+        "description": "",
+        "keywords": "current monitor shunt sensor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina180.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA180B3": {
+        "description": "",
+        "keywords": "current monitor shunt sensor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina180.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA180B4": {
+        "description": "",
+        "keywords": "current monitor shunt sensor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina180.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA181": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina181.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "REF",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "INA181_0_1",
+            "INA181_1_1"
+        ]
+    },
+    "INA185": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina185.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-563",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA193": {
+        "description": "",
+        "keywords": "current sense shunt monitor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina193.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "INA193_0_1",
+            "INA193_1_1"
+        ]
+    },
+    "INA194": {
+        "description": "",
+        "keywords": "current sense shunt monitor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina193.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA195": {
+        "description": "",
+        "keywords": "current sense shunt monitor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina193.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA196": {
+        "description": "",
+        "keywords": "current sense shunt monitor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina193.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "INA196_0_1",
+            "INA196_1_1"
+        ]
+    },
+    "INA197": {
+        "description": "",
+        "keywords": "current sense shunt monitor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina193.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA198": {
+        "description": "",
+        "keywords": "current sense shunt monitor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina193.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA199xxDCK": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina199.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "REF",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "INA199xxDCK_0_1",
+            "INA199xxDCK_1_1"
+        ]
+    },
+    "INA200D": {
+        "description": "",
+        "keywords": "current-sense amplifier fixed-gain high-side low-side",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina201.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "V_{s}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "CMP_{IN}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "5",
+                "name": "~{RESET}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "6",
+                "name": "CMP_{OUT}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "V_{IN-}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "V_{IN+}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "INA200D_0_0",
+            "INA200D_0_1",
+            "INA200D_1_0",
+            "INA200D_1_1"
+        ]
+    },
+    "INA200DGK": {
+        "description": "",
+        "keywords": "current-sense amplifier fixed-gain high-side low-side",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina201.pdf",
+        "footprint": "Package_SO:VSSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA201D": {
+        "description": "",
+        "keywords": "current-sense amplifier fixed-gain high-side low-side",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina201.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA201DGK": {
+        "description": "",
+        "keywords": "current-sense amplifier fixed-gain high-side low-side",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina201.pdf",
+        "footprint": "Package_SO:VSSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA202D": {
+        "description": "",
+        "keywords": "current-sense amplifier fixed-gain high-side low-side",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina201.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA202DGK": {
+        "description": "",
+        "keywords": "current-sense amplifier fixed-gain high-side low-side",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina201.pdf",
+        "footprint": "Package_SO:VSSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA225": {
+        "description": "",
+        "keywords": "voltage-output current-sense amplifier shunt",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina225-q1.pdf",
+        "footprint": "Package_SO:VSSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "IN+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "V_{S}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GS0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GS1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "REF",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "IN-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "INA225_0_0",
+            "INA225_0_1",
+            "INA225_1_1"
+        ]
+    },
+    "INA240A1D": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina240.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "REF2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "REF1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "INA240A1D_0_1",
+            "INA240A1D_1_1"
+        ]
+    },
+    "INA240A1PW": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina240.pdf",
+        "footprint": "Package_SO:TSSOP-8_4.4x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "REF2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "REF1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "INA240A1PW_0_1",
+            "INA240A1PW_1_1"
+        ]
+    },
+    "INA240A2D": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina240.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA240A2PW": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina240.pdf",
+        "footprint": "Package_SO:TSSOP-8_4.4x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA240A3D": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina240.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA240A3PW": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina240.pdf",
+        "footprint": "Package_SO:TSSOP-8_4.4x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA240A4D": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina240.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA240A4PW": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina240.pdf",
+        "footprint": "Package_SO:TSSOP-8_4.4x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241A1xD": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241A1xDDF": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-8",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241A1xDGK": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_SO:VSSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241A2xD": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241A2xDDF": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-8",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241A2xDGK": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_SO:VSSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241A3xD": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241A3xDDF": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-8",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241A3xDGK": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_SO:VSSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241A4xD": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241A4xDDF": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-8",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241A4xDGK": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_SO:VSSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241A5xD": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241A5xDDF": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-8",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241A5xDGK": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_SO:VSSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241B1xD": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241B1xDDF": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-8",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241B1xDGK": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_SO:VSSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241B2xD": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241B2xDDF": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-8",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241B2xDGK": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_SO:VSSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241B3xD": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241B3xDDF": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-8",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241B3xDGK": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_SO:VSSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241B4xD": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241B4xDDF": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-8",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241B4xDGK": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_SO:VSSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241B5xD": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241B5xDDF": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-8",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA241B5xDGK": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional high low",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina241b.pdf",
+        "footprint": "Package_SO:VSSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA253": {
+        "description": "",
+        "keywords": "shunt current amplifier bidirectional",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina253.pdf",
+        "footprint": "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "IS-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "IS-",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "IS-",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "SH-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "IN-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "7",
+                "name": "DNC1",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "9",
+                "name": "VS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "10",
+                "name": "REF2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "REF1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "12",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "13",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "14",
+                "name": "DNC2",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "15",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "16",
+                "name": "IN+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "17",
+                "name": "SH+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "18",
+                "name": "IS+",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "19",
+                "name": "IS+",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "20",
+                "name": "IS+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "INA253_0_1",
+            "INA253_1_1"
+        ]
+    },
+    "INA280A1xDCK": {
+        "description": "",
+        "keywords": "monitor shunt sensor",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina280.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-353_SC-70-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA280A2xDCK": {
+        "description": "",
+        "keywords": "monitor shunt sensor",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina280.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-353_SC-70-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA280A3xDCK": {
+        "description": "",
+        "keywords": "monitor shunt sensor",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina280.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-353_SC-70-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA280A4xDCK": {
+        "description": "",
+        "keywords": "monitor shunt sensor",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina280.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-353_SC-70-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA280A5xDCK": {
+        "description": "",
+        "keywords": "monitor shunt sensor",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina280.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-353_SC-70-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA281A1": {
+        "description": "",
+        "keywords": "highside HS current sense amplifier linear buffered texas",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina281.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA281A2": {
+        "description": "",
+        "keywords": "highside HS current sense amplifier linear buffered texas",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina281.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA281A3": {
+        "description": "",
+        "keywords": "highside HS current sense amplifier linear buffered texas",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina281.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA281A4": {
+        "description": "",
+        "keywords": "highside HS current sense amplifier linear buffered texas",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina281.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA281A5": {
+        "description": "",
+        "keywords": "highside HS current sense amplifier linear buffered texas",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina281.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA282": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina282.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "REF2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "V+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "REF1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "INA282_0_1",
+            "INA282_1_1"
+        ]
+    },
+    "INA283": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina282.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA284": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina282.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA285": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina282.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA286": {
+        "description": "",
+        "keywords": "current monitor shunt sensor bidirectional",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/ina282.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA290A1xDCK": {
+        "description": "",
+        "keywords": "monitor shunt sensor",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina290.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-353_SC-70-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA290A2xDCK": {
+        "description": "",
+        "keywords": "monitor shunt sensor",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina290.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-353_SC-70-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA290A3xDCK": {
+        "description": "",
+        "keywords": "monitor shunt sensor",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina290.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-353_SC-70-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA290A4xDCK": {
+        "description": "",
+        "keywords": "monitor shunt sensor",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina290.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-353_SC-70-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA290A5xDCK": {
+        "description": "",
+        "keywords": "monitor shunt sensor",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina290.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-353_SC-70-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA293A1": {
+        "description": "",
+        "keywords": "highside high lowside low HS LS linear buffered texas shunt",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina293.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "IN+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "IN-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "Vs",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "INA293A1_0_1",
+            "INA293A1_1_1"
+        ]
+    },
+    "INA293A2": {
+        "description": "",
+        "keywords": "highside high lowside low HS LS linear buffered texas shunt",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina293.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA293A3": {
+        "description": "",
+        "keywords": "highside high lowside low HS LS linear buffered texas shunt",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina293.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA293A4": {
+        "description": "",
+        "keywords": "highside high lowside low HS LS linear buffered texas shunt",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina293.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA293A5": {
+        "description": "",
+        "keywords": "highside high lowside low HS LS linear buffered texas shunt",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina293.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA293B1": {
+        "description": "",
+        "keywords": "highside high lowside low HS LS linear buffered texas shunt",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina293.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "Vs",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "IN+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "IN-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "INA293B1_0_1",
+            "INA293B1_1_1"
+        ]
+    },
+    "INA293B2": {
+        "description": "",
+        "keywords": "highside high lowside low HS LS linear buffered texas shunt",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina293.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA293B3": {
+        "description": "",
+        "keywords": "highside high lowside low HS LS linear buffered texas shunt",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina293.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA293B4": {
+        "description": "",
+        "keywords": "highside high lowside low HS LS linear buffered texas shunt",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina293.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA293B5": {
+        "description": "",
+        "keywords": "highside high lowside low HS LS linear buffered texas shunt",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina293.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA4180A1": {
+        "description": "",
+        "keywords": "current monitor shunt sensor texas",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina4180.pdf",
+        "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "VS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "8",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "9",
+                "name": "-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "10",
+                "name": "+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "12",
+                "name": "+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "13",
+                "name": "-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "14",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "INA4180A1_1_1",
+            "INA4180A1_2_1",
+            "INA4180A1_3_1",
+            "INA4180A1_4_1",
+            "INA4180A1_5_1"
+        ]
+    },
+    "INA4180A2": {
+        "description": "",
+        "keywords": "monitor shunt sensor texas",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina4180.pdf",
+        "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA4180A3": {
+        "description": "",
+        "keywords": "monitor shunt sensor texas",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina4180.pdf",
+        "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "INA4180A4": {
+        "description": "",
+        "keywords": "monitor shunt sensor texas",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/ina4180.pdf",
+        "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "LMP8640": {
+        "description": "",
+        "keywords": "current monitor shunt sensor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/lmp8640.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "V-",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "LMP8640_0_1",
+            "LMP8640_1_1"
+        ]
+    },
+    "LT6106": {
+        "description": "",
+        "keywords": "current sense",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/6106fb.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "V-",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "LT6106_0_1",
+            "LT6106_1_1"
+        ]
+    },
+    "LTC6102HVxDD": {
+        "description": "",
+        "keywords": "current sense amplifier",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/6102fe.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "LTC6102HVxMS8": {
+        "description": "",
+        "keywords": "current sense amplifier",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/6102fe.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "LTC6102xDD-1": {
+        "description": "",
+        "keywords": "current sense amplifier",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/6102fe.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "-INS",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "-INF",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "EN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "V-",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "VREG",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "8",
+                "name": "+IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "9",
+                "name": "V-",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "LTC6102xDD-1_0_1",
+            "LTC6102xDD-1_1_1"
+        ]
+    },
+    "LTC6102xDD": {
+        "description": "",
+        "keywords": "current sense amplifier",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/6102fe.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "-INS",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "-INF",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "V-",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "V-",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "VREG",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "8",
+                "name": "+IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "9",
+                "name": "V-",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "LTC6102xDD_0_1",
+            "LTC6102xDD_1_1"
+        ]
+    },
+    "LTC6102xMS8-1": {
+        "description": "",
+        "keywords": "current sense amplifier",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/6102fe.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "-INS",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "-INF",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "EN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "V-",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "VREG",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "8",
+                "name": "+IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "LTC6102xMS8-1_0_1",
+            "LTC6102xMS8-1_1_1"
+        ]
+    },
+    "LTC6102xMS8": {
+        "description": "",
+        "keywords": "current sense amplifier",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/6102fe.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "-INS",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "-INF",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "V-",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "V-",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "VREG",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "8",
+                "name": "+IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "LTC6102xMS8_0_1",
+            "LTC6102xMS8_1_1"
+        ]
+    },
+    "MAX4080F": {
+        "description": "",
+        "keywords": "current sense amplifier",
+        "datasheet": "http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "RS+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "RS-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "MAX4080F_0_1",
+            "MAX4080F_1_1"
+        ]
+    },
+    "MAX4080S": {
+        "description": "",
+        "keywords": "current sense amplifier",
+        "datasheet": "http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX4080T": {
+        "description": "",
+        "keywords": "current sense amplifier",
+        "datasheet": "http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX4081F": {
+        "description": "",
+        "keywords": "current sense amplifier",
+        "datasheet": "http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "RS+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "REF1B",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "REF1A",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "8",
+                "name": "RS-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "MAX4081F_0_1",
+            "MAX4081F_1_1"
+        ]
+    },
+    "MAX4081S": {
+        "description": "",
+        "keywords": "current sense amplifier",
+        "datasheet": "http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX4081T": {
+        "description": "",
+        "keywords": "current sense amplifier",
+        "datasheet": "http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX471": {
+        "description": "",
+        "keywords": "current sense amplifier",
+        "datasheet": "http://pdfserv.maximintegrated.com/en/ds/MAX471-MAX472.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "SHDN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "RS+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "RS+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "SIGN",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "RS-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "RS-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "MAX471_0_1",
+            "MAX471_1_1"
+        ]
+    },
+    "MAX472": {
+        "description": "",
+        "keywords": "current sense amplifier",
+        "datasheet": "http://pdfserv.maximintegrated.com/en/ds/MAX471-MAX472.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "SHDN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "SENSE+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "SIGN",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "SENSE-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "7",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "8",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "MAX472_0_1",
+            "MAX472_1_1"
+        ]
+    },
+    "NCS210": {
+        "description": "",
+        "keywords": "Current shunt monitor",
+        "datasheet": "https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "REF",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "Vs",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "+IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "-IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "NCS210_0_1",
+            "NCS210_1_1"
+        ]
+    },
+    "NCS211": {
+        "description": "",
+        "keywords": "Current shunt monitor",
+        "datasheet": "https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCS213": {
+        "description": "",
+        "keywords": "Current shunt monitor",
+        "datasheet": "https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCS214": {
+        "description": "",
+        "keywords": "Current shunt monitor",
+        "datasheet": "https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCV210": {
+        "description": "",
+        "keywords": "Current shunt monitor",
+        "datasheet": "https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCV211": {
+        "description": "",
+        "keywords": "Current shunt monitor",
+        "datasheet": "https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCV213": {
+        "description": "",
+        "keywords": "Current shunt monitor",
+        "datasheet": "https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCV214": {
+        "description": "",
+        "keywords": "Current shunt monitor",
+        "datasheet": "https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ZXCT1009F": {
+        "description": "",
+        "keywords": "High side current monitor shunt",
+        "datasheet": "https://www.diodes.com/assets/Datasheets/ZXCT1009.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vs-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "Vs+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "Iout",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "ZXCT1009F_0_1",
+            "ZXCT1009F_1_1"
+        ]
+    },
+    "ZXCT1009T8": {
+        "description": "",
+        "keywords": "High side current monitor shunt",
+        "datasheet": "https://www.diodes.com/assets/Datasheets/ZXCT1009.pdf",
+        "footprint": "Package_SO:Zetex_SM8",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vs-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "Vs+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "Iout",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "ZXCT1009T8_0_1",
+            "ZXCT1009T8_1_1"
+        ]
+    },
+    "ZXCT1010": {
+        "description": "",
+        "keywords": "High side current monitor shunt",
+        "datasheet": "https://www.diodes.com/assets/Datasheets/ZXCT1010.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "Vs+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "Vs-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "ZXCT1010_0_1",
+            "ZXCT1010_1_1"
+        ]
+    },
+    "ZXCT1107": {
+        "description": "",
+        "keywords": "High side current monitor shunt",
+        "datasheet": "https://www.diodes.com/assets/Datasheets/ZXCT1107_10.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vs+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "Vs-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "ZXCT1107_0_1",
+            "ZXCT1107_1_1"
+        ]
+    },
+    "ZXCT1109": {
+        "description": "",
+        "keywords": "High side current monitor shunt",
+        "datasheet": "https://www.diodes.com/assets/Datasheets/ZXCT1107_10.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vs-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "Vs+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "ZXCT1109_0_1",
+            "ZXCT1109_1_1"
+        ]
+    },
+    "ZXCT1110": {
+        "description": "",
+        "keywords": "High side current monitor shunt",
+        "datasheet": "https://www.diodes.com/assets/Datasheets/ZXCT1107_10.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "Vs+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "Vs-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "ZXCT1110_0_1",
+            "ZXCT1110_1_1"
+        ]
+    }
+}

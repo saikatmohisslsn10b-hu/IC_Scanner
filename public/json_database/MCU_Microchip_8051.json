@@ -1,0 +1,2173 @@
+{
+    "AT89C2051-12P": {
+        "description": "",
+        "keywords": "MCS-51 8bit Flash Microcontroller",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0368.pdf",
+        "footprint": "Package_DIP:DIP-20_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "RST/VPP",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "2",
+                "name": "P3.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "P3.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "XTAL2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "XTAL1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "6",
+                "name": "P3.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "P3.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "8",
+                "name": "P3.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "9",
+                "name": "P3.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "10",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "11",
+                "name": "P3.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "12",
+                "name": "P1.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "13",
+                "name": "P1.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "14",
+                "name": "P1.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "15",
+                "name": "P1.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "16",
+                "name": "P1.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "17",
+                "name": "P1.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "18",
+                "name": "P1.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "19",
+                "name": "P1.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "20",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 27.94
+                }
+            }
+        ],
+        "units": [
+            "AT89C2051-12P_0_1",
+            "AT89C2051-12P_1_1"
+        ]
+    },
+    "AT89C2051-12S": {
+        "description": "",
+        "keywords": "MCS-51 8bit Flash Microcontroller",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0368.pdf",
+        "footprint": "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "RST/VPP",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "2",
+                "name": "P3.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "P3.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "XTAL2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "XTAL1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "6",
+                "name": "P3.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "P3.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "8",
+                "name": "P3.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "9",
+                "name": "P3.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "10",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "11",
+                "name": "P3.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "12",
+                "name": "P1.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "13",
+                "name": "P1.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "14",
+                "name": "P1.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "15",
+                "name": "P1.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "16",
+                "name": "P1.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "17",
+                "name": "P1.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "18",
+                "name": "P1.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "19",
+                "name": "P1.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "20",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 27.94
+                }
+            }
+        ],
+        "units": [
+            "AT89C2051-12S_0_1",
+            "AT89C2051-12S_1_1"
+        ]
+    },
+    "AT89C2051-24P": {
+        "description": "",
+        "keywords": "MCS-51 8bit Flash Microcontroller",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0368.pdf",
+        "footprint": "Package_DIP:DIP-20_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AT89C2051-24S": {
+        "description": "",
+        "keywords": "MCS-51 8bit Flash Microcontroller",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0368.pdf",
+        "footprint": "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AT89C4051-12P": {
+        "description": "",
+        "keywords": "MCS-51 8bit Flash Microcontroller",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/doc1001.pdf",
+        "footprint": "Package_DIP:DIP-20_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AT89C4051-12S": {
+        "description": "",
+        "keywords": "MCS-51 8bit Flash Microcontroller",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/doc1001.pdf",
+        "footprint": "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AT89C4051-24P": {
+        "description": "",
+        "keywords": "MCS-51 8bit Flash Microcontroller",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/doc1001.pdf",
+        "footprint": "Package_DIP:DIP-20_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AT89C4051-24S": {
+        "description": "",
+        "keywords": "MCS-51 8bit Flash Microcontroller",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/doc1001.pdf",
+        "footprint": "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AT89S2051-24P": {
+        "description": "",
+        "keywords": "MCS-51 8bit Flash Microcontroller",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/doc3390.pdf",
+        "footprint": "Package_DIP:DIP-20_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AT89S2051-24S": {
+        "description": "",
+        "keywords": "MCS-51 8bit Flash Microcontroller",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/doc3390.pdf",
+        "footprint": "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AT89S4051-24P": {
+        "description": "",
+        "keywords": "MCS-51 8bit Flash Microcontroller",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/doc3390.pdf",
+        "footprint": "Package_DIP:DIP-20_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AT89S4051-24S": {
+        "description": "",
+        "keywords": "MCS-51 8bit Flash Microcontroller",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/doc3390.pdf",
+        "footprint": "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AT89x51xxA": {
+        "description": "",
+        "keywords": "Microcontroller 8051 TQFP",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/doc2487.pdf",
+        "footprint": "Package_QFP:TQFP-44_10x10mm_P0.8mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "P1.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "P1.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "P1.7/SCK",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "RST",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "5",
+                "name": "P3.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "7",
+                "name": "P3.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "P3.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "P3.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "10",
+                "name": "P3.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "11",
+                "name": "P3.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "12",
+                "name": "P3.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "13",
+                "name": "P3.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "14",
+                "name": "XTAL2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "15",
+                "name": "XTAL1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "16",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -40.64
+                }
+            },
+            {
+                "number": "17",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -40.64
+                }
+            },
+            {
+                "number": "18",
+                "name": "P2.0/A8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "19",
+                "name": "P2.1/A9",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "20",
+                "name": "P2.2/A10",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "21",
+                "name": "P2.3/A11",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "22",
+                "name": "P2.4/A12",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "23",
+                "name": "P2.5/A13",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "24",
+                "name": "P2.6/A14",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "25",
+                "name": "P2.7/A15",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "26",
+                "name": "~{PSEN}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "27",
+                "name": "ALE",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "28",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "29",
+                "name": "~{EA}/V_{pp}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "30",
+                "name": "P0.7/AD7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "31",
+                "name": "P0.6/AD6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "32",
+                "name": "P0.5/AD5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "33",
+                "name": "P0.4/AD4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "34",
+                "name": "P0.3/AD3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "35",
+                "name": "P0.2/AD2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "36",
+                "name": "P0.1/AD1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "37",
+                "name": "P0.0/AD0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "38",
+                "name": "V_{cc}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "39",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "40",
+                "name": "P1.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "41",
+                "name": "P1.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "42",
+                "name": "P1.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "43",
+                "name": "P1.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "44",
+                "name": "P1.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 12.7
+                }
+            }
+        ],
+        "units": [
+            "AT89x51xxA_1_0",
+            "AT89x51xxA_1_1"
+        ]
+    },
+    "AT89x51xxJ": {
+        "description": "",
+        "keywords": "Microcontroller 8051 PLCC",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/doc2487.pdf",
+        "footprint": "Package_LCC:PLCC-44",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "2",
+                "name": "P1.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "3",
+                "name": "P1.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "4",
+                "name": "P1.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "5",
+                "name": "P1.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "6",
+                "name": "P1.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "7",
+                "name": "P1.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "8",
+                "name": "P1.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "P1.7/SCK",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "10",
+                "name": "RST",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "11",
+                "name": "P3.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "12",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "13",
+                "name": "P3.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "14",
+                "name": "P3.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "15",
+                "name": "P3.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "16",
+                "name": "P3.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "17",
+                "name": "P3.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "18",
+                "name": "P3.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "19",
+                "name": "P3.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "20",
+                "name": "XTAL2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "21",
+                "name": "XTAL1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "22",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -40.64
+                }
+            },
+            {
+                "number": "23",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "24",
+                "name": "P2.0/A8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "25",
+                "name": "P2.1/A9",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "26",
+                "name": "P2.2/A10",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "27",
+                "name": "P2.3/A11",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "28",
+                "name": "P2.4/A12",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "29",
+                "name": "P2.5/A13",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "30",
+                "name": "P2.6/A14",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "31",
+                "name": "P2.7/A15",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "32",
+                "name": "~{PSEN}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "33",
+                "name": "ALE",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "34",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "35",
+                "name": "~{EA}/V_{pp}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "36",
+                "name": "P0.7/AD7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "37",
+                "name": "P0.6/AD6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "38",
+                "name": "P0.5/AD5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "39",
+                "name": "P0.4/AD4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "40",
+                "name": "P0.3/AD3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "41",
+                "name": "P0.2/AD2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "42",
+                "name": "P0.1/AD1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "43",
+                "name": "P0.0/AD0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "44",
+                "name": "V_{cc}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 40.64
+                }
+            }
+        ],
+        "units": [
+            "AT89x51xxJ_1_0",
+            "AT89x51xxJ_1_1"
+        ]
+    },
+    "AT89x51xxP": {
+        "description": "",
+        "keywords": "Microcontroller 8051 DIP",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/doc2487.pdf",
+        "footprint": "Package_DIP:DIP-40_W15.24mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "P1.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "2",
+                "name": "P1.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "3",
+                "name": "P1.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "4",
+                "name": "P1.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "5",
+                "name": "P1.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "6",
+                "name": "P1.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "7",
+                "name": "P1.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "P1.7/SCK",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "9",
+                "name": "RST",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "10",
+                "name": "P3.0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "P3.1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "12",
+                "name": "P3.2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "13",
+                "name": "P3.3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "14",
+                "name": "P3.4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "15",
+                "name": "P3.5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "16",
+                "name": "P3.6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "17",
+                "name": "P3.7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "18",
+                "name": "XTAL2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "19",
+                "name": "XTAL1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "20",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -40.64
+                }
+            },
+            {
+                "number": "21",
+                "name": "P2.0/A8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "22",
+                "name": "P2.1/A9",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "23",
+                "name": "P2.2/A10",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "24",
+                "name": "P2.3/A11",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "25",
+                "name": "P2.4/A12",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "26",
+                "name": "P2.5/A13",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "27",
+                "name": "P2.6/A14",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "28",
+                "name": "P2.7/A15",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "29",
+                "name": "~{PSEN}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "30",
+                "name": "ALE",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "31",
+                "name": "~{EA}/V_{pp}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "32",
+                "name": "P0.7/AD7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "33",
+                "name": "P0.6/AD6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "34",
+                "name": "P0.5/AD5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "35",
+                "name": "P0.4/AD4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "36",
+                "name": "P0.3/AD3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "37",
+                "name": "P0.2/AD2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "38",
+                "name": "P0.1/AD1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "39",
+                "name": "P0.0/AD0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "40",
+                "name": "V_{cc}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 40.64
+                }
+            }
+        ],
+        "units": [
+            "AT89x51xxP_1_0",
+            "AT89x51xxP_1_1"
+        ]
+    }
+}

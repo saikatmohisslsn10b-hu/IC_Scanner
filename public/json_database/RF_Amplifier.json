@@ -1,0 +1,2362 @@
+{
+    "AD8313xRM": {
+        "description": "",
+        "keywords": "RF LOG POWER DETECTOR",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8313.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VPOS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "2",
+                "name": "INHI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "INLO",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "VPOS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "5",
+                "name": "PWDN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "COMM",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "7",
+                "name": "VSET",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "AD8313xRM_0_1",
+            "AD8313xRM_1_1"
+        ]
+    },
+    "ADL5541": {
+        "description": "",
+        "keywords": "RF GAIN BLOCK",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5541.pdf",
+        "footprint": "Package_CSP:Analog_LFCSP-8-1EP_3x3mm_P0.5mm_EP1.53x1.85mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ADL5542": {
+        "description": "",
+        "keywords": "RF GAIN BLOCK",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5542.pdf",
+        "footprint": "Package_CSP:Analog_LFCSP-8-1EP_3x3mm_P0.5mm_EP1.53x1.85mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "G",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "CB",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "ADL5542_0_1",
+            "ADL5542_1_1"
+        ]
+    },
+    "ADL5610": {
+        "description": "",
+        "keywords": "RF GAIN BLOCK",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5610.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "BGA2800": {
+        "description": "",
+        "keywords": "RF GAIN BLOCK",
+        "datasheet": "https://www.nxp.com/docs/en/data-sheet/BGA2800.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "BGA2801": {
+        "description": "",
+        "keywords": "RF GAIN BLOCK",
+        "datasheet": "https://www.nxp.com/docs/en/data-sheet/BGA2801.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "BGA2803": {
+        "description": "",
+        "keywords": "RF GAIN BLOCK",
+        "datasheet": "https://www.nxp.com/docs/en/data-sheet/BGA2803.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "BGA2815": {
+        "description": "",
+        "keywords": "RF GAIN BLOCK",
+        "datasheet": "https://www.nxp.com/docs/en/data-sheet/BGA2815.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "BGA2817": {
+        "description": "",
+        "keywords": "RF GAIN BLOCK",
+        "datasheet": "https://www.nxp.com/docs/en/data-sheet/BGA2817.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "BGA2818": {
+        "description": "",
+        "keywords": "RF GAIN BLOCK",
+        "datasheet": "https://www.nxp.com/docs/en/data-sheet/BGA2818.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "BGA2850": {
+        "description": "",
+        "keywords": "RF GAIN BLOCK",
+        "datasheet": "https://www.nxp.com/docs/en/data-sheet/BGA2850.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "BGA2851": {
+        "description": "",
+        "keywords": "RF GAIN BLOCK",
+        "datasheet": "https://www.nxp.com/docs/en/data-sheet/BGA2851.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "BGA2865": {
+        "description": "",
+        "keywords": "RF GAIN BLOCK",
+        "datasheet": "https://www.nxp.com/docs/en/data-sheet/BGA2865.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "BGA2866": {
+        "description": "",
+        "keywords": "RF GAIN BLOCK",
+        "datasheet": "https://www.nxp.com/docs/en/data-sheet/BGA2866.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "G",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "G",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "G",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "BGA2866_0_1",
+            "BGA2866_1_1"
+        ]
+    },
+    "BGA2867": {
+        "description": "",
+        "keywords": "RF GAIN BLOCK",
+        "datasheet": "https://www.nxp.com/docs/en/data-sheet/BGA2867.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "BGA2869": {
+        "description": "",
+        "keywords": "RF GAIN BLOCK",
+        "datasheet": "https://www.nxp.com/docs/en/data-sheet/BGA2869.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "BGA2870": {
+        "description": "",
+        "keywords": "RF GAIN BLOCK",
+        "datasheet": "https://www.nxp.com/docs/en/data-sheet/BGA2870.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "BGA2874": {
+        "description": "",
+        "keywords": "RF GAIN BLOCK",
+        "datasheet": "https://www.nxp.com/docs/en/data-sheet/BGA2874.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CMX901": {
+        "description": "",
+        "keywords": "RF POWER AMPLIFIER BROADBAND",
+        "datasheet": "https://www.cmlmicro.com/wp-content/uploads/2017/10/CMX901_ds.pdf",
+        "footprint": "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm_ThermalVias",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "RFIN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "RFIN",
+                "type": "input",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "7",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "8",
+                "name": "VGS1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -7.62,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "9",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "10",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "11",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "12",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "13",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "14",
+                "name": "VA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "15",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "16",
+                "name": "RFOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "17",
+                "name": "RFOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "18",
+                "name": "RFOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "19",
+                "name": "RFOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "20",
+                "name": "RFOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "21",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "22",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "23",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "24",
+                "name": "VGS3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "25",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "26",
+                "name": "VDD2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "27",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "28",
+                "name": "VGS2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "29",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            }
+        ],
+        "units": [
+            "CMX901_0_0",
+            "CMX901_0_1",
+            "CMX901_1_1"
+        ]
+    },
+    "GALI-1": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-1+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-19": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-19+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-2": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-2+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-21": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-21+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-24": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-24+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-29": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-29+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-3": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-3+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-33": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-33+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-39": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-39+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-4": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-4+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-49": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-49+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-4F": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-4F+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-5": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-5+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-51": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-51+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-51F": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-51F+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-52": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-52+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-55": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-55+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-59": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-59+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-5F": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-5F+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-6": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-6+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-6F": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-6F+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-74": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-74+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-84": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-84+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GALI-S66": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GALI-S66+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GVA-123": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GVA-123+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GVA-60": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GVA-60+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GVA-62": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GVA-62+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GVA-63": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GVA-63+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GVA-81": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GVA-81+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GVA-82": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GVA-82+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GVA-83": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GVA-83+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GVA-84": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GVA-84+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GVA-93": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/GVA-93+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HMC1099PM5E": {
+        "description": "",
+        "keywords": "RF Amplifier",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/HMC1099PM5E.pdf",
+        "footprint": "Package_CSP:LFCSP-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "input",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "11",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "12",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "13",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "14",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "15",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "16",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "17",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "18",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "19",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "20",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "21",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "22",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "23",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "24",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "25",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "26",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "27",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "28",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "29",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "30",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "31",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "32",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "33",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "HMC1099PM5E_1_1"
+        ]
+    },
+    "HMC8500PM5E": {
+        "description": "",
+        "keywords": "RF Amplifier",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/HMC8500PM5E.pdf",
+        "footprint": "Package_CSP:LFCSP-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX2679": {
+        "description": "",
+        "keywords": "RF GAIN BLOCK",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX2679-MAX2679B.pdf",
+        "footprint": "Package_BGA:WLP-4_0.83x0.83mm_P0.4mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "A1",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "A2",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "B1",
+                "name": "",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "B2",
+                "name": "G",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "MAX2679_0_1",
+            "MAX2679_1_1"
+        ]
+    },
+    "MAX2679B": {
+        "description": "",
+        "keywords": "RF GAIN BLOCK",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX2679-MAX2679B.pdf",
+        "footprint": "Package_BGA:WLP-4_0.83x0.83mm_P0.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MMZ09332BT1": {
+        "description": "",
+        "keywords": "RF",
+        "datasheet": "https://www.nxp.com/docs/en/data-sheet/MMZ09332B.pdf",
+        "footprint": "Package_DFN_QFN:QFN-12-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VBA1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "VBIAS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "3",
+                "name": "RF_IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "5",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -7.62,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "6",
+                "name": "PDET",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "VCC2/RFOUT",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VCC2/RFOUT",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "9",
+                "name": "VCC2/RFOUT",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "10",
+                "name": "POWER_DOWN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "11",
+                "name": "VCC1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "12",
+                "name": "VBA2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "13",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "MMZ09332BT1_0_1",
+            "MMZ09332BT1_1_1"
+        ]
+    },
+    "PGA-102": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/PGA-102+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PGA-1021": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/PGA-1021+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PGA-103": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/PGA-103+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PGA-105": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/PGA-105+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PGA-106-75": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/PGA-106-75+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PGA-106R-75": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/PGA-106R-75+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PGA-122-75": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/PGA-122-75+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PGA-32-75": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/PGA-32-75+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PHA-1": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/PHA-1+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PHA-101": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/PHA-101+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PHA-13HLN": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/PHA-13HLN+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PHA-13LN": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/PHA-13LN+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PHA-1H": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/PHA-1H+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PHA-23HLN": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/PHA-23HLN+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PHA-23LN": {
+        "description": "",
+        "keywords": "RF amplifier",
+        "datasheet": "https://www.minicircuits.com/pdfs/PHA-23LN+.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "QPL9547": {
+        "description": "",
+        "keywords": "RF GAIN BLOCK",
+        "datasheet": "https://www.qorvo.com/products/d/da007268",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.6mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vb",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "~{EN}",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "8",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "QPL9547_0_1",
+            "QPL9547_1_1"
+        ]
+    },
+    "SGL0622Z": {
+        "description": "",
+        "keywords": "rf gain block",
+        "datasheet": "https://www.qorvo.com/products/d/da001879",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP0.6x1.2mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "SGL0622Z_0_0",
+            "SGL0622Z_1_1"
+        ]
+    },
+    "SKY65404": {
+        "description": "",
+        "keywords": "LNA low noise amplifier RF",
+        "datasheet": "http://www.skyworksinc.com/uploads/documents/SKY65404_31_201512K.pdf",
+        "footprint": "RF:Skyworks_SKY65404-31",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VENABLE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "RFIN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "RFOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "EP",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "SKY65404_0_1",
+            "SKY65404_1_1"
+        ]
+    },
+    "SPF5189Z": {
+        "description": "",
+        "keywords": "RF GAIN BLOCK",
+        "datasheet": "www.qorvo.com/products/d/da001910",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SPF5189Z_0_1",
+            "SPF5189Z_1_1"
+        ]
+    },
+    "TRF37A73": {
+        "description": "",
+        "keywords": "gain block RF",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/trf37a73.pdf",
+        "footprint": "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "RFIN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "PWDN",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "RFOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "8",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "9",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "TRF37A73_1_1"
+        ]
+    }
+}

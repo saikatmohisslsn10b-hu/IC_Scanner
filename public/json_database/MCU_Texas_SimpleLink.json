@@ -1,0 +1,603 @@
+{
+    "CC1312R1F3RGZ": {
+        "description": "",
+        "keywords": "32-bit ARM Cortex-M4 MCU Microcontroller",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/cc1312r.pdf",
+        "footprint": "Package_DFN_QFN:VQFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "RF_P",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "2",
+                "name": "RF_N",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "3",
+                "name": "RX_TX",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "4",
+                "name": "X32K_Q1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "5",
+                "name": "X32K_Q2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "6",
+                "name": "DIO_1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "DIO_2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "DIO_3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 0
+                }
+            },
+            {
+                "number": "9",
+                "name": "DIO_4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "10",
+                "name": "DIO_5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "11",
+                "name": "DIO_6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "12",
+                "name": "DIO_7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "13",
+                "name": "VDDS2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -12.7,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "14",
+                "name": "DIO_8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "15",
+                "name": "DIO_9",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "16",
+                "name": "DIO_10",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "17",
+                "name": "DIO_11",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "18",
+                "name": "DIO_12",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "19",
+                "name": "DIO_13",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "20",
+                "name": "DIO_14",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "21",
+                "name": "DIO_15",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "22",
+                "name": "VDDS3",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -10.16,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "23",
+                "name": "DCOUPL",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 15.24,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "24",
+                "name": "JTAG_TMSC",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "25",
+                "name": "JTAG_TCKC",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "26",
+                "name": "DIO_16/JTAG_TDO",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "27",
+                "name": "DIO_17/JTAG_TDI",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "28",
+                "name": "DIO_18",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "29",
+                "name": "DIO_19",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "30",
+                "name": "DIO_20",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 0
+                }
+            },
+            {
+                "number": "31",
+                "name": "DIO_21",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "32",
+                "name": "DIO_22",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "33",
+                "name": "DCDC_SW",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 10.16,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "34",
+                "name": "VDDS_DCDC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -7.62,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "35",
+                "name": "~{RESET}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "36",
+                "name": "DIO_23",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "37",
+                "name": "DIO_24",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "38",
+                "name": "DIO_25",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "39",
+                "name": "DIO_26",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "40",
+                "name": "DIO_27",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "41",
+                "name": "DIO_28",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "42",
+                "name": "DIO_29",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "43",
+                "name": "DIO_30",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "44",
+                "name": "VDDS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -15.24,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "45",
+                "name": "VDDR",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "46",
+                "name": "X48M_N",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "47",
+                "name": "X48M_P",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "48",
+                "name": "VDDR_RF",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "49",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -38.1
+                }
+            }
+        ],
+        "units": [
+            "CC1312R1F3RGZ_0_1",
+            "CC1312R1F3RGZ_1_1"
+        ]
+    }
+}

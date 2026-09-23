@@ -1,0 +1,1662 @@
+{
+    "LA1185": {
+        "description": "",
+        "keywords": "FM mixer receiver amplifier",
+        "datasheet": "https://www.alldatasheet.com/datasheet-pdf/pdf/39974/SANYO/LA1185.html",
+        "footprint": "Package_SIP:SIP-9_22.3x3mm_P2.54mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "RF_IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "RF_BYPASS",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "RF_OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "MIX_IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "6",
+                "name": "MIX_OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "OSC_MON",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "OSC",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            }
+        ],
+        "units": [
+            "LA1185_0_1",
+            "LA1185_1_1"
+        ]
+    },
+    "MCS3142": {
+        "description": "",
+        "keywords": "KEELOQ classic ultimate keyless entry keyfob ISM",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/40001747A.pdf",
+        "footprint": "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "2",
+                "name": "SOSCI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "SOSCO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "SW3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "PGC",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "PGD",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "8",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "9",
+                "name": "CTRL_IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "10",
+                "name": "RF_OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "11",
+                "name": "VSS",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "12",
+                "name": "DATA_IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "13",
+                "name": "XTAL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "14",
+                "name": "CTRL_OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "15",
+                "name": "DATA_OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "16",
+                "name": "~{LED}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "17",
+                "name": "SW2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "18",
+                "name": "SW1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "19",
+                "name": "SW0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "20",
+                "name": "VSS",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -20.32
+                }
+            }
+        ],
+        "units": [
+            "MCS3142_0_1",
+            "MCS3142_1_1"
+        ]
+    },
+    "SA605D": {
+        "description": "",
+        "keywords": "High performance monolithic low-power FM IF system",
+        "datasheet": "https://www.nxp.com/docs/en/data-sheet/SA605.pdf",
+        "footprint": "Package_SO:SO-20_12.8x7.5mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "RF_IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "2",
+                "name": "RF_BYPASS",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "3",
+                "name": "OSC_OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "4",
+                "name": "OSC_IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "MUTE_INPUT",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "6",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "7",
+                "name": "RSSI_OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "8",
+                "name": "MUTED_AUD_OUTP",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "9",
+                "name": "UNMUTED_AUD_OUTP",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "10",
+                "name": "QUADRATURE_IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "11",
+                "name": "LIMITER_OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "12",
+                "name": "LIMITER_DECOUPL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "13",
+                "name": "LIMITER_DECOUPL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "14",
+                "name": "LIMITER_IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "15",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -45.72
+                }
+            },
+            {
+                "number": "16",
+                "name": "IF_AMP_OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "17",
+                "name": "IF_AMP_DECOUPL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "18",
+                "name": "IF_AMP_IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "19",
+                "name": "IF_AMP_DECOUPL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "20",
+                "name": "MIXER_OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 17.78
+                }
+            }
+        ],
+        "units": [
+            "SA605D_0_0",
+            "SA605D_0_1",
+            "SA605D_1_1"
+        ]
+    },
+    "SA605DK": {
+        "description": "",
+        "keywords": "High performance monolithic low-power FM IF system",
+        "datasheet": "https://www.nxp.com/docs/en/data-sheet/SA605.pdf",
+        "footprint": "Package_SO:SSOP-20_4.4x6.5mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SA636DK": {
+        "description": "",
+        "keywords": "Low-voltage, monolithic, FM, IF, RSSI",
+        "datasheet": "https://www.nxp.com/docs/en/data-sheet/SA636.pdf",
+        "footprint": "Package_SO:SSOP-20_4.4x6.5mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "RF_IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "2",
+                "name": "RF_IN_DECOUPL",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "3",
+                "name": "OSC_OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "OSC_IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "6",
+                "name": "RSSI_FEEDBACK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "RSSI_OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "POWER_DOWN_CTRL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "9",
+                "name": "DATA_OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "10",
+                "name": "QUADRATURE_IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "11",
+                "name": "LIMITER_OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "12",
+                "name": "LIMITER_DECOUPL",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "13",
+                "name": "LIMITER_DECOUPL",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "14",
+                "name": "LIMITER_IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "15",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "16",
+                "name": "IF_AMP_OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "17",
+                "name": "IF_AMP_DECOUPL",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "18",
+                "name": "IF_AMP_IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "19",
+                "name": "IF_AMP_DECOUPL",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "20",
+                "name": "MIXER_OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 22.86
+                }
+            }
+        ],
+        "units": [
+            "SA636DK_0_0",
+            "SA636DK_0_1",
+            "SA636DK_1_0",
+            "SA636DK_1_1"
+        ]
+    },
+    "Si4362": {
+        "description": "",
+        "keywords": "radio receiver",
+        "datasheet": "http://www.silabs.com/Support%20Documents/TechnicalDocs/Si4362.pdf",
+        "footprint": "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "SDN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "2",
+                "name": "RXp",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "RXn",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -16.51
+                }
+            },
+            {
+                "number": "5",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -16.51
+                }
+            },
+            {
+                "number": "6",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "7",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 7.62,
+                    "y": -16.51
+                }
+            },
+            {
+                "number": "8",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "9",
+                "name": "GPIO0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "10",
+                "name": "GPIO1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "11",
+                "name": "~{IRQ}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "12",
+                "name": "SCLK",
+                "type": "input",
+                "style": "clock",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "13",
+                "name": "SDO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "14",
+                "name": "SDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "15",
+                "name": "~{SEL}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "16",
+                "name": "XOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "17",
+                "name": "XIN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "18",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "19",
+                "name": "GPIO2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "20",
+                "name": "GPIO3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "21",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -20.32
+                }
+            }
+        ],
+        "units": [
+            "Si4362_0_1",
+            "Si4362_1_1"
+        ]
+    },
+    "Si4730-D60-GU": {
+        "description": "",
+        "keywords": "Broadcast AM FM Radio Receiver",
+        "datasheet": "http://www.silabs.com/Support%20Documents/TechnicalDocs/Si4730-31-34-35-D60.pdf",
+        "footprint": "Package_SO:SSOP-24_3.9x8.7mm_P0.635mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Si4731-D60-GU": {
+        "description": "",
+        "keywords": "Broadcast AM FM Radio Receiver RDS RBDS",
+        "datasheet": "http://www.silabs.com/Support%20Documents/TechnicalDocs/Si4730-31-34-35-D60.pdf",
+        "footprint": "Package_SO:SSOP-24_3.9x8.7mm_P0.635mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Si4734-D60-GU": {
+        "description": "",
+        "keywords": "Broadcast AM FM SW LW Radio Receiver",
+        "datasheet": "http://www.silabs.com/Support%20Documents/TechnicalDocs/Si4730-31-34-35-D60.pdf",
+        "footprint": "Package_SO:SSOP-24_3.9x8.7mm_P0.635mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Si4735-D60-GU": {
+        "description": "",
+        "keywords": "Broadcast AM FM SW LW Radio Receiver RDS RBDS",
+        "datasheet": "http://www.silabs.com/Support%20Documents/TechnicalDocs/Si4730-31-34-35-D60.pdf",
+        "footprint": "Package_SO:SSOP-24_3.9x8.7mm_P0.635mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "DOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "DFS",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "GPO3/[DCLK]",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "GPO2/[~{INT}]",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "GPO1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "6",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -11.43,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "7",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 11.43,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "8",
+                "name": "FMI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "RFGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "10",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -16.51
+                }
+            },
+            {
+                "number": "11",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -16.51
+                }
+            },
+            {
+                "number": "12",
+                "name": "AMI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "13",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "14",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "15",
+                "name": "~{RST}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "16",
+                "name": "~{SEN}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "17",
+                "name": "SCLK",
+                "type": "input",
+                "style": "clock",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "18",
+                "name": "SDIO",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "19",
+                "name": "RCLK",
+                "type": "input",
+                "style": "clock",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "20",
+                "name": "VD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "21",
+                "name": "VA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "22",
+                "name": "DBYP",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "23",
+                "name": "ROUT/[DOUT]",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "24",
+                "name": "LOUT/[DFS]",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "Si4735-D60-GU_0_1",
+            "Si4735-D60-GU_1_1"
+        ]
+    },
+    "ZETA-433-SO": {
+        "description": "",
+        "keywords": "RF TRANSCEIVER MODULE",
+        "datasheet": "https://www.rfsolutions.co.uk/downloads/1456219226DS-ZETA.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "ANT",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "3",
+                "name": "SDN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "~{IRQ}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "GPIO1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "GPIO2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "9",
+                "name": "SCLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "10",
+                "name": "SDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "11",
+                "name": "SDO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "12",
+                "name": "SEL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "ZETA-433-SO_0_1",
+            "ZETA-433-SO_1_1"
+        ]
+    },
+    "ZETA-868-SO": {
+        "description": "",
+        "keywords": "RF TRANSCEIVER MODULE",
+        "datasheet": "https://www.rfsolutions.co.uk/downloads/1456219226DS-ZETA.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ZETA-915-SO": {
+        "description": "",
+        "keywords": "RF TRANSCEIVER MODULE",
+        "datasheet": "https://www.rfsolutions.co.uk/downloads/1456219226DS-ZETA.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    }
+}

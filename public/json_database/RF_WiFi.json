@@ -1,0 +1,843 @@
+{
+    "HF-A11-SMT": {
+        "description": "",
+        "keywords": "WiFi IEEE802.11 b/g/n",
+        "datasheet": "http://www.hi-flying.com/index.php?route=tool/upload/download&code=190ec6c62d497905ed783d140f8e5af7a753b8ab",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "3.3V",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "2",
+                "name": "3.3V",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "4",
+                "name": "UART_TXD",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "5",
+                "name": "UART_RXD",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "6",
+                "name": "UART_RTS",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "7",
+                "name": "UART_CTS",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "TX+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 0
+                }
+            },
+            {
+                "number": "9",
+                "name": "TX-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "10",
+                "name": "RX+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "11",
+                "name": "RX-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "14",
+                "name": "~{LINK}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "15",
+                "name": "~{RESET}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "16",
+                "name": "~{READY}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "17",
+                "name": "~{RELOAD}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "18",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "19",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "20",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "21",
+                "name": "UART1_RXD",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "22",
+                "name": "UART1_TXD",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 0
+                }
+            },
+            {
+                "number": "23",
+                "name": "1.8VOUT",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "24",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "25",
+                "name": "RF",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "26",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 15.24
+                }
+            }
+        ],
+        "units": [
+            "HF-A11-SMT_0_1",
+            "HF-A11-SMT_1_1"
+        ]
+    },
+    "USR-C322": {
+        "description": "",
+        "keywords": "WiFi IEEE802.11 b/g/n",
+        "datasheet": "https://www.usriot.com/download/WIFI/USR-C322%20User%20Manual%20V2.3.pdf",
+        "footprint": "RF_WiFi:USR-C322",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "2",
+                "name": "GPIO0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "3",
+                "name": "GPIO1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "4",
+                "name": "~{RESET}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "SOP2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "6",
+                "name": "SOP1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "7",
+                "name": "SOP0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "8",
+                "name": "ANA_DC-DC",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "9",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "10",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "11",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "12",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "13",
+                "name": "VBT_CC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "14",
+                "name": "VDD_ANA2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "15",
+                "name": "GPIO2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "16",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "17",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "18",
+                "name": "GPIO3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "19",
+                "name": "UART0_TX",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "20",
+                "name": "UART0_RX",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "21",
+                "name": "~{RELOAD}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "22",
+                "name": "~{READY}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "23",
+                "name": "~{LINK}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "24",
+                "name": "UART0_CTS",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "25",
+                "name": "UART0_RTS",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "26",
+                "name": "GPIO4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "27",
+                "name": "GPIO5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "28",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "29",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "30",
+                "name": "UART1_TX",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "31",
+                "name": "UART1_RX",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "32",
+                "name": "GPIO6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "33",
+                "name": "GPIO7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "34",
+                "name": "GPIO8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "35",
+                "name": "GPIO9",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "36",
+                "name": "GPIO10",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "37",
+                "name": "GPIO11",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "38",
+                "name": "GPIO12",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "39",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "40",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "41",
+                "name": "GPIO13",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "42",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 7.62,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "43",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "44",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -27.94
+                }
+            }
+        ],
+        "units": [
+            "USR-C322_1_1"
+        ]
+    }
+}

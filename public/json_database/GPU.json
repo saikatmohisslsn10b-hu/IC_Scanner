@@ -1,0 +1,513 @@
+{
+    "MC6845": {
+        "description": "",
+        "keywords": "CRT controller",
+        "datasheet": "http://pdf.datasheetcatalog.com/datasheet_pdf/motorola/MC6845L_and_MC6845P.pdf",
+        "footprint": "Package_DIP:DIP-40_W15.24mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "2",
+                "name": "~{RESET}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "LPSTB",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "4",
+                "name": "MA0",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "5",
+                "name": "MA1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "6",
+                "name": "MA2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "7",
+                "name": "MA3",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "8",
+                "name": "MA4",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "9",
+                "name": "MA5",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "10",
+                "name": "MA6",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "11",
+                "name": "MA7",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "12",
+                "name": "MA8",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "13",
+                "name": "MA9",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "14",
+                "name": "MA10",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "15",
+                "name": "MA11",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "16",
+                "name": "MA12",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "17",
+                "name": "MA13",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "18",
+                "name": "DE",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "19",
+                "name": "CURSOR",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "20",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "21",
+                "name": "CLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "22",
+                "name": "R/~{W}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "23",
+                "name": "E",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "24",
+                "name": "RS",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "25",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "26",
+                "name": "D7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "27",
+                "name": "D6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "28",
+                "name": "D5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "29",
+                "name": "D4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "30",
+                "name": "D3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "31",
+                "name": "D2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "32",
+                "name": "D1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "33",
+                "name": "D0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "34",
+                "name": "RA4",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "35",
+                "name": "RA3",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "36",
+                "name": "RA2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "37",
+                "name": "RA1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "38",
+                "name": "RA0",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "39",
+                "name": "HS",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "40",
+                "name": "VS",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -27.94
+                }
+            }
+        ],
+        "units": [
+            "MC6845_0_1",
+            "MC6845_1_1"
+        ]
+    },
+    "MC68A45": {
+        "description": "",
+        "keywords": "CRT controller",
+        "datasheet": "http://pdf.datasheetcatalog.com/datasheet_pdf/motorola/MC6845L_and_MC6845P.pdf",
+        "footprint": "Package_DIP:DIP-40_W15.24mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MC68B45": {
+        "description": "",
+        "keywords": "CRT controller",
+        "datasheet": "http://pdf.datasheetcatalog.com/datasheet_pdf/motorola/MC6845L_and_MC6845P.pdf",
+        "footprint": "Package_DIP:DIP-40_W15.24mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    }
+}

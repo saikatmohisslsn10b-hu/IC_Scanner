@@ -1,0 +1,4100 @@
+{
+    "PIC12C508-xJW": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_DIP:CERDIP-8_W7.62mm_SideBrazed",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12C508-xP": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12C508-xP_0_1",
+            "PIC12C508-xP_1_1"
+        ]
+    },
+    "PIC12C508-xSM": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12C508A-xJW": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_DIP:CERDIP-8_W7.62mm_SideBrazed",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12C508A-xP": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12C508A-xP_0_1",
+            "PIC12C508A-xP_1_1"
+        ]
+    },
+    "PIC12C508A-xSM": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12C508A-xSN": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12C509-xJW": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_DIP:CERDIP-8_W7.62mm_SideBrazed",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12C509-xP": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12C509-xP_0_1",
+            "PIC12C509-xP_1_1"
+        ]
+    },
+    "PIC12C509-xSM": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12C509A-xJW": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_DIP:CERDIP-8_W7.62mm_SideBrazed",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12C509A-xP": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12C509A-xP_0_1",
+            "PIC12C509A-xP_1_1"
+        ]
+    },
+    "PIC12C509A-xSM": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12C509A-xSN": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12C671-xJW": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/30561b.pdf",
+        "footprint": "Package_DIP:CERDIP-8_W7.62mm_SideBrazed",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12C671-xP": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/30561b.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12C671-xP_0_1",
+            "PIC12C671-xP_1_1"
+        ]
+    },
+    "PIC12C671-xSN": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/30561b.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12C672-xJW": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/30561b.pdf",
+        "footprint": "Package_DIP:CERDIP-8_W7.62mm_SideBrazed",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12C672-xP": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/30561b.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12C672-xP_0_1",
+            "PIC12C672-xP_1_1"
+        ]
+    },
+    "PIC12C672-xSN": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/30561b.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12CE518-xJW": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_DIP:CERDIP-8_W7.62mm_SideBrazed",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12CE518-xP": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12CE518-xP_0_1",
+            "PIC12CE518-xP_1_1"
+        ]
+    },
+    "PIC12CE518-xSM": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12CE518-xSN": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12CE519-xJW": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_DIP:CERDIP-8_W7.62mm_SideBrazed",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12CE519-xP": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12CE519-xP_0_1",
+            "PIC12CE519-xP_1_1"
+        ]
+    },
+    "PIC12CE519-xSM": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12CE519-xSN": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12CE673-xJW": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/30561b.pdf",
+        "footprint": "Package_DIP:CERDIP-8_W7.62mm_SideBrazed",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12CE673-xP": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/30561b.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12CE673-xP_0_1",
+            "PIC12CE673-xP_1_1"
+        ]
+    },
+    "PIC12CE674-xJW": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/30561b.pdf",
+        "footprint": "Package_DIP:CERDIP-8_W7.62mm_SideBrazed",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12CE674-xP": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/30561b.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12CE674-xP_0_1",
+            "PIC12CE674-xP_1_1"
+        ]
+    },
+    "PIC12CR509A-xP": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12CR509A-xP_0_1",
+            "PIC12CR509A-xP_1_1"
+        ]
+    },
+    "PIC12CR509A-xSM": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12CR509A-xSN": {
+        "description": "",
+        "keywords": "8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F1501-xMC": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller Low Power",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41615A.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F1501-xMS": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller Low Power",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41615A.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F1501-xP": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller Low Power",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41615A.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "RA5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "RA4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "RA3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "RA2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "RA1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "RA0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12F1501-xP_0_1",
+            "PIC12F1501-xP_1_1"
+        ]
+    },
+    "PIC12F1501-xSN": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41615A.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F1822-xMC": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller XLP",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41413B.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F1822-xP": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller XLP",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41413B.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "RA5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "RA4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "RA3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "RA2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "RA1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "RA0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12F1822-xP_0_1",
+            "PIC12F1822-xP_1_1"
+        ]
+    },
+    "PIC12F1822-xSN": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller XLP",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41413B.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F1840-xMC": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller XLP",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41441B.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F1840-xP": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller XLP",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41441B.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "RA5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "RA4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "RA3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "RA2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "RA1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "RA0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12F1840-xP_0_1",
+            "PIC12F1840-xP_1_1"
+        ]
+    },
+    "PIC12F1840-xSN": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller XLP",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41441B.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F508-xMC": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41236E.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F508-xMS": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41236E.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F508-xP": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41236E.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12F508-xP_0_1",
+            "PIC12F508-xP_1_1"
+        ]
+    },
+    "PIC12F508-xSN": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41236E.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F509-xMC": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41236E.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F509-xMS": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41236E.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F509-xP": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41236E.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12F509-xP_0_1",
+            "PIC12F509-xP_1_1"
+        ]
+    },
+    "PIC12F509-xSN": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41236E.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F510-xMC": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41268D.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F510-xMS": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41268D.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F510-xP": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41268D.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12F510-xP_0_1",
+            "PIC12F510-xP_1_1"
+        ]
+    },
+    "PIC12F510-xSN": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41268D.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F519-xMC": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41319B.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F519-xMS": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41319B.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F519-xP": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41319B.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12F519-xP_0_1",
+            "PIC12F519-xP_1_1"
+        ]
+    },
+    "PIC12F519-xSN": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41319B.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F609-xMC": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41302D.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F609-xMS": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41302D.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F609-xP": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41302D.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12F609-xP_0_1",
+            "PIC12F609-xP_1_1"
+        ]
+    },
+    "PIC12F609-xSN": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41302D.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F615-xMC": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41302D.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F615-xMS": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41302D.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F615-xP": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41302D.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12F615-xP_0_1",
+            "PIC12F615-xP_1_1"
+        ]
+    },
+    "PIC12F615-xSN": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41302D.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F617-xMC": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41302D.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F617-xMS": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41302D.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F617-xP": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41302D.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12F617-xP_0_1",
+            "PIC12F617-xP_1_1"
+        ]
+    },
+    "PIC12F617-xSN": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41302D.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F629-xMC": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41190G.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F629-xMS": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41190G.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F629-xP": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41190G.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12F629-xP_0_1",
+            "PIC12F629-xP_1_1"
+        ]
+    },
+    "PIC12F629-xSN": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41190G.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F635-xMC": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41232D.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F635-xMS": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41232D.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F635-xP": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41232D.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12F635-xP_0_1",
+            "PIC12F635-xP_1_1"
+        ]
+    },
+    "PIC12F635-xSN": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41232D.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F675-xMC": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41190G.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F675-xMS": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41190G.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F675-xP": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41190G.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12F675-xP_0_1",
+            "PIC12F675-xP_1_1"
+        ]
+    },
+    "PIC12F675-xSN": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41190G.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F683-xMC": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41211D_.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F683-xMS": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41232D.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F683-xP": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41232D.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12F683-xP_0_1",
+            "PIC12F683-xP_1_1"
+        ]
+    },
+    "PIC12F683-xSN": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41211D_.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F752-xMC": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41576B.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12F752-xP": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41576B.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12F752-xP_0_1",
+            "PIC12F752-xP_1_1"
+        ]
+    },
+    "PIC12F752-xSN": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41576B.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12HV609-xMC": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller High Voltage",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41302D.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12HV609-xMS": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller High Voltage",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41302D.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12HV609-xP": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller High Voltage",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41302D.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12HV609-xP_0_1",
+            "PIC12HV609-xP_1_1"
+        ]
+    },
+    "PIC12HV609-xSN": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller High Voltage",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41302D.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12HV615-xMC": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller High Voltage",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41302D.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12HV615-xMS": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller High Voltage",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41302D.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12HV615-xP": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller High Voltage",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41302D.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12HV615-xP_0_1",
+            "PIC12HV615-xP_1_1"
+        ]
+    },
+    "PIC12HV615-xSN": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller High Voltage",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41302D.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12HV752-xMC": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller High Voltage",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41576B.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12HV752-xP": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller High Voltage",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41576B.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "GP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GP3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "PIC12HV752-xP_0_1",
+            "PIC12HV752-xP_1_1"
+        ]
+    },
+    "PIC12HV752-xSN": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller High Voltage",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41576B.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12LF1501-xMC": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller Low Power",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41615A.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12LF1501-xMS": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller Low Power",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41615A.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12LF1501-xP": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller Low Power",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41615A.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12LF1501-xSN": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41615A.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12LF1822-xMC": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller XLP",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41413B.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12LF1822-xP": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller XLP",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41413B.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12LF1822-xSN": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller XLP",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41413B.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12LF1840-xMC": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller XLP",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41441B.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12LF1840-xP": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller XLP",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41441B.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12LF1840-xSN": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller XLP",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/41441B.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PIC12LF1840T48-xST": {
+        "description": "",
+        "keywords": "FLASH-Based 8-Bit CMOS Microcontroller XLP RF Transmitter",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/40001594C.pdf",
+        "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "2",
+                "name": "RA5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "RA4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "RA3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "VDDRF",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "CTRL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "RFOUT",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "VSSRF",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "DATA",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "10",
+                "name": "XTAL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "RA2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "12",
+                "name": "RA1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "13",
+                "name": "RA0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "14",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -17.78
+                }
+            }
+        ],
+        "units": [
+            "PIC12LF1840T48-xST_0_1",
+            "PIC12LF1840T48-xST_1_1"
+        ]
+    }
+}

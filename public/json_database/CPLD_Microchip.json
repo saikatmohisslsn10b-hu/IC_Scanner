@@ -1,0 +1,1619 @@
+{
+    "ATF1502AS-xAx44": {
+        "description": "",
+        "keywords": "CPLD",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-0995-CPLD-ATF1502AS(L)-Datasheet.pdf",
+        "footprint": "Package_QFP:TQFP-44_10x10mm_P0.8mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "I/O/TDI",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "2",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "3",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "5",
+                "name": "I/O/PD1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "6",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "7",
+                "name": "I/O/TMS",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "9",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "10",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "12",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "13",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "14",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "15",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "16",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "17",
+                "name": "VCC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "18",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "19",
+                "name": "I/O/PD2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "20",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "21",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "22",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "23",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "24",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "25",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "26",
+                "name": "I/O/TCK",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "27",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "28",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "29",
+                "name": "VCC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "30",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "31",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "32",
+                "name": "I/O/TDO",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "33",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "34",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 0
+                }
+            },
+            {
+                "number": "35",
+                "name": "I/O/GCLK3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "36",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "37",
+                "name": "I/GCLK1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "38",
+                "name": "I/OE1/Vpp",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "39",
+                "name": "I/GCLR",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "40",
+                "name": "I/OE2/GCLK2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "41",
+                "name": "VCC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "42",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "43",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "44",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 20.32
+                }
+            }
+        ],
+        "units": [
+            "ATF1502AS-xAx44_0_1",
+            "ATF1502AS-xAx44_1_1"
+        ]
+    },
+    "ATF1502ASL-xAx44": {
+        "description": "",
+        "keywords": "CPLD",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-0995-CPLD-ATF1502AS(L)-Datasheet.pdf",
+        "footprint": "Package_QFP:TQFP-44_10x10mm_P0.8mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ATF1502ASV-xAx44": {
+        "description": "",
+        "keywords": "CPLD",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/doc1615.pdf",
+        "footprint": "Package_QFP:TQFP-44_10x10mm_P0.8mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ATF1504AS-xAx44": {
+        "description": "",
+        "keywords": "CPLD",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-0950-CPLD-ATF1504AS(L)-Datasheet.pdf",
+        "footprint": "Package_QFP:TQFP-44_10x10mm_P0.8mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ATF1504ASL-xAx44": {
+        "description": "",
+        "keywords": "CPLD",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-0950-CPLD-ATF1504AS(L)-Datasheet.pdf",
+        "footprint": "Package_QFP:TQFP-44_10x10mm_P0.8mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ATF1504ASV-xAx44": {
+        "description": "",
+        "keywords": "CPLD",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/ATF1504ASV-ATF1504ASVL-Data-Sheet-20006185A.pdf",
+        "footprint": "Package_QFP:TQFP-44_10x10mm_P0.8mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ATF1504ASVL-xAx44": {
+        "description": "",
+        "keywords": "CPLD",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/ATF1504ASV-ATF1504ASVL-Data-Sheet-20006185A.pdf",
+        "footprint": "Package_QFP:TQFP-44_10x10mm_P0.8mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ATF1508ASx-xxJx84": {
+        "description": "",
+        "keywords": "EE-PLD electrically-erasable-PLD JTAG ATF1508AS-7JC84 ATF1508AS-10JC84 ATF1508AS-10JI84 ATF1508AS-15JC84 ATF1508AS-15JI84 ATF1508AS-7JX84 ATF1508AS-10JU84 ATF1508ASL-20JC84 ATF1508ASL-25JI84 ATF1508ASL-25JU84 EPM7128SLI84-10 EPM7128SLI84-15 EPM7128SLC84-7 EPM7128SLC84-10 EPM7128SLC84-15",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/doc0784.pdf",
+        "footprint": "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "INPUT/GCLR",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -40.64
+                }
+            },
+            {
+                "number": "2",
+                "name": "INPUT/OE2/GCLK2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "3",
+                "name": "VCCINT",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "4",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "5",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "6",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "7",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -53.34
+                }
+            },
+            {
+                "number": "8",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "9",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "10",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "11",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "12",
+                "name": "I/O/PD1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "13",
+                "name": "VCCIO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "14",
+                "name": "I/O/TDI",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "15",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "16",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "17",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "18",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "19",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -53.34
+                }
+            },
+            {
+                "number": "20",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "21",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "22",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "23",
+                "name": "I/O/TMS",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -48.26
+                }
+            },
+            {
+                "number": "24",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "25",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "26",
+                "name": "VCCIO",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "27",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "28",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "29",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "30",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "31",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "32",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -53.34
+                }
+            },
+            {
+                "number": "33",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "34",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "35",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "36",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "37",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "38",
+                "name": "VCCIO",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "39",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "40",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "41",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "42",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -53.34
+                }
+            },
+            {
+                "number": "43",
+                "name": "VCCINT",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "44",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "45",
+                "name": "I/O/PD2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "46",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "47",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -53.34
+                }
+            },
+            {
+                "number": "48",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "49",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "50",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "51",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "52",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "53",
+                "name": "VCCIO",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "54",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "55",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "56",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "57",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "58",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "59",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -53.34
+                }
+            },
+            {
+                "number": "60",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "61",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "62",
+                "name": "I/O/TCK",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -40.64
+                }
+            },
+            {
+                "number": "63",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "64",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "65",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "66",
+                "name": "VCCIO",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "67",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "68",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "69",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "70",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "71",
+                "name": "I/O/TDO",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -45.72
+                }
+            },
+            {
+                "number": "72",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -53.34
+                }
+            },
+            {
+                "number": "73",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "74",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "75",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "76",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "77",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "78",
+                "name": "VCCIO",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "79",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "80",
+                "name": "I/O",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "81",
+                "name": "I/O/GCLK3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "82",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -53.34
+                }
+            },
+            {
+                "number": "83",
+                "name": "INPUT/GCLK1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -45.72
+                }
+            },
+            {
+                "number": "84",
+                "name": "INPUT/OE1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -48.26
+                }
+            }
+        ],
+        "units": [
+            "ATF1508ASx-xxJx84_0_1",
+            "ATF1508ASx-xxJx84_1_0",
+            "ATF1508ASx-xxJx84_1_1"
+        ]
+    }
+}

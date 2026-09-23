@@ -1,0 +1,4735 @@
+{
+    "A1101xLH": {
+        "description": "",
+        "keywords": "A3141",
+        "datasheet": "https://www.allegromicro.com/-/media/files/datasheets/a110x-datasheet.ashx",
+        "footprint": "Package_TO_SOT_SMD:SOT-23W",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "V_{CC}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "V_{OUT}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            }
+        ],
+        "units": [
+            "A1101xLH_0_1",
+            "A1101xLH_1_1"
+        ]
+    },
+    "A1101xUA": {
+        "description": "",
+        "keywords": "A3141",
+        "datasheet": "https://www.allegromicro.com/-/media/files/datasheets/a110x-datasheet.ashx",
+        "footprint": "Package_TO_SOT_THT:TO-92S",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "V_{CC}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "V_{OUT}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "A1101xUA_0_1",
+            "A1101xUA_1_1"
+        ]
+    },
+    "A1102xLH": {
+        "description": "",
+        "keywords": "A3142",
+        "datasheet": "https://www.allegromicro.com/-/media/files/datasheets/a110x-datasheet.ashx",
+        "footprint": "Package_TO_SOT_SMD:SOT-23W",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "A1103xLH": {
+        "description": "",
+        "keywords": "A3143",
+        "datasheet": "https://www.allegromicro.com/-/media/files/datasheets/a110x-datasheet.ashx",
+        "footprint": "Package_TO_SOT_SMD:SOT-23W",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "A1104xLH": {
+        "description": "",
+        "keywords": "A3144",
+        "datasheet": "https://www.allegromicro.com/-/media/files/datasheets/a110x-datasheet.ashx",
+        "footprint": "Package_TO_SOT_SMD:SOT-23W",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "A1106xLH": {
+        "description": "",
+        "keywords": "Allegro",
+        "datasheet": "https://www.allegromicro.com/-/media/files/datasheets/a110x-datasheet.ashx",
+        "footprint": "Package_TO_SOT_SMD:SOT-23W",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "A1301xLH": {
+        "description": "",
+        "keywords": "ratiometric Obsolete",
+        "datasheet": "http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx",
+        "footprint": "Package_TO_SOT_SMD:SOT-23W",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "V_{CC}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "V_{OUT}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            }
+        ],
+        "units": [
+            "A1301xLH_0_1",
+            "A1301xLH_1_1"
+        ]
+    },
+    "A1301xUA": {
+        "description": "",
+        "keywords": "ratiometric Obsolete",
+        "datasheet": "http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx",
+        "footprint": "Package_TO_SOT_THT:TO-92S",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "V_{CC}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "V_{OUT}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "A1301xUA_0_1",
+            "A1301xUA_1_1"
+        ]
+    },
+    "A1302xLH": {
+        "description": "",
+        "keywords": "ratiometric Obsolete",
+        "datasheet": "http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx",
+        "footprint": "Package_TO_SOT_SMD:SOT-23W",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "A1302xUA": {
+        "description": "",
+        "keywords": "ratiometric Obsolete",
+        "datasheet": "http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx",
+        "footprint": "Package_TO_SOT_THT:TO-92S",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "A1308xLHxx-1": {
+        "description": "",
+        "keywords": "ratiometric A1302",
+        "datasheet": "https://www.allegromicro.com/~/media/files/datasheets/a1308-9-datasheet.ashx",
+        "footprint": "Package_TO_SOT_SMD:SOT-23W",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "A1308xLHxx-2": {
+        "description": "",
+        "keywords": "ratiometric A1301",
+        "datasheet": "https://www.allegromicro.com/~/media/files/datasheets/a1308-9-datasheet.ashx",
+        "footprint": "Package_TO_SOT_SMD:SOT-23W",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "A1309xLHxx-9": {
+        "description": "",
+        "keywords": "ratiometric",
+        "datasheet": "https://www.allegromicro.com/~/media/files/datasheets/a1308-9-datasheet.ashx",
+        "footprint": "Package_TO_SOT_SMD:SOT-23W",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "A1369xUA-10": {
+        "description": "",
+        "keywords": "current-sensing monitor ratiometric Obsolete",
+        "datasheet": "http://www.allegromicro.com/~/media/Files/Datasheets/A1369-Datasheet.ashx?la=en",
+        "footprint": "Package_TO_SOT_THT:TO-92S",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "V_{CC}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "V_{OUT}",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "A1369xUA-10_0_1",
+            "A1369xUA-10_1_1"
+        ]
+    },
+    "A1369xUA-24": {
+        "description": "",
+        "keywords": "current-sensing monitor ratiometric Obsolete",
+        "datasheet": "http://www.allegromicro.com/~/media/Files/Datasheets/A1369-Datasheet.ashx?la=en",
+        "footprint": "Package_TO_SOT_THT:TO-92S",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "A3214xLH": {
+        "description": "",
+        "keywords": "Allegro",
+        "datasheet": "http://www.allegromicro.com/~/media/Files/Datasheets/A3213-4-Datasheet.ashx",
+        "footprint": "Package_TO_SOT_SMD:SOT-23W",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ACS73369xUAA-010B5": {
+        "description": "",
+        "keywords": "A1369 current-sensing monitor ratiometric",
+        "datasheet": "http://www.allegromicro.com/~/media/Files/Datasheets/ACS73369-Datasheet.ashx?la=en",
+        "footprint": "Package_TO_SOT_THT:TO-92S",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AH1806-P": {
+        "description": "",
+        "keywords": "hall switch",
+        "datasheet": "https://www.diodes.com/assets/Datasheets/AH1806.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUTPUT",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "AH1806-P_0_1",
+            "AH1806-P_1_1"
+        ]
+    },
+    "AH1806-W": {
+        "description": "",
+        "keywords": "hall switch",
+        "datasheet": "https://www.diodes.com/assets/Datasheets/AH1806.pdf",
+        "footprint": "Package_TO_SOT_SMD:SC-59",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "OUTPUT",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            }
+        ],
+        "units": [
+            "AH1806-W_0_1",
+            "AH1806-W_1_1"
+        ]
+    },
+    "AH1806-Z": {
+        "description": "",
+        "keywords": "hall switch",
+        "datasheet": "https://www.diodes.com/assets/Datasheets/AH1806.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-553",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUTPUT",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "AH1806-Z_0_1",
+            "AH1806-Z_1_1"
+        ]
+    },
+    "AH452UA": {
+        "description": "",
+        "keywords": "Alfa-Electronics",
+        "datasheet": "https://datasheet4u.com/pdf-down/A/H/4/AH452-AlfaElectronics.pdf",
+        "footprint": "Package_TO_SOT_THT:TO-92S",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AK7452": {
+        "description": "",
+        "keywords": "sensor magnetic hall position rotation spi",
+        "datasheet": "https://www.akm.com/akm/en/file/datasheet/AK7452.pdf",
+        "footprint": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "U",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "V",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "W",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "MISO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "MOSI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "SCLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "~{CSN}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "9",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "10",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 7.62,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "11",
+                "name": "TESTE",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "12",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "13",
+                "name": "ERROR",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "14",
+                "name": "Z",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "15",
+                "name": "B",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "16",
+                "name": "A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "AK7452_0_1",
+            "AK7452_1_1"
+        ]
+    },
+    "AS5045B": {
+        "description": "",
+        "keywords": "Magnetic Hall Encoder",
+        "datasheet": "https://ams.com/documents/20143/36005/AS5045B_DS000397_2-00.pdf",
+        "footprint": "Package_SO:SSOP-16_5.3x6.2mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{MagINC}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "~{MagDEC}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "B",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "I",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "8",
+                "name": "PDIO",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "DO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "10",
+                "name": "CLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "12",
+                "name": "PWM",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "13",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "14",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "15",
+                "name": "VDD3V3",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "16",
+                "name": "VDD5V",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            }
+        ],
+        "units": [
+            "AS5045B_0_1",
+            "AS5045B_1_1"
+        ]
+    },
+    "AS5047D": {
+        "description": "",
+        "keywords": "Magnetic Hall Sensor",
+        "datasheet": "https://ams.com/documents/20143/36005/AS5047D_DS000394_2-00.pdf",
+        "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "CLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "MISO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "MOSI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "TST",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "B",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "W/PWM",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "V",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "10",
+                "name": "U",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "12",
+                "name": "VDD3V3",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "13",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "14",
+                "name": "I/PWM",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "AS5047D_1_1"
+        ]
+    },
+    "AS5048A": {
+        "description": "",
+        "keywords": "sensor magnetic hall position rotation spi",
+        "datasheet": "https://ams.com/documents/20143/36005/AS5048_DS000298_4-00.pdf",
+        "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{CSn}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "CLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "MISO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "MOSI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "TEST",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -7.62,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "6",
+                "name": "TEST",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "7",
+                "name": "TEST",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "8",
+                "name": "TEST",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "9",
+                "name": "TEST",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "10",
+                "name": "TEST",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "11",
+                "name": "VDD5V",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "12",
+                "name": "VDD3V",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "13",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 7.62,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "14",
+                "name": "PWM",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "AS5048A_0_1",
+            "AS5048A_1_1"
+        ]
+    },
+    "AS5048B": {
+        "description": "",
+        "keywords": "sensor magnetic hall position rotation i2c",
+        "datasheet": "https://ams.com/documents/20143/36005/AS5048_DS000298_4-00.pdf",
+        "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "A2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "A1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "TEST",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -7.62,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "6",
+                "name": "TEST",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "7",
+                "name": "TEST",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "8",
+                "name": "TEST",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "9",
+                "name": "TEST",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "10",
+                "name": "TEST",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "11",
+                "name": "VDD5V",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "12",
+                "name": "VDD3V",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "13",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 7.62,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "14",
+                "name": "PWM",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "AS5048B_0_1",
+            "AS5048B_1_1"
+        ]
+    },
+    "AS5050A": {
+        "description": "",
+        "keywords": "sensor magnetic hall position rotation spi",
+        "datasheet": "https://ams.com/documents/20143/36005/AS5055A_DS000304_2-00.pdf",
+        "footprint": "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.7x2.7mm_PullBack",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AS5055A": {
+        "description": "",
+        "keywords": "sensor magnetic hall position rotation spi",
+        "datasheet": "https://ams.com/documents/20143/36005/AS5055A_DS000304_2-00.pdf",
+        "footprint": "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.7x2.7mm_PullBack",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "MOSI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "MISO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "SCK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "~{SS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "9",
+                "name": "TEST",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "10",
+                "name": "~{EN_INT}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "11",
+                "name": "VDDp",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "12",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "13",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "14",
+                "name": "WM",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "15",
+                "name": "~{INT}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "16",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "17",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 7.62,
+                    "y": -10.16
+                }
+            }
+        ],
+        "units": [
+            "AS5055A_0_1",
+            "AS5055A_1_1"
+        ]
+    },
+    "AS5510-DSO": {
+        "description": "",
+        "keywords": "ams-OSRAM",
+        "datasheet": "https://look.ams-osram.com/m/19562c0de86ac97e/original/AS5510-DS000318.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "ADR",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "Test",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "AS5510-DSO_1_1"
+        ]
+    },
+    "AS5510-DWL": {
+        "description": "",
+        "keywords": "ams-OSRAM",
+        "datasheet": "https://look.ams-osram.com/m/19562c0de86ac97e/original/AS5510-DS000318.pdf",
+        "footprint": "Package_CSP:WLCSP-6_1.46x1.1mm_Layout3x2_P0.4mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "A1",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "A2",
+                "name": "ADR",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "A3",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "B1",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "B2",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "B3",
+                "name": "Test",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "AS5510-DWL_1_1"
+        ]
+    },
+    "BM1422AGMV": {
+        "description": "",
+        "keywords": "3D 3axis magnetometer magnetic sensor I2C",
+        "datasheet": "https://fscdn.rohm.com/en/products/databook/datasheet/ic/sensor/geomagnetic/bm1422agmv-e.pdf",
+        "footprint": "Package_LGA:Rohm_MLGA010V020A_LGA-10_2x2mm_P0.45mm_LayoutBorder2x3y",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "VREG",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "TEST1",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "TEST2",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "DRDY",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "9",
+                "name": "ADDR",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "10",
+                "name": "DVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "BM1422AGMV_0_1",
+            "BM1422AGMV_1_1"
+        ]
+    },
+    "BMM150": {
+        "description": "",
+        "keywords": "BOSH Geomagnetic Sensor",
+        "datasheet": "https://www.mouser.com/datasheet/2/783/BST-BMM150-DS001-01-786480.pdf",
+        "footprint": "Package_CSP:WLCSP-12_1.56x1.56mm_P0.4mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "A1",
+                "name": "PS",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "A3",
+                "name": "SCK",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "A5",
+                "name": "CSB",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "B2",
+                "name": "VDDIO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "B4",
+                "name": "SDI",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "C1",
+                "name": "SDO",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "C5",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "D2",
+                "name": "INT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "D4",
+                "name": "DRDY",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "E1",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "E3",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "E5",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "BMM150_0_1",
+            "BMM150_1_1"
+        ]
+    },
+    "DRV5033AJxDBZ": {
+        "description": "",
+        "keywords": "Digital Omnipolar Switch Hall Effect Sensor",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/drv5033.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "DRV5033AJxLPG": {
+        "description": "",
+        "keywords": "Digital Omnipolar Switch Hall Effect Sensor",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/drv5033.pdf",
+        "footprint": "Package_TO_SOT_THT:TO-92_Inline",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "DRV5033FAxDBZ": {
+        "description": "",
+        "keywords": "Digital Omnipolar Switch Hall Effect Sensor",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/drv5033.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "DRV5033FAxLPG": {
+        "description": "",
+        "keywords": "Digital Omnipolar Switch Hall Effect Sensor",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/drv5033.pdf",
+        "footprint": "Package_TO_SOT_THT:TO-92_Inline",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "DRV5055A1xDBZxQ1": {
+        "description": "",
+        "keywords": "Automotive Ratiometric Linear Hall Effect Sensor AEC-Q100",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            }
+        ],
+        "units": [
+            "DRV5055A1xDBZxQ1_1_1"
+        ]
+    },
+    "DRV5055A1xLPGxQ1": {
+        "description": "",
+        "keywords": "Automotive Ratiometric Linear Hall Effect Sensor AEC-Q100",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf",
+        "footprint": "Package_TO_SOT_THT:TO-92_Inline",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "DRV5055A1xLPGxQ1_1_1"
+        ]
+    },
+    "DRV5055A2xDBZxQ1": {
+        "description": "",
+        "keywords": "Automotive Ratiometric Linear Hall Effect Sensor AEC-Q100",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "DRV5055A2xLPGxQ1": {
+        "description": "",
+        "keywords": "Automotive Ratiometric Linear Hall Effect Sensor AEC-Q100",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf",
+        "footprint": "Package_TO_SOT_THT:TO-92_Inline",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "DRV5055A3xDBZxQ1": {
+        "description": "",
+        "keywords": "Automotive Ratiometric Linear Hall Effect Sensor AEC-Q100",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "DRV5055A3xLPGxQ1": {
+        "description": "",
+        "keywords": "Automotive Ratiometric Linear Hall Effect Sensor AEC-Q100",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf",
+        "footprint": "Package_TO_SOT_THT:TO-92_Inline",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "DRV5055A4xDBZxQ1": {
+        "description": "",
+        "keywords": "Automotive Ratiometric Linear Hall Effect Sensor AEC-Q100",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "DRV5055A4xLPGxQ1": {
+        "description": "",
+        "keywords": "Automotive Ratiometric Linear Hall Effect Sensor AEC-Q100",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf",
+        "footprint": "Package_TO_SOT_THT:TO-92_Inline",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IST8308": {
+        "description": "",
+        "keywords": "magnet field sensor compass",
+        "datasheet": "http://www.isentek.com/en/dlf.php?file=../ISENTEK/(201703-20)IST8308%20Datasheet%20v1.0_brief.pdf",
+        "footprint": "Package_LGA:LGA-16_3x3mm_P0.5mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IST8310": {
+        "description": "",
+        "keywords": "magnet field sensor compass",
+        "datasheet": "http://www.isentek.com/en/dlf.php?file=../ISENTEK/(201703-09)IST8310%20Datasheet%20v1.2_brief-105.09.20.pdf",
+        "footprint": "Package_LGA:LGA-16_3x3mm_P0.5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "AVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "3",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "CAD0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "CAD1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "VPP",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "8",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "9",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "10",
+                "name": "C1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "VSS",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "12",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "13",
+                "name": "DVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "14",
+                "name": "~{RST}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "15",
+                "name": "DRDY",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "16",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "IST8310_0_1",
+            "IST8310_1_1"
+        ]
+    },
+    "LIS2MDL": {
+        "description": "",
+        "keywords": "digital magnetometer",
+        "datasheet": "https://www.st.com/resource/en/datasheet/lis2mdl.pdf",
+        "footprint": "Package_LGA:LGA-12_2x2mm_P0.5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "SCL/SPC",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "SDA/SDI/SDO",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "C1",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "7",
+                "name": "DRDY",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "9",
+                "name": "Vdd",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "10",
+                "name": "Vdd_IO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "11",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "12",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "LIS2MDL_0_1",
+            "LIS2MDL_1_1"
+        ]
+    },
+    "LIS3MDL": {
+        "description": "",
+        "keywords": "digital magnetometer",
+        "datasheet": "https://www.st.com/resource/en/datasheet/lis3mdl.pdf",
+        "footprint": "Package_LGA:LGA-12_2x2mm_P0.5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "SCL/SPC",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "4",
+                "name": "C1",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "Vdd",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "6",
+                "name": "Vdd_IO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "7",
+                "name": "INT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "DRDY",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "9",
+                "name": "SDO/SA1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "10",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "11",
+                "name": "SDA/SDI/SDO",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "12",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            }
+        ],
+        "units": [
+            "LIS3MDL_0_1",
+            "LIS3MDL_1_1"
+        ]
+    },
+    "MA730": {
+        "description": "",
+        "keywords": "sensor magnetic hall position rotation spi",
+        "datasheet": "https://www.monolithicpower.com/pub/media/document/m/a/ma730_r1.01.pdf",
+        "footprint": "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "SSD",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "Z",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "MOSI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "B",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "MISO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "9",
+                "name": "PWM",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "TEST",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "11",
+                "name": "MGL",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "12",
+                "name": "SCLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "13",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "14",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "15",
+                "name": "SSCK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "16",
+                "name": "MGH",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "17",
+                "name": "PAD",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -12.7
+                }
+            }
+        ],
+        "units": [
+            "MA730_0_1",
+            "MA730_1_1"
+        ]
+    },
+    "MLX90395xLW": {
+        "description": "",
+        "keywords": "Melexis Triaxis Hall-Sensor",
+        "datasheet": "https://www.melexis.com/en/documents/documentation/datasheets/datasheet-mlx90395",
+        "footprint": "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.675x1.675mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "INT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "SCLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "V_{SS}",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "5",
+                "name": "MOSI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "MISO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "INT/TRG",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "V_{SS}",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "9",
+                "name": "V_{SS}",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "10",
+                "name": "V_{SS}",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "11",
+                "name": "A1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "12",
+                "name": "A0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "13",
+                "name": "V_{SS}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "14",
+                "name": "V_{SS}",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "15",
+                "name": "V_{DD}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "16",
+                "name": "V_{SS}",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "17",
+                "name": "V_{SS}",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            }
+        ],
+        "units": [
+            "MLX90395xLW_0_1",
+            "MLX90395xLW_1_1"
+        ]
+    },
+    "MMC5633NJL": {
+        "description": "",
+        "keywords": "I2C I3C magnetic 3-axis sensor magnetometer AMR magnetoresistance",
+        "datasheet": "http://www.memsic.com/uploadfiles/2020/08/20200827165106864.pdf",
+        "footprint": "Package_BGA:WLP-4_0.86x0.86mm_P0.4mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "A1",
+                "name": "VSA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "A2",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "B1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "B2",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "MMC5633NJL_0_1",
+            "MMC5633NJL_1_1"
+        ]
+    },
+    "MMC5883MA": {
+        "description": "",
+        "keywords": "I2C magnetic 3-axis sensor",
+        "datasheet": "http://www.memsic.com/userfiles/files/DataSheets/Magnetic-Sensors-Datasheets/MMC5883MA-RevC.pdf",
+        "footprint": "Package_LGA:LGA-16_3x3mm_P0.5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "9",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "CAP",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "11",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "12",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "13",
+                "name": "VDDIO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "14",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "15",
+                "name": "INT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "16",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "MMC5883MA_0_1",
+            "MMC5883MA_1_1"
+        ]
+    },
+    "MT6701CT": {
+        "description": "",
+        "keywords": "sensor magnetic hall rotation",
+        "datasheet": "https://www.magntek.com.cn/upload/MT6701_Rev.1.5.pdf",
+        "footprint": "Package_SO:SO-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "2",
+                "name": "MODE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "5",
+                "name": "PUSH",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "6",
+                "name": "A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "7",
+                "name": "B",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "8",
+                "name": "Z",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "MT6701CT_0_1",
+            "MT6701CT_1_1"
+        ]
+    },
+    "MT6701QT": {
+        "description": "",
+        "keywords": "sensor magnetic hall rotation",
+        "datasheet": "https://www.magntek.com.cn/upload/MT6701_Rev.1.5.pdf",
+        "footprint": "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "2",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "PUSH",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "6",
+                "name": "A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "7",
+                "name": "B",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "8",
+                "name": "Z",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "W",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "10",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "U",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "12",
+                "name": "V",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "13",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "14",
+                "name": "MODE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "15",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "16",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "17",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -17.78
+                }
+            }
+        ],
+        "units": [
+            "MT6701QT_0_1",
+            "MT6701QT_1_1"
+        ]
+    },
+    "MT6816CT": {
+        "description": "",
+        "keywords": "ABZ UVW SPI 14bit AMR Incremental Absolute Position Encoder",
+        "datasheet": "http://www.magntek.com.cn/upload/MT6816_Rev.2.0.pdf",
+        "footprint": "Package_SO:SO-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "HVPP",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "A/U",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "B/V",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "Z/W",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "8",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            }
+        ],
+        "units": [
+            "MT6816CT_1_1"
+        ]
+    },
+    "Si7210-B-xx-IM2": {
+        "description": "",
+        "keywords": "I2C hall effect magnetic postition temperature sensor",
+        "datasheet": "https://www.silabs.com/documents/public/data-sheets/si7210-datasheet.pdf",
+        "footprint": "Package_DFN_QFN:TDFN-8_1.4x1.6mm_P0.4mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "Out",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "8",
+                "name": "V_{DD}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "Si7210-B-xx-IM2_0_1",
+            "Si7210-B-xx-IM2_1_1"
+        ]
+    },
+    "Si7210-B-xx-IV": {
+        "description": "",
+        "keywords": "I2C hall effect magnetic postition temperature sensor",
+        "datasheet": "https://www.silabs.com/documents/public/data-sheets/si7210-datasheet.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "V_{DD}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "ALERT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "Si7210-B-xx-IV_0_1",
+            "Si7210-B-xx-IV_1_1"
+        ]
+    },
+    "SM351LT": {
+        "description": "",
+        "keywords": "Hall Effect Switch Sensor",
+        "datasheet": "https://sensing.honeywell.com/honeywell-sensing-nanopower-series-product-sheet-50095501-a-en.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "OUTPUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "SM351LT_0_1",
+            "SM351LT_1_1"
+        ]
+    },
+    "SM353LT": {
+        "description": "",
+        "keywords": "Hall Effect Switch Sensor",
+        "datasheet": "https://sensing.honeywell.com/honeywell-sensing-nanopower-series-product-sheet-50095501-a-en.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TLE5012B": {
+        "description": "",
+        "keywords": "Infineon GMR Angle Position Rotation SPI SSC PWM IIF SPC SENT HSM BIST AEC",
+        "datasheet": "https://www.infineon.com/dgdl/Infineon-TLE5012B_Exxxx-DataSheet-v02_01-EN.pdf?fileId=db3a304334fac4c601350f31c43c433f",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "IFC",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "SCK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "CSQ",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "DATA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "IFA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "7",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "8",
+                "name": "IFB",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "TLE5012B_0_1",
+            "TLE5012B_1_1"
+        ]
+    },
+    "TLV493D": {
+        "description": "",
+        "keywords": "magnetic field i2c",
+        "datasheet": "http://www.infineon.com/dgdl/Infineon-TLV493D-A1B6-DS-v01_00-EN.pdf?fileId=5546d462525dbac40152a6b85c760e80",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "SCL/INT",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "5",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "6",
+                "name": "SDA/ADDR",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "TLV493D_0_1",
+            "TLV493D_1_1"
+        ]
+    },
+    "TMAG5110A2xxDBV": {
+        "description": "",
+        "keywords": "hall switch",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/tmag5110.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "NC",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "OUT1",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT2",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "TMAG5110A2xxDBV_0_0",
+            "TMAG5110A2xxDBV_0_1",
+            "TMAG5110A2xxDBV_1_1"
+        ]
+    },
+    "TMAG5110A4xxDBV": {
+        "description": "",
+        "keywords": "hall switch",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/tmag5110.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMAG5110B2xxDBV": {
+        "description": "",
+        "keywords": "hall switch",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/tmag5110.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMAG5110B4xxDBV": {
+        "description": "",
+        "keywords": "hall switch",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/tmag5110.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMAG5110C2xxDBV": {
+        "description": "",
+        "keywords": "hall switch",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/tmag5110.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMAG5110C4xxDBV": {
+        "description": "",
+        "keywords": "hall switch",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/tmag5110.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMAG5111A2xxDBV": {
+        "description": "",
+        "keywords": "hall switch",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/tmag5111.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMAG5111A4xxDBV": {
+        "description": "",
+        "keywords": "hall switch",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/tmag5111.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMAG5111B2xxDBV": {
+        "description": "",
+        "keywords": "hall switch",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/tmag5111.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMAG5111B4xxDBV": {
+        "description": "",
+        "keywords": "hall switch",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/tmag5111.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMAG5111C2xxDBV": {
+        "description": "",
+        "keywords": "hall switch",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/tmag5111.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMAG5111C4xxDBV": {
+        "description": "",
+        "keywords": "hall switch",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/tmag5111.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMAG5170-Q1": {
+        "description": "",
+        "keywords": "sensor magnetic hall position rotation spi",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/tmag5170-q1.pdf",
+        "footprint": "Package_SO:VSSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "SCLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "MOSI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "MISO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "~{CS}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "6",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "7",
+                "name": "TEST",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "8",
+                "name": "~{ALERT}",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "TMAG5170-Q1_0_1",
+            "TMAG5170-Q1_1_1"
+        ]
+    }
+}

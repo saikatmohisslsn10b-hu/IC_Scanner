@@ -1,0 +1,1507 @@
+{
+    "ADAU1450": {
+        "description": "",
+        "keywords": "sigmadsp audio",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADAU1452_1451_1450.pdf",
+        "footprint": "Package_CSP:LFCSP-72-1EP_10x10mm_P0.5mm_EP5.3x5.3mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "DGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -48.26
+                }
+            },
+            {
+                "number": "2",
+                "name": "IOVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 48.26
+                }
+            },
+            {
+                "number": "3",
+                "name": "VDRIVE",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "4",
+                "name": "SPDIFIN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "5",
+                "name": "SPDIFOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "6",
+                "name": "AGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -48.26
+                }
+            },
+            {
+                "number": "7",
+                "name": "AVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 48.26
+                }
+            },
+            {
+                "number": "8",
+                "name": "AUXADC0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "9",
+                "name": "AUXADC1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "10",
+                "name": "AUXADC2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "11",
+                "name": "AUXADC3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "12",
+                "name": "AUXADC4",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -38.1
+                }
+            },
+            {
+                "number": "13",
+                "name": "AUXADC5",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -40.64
+                }
+            },
+            {
+                "number": "14",
+                "name": "PGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -48.26
+                }
+            },
+            {
+                "number": "15",
+                "name": "PVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 48.26
+                }
+            },
+            {
+                "number": "16",
+                "name": "PLLFILT",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "17",
+                "name": "DGND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -48.26
+                }
+            },
+            {
+                "number": "18",
+                "name": "IOVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 48.26
+                }
+            },
+            {
+                "number": "19",
+                "name": "DGND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -48.26
+                }
+            },
+            {
+                "number": "20",
+                "name": "DVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 48.26
+                }
+            },
+            {
+                "number": "21",
+                "name": "XTALIN/MCLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "22",
+                "name": "XTALOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "23",
+                "name": "CLKOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "24",
+                "name": "~{RESET}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "25",
+                "name": "DGND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -48.26
+                }
+            },
+            {
+                "number": "26",
+                "name": "SS_M/MP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "27",
+                "name": "MOSI_M/MP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "28",
+                "name": "SCL_M/SCLK_M/MP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "29",
+                "name": "SDA_M/MISO_M/MP3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "30",
+                "name": "MISO/SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "31",
+                "name": "SCLK/SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "32",
+                "name": "MOSI/ADDR1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "33",
+                "name": "SS/ADDR0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": -38.1
+                }
+            },
+            {
+                "number": "34",
+                "name": "SELFBOOT",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "35",
+                "name": "DVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 48.26
+                }
+            },
+            {
+                "number": "36",
+                "name": "DGND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -48.26
+                }
+            },
+            {
+                "number": "37",
+                "name": "DGND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -48.26
+                }
+            },
+            {
+                "number": "38",
+                "name": "IOVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 48.26
+                }
+            },
+            {
+                "number": "39",
+                "name": "LRCLK_OUT0/MP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "40",
+                "name": "BCLK_OUT0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "41",
+                "name": "SDATA_OUT0",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "42",
+                "name": "LRCLK_OUT1/MP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "43",
+                "name": "BCLK_OUT1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "44",
+                "name": "SDATA_OUT1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "45",
+                "name": "MP6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": -40.64
+                }
+            },
+            {
+                "number": "46",
+                "name": "MP7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "47",
+                "name": "LRCLK_OUT2/MP8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 0
+                }
+            },
+            {
+                "number": "48",
+                "name": "BCLK_OUT2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "49",
+                "name": "SDATA_OUT2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "50",
+                "name": "LRCLK_OUT3/MP9",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "51",
+                "name": "BCLK_OUT3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "52",
+                "name": "SDATA_OUT3",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "53",
+                "name": "DVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 48.26
+                }
+            },
+            {
+                "number": "54",
+                "name": "DGND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -48.26
+                }
+            },
+            {
+                "number": "55",
+                "name": "DGND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -48.26
+                }
+            },
+            {
+                "number": "56",
+                "name": "IOVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 48.26
+                }
+            },
+            {
+                "number": "57",
+                "name": "BCLK_IN0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "58",
+                "name": "LRCLK_IN0/MP10",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "59",
+                "name": "SDATA_IN0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "60",
+                "name": "BCLK_IN1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "61",
+                "name": "LRCLK_IN1/MP11",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "62",
+                "name": "SDATA_IN1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "63",
+                "name": "THD_M",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "64",
+                "name": "THD_P",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "65",
+                "name": "BCLK_IN2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 0
+                }
+            },
+            {
+                "number": "66",
+                "name": "LRCLK_IN2/MP12",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "67",
+                "name": "SDATA_IN2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "68",
+                "name": "BCLK_IN3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "69",
+                "name": "LRCLK_IN3/MP13",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "70",
+                "name": "SDATA_IN3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "71",
+                "name": "DVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 48.26
+                }
+            },
+            {
+                "number": "72",
+                "name": "DGND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -48.26
+                }
+            },
+            {
+                "number": "73",
+                "name": "EP",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -48.26
+                }
+            }
+        ],
+        "units": [
+            "ADAU1450_0_1",
+            "ADAU1450_1_1"
+        ]
+    },
+    "ADAU1451": {
+        "description": "",
+        "keywords": "sigmadsp audio",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADAU1452_1451_1450.pdf",
+        "footprint": "Package_CSP:LFCSP-72-1EP_10x10mm_P0.5mm_EP5.3x5.3mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ADAU1452": {
+        "description": "",
+        "keywords": "sigmadsp audio",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADAU1452_1451_1450.pdf",
+        "footprint": "Package_CSP:LFCSP-72-1EP_10x10mm_P0.5mm_EP5.3x5.3mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ADAU1701": {
+        "description": "",
+        "keywords": "sigmadsp audio adc dac",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADAU1701.pdf",
+        "footprint": "Package_QFP:LQFP-48_7x7mm_P0.5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "2",
+                "name": "ADC0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "3",
+                "name": "ADC_RES",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "4",
+                "name": "ADC1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "5",
+                "name": "~{RESET}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "6",
+                "name": "SELFBOOT",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "7",
+                "name": "ADDR0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "MP4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "9",
+                "name": "MP5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "MP1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "MP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "12",
+                "name": "DGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "13",
+                "name": "DVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "14",
+                "name": "MP7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "15",
+                "name": "MP6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "16",
+                "name": "MP10",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "17",
+                "name": "VDRIVE",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "18",
+                "name": "IOVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "19",
+                "name": "MP11",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "20",
+                "name": "ADDR1/CDATA/WB",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "21",
+                "name": "CLATCH/WP",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "22",
+                "name": "SDA/COUT",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "23",
+                "name": "SCL/CCLK",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "24",
+                "name": "DVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "25",
+                "name": "DGND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "26",
+                "name": "MP9",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "27",
+                "name": "MP8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "28",
+                "name": "MP3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "29",
+                "name": "MP2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "30",
+                "name": "RSVD",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "31",
+                "name": "OSCO",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "32",
+                "name": "MCLKI",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "33",
+                "name": "PGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "34",
+                "name": "PVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "35",
+                "name": "PLL_LF",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "36",
+                "name": "AVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "37",
+                "name": "AGND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "38",
+                "name": "PLL_MODE0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "39",
+                "name": "PLL_MODE1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "40",
+                "name": "CM",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "41",
+                "name": "FILTD",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "42",
+                "name": "AGND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "43",
+                "name": "VOUT3",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "44",
+                "name": "VOUT2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "45",
+                "name": "VOUT1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "46",
+                "name": "VOUT0",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "47",
+                "name": "FILTA",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "48",
+                "name": "AVDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 33.02
+                }
+            }
+        ],
+        "units": [
+            "ADAU1701_0_1",
+            "ADAU1701_1_1"
+        ]
+    },
+    "ADAU1702": {
+        "description": "",
+        "keywords": "sigmadsp audio adc dac",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADAU1702.pdf",
+        "footprint": "Package_QFP:LQFP-48_7x7mm_P0.5mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    }
+}

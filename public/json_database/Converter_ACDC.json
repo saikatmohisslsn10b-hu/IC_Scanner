@@ -1,0 +1,4114 @@
+{
+    "BAC05S05DC": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply muRataPs",
+        "datasheet": "https://www.murata.com/products/productdata/8809982558238/KAC-BAC05.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Murata_BAC05SxxDC_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC/N",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC/L",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "-Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "+Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "BAC05S05DC_0_1",
+            "BAC05S05DC_1_1"
+        ]
+    },
+    "HLK-10M03": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9710W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9110W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.8.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-10Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-10M05": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9710W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9110W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.8.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-10Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-10M09": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9710W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9110W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.8.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-10Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-10M12": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9710W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9110W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.8.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-10Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-10M15": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9710W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9110W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.8.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-10Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-10M24": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9710W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9110W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.8.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-10Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-12M03A": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9712W%E7%B3%BB%E5%88%97/1/12W%E7%B3%BB%E5%88%97%E8%A7%84%E6%A0%BC%E4%B9%A6.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-12MxxA",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-12M05A": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9712W%E7%B3%BB%E5%88%97/1/12W%E7%B3%BB%E5%88%97%E8%A7%84%E6%A0%BC%E4%B9%A6.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-12MxxA",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC/L",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC/N",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "+Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "-Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "HLK-12M05A_0_1",
+            "HLK-12M05A_1_1"
+        ]
+    },
+    "HLK-12M09A": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9712W%E7%B3%BB%E5%88%97/1/12W%E7%B3%BB%E5%88%97%E8%A7%84%E6%A0%BC%E4%B9%A6.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-12MxxA",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-12M12A": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9712W%E7%B3%BB%E5%88%97/1/12W%E7%B3%BB%E5%88%97%E8%A7%84%E6%A0%BC%E4%B9%A6.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-12MxxA",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-12M15A": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9712W%E7%B3%BB%E5%88%97/1/12W%E7%B3%BB%E5%88%97%E8%A7%84%E6%A0%BC%E4%B9%A6.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-12MxxA",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-12M24A": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9712W%E7%B3%BB%E5%88%97/1/12W%E7%B3%BB%E5%88%97%E8%A7%84%E6%A0%BC%E4%B9%A6.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-12MxxA",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-20M05": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9720W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9120W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.6.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-20Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-20M09": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9720W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9120W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.6.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-20Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-20M12": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9720W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9120W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.6.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-20Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-20M15": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9720W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9120W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.6.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-20Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-20M24": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9720W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9120W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.6.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-20Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-2M03": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%972W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%912W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%AF%B4%E6%98%8E%E4%B9%A6V2.6.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-2Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-2M05": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%972W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%912W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%AF%B4%E6%98%8E%E4%B9%A6V2.6.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-2Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-2M09": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%972W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%912W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%AF%B4%E6%98%8E%E4%B9%A6V2.6.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-2Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-2M12": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%972W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%912W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%AF%B4%E6%98%8E%E4%B9%A6V2.6.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-2Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-2M15": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%972W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%912W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%AF%B4%E6%98%8E%E4%B9%A6V2.6.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-2Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-2M24": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%972W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%912W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%AF%B4%E6%98%8E%E4%B9%A6V2.6.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-2Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-30M05": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9730W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9130W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.6.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-30Mxx",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC/L",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC/N",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "-Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "+Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "HLK-30M05_0_1",
+            "HLK-30M05_1_1"
+        ]
+    },
+    "HLK-30M05C": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9730W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9130WC%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.2.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-30Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-30M09": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9730W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9130W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.6.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-30Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-30M09C": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9730W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9130WC%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.2.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-30Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-30M12": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9730W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9130W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.6.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-30Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-30M12C": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9730W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9130WC%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.2.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-30Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-30M15": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9730W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9130W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.6.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-30Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-30M15C": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9730W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9130WC%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.2.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-30Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-30M24": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9730W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9130W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.6.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-30Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-30M24C": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9730W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9130WC%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.2.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-30Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-5M03": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%975W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%915W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-5M05": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%975W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%915W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-5M09": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%975W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%915W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-5M12": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%975W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%915W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-5M15": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%975W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%915W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-5M24": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%975W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%915W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-PM01": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%973W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%913W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-PMxx",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC/L",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC/N",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "-Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "+Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "HLK-PM01_0_1",
+            "HLK-PM01_1_1"
+        ]
+    },
+    "HLK-PM03": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%973W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%913W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-PMxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-PM09": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%973W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%913W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-PMxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-PM12": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%973W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%913W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-PMxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-PM15": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%973W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%913W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-PMxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HLK-PM24": {
+        "description": "",
+        "keywords": "AC/DC module power supply",
+        "datasheet": "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%973W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%913W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-PMxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HS-40003": {
+        "description": "",
+        "keywords": "3.3V 3W AC-DC module power supply",
+        "datasheet": "http://www.tme.eu/de/Document/d4b3c52125889c3435af182c9515c76b/HS40003.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hahn_HS-400xx_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC/N",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "AC/L",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "+Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "9",
+                "name": "-Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "HS-40003_0_1",
+            "HS-40003_1_1"
+        ]
+    },
+    "HS-40005": {
+        "description": "",
+        "keywords": "5V 3W AC-DC module power supply",
+        "datasheet": "http://www.tme.eu/de/Document/996b08915f81126361ce1f9c12d2f8b9/HS40005.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hahn_HS-400xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HS-40009": {
+        "description": "",
+        "keywords": "9V 3W AC-DC module power supply",
+        "datasheet": "http://www.tme.eu/de/Document/cd3ff0c74e0c3bb183174aa10baf8730/HS40009.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hahn_HS-400xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HS-40012": {
+        "description": "",
+        "keywords": "12V 3W AC-DC module power supply",
+        "datasheet": "http://www.tme.eu/de/Document/221b247820f4fbb72e0cbc1ee10acb85/HS40012.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hahn_HS-400xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HS-40015": {
+        "description": "",
+        "keywords": "15V 3W AC-DC module power supply",
+        "datasheet": "https://www.schukat.com/schukat/pdf.nsf/index/956F3869A8D071A1C1257B810041B129/$file/HS-40015-Serie%20Schemazeichnung-A3%20(1).pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hahn_HS-400xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HS-40018": {
+        "description": "",
+        "keywords": "18V 3W AC-DC module power supply",
+        "datasheet": "https://www.schukat.com/schukat/pdf.nsf/index/6A4EEAC16DA84B74C1257B810041DC7B/$file/HS-40018-Serie%20Schemazeichnung-A3%20(1).pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hahn_HS-400xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "HS-40024": {
+        "description": "",
+        "keywords": "24V 3W AC-DC module power supply",
+        "datasheet": "https://www.schukat.com/schukat/pdf.nsf/index/17647BA7403E2D39C1257B810041F34E/$file/HS-40024-Serie%20Schemazeichnung-A3%20(1).pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Hahn_HS-400xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-02-12": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-02/IRM-02-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-02-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-02-12S": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-02/IRM-02-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-02-xx_SMD",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-02-15": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-02/IRM-02-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-02-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-02-15S": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-02/IRM-02-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-02-xx_SMD",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-02-24": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-02/IRM-02-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-02-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-02-24S": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-02/IRM-02-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-02-xx_SMD",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-02-3.3": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-02/IRM-02-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-02-xx_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC/N",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC/L",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "-Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "+Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "IRM-02-3.3_0_1",
+            "IRM-02-3.3_1_1"
+        ]
+    },
+    "IRM-02-3.3S": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-02/IRM-02-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-02-xx_SMD",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC/L",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "12",
+                "name": "+Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "13",
+                "name": "-Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "24",
+                "name": "AC/N",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "IRM-02-3.3S_1_1"
+        ]
+    },
+    "IRM-02-5": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-02/IRM-02-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-02-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-02-5S": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-02/IRM-02-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-02-xx_SMD",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-02-9": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-02/IRM-02-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-02-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-02-9S": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-02/IRM-02-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-02-xx_SMD",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-03-12": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-03/IRM-03-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-03-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-03-12S": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-03/IRM-03-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-03-xx_SMD",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-03-15": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-03/IRM-03-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-03-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-03-15S": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-03/IRM-03-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-03-xx_SMD",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-03-24": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-03/IRM-03-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-03-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-03-24S": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-03/IRM-03-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-03-xx_SMD",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-03-3.3": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-03/IRM-03-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-03-xx_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC/L",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "AC/N",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "14",
+                "name": "-Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "16",
+                "name": "+Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "IRM-03-3.3_0_1",
+            "IRM-03-3.3_1_1"
+        ]
+    },
+    "IRM-03-3.3S": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-03/IRM-03-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-03-xx_SMD",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC/L",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "AC/N",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "14",
+                "name": "-Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "16",
+                "name": "+Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "IRM-03-3.3S_0_1",
+            "IRM-03-3.3S_1_1"
+        ]
+    },
+    "IRM-03-5": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-03/IRM-03-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-03-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-03-5S": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-03/IRM-03-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-03-xx_SMD",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-03-9": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-03/IRM-03-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-03-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-03-9S": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-03/IRM-03-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-03-xx_SMD",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-05-12": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-05/IRM-05-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-05-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-05-15": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-05/IRM-05-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-05-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-05-24": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-05/IRM-05-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-05-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-05-3.3": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-05/IRM-05-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-05-xx_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC/N",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC/L",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "-Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "+Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "IRM-05-3.3_0_1",
+            "IRM-05-3.3_1_1"
+        ]
+    },
+    "IRM-05-5": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-05/IRM-05-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-05-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-10-12": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-10-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-10-15": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-10-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-10-24": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-10-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-10-3.3": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-10-xx_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC/N",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC/L",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "-Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "+Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "IRM-10-3.3_0_1",
+            "IRM-10-3.3_1_1"
+        ]
+    },
+    "IRM-10-5": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-10-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-20-12": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-20-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-20-15": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-20-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-20-24": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-20-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-20-3.3": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-20-xx_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC/L",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC/N",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "-Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "+Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "IRM-20-3.3_0_1",
+            "IRM-20-3.3_1_1"
+        ]
+    },
+    "IRM-20-5": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-20-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-60-12": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "http://www.meanwellusa.com/productPdf.aspx?i=687",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-60-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-60-15": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "http://www.meanwellusa.com/productPdf.aspx?i=687",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-60-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-60-24": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "http://www.meanwellusa.com/productPdf.aspx?i=687",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-60-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-60-48": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "http://www.meanwellusa.com/productPdf.aspx?i=687",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-60-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IRM-60-5": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "http://www.meanwellusa.com/productPdf.aspx?i=687",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_IRM-60-xx_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC/L",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC/N",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "+Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "-Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "IRM-60-5_1_1"
+        ]
+    },
+    "MFM-10-12": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/MFM-10/MFM-10-spec.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_MFM-10-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MFM-10-15": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/MFM-10/MFM-10-spec.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_MFM-10-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MFM-10-24": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/MFM-10/MFM-10-spec.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_MFM-10-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MFM-10-3.3": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/MFM-10/MFM-10-spec.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_MFM-10-xx_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC/N",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC/L",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "-Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "+Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "MFM-10-3.3_0_1",
+            "MFM-10-3.3_1_1"
+        ]
+    },
+    "MFM-10-5": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/MFM-10/MFM-10-spec.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_MFM-10-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MFM-15-12": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/MFM-15/MFM-15-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_MFM-15-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MFM-15-15": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/MFM-15/MFM-15-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_MFM-15-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MFM-15-24": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/MFM-15/MFM-15-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_MFM-15-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MFM-15-3.3": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/MFM-15/MFM-15-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_MFM-15-xx_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC/L",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC/N",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "-Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "+Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "MFM-15-3.3_0_1",
+            "MFM-15-3.3_1_1"
+        ]
+    },
+    "MFM-15-5": {
+        "description": "",
+        "keywords": "Miniature Module-type Power Supply MeanWell",
+        "datasheet": "https://www.meanwell.com/Upload/PDF/MFM-15/MFM-15-SPEC.PDF",
+        "footprint": "Converter_ACDC:Converter_ACDC_MeanWell_MFM-15-xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PBO-3-S12": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.cui.com/product/resource/pbo-3.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_CUI_PBO-3-Sxx_THT_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PBO-3-S15": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.cui.com/product/resource/pbo-3.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_CUI_PBO-3-Sxx_THT_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PBO-3-S24": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.cui.com/product/resource/pbo-3.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_CUI_PBO-3-Sxx_THT_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PBO-3-S3.3": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.cui.com/product/resource/pbo-3.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_CUI_PBO-3-Sxx_THT_Vertical",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC(N)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "AC(L)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "+V(CAP)",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "-V(CAP)",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "10",
+                "name": "-Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "12",
+                "name": "+Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "PBO-3-S3.3_1_1"
+        ]
+    },
+    "PBO-3-S5": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.cui.com/product/resource/pbo-3.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_CUI_PBO-3-Sxx_THT_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "PBO-3-S9": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.cui.com/product/resource/pbo-3.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_CUI_PBO-3-Sxx_THT_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC01-05SGB": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC01-GB.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC01-xxSGB_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC01-12SGB": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC01-GB.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC01-xxSGB_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC01-24SGB": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC01-GB.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC01-xxSGB_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC01-3.3SGB": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC01-GB.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC01-xxSGB_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC01-xxSGB": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC01-GB.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC01-xxSGB_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC(L)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC(N)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "-Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "+Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "RAC01-xxSGB_1_1"
+        ]
+    },
+    "RAC04-05SGA": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC04-xxSGx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC04-05SGB": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GB.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC04-xxSGx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC04-09SGA": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC04-xxSGx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC04-09SGB": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GB.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC04-xxSGx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC04-12SGA": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC04-xxSGx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC04-12SGB": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GB.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC04-xxSGx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC04-15SGA": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC04-xxSGx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC04-15SGB": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GB.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC04-xxSGx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC04-24SGA": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC04-xxSGx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC04-24SGB": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GB.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC04-xxSGx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC04-3.3SGA": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC04-xxSGx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC04-3.3SGB": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GB.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC04-xxSGx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC04-xxSGA": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC04-xxSGx_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC(L)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC(N)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "-Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "+Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "RAC04-xxSGA_1_1"
+        ]
+    },
+    "RAC04-xxSGB": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GB.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC04-xxSGx_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC(L)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC(N)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "-Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "+Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "RAC04-xxSGB_1_1"
+        ]
+    },
+    "RAC05-05SK": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC05-K.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC05-xxSK_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC05-12SK": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC05-K.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC05-xxSK_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC05-15SK": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC05-K.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC05-xxSK_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC05-24SK": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC05-K.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC05-xxSK_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC05-3.3SK": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC05-K.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_RECOM_RAC05-xxSK_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC(L)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC(N)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "-Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "+Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "RAC05-3.3SK_1_1"
+        ]
+    },
+    "RAC20-05SK": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://recom-power.com/pdf/Powerline_AC-DC/RAC20-K.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Recom_RAC20-xxSK_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC(N)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC(L)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "-Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "+Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "RAC20-05SK_1_1"
+        ]
+    },
+    "RAC20-12DK": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://recom-power.com/pdf/Powerline_AC-DC/RAC20-K.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Recom_RAC20-xxDK_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC(N)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC(L)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "-Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "Com",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "+Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "RAC20-12DK_0_1",
+            "RAC20-12DK_1_1"
+        ]
+    },
+    "RAC20-12SK": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://recom-power.com/pdf/Powerline_AC-DC/RAC20-K.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Recom_RAC20-xxSK_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC20-15DK": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://recom-power.com/pdf/Powerline_AC-DC/RAC20-K.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Recom_RAC20-xxDK_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC20-15SK": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://recom-power.com/pdf/Powerline_AC-DC/RAC20-K.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Recom_RAC20-xxSK_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC20-24SK": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://recom-power.com/pdf/Powerline_AC-DC/RAC20-K.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Recom_RAC20-xxSK_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "RAC20-48SK": {
+        "description": "",
+        "keywords": "ac dc power supply",
+        "datasheet": "https://recom-power.com/pdf/Powerline_AC-DC/RAC20-K.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_Recom_RAC20-xxSK_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMF05105": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc acdc power-supply 60601-1",
+        "datasheet": "https://www.tracopower.com/products/tmf05.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMF_051xx_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC(L)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC(N)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "-Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "+Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "TMF05105_1_1"
+        ]
+    },
+    "TMF05112": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc acdc power-supply 60601-1",
+        "datasheet": "https://www.tracopower.com/products/tmf05.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMF_051xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMF05115": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc acdc power-supply 60601-1",
+        "datasheet": "https://www.tracopower.com/products/tmf05.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMF_051xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMF05124": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc acdc power-supply 60601-1",
+        "datasheet": "https://www.tracopower.com/products/tmf05.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMF_051xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMF10105": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc acdc power-supply 60601-1",
+        "datasheet": "https://www.tracopower.com/products/tmf10.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMF_101xx_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC(N)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC(L)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "+Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "-Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "TMF10105_1_1"
+        ]
+    },
+    "TMF10112": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc acdc power-supply 60601-1",
+        "datasheet": "https://www.tracopower.com/products/tmf10.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMF_101xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMF10115": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc acdc power-supply 60601-1",
+        "datasheet": "https://www.tracopower.com/products/tmf10.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMF_101xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMF10124": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc acdc power-supply 60601-1",
+        "datasheet": "https://www.tracopower.com/products/tmf10.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMF_101xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMF20105": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc acdc power-supply 60601-1",
+        "datasheet": "https://www.tracopower.com/products/tmf20.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMF_201xx_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC(N)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC(L)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "-Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "+Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "TMF20105_1_1"
+        ]
+    },
+    "TMF20112": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc acdc power-supply 60601-1",
+        "datasheet": "https://www.tracopower.com/products/tmf20.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMF_201xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMF20115": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc acdc power-supply 60601-1",
+        "datasheet": "https://www.tracopower.com/products/tmf20.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMF_201xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMF20124": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc acdc power-supply 60601-1",
+        "datasheet": "https://www.tracopower.com/products/tmf20.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMF_201xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMF30105": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc acdc power-supply 60601-1",
+        "datasheet": "https://www.tracopower.com/products/tmf30.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMF_301xx_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC(N)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC(L)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "-Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "+Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "TMF30105_1_1"
+        ]
+    },
+    "TMF30112": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc acdc power-supply 60601-1",
+        "datasheet": "https://www.tracopower.com/products/tmf30.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMF_301xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMF30115": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc acdc power-supply 60601-1",
+        "datasheet": "https://www.tracopower.com/products/tmf30.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMF_301xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMF30124": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc acdc power-supply 60601-1",
+        "datasheet": "https://www.tracopower.com/products/tmf30.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMF_301xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMG07105": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc power-supply 62368-1 single",
+        "datasheet": "https://www.tracopower.com/products/tmg07.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMG_071xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMG07112": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc power-supply 62368-1 single",
+        "datasheet": "https://www.tracopower.com/products/tmg07.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMG_071xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMG07115": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc power-supply 62368-1 single",
+        "datasheet": "https://www.tracopower.com/products/tmg07.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMG_071xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMG07124": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc power-supply 62368-1 single",
+        "datasheet": "https://www.tracopower.com/products/tmg07.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMG_071xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMG15105": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc power-supply 62368-1 single",
+        "datasheet": "https://www.tracopower.com/products/tmg15.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMG_151xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMG15112": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc power-supply 62368-1 single",
+        "datasheet": "https://www.tracopower.com/products/tmg15.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMG_151xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMG15115": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc power-supply 62368-1 single",
+        "datasheet": "https://www.tracopower.com/products/tmg15.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMG_151xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMG15124": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc power-supply 62368-1 single",
+        "datasheet": "https://www.tracopower.com/products/tmg15.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMG_151xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMLM04103": {
+        "description": "",
+        "keywords": "Traco Power 4W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-04_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "2",
+                "name": "Vout+",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "Vout-",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "AC(L)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "AC(N)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "TMLM04103_0_1",
+            "TMLM04103_1_1"
+        ]
+    },
+    "TMLM04105": {
+        "description": "",
+        "keywords": "Traco Power 4W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-04_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMLM04109": {
+        "description": "",
+        "keywords": "Traco Power 4W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-04_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMLM04112": {
+        "description": "",
+        "keywords": "Traco Power 4W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-04_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMLM04115": {
+        "description": "",
+        "keywords": "Traco Power 4W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-04_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMLM04124": {
+        "description": "",
+        "keywords": "Traco Power 4W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-04_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMLM04225": {
+        "description": "",
+        "keywords": "Traco Power 4W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-04_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "2",
+                "name": "Vout1",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "Common",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "Vout2",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "AC(L)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "AC(N)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "TMLM04225_0_1",
+            "TMLM04225_1_1"
+        ]
+    },
+    "TMLM04253": {
+        "description": "",
+        "keywords": "Traco Power 4W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-04_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMLM05103": {
+        "description": "",
+        "keywords": "Traco Power 5W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-05_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vout-",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "Vout+",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "AC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "AC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "TMLM05103_0_1",
+            "TMLM05103_1_1"
+        ]
+    },
+    "TMLM05105": {
+        "description": "",
+        "keywords": "Traco Power 5W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-05_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMLM05112": {
+        "description": "",
+        "keywords": "Traco Power 5W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-05_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMLM05115": {
+        "description": "",
+        "keywords": "Traco Power 5W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-05_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMLM05124": {
+        "description": "",
+        "keywords": "Traco Power 5W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-05_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMLM10103": {
+        "description": "",
+        "keywords": "Traco Power 10W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-10-20_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vout-",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "Vout+",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "AC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "AC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "TMLM10103_0_1",
+            "TMLM10103_1_1"
+        ]
+    },
+    "TMLM10105": {
+        "description": "",
+        "keywords": "Traco Power 10W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-10-20_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMLM10112": {
+        "description": "",
+        "keywords": "Traco Power 10W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-10-20_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMLM10115": {
+        "description": "",
+        "keywords": "Traco Power 10W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-10-20_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMLM10124": {
+        "description": "",
+        "keywords": "Traco Power 10W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-10-20_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMLM20103": {
+        "description": "",
+        "keywords": "Traco Power 20W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-10-20_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMLM20105": {
+        "description": "",
+        "keywords": "Traco Power 20W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-10-20_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMLM20112": {
+        "description": "",
+        "keywords": "Traco Power 20W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-10-20_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMLM20115": {
+        "description": "",
+        "keywords": "Traco Power 20W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-10-20_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMLM20124": {
+        "description": "",
+        "keywords": "Traco Power 20W AC-DC module power supply",
+        "datasheet": "https://www.tracopower.com/products/tmlm.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMLM-10-20_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMPW10-105": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc power-supply 60335-1 62368-1 61558-1 61558-2-16 single",
+        "datasheet": "https://www.tracopower.com/products/tmpw10.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMPW10_1xx_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "+Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "-Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "AC(L)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "AC(N)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "TMPW10-105_1_1"
+        ]
+    },
+    "TMPW10-112": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc power-supply 60335-1 62368-1 61558-1 61558-2-16 single",
+        "datasheet": "https://www.tracopower.com/products/tmpw10.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMPW10_1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMPW10-115": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc power-supply 60335-1 62368-1 61558-1 61558-2-16 single",
+        "datasheet": "https://www.tracopower.com/products/tmpw10.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMPW10_1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMPW10-124": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc power-supply 60335-1 62368-1 61558-1 61558-2-16 single",
+        "datasheet": "https://www.tracopower.com/products/tmpw10.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMPW10_1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMPW25-105": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc power-supply 60335-1 62368-1 61558-1 61558-2-16 single",
+        "datasheet": "https://www.tracopower.com/products/tmpw25.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMPW25_1xx_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC(L)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC(N)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "+Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "-Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "TMPW25-105_0_1",
+            "TMPW25-105_1_1"
+        ]
+    },
+    "TMPW25-112": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc power-supply 60335-1 62368-1 61558-1 61558-2-16 single",
+        "datasheet": "https://www.tracopower.com/products/tmpw25.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMPW25_1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMPW25-115": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc power-supply 60335-1 62368-1 61558-1 61558-2-16 single",
+        "datasheet": "https://www.tracopower.com/products/tmpw25.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMPW25_1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMPW25-124": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc power-supply 60335-1 62368-1 61558-1 61558-2-16 single",
+        "datasheet": "https://www.tracopower.com/products/tmpw25.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMPW25_1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMPW5-103": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc power-supply 60335-1 62368-1 61558-1 61558-2-16 single",
+        "datasheet": "https://www.tracopower.com/products/tmpw5.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMPW5-1xx_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "+Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "-Vout",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "AC(L)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "AC(N)",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "TMPW5-103_0_1",
+            "TMPW5-103_1_1"
+        ]
+    },
+    "TMPW5-105": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc power-supply 60335-1 62368-1 61558-1 61558-2-16 single",
+        "datasheet": "https://www.tracopower.com/products/tmpw5.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMPW5-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMPW5-112": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc power-supply 60335-1 62368-1 61558-1 61558-2-16 single",
+        "datasheet": "https://www.tracopower.com/products/tmpw5.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMPW5-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TMPW5-124": {
+        "description": "",
+        "keywords": "Traco isolated ac-dc power-supply 60335-1 62368-1 61558-1 61558-2-16 single",
+        "datasheet": "https://www.tracopower.com/products/tmpw5.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TMPW5-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TPP-15-103-D": {
+        "description": "",
+        "keywords": "Medical Power Supply Traco",
+        "datasheet": "https://www.tracopower.com/sites/default/files/products/datasheets/tpp15_d_datasheet.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TPP-15-1xx-D_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "AC/N",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC/L",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "Trim",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "-Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "+Vo",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "TPP-15-103-D_0_1",
+            "TPP-15-103-D_1_1"
+        ]
+    },
+    "TPP-15-105-D": {
+        "description": "",
+        "keywords": "Medical Power Supply Traco",
+        "datasheet": "https://www.tracopower.com/sites/default/files/products/datasheets/tpp15_d_datasheet.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TPP-15-1xx-D_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TPP-15-109-D": {
+        "description": "",
+        "keywords": "Medical Power Supply Traco",
+        "datasheet": "https://www.tracopower.com/sites/default/files/products/datasheets/tpp15_d_datasheet.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TPP-15-1xx-D_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TPP-15-112-D": {
+        "description": "",
+        "keywords": "Medical Power Supply Traco",
+        "datasheet": "https://www.tracopower.com/sites/default/files/products/datasheets/tpp15_d_datasheet.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TPP-15-1xx-D_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TPP-15-115-D": {
+        "description": "",
+        "keywords": "Medical Power Supply Traco",
+        "datasheet": "https://www.tracopower.com/sites/default/files/products/datasheets/tpp15_d_datasheet.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TPP-15-1xx-D_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TPP-15-124-D": {
+        "description": "",
+        "keywords": "Medical Power Supply Traco",
+        "datasheet": "https://www.tracopower.com/sites/default/files/products/datasheets/tpp15_d_datasheet.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TPP-15-1xx-D_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TPP-15-136-D": {
+        "description": "",
+        "keywords": "Medical Power Supply Traco",
+        "datasheet": "https://www.tracopower.com/sites/default/files/products/datasheets/tpp15_d_datasheet.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TPP-15-1xx-D_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TPP-15-148-D": {
+        "description": "",
+        "keywords": "Medical Power Supply Traco",
+        "datasheet": "https://www.tracopower.com/sites/default/files/products/datasheets/tpp15_d_datasheet.pdf",
+        "footprint": "Converter_ACDC:Converter_ACDC_TRACO_TPP-15-1xx-D_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VTX-214-010-103": {
+        "description": "",
+        "keywords": "3V 10W AC-DC module power supply",
+        "datasheet": "http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx",
+        "footprint": "Converter_ACDC:Converter_ACDC_Vigortronix_VTX-214-010-1xx_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "L",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "N",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "DC+",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "DC-",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "VTX-214-010-103_0_1",
+            "VTX-214-010-103_1_1"
+        ]
+    },
+    "VTX-214-010-105": {
+        "description": "",
+        "keywords": "5V 10W AC-DC module power supply",
+        "datasheet": "http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx",
+        "footprint": "Converter_ACDC:Converter_ACDC_Vigortronix_VTX-214-010-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VTX-214-010-106": {
+        "description": "",
+        "keywords": "6V 10W AC-DC module power supply",
+        "datasheet": "http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx",
+        "footprint": "Converter_ACDC:Converter_ACDC_Vigortronix_VTX-214-010-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VTX-214-010-107": {
+        "description": "",
+        "keywords": "7.5V 10W AC-DC module power supply",
+        "datasheet": "http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx",
+        "footprint": "Converter_ACDC:Converter_ACDC_Vigortronix_VTX-214-010-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VTX-214-010-108": {
+        "description": "",
+        "keywords": "8V 10W AC-DC module power supply",
+        "datasheet": "http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx",
+        "footprint": "Converter_ACDC:Converter_ACDC_Vigortronix_VTX-214-010-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VTX-214-010-109": {
+        "description": "",
+        "keywords": "9V 10W AC-DC module power supply",
+        "datasheet": "http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx",
+        "footprint": "Converter_ACDC:Converter_ACDC_Vigortronix_VTX-214-010-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VTX-214-010-110": {
+        "description": "",
+        "keywords": "10V 10W AC-DC module power supply",
+        "datasheet": "http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx",
+        "footprint": "Converter_ACDC:Converter_ACDC_Vigortronix_VTX-214-010-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VTX-214-010-112": {
+        "description": "",
+        "keywords": "12V 10W AC-DC module power supply",
+        "datasheet": "http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx",
+        "footprint": "Converter_ACDC:Converter_ACDC_Vigortronix_VTX-214-010-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VTX-214-010-115": {
+        "description": "",
+        "keywords": "15V 10W AC-DC module power supply",
+        "datasheet": "http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx",
+        "footprint": "Converter_ACDC:Converter_ACDC_Vigortronix_VTX-214-010-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VTX-214-010-118": {
+        "description": "",
+        "keywords": "18V 10W AC-DC module power supply",
+        "datasheet": "http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx",
+        "footprint": "Converter_ACDC:Converter_ACDC_Vigortronix_VTX-214-010-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VTX-214-010-124": {
+        "description": "",
+        "keywords": "24V 10W AC-DC module power supply",
+        "datasheet": "http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx",
+        "footprint": "Converter_ACDC:Converter_ACDC_Vigortronix_VTX-214-010-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VTX-214-010-148": {
+        "description": "",
+        "keywords": "48V 10W AC-DC module power supply",
+        "datasheet": "http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx",
+        "footprint": "Converter_ACDC:Converter_ACDC_Vigortronix_VTX-214-010-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VTX-214-015-103": {
+        "description": "",
+        "keywords": "3V 15W AC-DC module power supply",
+        "datasheet": "http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC",
+        "footprint": "Converter_ACDC:Converter_ACDC_Vigortronix_VTX-214-015-1xx_THT",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "FG",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "N",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "L",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "DC+",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "DC-",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "VTX-214-015-103_0_1",
+            "VTX-214-015-103_1_1"
+        ]
+    },
+    "VTX-214-015-105": {
+        "description": "",
+        "keywords": "5V 15W AC-DC module power supply",
+        "datasheet": "http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC",
+        "footprint": "Converter_ACDC:Converter_ACDC_Vigortronix_VTX-214-015-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VTX-214-015-106": {
+        "description": "",
+        "keywords": "6V 15W AC-DC module power supply",
+        "datasheet": "http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC",
+        "footprint": "Converter_ACDC:Converter_ACDC_Vigortronix_VTX-214-015-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VTX-214-015-107": {
+        "description": "",
+        "keywords": "7V 15W AC-DC module power supply",
+        "datasheet": "http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC",
+        "footprint": "Converter_ACDC:Converter_ACDC_Vigortronix_VTX-214-015-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VTX-214-015-109": {
+        "description": "",
+        "keywords": "9V 15W AC-DC module power supply",
+        "datasheet": "http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC",
+        "footprint": "Converter_ACDC:Converter_ACDC_Vigortronix_VTX-214-015-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VTX-214-015-112": {
+        "description": "",
+        "keywords": "12V 15W AC-DC module power supply",
+        "datasheet": "http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC",
+        "footprint": "Converter_ACDC:Converter_ACDC_Vigortronix_VTX-214-015-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VTX-214-015-115": {
+        "description": "",
+        "keywords": "15V 15W AC-DC module power supply",
+        "datasheet": "http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC",
+        "footprint": "Converter_ACDC:Converter_ACDC_Vigortronix_VTX-214-015-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VTX-214-015-118": {
+        "description": "",
+        "keywords": "18V 15W AC-DC module power supply",
+        "datasheet": "http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC",
+        "footprint": "Converter_ACDC:Converter_ACDC_Vigortronix_VTX-214-015-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VTX-214-015-124": {
+        "description": "",
+        "keywords": "24V 15W AC-DC module power supply",
+        "datasheet": "http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC",
+        "footprint": "Converter_ACDC:Converter_ACDC_Vigortronix_VTX-214-015-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VTX-214-015-148": {
+        "description": "",
+        "keywords": "48V 15W AC-DC module power supply",
+        "datasheet": "http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC",
+        "footprint": "Converter_ACDC:Converter_ACDC_Vigortronix_VTX-214-015-1xx_THT",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    }
+}

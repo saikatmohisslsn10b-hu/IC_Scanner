@@ -1,0 +1,3909 @@
+{
+    "CCGM1A1": {
+        "description": "",
+        "keywords": "GateMate FPGA",
+        "datasheet": "https://colognechip.com/docs/ds1001-gatemate1-datasheet-2022-05.pdf",
+        "footprint": "Package_BGA:BGA-324_15x15mm_Layout18x18_P0.8mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "A1",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "A10",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "A11",
+                "name": "IO_NB_B2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "A12",
+                "name": "IO_NB_B4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "A13",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "A14",
+                "name": "IO_NB_B7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "A15",
+                "name": "IO_EB_B8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "A16",
+                "name": "VDD_EB",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "A17",
+                "name": "IO_EB_B5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "A18",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "A2",
+                "name": "VDD_WC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "A3",
+                "name": "IO_NA_A0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "A4",
+                "name": "IO_NA_A1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "A5",
+                "name": "VDD_NA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "A6",
+                "name": "IO_NA_A4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "A7",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "A8",
+                "name": "IO_NA_A7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "A9",
+                "name": "IO_NB_B0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "B1",
+                "name": "IO_WC_A8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "B10",
+                "name": "VDD_NB",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "B11",
+                "name": "IO_NB_A2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "B12",
+                "name": "IO_NB_A4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "B13",
+                "name": "VDD_NB",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "B14",
+                "name": "IO_NB_A7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "B15",
+                "name": "IO_EB_A8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "B16",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "B17",
+                "name": "IO_EB_A5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "B18",
+                "name": "VDD_EB",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "B2",
+                "name": "IO_WC_B8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "B3",
+                "name": "IO_NA_B0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "B4",
+                "name": "IO_NA_B1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "B5",
+                "name": "IO_NA_A2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "B6",
+                "name": "IO_NA_B4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "B7",
+                "name": "VDD_NA",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "B8",
+                "name": "IO_NA_B7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "B9",
+                "name": "IO_NB_A0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "C1",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "C10",
+                "name": "IO_NB_B1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "C11",
+                "name": "IO_NB_B3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "C12",
+                "name": "IO_NB_B5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "C13",
+                "name": "IO_NB_B6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "C14",
+                "name": "IO_NB_B8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "C15",
+                "name": "IO_EB_B7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "C16",
+                "name": "IO_EB_B6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "C17",
+                "name": "IO_EB_B4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "C18",
+                "name": "IO_EB_A4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "C2",
+                "name": "VDD_WC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "C3",
+                "name": "IO_WC_A7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "C4",
+                "name": "IO_WC_B7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "C5",
+                "name": "IO_NA_B2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "C6",
+                "name": "IO_NA_A3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "C7",
+                "name": "IO_NA_A5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "C8",
+                "name": "IO_NA_A6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "C9",
+                "name": "IO_NA_A8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "D1",
+                "name": "IO_WC_A5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "D10",
+                "name": "IO_NB_A1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "D11",
+                "name": "IO_NB_A3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "D12",
+                "name": "IO_NB_A5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "D13",
+                "name": "IO_NB_A6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "D14",
+                "name": "IO_NB_A8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "D15",
+                "name": "IO_EB_A7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "D16",
+                "name": "IO_EB_A6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "D17",
+                "name": "IO_EB_B2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "D18",
+                "name": "IO_EB_A2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "D2",
+                "name": "IO_WC_B5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "D3",
+                "name": "IO_WC_A6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "D4",
+                "name": "IO_WC_B6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "D5",
+                "name": "VDD_WC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "D6",
+                "name": "IO_NA_B3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "D7",
+                "name": "IO_NA_B5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "D8",
+                "name": "IO_NA_B6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "D9",
+                "name": "IO_NA_B8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "E1",
+                "name": "IO_WC_A3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "E10",
+                "name": "VDD_NB",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "E11",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "E12",
+                "name": "VDD_NB",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "E13",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "E14",
+                "name": "VDD_EB",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "E15",
+                "name": "IO_EB_B3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "E16",
+                "name": "IO_EB_A3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "E17",
+                "name": "VDD_EB",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "E18",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "E2",
+                "name": "IO_WC_B3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "E3",
+                "name": "IO_WC_A4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "E4",
+                "name": "IO_WC_B4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "E5",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "E6",
+                "name": "VDD_NA",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "E7",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "E8",
+                "name": "VDD_NA",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "E9",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "F1",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "F10",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "F11",
+                "name": "VDD_NB",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "F12",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "F13",
+                "name": "VDD_EB",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "F14",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "F15",
+                "name": "IO_EB_B1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "F16",
+                "name": "IO_EB_A1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "F17",
+                "name": "IO_EB_B0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "F18",
+                "name": "IO_EB_A0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "F2",
+                "name": "VDD_WC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "F3",
+                "name": "IO_WC_A2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "F4",
+                "name": "IO_WC_B2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "F5",
+                "name": "VDD_WC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "F6",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "F7",
+                "name": "VDD_NA",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "F8",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "F9",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "G1",
+                "name": "IO_WC_A0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "G10",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "G11",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "G12",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "G13",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "G14",
+                "name": "VDD_EA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "G15",
+                "name": "IO_EA_B8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "G16",
+                "name": "IO_EA_A8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "G17",
+                "name": "IO_EA_B7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "G18",
+                "name": "IO_EA_A7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "G2",
+                "name": "IO_WC_B0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "G3",
+                "name": "IO_WC_A1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "G4",
+                "name": "IO_WC_B1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "G5",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "G6",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "G7",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "G8",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "G9",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "H1",
+                "name": "IO_WB_A7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "H10",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "H11",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "H12",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "H13",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "H14",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "H15",
+                "name": "IO_EA_B6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "H16",
+                "name": "IO_EA_A6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "H17",
+                "name": "VDD_EA",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "H18",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "H2",
+                "name": "IO_WB_B7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "H3",
+                "name": "IO_WB_A8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "H4",
+                "name": "IO_WB_B8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "H5",
+                "name": "VDD_WB",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "H6",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "H7",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "H8",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "H9",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "J1",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "J10",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "J11",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "J12",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "J13",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "J14",
+                "name": "VDD_EA",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "J15",
+                "name": "IO_EA_B5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "J16",
+                "name": "IO_EA_A5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "J17",
+                "name": "IO_EA_B4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "J18",
+                "name": "IO_EA_A4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "J2",
+                "name": "VDD_WB",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "J3",
+                "name": "IO_WB_A6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "J4",
+                "name": "IO_WB_B6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "J5",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "J6",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "J7",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "J8",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "J9",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "K1",
+                "name": "IO_WB_A5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "K10",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "K11",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "K12",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "K13",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "K14",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "K15",
+                "name": "IO_EA_B3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "K16",
+                "name": "IO_EA_A3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "K17",
+                "name": "IO_EA_B2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "K18",
+                "name": "IO_EA_A2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "K2",
+                "name": "IO_WB_B5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "K3",
+                "name": "IO_WB_A4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "K4",
+                "name": "IO_WB_B4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "K5",
+                "name": "VDD_WB",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "K6",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "K7",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "K8",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "K9",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "L1",
+                "name": "IO_WB_A3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "L10",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "L11",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "L12",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "L13",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "L14",
+                "name": "VDD_EA",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "L15",
+                "name": "IO_EA_B1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "L16",
+                "name": "IO_EA_A1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "L17",
+                "name": "VDD_EA",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "L18",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "L2",
+                "name": "IO_WB_B3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "L3",
+                "name": "IO_WB_A2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "L4",
+                "name": "IO_WB_B2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "L5",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "L6",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "L7",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "L8",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "L9",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "M1",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "M10",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "M11",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "M12",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "M13",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "M14",
+                "name": "IO_EA_B0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "M15",
+                "name": "IO_EA_A0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "M16",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "M17",
+                "name": "IO_SB_A3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "M18",
+                "name": "IO_SB_B3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "M2",
+                "name": "VDD_WB",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "M3",
+                "name": "IO_WB_A1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "M4",
+                "name": "IO_WB_B1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "M5",
+                "name": "VDD_WB",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "M6",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "M7",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "M8",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "M9",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "N1",
+                "name": "IO_WB_A0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "N10",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "N11",
+                "name": "VDD_SB",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "N12",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "N13",
+                "name": "VDD_SB",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "N14",
+                "name": "CLK0/IO_SB_A8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "N15",
+                "name": "IO_SB_B8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "N16",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "N17",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "N18",
+                "name": "VDD_SB",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "N2",
+                "name": "IO_WB_B0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "N3",
+                "name": "IO_WA_A8/~{SPI_CS}",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "N4",
+                "name": "IO_WA_B8/SPI_CLK",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "N5",
+                "name": "VDD_WA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "N6",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "N7",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "N8",
+                "name": "VDD",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "N9",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "P1",
+                "name": "IO_WA_A7/SPI_D1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "P10",
+                "name": "VDD_SA",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "P11",
+                "name": "IO_SB_A4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "P12",
+                "name": "CLK1/IO_SB_A7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "P13",
+                "name": "IO_SB_B7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "P14",
+                "name": "CLK2/IO_SB_A6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "P15",
+                "name": "IO_SB_B6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "P16",
+                "name": "VDD_PLL",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "P17",
+                "name": "IO_SB_A2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "P18",
+                "name": "IO_SB_B2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "P2",
+                "name": "IO_WA_B7/SPI_D0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "P3",
+                "name": "VDD_WA",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "P4",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "P5",
+                "name": "VDD_WA",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "P6",
+                "name": "VDD_SA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "P7",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "P8",
+                "name": "VDD_SA",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "P9",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "R1",
+                "name": "IO_WA_A6/SPI_D3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 0
+                }
+            },
+            {
+                "number": "R10",
+                "name": "IO_SA_A7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "R11",
+                "name": "IO_SB_B4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "R12",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "R13",
+                "name": "CLK3/IO_SB_A5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "R14",
+                "name": "IO_SB_B5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "R15",
+                "name": "VDD_SB",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "R16",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "R17",
+                "name": "IO_SB_A1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "R18",
+                "name": "IO_SB_B1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "R2",
+                "name": "IO_WA_B6/SPI_D2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "R3",
+                "name": "JTAG_TCK/IO_WA_A5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "R4",
+                "name": "IO_WA_B5/SPI_FWD",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "R5",
+                "name": "CFG_MD0/IO_WA_A0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "R6",
+                "name": "IO_SA_A1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "R7",
+                "name": "IO_SA_A2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "R8",
+                "name": "IO_SA_A4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "R9",
+                "name": "IO_SA_A6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "T1",
+                "name": "VDD_WA",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "T10",
+                "name": "IO_SA_B7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "T11",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "T12",
+                "name": "SER_CLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T13",
+                "name": "SER_CLK_N",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "T14",
+                "name": "VDD_CLK",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "T15",
+                "name": "~{RESET}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "T16",
+                "name": "VDD_SER_PLL",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "T17",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "T18",
+                "name": "VDD_SB",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "T2",
+                "name": "JTAG_TDI/IO_WA_A4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "T3",
+                "name": "JTAG_TMS/IO_WA_B4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 0
+                }
+            },
+            {
+                "number": "T4",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "T5",
+                "name": "CFG_MD1/IO_WA_B0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "T6",
+                "name": "IO_SA_B1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "T7",
+                "name": "IO_SA_B2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "T8",
+                "name": "IO_SA_B4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "T9",
+                "name": "IO_SA_B6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "U1",
+                "name": "POR_EN/IO_WA_A3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "U10",
+                "name": "IO_SA_A8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "U11",
+                "name": "SER_RX_P",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "U12",
+                "name": "VDD_SER",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "U13",
+                "name": "SER_TX_P",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "U14",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "U15",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "U16",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "U17",
+                "name": "IO_SB_A0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "U18",
+                "name": "IO_SB_B0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "U2",
+                "name": "JTAG_TDO/IO_WA_B3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "U3",
+                "name": "VDD_WA",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "U4",
+                "name": "CFG_MD2/IO_WA_A1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "U5",
+                "name": "IO_SA_A0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "U6",
+                "name": "VDD_SA",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "U7",
+                "name": "IO_SA_A3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "U8",
+                "name": "IO_SA_A5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "U9",
+                "name": "VDD_SA",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "V1",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "V10",
+                "name": "IO_SA_B8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "V11",
+                "name": "SER_RX_N",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "V12",
+                "name": "SER_RTERM",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "V13",
+                "name": "SER_TX_N",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "V14",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "V15",
+                "name": "POR_ADJ",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "V16",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "V17",
+                "name": "VDD_SER",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "V18",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "V2",
+                "name": "IO_WA_A2/~{CFG_FAILED}",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "V3",
+                "name": "IO_WA_B2/CFG_DONE",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "V4",
+                "name": "CFG_MD3/IO_WA_B1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "V5",
+                "name": "IO_SA_B0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "V6",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "V7",
+                "name": "IO_SA_B3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "V8",
+                "name": "IO_SA_B5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "V9",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "CCGM1A1_1_1",
+            "CCGM1A1_2_1",
+            "CCGM1A1_3_1",
+            "CCGM1A1_4_1",
+            "CCGM1A1_5_1",
+            "CCGM1A1_6_1",
+            "CCGM1A1_7_1",
+            "CCGM1A1_8_1"
+        ]
+    }
+}

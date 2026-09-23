@@ -1,0 +1,1249 @@
+{
+    "PN5321A3HN_C1xx": {
+        "description": "",
+        "keywords": "NFC",
+        "datasheet": "https://www.nxp.com/docs/en/nxp/data-sheets/PN532_C1.pdf",
+        "footprint": "Package_DFN_QFN:HVQFN-40-1EP_6x6mm_P0.5mm_EP4.1x4.1mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "DVSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "2",
+                "name": "LOADMOD",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "3",
+                "name": "TVSS1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "4",
+                "name": "TX1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "5",
+                "name": "TVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "6",
+                "name": "TX2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "7",
+                "name": "TVSS2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "8",
+                "name": "AVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "9",
+                "name": "VMID",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "10",
+                "name": "RX",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "11",
+                "name": "AVSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "12",
+                "name": "AUX1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "13",
+                "name": "AUX2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "14",
+                "name": "OSCIN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "15",
+                "name": "OSCOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "16",
+                "name": "I0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "17",
+                "name": "I1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "18",
+                "name": "TESTEN",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "19",
+                "name": "P35",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "20",
+                "name": "N.C.",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "21",
+                "name": "N.C.",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "22",
+                "name": "N.C.",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "23",
+                "name": "PVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "24",
+                "name": "P30/UART_RX",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 0
+                }
+            },
+            {
+                "number": "25",
+                "name": "P70_IRQ",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "26",
+                "name": "~{RSTOUT}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "27",
+                "name": "NSS/P50_SCL/HSU_RX",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "28",
+                "name": "MOSI/SDA/HSU_TX",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "29",
+                "name": "MISO/P71",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "30",
+                "name": "SCK/P72",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "31",
+                "name": "P31/UART_TX",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "32",
+                "name": "P32_INT0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "33",
+                "name": "P33_INT1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "34",
+                "name": "SIC_CLK/P34",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "35",
+                "name": "SIGOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "36",
+                "name": "SIGIN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "37",
+                "name": "SVDD",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "38",
+                "name": "~{RSTPD}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "39",
+                "name": "DVDD",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "40",
+                "name": "VBAT",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "41",
+                "name": "AVSS",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -33.02
+                }
+            }
+        ],
+        "units": [
+            "PN5321A3HN_C1xx_0_1",
+            "PN5321A3HN_C1xx_1_1"
+        ]
+    },
+    "ST25DV04K-IER8C3": {
+        "description": "",
+        "keywords": "NFC Tag",
+        "datasheet": "https://www.st.com/resource/en/datasheet/st25dv04k.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "V_EH",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "AC0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "AC1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GPO",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "ST25DV04K-IER8C3_1_1"
+        ]
+    },
+    "ST25DV04K-JFR6D3": {
+        "description": "",
+        "keywords": "NFC Tag",
+        "datasheet": "https://www.st.com/resource/en/datasheet/st25dv04k.pdf",
+        "footprint": "Package_DFN_QFN:ST_UFDFPN-12-1EP_3x3mm_P0.5mm_EP1.4x2.55mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ST25DV16K-IER8C3": {
+        "description": "",
+        "keywords": "NFC Tag",
+        "datasheet": "https://www.st.com/resource/en/datasheet/st25dv04k.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ST25DV16K-JFR6D3": {
+        "description": "",
+        "keywords": "NFC Tag",
+        "datasheet": "https://www.st.com/resource/en/datasheet/st25dv04k.pdf",
+        "footprint": "Package_DFN_QFN:ST_UFDFPN-12-1EP_3x3mm_P0.5mm_EP1.4x2.55mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "LPD",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "V_EH",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "AC0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "AC1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "7",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "9",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "10",
+                "name": "VDCG",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "11",
+                "name": "GPO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "12",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "13",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "ST25DV16K-JFR6D3_1_1"
+        ]
+    },
+    "ST25DV64K-IER8C3": {
+        "description": "",
+        "keywords": "NFC Tag",
+        "datasheet": "https://www.st.com/resource/en/datasheet/st25dv04k.pdf",
+        "footprint": "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ST25DV64K-JFR6D3": {
+        "description": "",
+        "keywords": "NFC Tag",
+        "datasheet": "https://www.st.com/resource/en/datasheet/st25dv04k.pdf",
+        "footprint": "Package_DFN_QFN:ST_UFDFPN-12-1EP_3x3mm_P0.5mm_EP1.4x2.55mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ST25R3911B-AQF": {
+        "description": "",
+        "keywords": "NFC",
+        "datasheet": "https://www.st.com/resource/en/datasheet/st25r3911b.pdf",
+        "footprint": "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm_ThermalVias",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ST25R3911B-AQW": {
+        "description": "",
+        "keywords": "NFC",
+        "datasheet": "https://www.st.com/resource/en/datasheet/st25r3911b.pdf",
+        "footprint": "Package_DFN_QFN:VQFN-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm_ThermalVias",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD_IO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "2",
+                "name": "CSO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "3",
+                "name": "VSP_D",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "4",
+                "name": "XTO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "XTI",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "VSN_D",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "7",
+                "name": "VSP_A",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "8",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "9",
+                "name": "VSP_RF",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "10",
+                "name": "RFO1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "11",
+                "name": "RFO2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "12",
+                "name": "VSN_RF",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "13",
+                "name": "TRIM1_3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "14",
+                "name": "TRIM2_3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "15",
+                "name": "TRIM1_2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "16",
+                "name": "TRIM2_2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "17",
+                "name": "TRIM1_1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "18",
+                "name": "TRIM2_1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "19",
+                "name": "TRIM1_0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "20",
+                "name": "TRIM2_0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "21",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "22",
+                "name": "RFI1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "23",
+                "name": "RFI2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "24",
+                "name": "AGD",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "25",
+                "name": "CSI",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "26",
+                "name": "VSN_A",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "27",
+                "name": "IRQ",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "28",
+                "name": "MCU_CLK",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "29",
+                "name": "MISO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "30",
+                "name": "MOSI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "31",
+                "name": "SCLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "32",
+                "name": "/SS",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "33",
+                "name": "EP",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -27.94
+                }
+            }
+        ],
+        "units": [
+            "ST25R3911B-AQW_0_1",
+            "ST25R3911B-AQW_1_1"
+        ]
+    }
+}

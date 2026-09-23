@@ -1,0 +1,35 @@
+{
+    "Generic_Outline": {
+        "description": "",
+        "keywords": "generic outline board module",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "Generic_Outline_1_1"
+        ]
+    },
+    "Jumper_Shunt": {
+        "description": "",
+        "keywords": "jumper shunt ",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "Jumper_Shunt_1_1"
+        ]
+    },
+    "MountingScrew": {
+        "description": "",
+        "keywords": "mounting screw",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "MountingScrew_0_1"
+        ]
+    }
+}

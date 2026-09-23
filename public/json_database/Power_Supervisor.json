@@ -1,0 +1,4337 @@
+{
+    "CAT811JTBI-GT3": {
+        "description": "",
+        "keywords": "Supervisor Reset",
+        "datasheet": "http://www.onsemi.com/pub/Collateral/CAT811-D.PDF",
+        "footprint": "Package_TO_SOT_SMD:SOT-143",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CAT811LTBI-GT3": {
+        "description": "",
+        "keywords": "Supervisor Reset",
+        "datasheet": "http://www.onsemi.com/pub/Collateral/CAT811-D.PDF",
+        "footprint": "Package_TO_SOT_SMD:SOT-143",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CAT811MTBI-GT3": {
+        "description": "",
+        "keywords": "Supervisor Reset",
+        "datasheet": "http://www.onsemi.com/pub/Collateral/CAT811-D.PDF",
+        "footprint": "Package_TO_SOT_SMD:SOT-143",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CAT811RTBI-GT3": {
+        "description": "",
+        "keywords": "Supervisor Reset",
+        "datasheet": "http://www.onsemi.com/pub/Collateral/CAT811-D.PDF",
+        "footprint": "Package_TO_SOT_SMD:SOT-143",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CAT811STBI-GT3": {
+        "description": "",
+        "keywords": "Supervisor Reset",
+        "datasheet": "http://www.onsemi.com/pub/Collateral/CAT811-D.PDF",
+        "footprint": "Package_TO_SOT_SMD:SOT-143",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CAT811TTBI-GT3": {
+        "description": "",
+        "keywords": "Supervisor Reset",
+        "datasheet": "http://www.onsemi.com/pub/Collateral/CAT811-D.PDF",
+        "footprint": "Package_TO_SOT_SMD:SOT-143",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CAT811ZTBI-GT3": {
+        "description": "",
+        "keywords": "Supervisor Reset",
+        "datasheet": "http://www.onsemi.com/pub/Collateral/CAT811-D.PDF",
+        "footprint": "Package_TO_SOT_SMD:SOT-143",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "DIO705": {
+        "description": "",
+        "keywords": "supervisor wdg",
+        "datasheet": "https://dioo.com/uploads/product/20210528/dae33bc3e6c4b6e07ca730d55ecc4c48.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{MR}",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "V_{CC}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "PFI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "~{PFO}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "WDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "~{RESET}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "~{WDO}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "DIO705_0_0",
+            "DIO705_1_1"
+        ]
+    },
+    "DIO706": {
+        "description": "",
+        "keywords": "supervisor wdg",
+        "datasheet": "https://dioo.com/uploads/product/20210528/dae33bc3e6c4b6e07ca730d55ecc4c48.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "DIO706J": {
+        "description": "",
+        "keywords": "supervisor wdg",
+        "datasheet": "https://dioo.com/uploads/product/20210528/dae33bc3e6c4b6e07ca730d55ecc4c48.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "DIO706R": {
+        "description": "",
+        "keywords": "supervisor wdg",
+        "datasheet": "https://dioo.com/uploads/product/20210528/dae33bc3e6c4b6e07ca730d55ecc4c48.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "DIO706S": {
+        "description": "",
+        "keywords": "supervisor wdg",
+        "datasheet": "https://dioo.com/uploads/product/20210528/dae33bc3e6c4b6e07ca730d55ecc4c48.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "DIO706T": {
+        "description": "",
+        "keywords": "supervisor wdg",
+        "datasheet": "https://dioo.com/uploads/product/20210528/dae33bc3e6c4b6e07ca730d55ecc4c48.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "LM3880": {
+        "description": "",
+        "keywords": "Power Sequencer",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/lm3880.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "EN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "FLAG3",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "FLAG2",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "FLAG1",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "LM3880_0_1",
+            "LM3880_1_1"
+        ]
+    },
+    "LM809": {
+        "description": "",
+        "keywords": "reset supervisor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/lm809.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "~{RESET}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "LM809_0_1",
+            "LM809_1_1"
+        ]
+    },
+    "LM810": {
+        "description": "",
+        "keywords": "reset supervisor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/lm809.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "RESET",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "LM810_0_1",
+            "LM810_1_1"
+        ]
+    },
+    "MAX16050xTI": {
+        "description": "",
+        "keywords": "power sequencing",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX16050-MAX16051.pdf",
+        "footprint": "Package_DFN_QFN:WQFN-28-1EP_4x4mm_P0.4mm_EP2.7x2.7mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "3",
+                "name": "ABP",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "4",
+                "name": "EN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "5",
+                "name": "SET4",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "6",
+                "name": "OUT4",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "7",
+                "name": "DISC4",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "8",
+                "name": "SET3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "OUT3",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "DISC3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "11",
+                "name": "SET2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "12",
+                "name": "OUT2",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "13",
+                "name": "DISC2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "14",
+                "name": "~{EN_HOLD}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "15",
+                "name": "REM",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "16",
+                "name": "DISC1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "17",
+                "name": "OUT1",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "18",
+                "name": "SET1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "19",
+                "name": "~{OV_OUT}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "20",
+                "name": "~{RESET}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "21",
+                "name": "~{FAULT}",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "22",
+                "name": "~{SHDN}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "23",
+                "name": "DELAY",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "24",
+                "name": "TIMEOUT",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "25",
+                "name": "SEQ1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "26",
+                "name": "SEQ2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "27",
+                "name": "SEQ3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "28",
+                "name": "CP_OUT",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "29",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -33.02
+                }
+            }
+        ],
+        "units": [
+            "MAX16050xTI_0_1",
+            "MAX16050xTI_1_1"
+        ]
+    },
+    "MAX16051xTI": {
+        "description": "",
+        "keywords": "power sequencing",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX16050-MAX16051.pdf",
+        "footprint": "Package_DFN_QFN:WQFN-28-1EP_4x4mm_P0.4mm_EP2.7x2.7mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "3",
+                "name": "ABP",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "4",
+                "name": "EN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "5",
+                "name": "SET4",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "OUT4",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "DISC4",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "8",
+                "name": "SET3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "9",
+                "name": "OUT3",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "10",
+                "name": "DISC3",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "SET2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "12",
+                "name": "OUT2",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "13",
+                "name": "DISC2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "14",
+                "name": "~{EN_HOLD}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "15",
+                "name": "REM",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "16",
+                "name": "DISC1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "17",
+                "name": "OUT1",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "18",
+                "name": "SET1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "19",
+                "name": "~{OV_OUT}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "20",
+                "name": "~{RESET}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "21",
+                "name": "~{FAULT}",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "22",
+                "name": "~{SHDN}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "23",
+                "name": "DELAY",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "24",
+                "name": "TIMEOUT",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "25",
+                "name": "DISC5",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "26",
+                "name": "OUT5",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "27",
+                "name": "SET5",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "28",
+                "name": "CP_OUT",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "29",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -33.02
+                }
+            }
+        ],
+        "units": [
+            "MAX16051xTI_0_1",
+            "MAX16051xTI_1_1"
+        ]
+    },
+    "MAX6355": {
+        "description": "",
+        "keywords": "Power Supervisor",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX6351-MAX6360.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{RST}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "~{MR}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "VCC2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "RSTIN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "VCC1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "MAX6355_0_1",
+            "MAX6355_1_1"
+        ]
+    },
+    "MAX6369": {
+        "description": "",
+        "keywords": "watchdog supervisor",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-8",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "WDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "3",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "SET0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "SET1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "SET2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "~{WDO}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            }
+        ],
+        "units": [
+            "MAX6369_0_1",
+            "MAX6369_1_1"
+        ]
+    },
+    "MAX6370": {
+        "description": "",
+        "keywords": "watchdog supervisor",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-8",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "WDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "3",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "SET0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "SET1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "SET2",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "~{WDO}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            }
+        ],
+        "units": [
+            "MAX6370_0_1",
+            "MAX6370_1_1"
+        ]
+    },
+    "MAX6371": {
+        "description": "",
+        "keywords": "watchdog supervisor",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-8",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX6372": {
+        "description": "",
+        "keywords": "watchdog supervisor",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-8",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX6373": {
+        "description": "",
+        "keywords": "watchdog supervisor",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-8",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX6374": {
+        "description": "",
+        "keywords": "watchdog supervisor",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-8",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX690ACSA": {
+        "description": "",
+        "keywords": "Supervisor wdg",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX690A-MAX805L.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX690xPA": {
+        "description": "",
+        "keywords": "Supervisor wdg",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/max690-max695.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VOUT",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "PFI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "~{PFO}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "WDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "~{RESET}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "8",
+                "name": "VBATT",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "MAX690xPA_0_1",
+            "MAX690xPA_1_1"
+        ]
+    },
+    "MAX691xPE": {
+        "description": "",
+        "keywords": "Power Supervisor",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX690-MAX695.pdf",
+        "footprint": "Package_DIP:DIP-16_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VBATT",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -19.05,
+                    "y": -6.35
+                }
+            },
+            {
+                "number": "2",
+                "name": "VOUT",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 19.05,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "5",
+                "name": "BATT_ON",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 19.05,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "~{LOW_LINE}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 19.05,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "OSC_IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -19.05,
+                    "y": 3.81
+                }
+            },
+            {
+                "number": "8",
+                "name": "OSC_SEL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -19.05,
+                    "y": 1.27
+                }
+            },
+            {
+                "number": "9",
+                "name": "PFI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -19.05,
+                    "y": 6.35
+                }
+            },
+            {
+                "number": "10",
+                "name": "~{PFO}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 19.05,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "WDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -19.05,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "12",
+                "name": "~{CE_OUT}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 19.05,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "13",
+                "name": "~{CE_IN}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -19.05,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "14",
+                "name": "~{WDO}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 19.05,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "15",
+                "name": "~{RESET}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 19.05,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "16",
+                "name": "RESET",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 19.05,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "MAX691xPE_0_1",
+            "MAX691xPE_1_1"
+        ]
+    },
+    "MAX691xWE": {
+        "description": "",
+        "keywords": "Power Supervisor",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX690-MAX695.pdf",
+        "footprint": "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VBATT",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -19.05,
+                    "y": -6.35
+                }
+            },
+            {
+                "number": "2",
+                "name": "VOUT",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 19.05,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "5",
+                "name": "BATT_ON",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 19.05,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "~{LOW_LINE}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 19.05,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "OSC_IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -19.05,
+                    "y": 3.81
+                }
+            },
+            {
+                "number": "8",
+                "name": "OSC_SEL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -19.05,
+                    "y": 1.27
+                }
+            },
+            {
+                "number": "9",
+                "name": "PFI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -19.05,
+                    "y": 6.35
+                }
+            },
+            {
+                "number": "10",
+                "name": "~{PFO}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 19.05,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "WDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -19.05,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "12",
+                "name": "~{CE_OUT}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 19.05,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "13",
+                "name": "~{CE_IN}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -19.05,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "14",
+                "name": "~{WDO}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 19.05,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "15",
+                "name": "~{RESET}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 19.05,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "16",
+                "name": "RESET",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 19.05,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "MAX691xWE_0_1",
+            "MAX691xWE_1_1"
+        ]
+    },
+    "MAX692ACSA": {
+        "description": "",
+        "keywords": "Supervisor wdg",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX690A-MAX805L.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX692xPA": {
+        "description": "",
+        "keywords": "Supervisor wdg",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/max690-max695.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX694xPA": {
+        "description": "",
+        "keywords": "Supervisor wdg",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/max690-max695.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX802LCSA": {
+        "description": "",
+        "keywords": "Supervisor wdg",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX690A-MAX805L.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX805LCSA": {
+        "description": "",
+        "keywords": "Supervisor wdg",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX690A-MAX805L.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VOUT",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "PFI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "~{PFO}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "WDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "RESET",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "8",
+                "name": "VBATT",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "MAX805LCSA_0_1",
+            "MAX805LCSA_1_1"
+        ]
+    },
+    "MAX811LEUS-T": {
+        "description": "",
+        "keywords": "Supervisor Reset",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX811-MAX812.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-143",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX811MEUS-T": {
+        "description": "",
+        "keywords": "Supervisor Reset",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX811-MAX812.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-143",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX811REUS-T": {
+        "description": "",
+        "keywords": "Supervisor Reset",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX811-MAX812.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-143",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX811SEUS-T": {
+        "description": "",
+        "keywords": "Supervisor Reset",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX811-MAX812.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-143",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX811TEUS-T": {
+        "description": "",
+        "keywords": "Supervisor Reset",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX811-MAX812.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-143",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MC34064D": {
+        "description": "",
+        "keywords": "Power Supervisor",
+        "datasheet": "https://www.onsemi.com/pub/Collateral/MC34064-D.PDF",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{RESET}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 8.89,
+                    "y": 1.27
+                }
+            },
+            {
+                "number": "2",
+                "name": "IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -8.89,
+                    "y": 1.27
+                }
+            },
+            {
+                "number": "3",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 6.35,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -6.35
+                }
+            },
+            {
+                "number": "5",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 3.81
+                }
+            },
+            {
+                "number": "6",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 3.81
+                }
+            },
+            {
+                "number": "7",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -6.35,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 3.81
+                }
+            }
+        ],
+        "units": [
+            "MC34064D_0_1",
+            "MC34064D_1_1"
+        ]
+    },
+    "MC34064DM": {
+        "description": "",
+        "keywords": "Power Supervisor",
+        "datasheet": "https://www.onsemi.com/pub/Collateral/MC34064-D.PDF",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{RESET}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 8.89,
+                    "y": 1.27
+                }
+            },
+            {
+                "number": "2",
+                "name": "IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -8.89,
+                    "y": 1.27
+                }
+            },
+            {
+                "number": "3",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 6.35,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -6.35
+                }
+            },
+            {
+                "number": "5",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 3.81
+                }
+            },
+            {
+                "number": "6",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 3.81
+                }
+            },
+            {
+                "number": "7",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -6.35,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 3.81
+                }
+            }
+        ],
+        "units": [
+            "MC34064DM_0_1",
+            "MC34064DM_1_1"
+        ]
+    },
+    "MC34064P": {
+        "description": "",
+        "keywords": "Power Supervisor",
+        "datasheet": "https://www.onsemi.com/pub/Collateral/MC34064-D.PDF",
+        "footprint": "Package_TO_SOT_THT:TO-92L_Inline",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{RESET}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 8.89,
+                    "y": 1.27
+                }
+            },
+            {
+                "number": "2",
+                "name": "IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -8.89,
+                    "y": 1.27
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "MC34064P_0_1",
+            "MC34064P_1_1"
+        ]
+    },
+    "MC34064SN": {
+        "description": "",
+        "keywords": "Power Supervisor",
+        "datasheet": "https://www.onsemi.com/pub/Collateral/MC34064-D.PDF",
+        "footprint": "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -6.35
+                }
+            },
+            {
+                "number": "2",
+                "name": "IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -8.89,
+                    "y": 1.27
+                }
+            },
+            {
+                "number": "3",
+                "name": "~{RESET}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 8.89,
+                    "y": 1.27
+                }
+            },
+            {
+                "number": "4",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 3.81
+                }
+            },
+            {
+                "number": "5",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 3.81
+                }
+            }
+        ],
+        "units": [
+            "MC34064SN_0_1",
+            "MC34064SN_1_1"
+        ]
+    },
+    "MCP100-270D": {
+        "description": "",
+        "keywords": "supervisor reset push-pull",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{RST}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            }
+        ],
+        "units": [
+            "MCP100-270D_1_1"
+        ]
+    },
+    "MCP100-300D": {
+        "description": "",
+        "keywords": "supervisor reset push-pull",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP100-315D": {
+        "description": "",
+        "keywords": "supervisor reset push-pull",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP100-450D": {
+        "description": "",
+        "keywords": "supervisor reset push-pull",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP100-460D": {
+        "description": "",
+        "keywords": "supervisor reset push-pull",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP100-475D": {
+        "description": "",
+        "keywords": "supervisor reset push-pull",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP100-485D": {
+        "description": "",
+        "keywords": "supervisor reset push-pull",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP101-270D": {
+        "description": "",
+        "keywords": "supervisor reset push-pull",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "RST",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            }
+        ],
+        "units": [
+            "MCP101-270D_1_1"
+        ]
+    },
+    "MCP101-300D": {
+        "description": "",
+        "keywords": "supervisor reset push-pull",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP101-315D": {
+        "description": "",
+        "keywords": "supervisor reset push-pull",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP101-450D": {
+        "description": "",
+        "keywords": "supervisor reset push-pull",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP101-460D": {
+        "description": "",
+        "keywords": "supervisor reset push-pull",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP101-475D": {
+        "description": "",
+        "keywords": "supervisor reset push-pull",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP101-485D": {
+        "description": "",
+        "keywords": "supervisor reset push-pull",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP120-xxxDxTO": {
+        "description": "",
+        "keywords": "supervisory circuit",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf",
+        "footprint": "Package_TO_SOT_THT:TO-92_Inline",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{RST}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            }
+        ],
+        "units": [
+            "MCP120-xxxDxTO_0_1",
+            "MCP120-xxxDxTO_1_1"
+        ]
+    },
+    "MCP120-xxxGxTO": {
+        "description": "",
+        "keywords": "supervisory circuit",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf",
+        "footprint": "Package_TO_SOT_THT:TO-92_Inline",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "~{RST}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "MCP120-xxxGxTO_0_1",
+            "MCP120-xxxGxTO_1_1"
+        ]
+    },
+    "MCP120-xxxHxTO": {
+        "description": "",
+        "keywords": "supervisory circuit",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf",
+        "footprint": "Package_TO_SOT_THT:TO-92_Inline",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "~{RST}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            }
+        ],
+        "units": [
+            "MCP120-xxxHxTO_0_1",
+            "MCP120-xxxHxTO_1_1"
+        ]
+    },
+    "MCP120-xxxxSN": {
+        "description": "",
+        "keywords": "supervisory circuit",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{RST}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "MCP120-xxxxSN_0_1",
+            "MCP120-xxxxSN_1_1"
+        ]
+    },
+    "MCP120-xxxxTT": {
+        "description": "",
+        "keywords": "supervisory circuit",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{RST}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            }
+        ],
+        "units": [
+            "MCP120-xxxxTT_0_1",
+            "MCP120-xxxxTT_1_1"
+        ]
+    },
+    "MCP130-xxxDxTO": {
+        "description": "",
+        "keywords": "supervisory circuit pull-up",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf",
+        "footprint": "Package_TO_SOT_THT:TO-92_Inline",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP130-xxxFxTO": {
+        "description": "",
+        "keywords": "supervisory circuit pull-up",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf",
+        "footprint": "Package_TO_SOT_THT:TO-92_Inline",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "~{RST}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "MCP130-xxxFxTO_0_1",
+            "MCP130-xxxFxTO_1_1"
+        ]
+    },
+    "MCP130-xxxHxTO": {
+        "description": "",
+        "keywords": "supervisory circuit pull-up",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf",
+        "footprint": "Package_TO_SOT_THT:TO-92_Inline",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP130-xxxxSN": {
+        "description": "",
+        "keywords": "supervisory circuit pull-up",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MCP130-xxxxTT": {
+        "description": "",
+        "keywords": "supervisory circuit pull-up",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MIC2779H-xxM5": {
+        "description": "",
+        "keywords": "Supervisor Reset MIC2779H-1YM5-TR MIC2779H-2YM5-TR",
+        "datasheet": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/MIC2779-Voltage-Monitor-with-Adjustable-Hysteresis-DS20006116A.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "HTH",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "LTH",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "RST",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "MIC2779H-xxM5_0_1",
+            "MIC2779H-xxM5_1_1"
+        ]
+    },
+    "MIC2779L-xxM5": {
+        "description": "",
+        "keywords": "Supervisor Reset MIC2779L-2YM5-TR",
+        "datasheet": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/MIC2779-Voltage-Monitor-with-Adjustable-Hysteresis-DS20006116A.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "HTH",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "LTH",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "~{RST}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "MIC2779L-xxM5_0_1",
+            "MIC2779L-xxM5_1_1"
+        ]
+    },
+    "MIC811JUY": {
+        "description": "",
+        "keywords": "Supervisor Reset",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/mic811.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-143",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MIC811LUY": {
+        "description": "",
+        "keywords": "Supervisor Reset",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/mic811.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-143",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "~{RESET}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "~{MR}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "MIC811LUY_0_1",
+            "MIC811LUY_1_1"
+        ]
+    },
+    "MIC811MUY": {
+        "description": "",
+        "keywords": "Supervisor Reset",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/mic811.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-143",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MIC811RUY": {
+        "description": "",
+        "keywords": "Supervisor Reset",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/mic811.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-143",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MIC811SUY": {
+        "description": "",
+        "keywords": "Supervisor Reset",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/mic811.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-143",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MIC811TUY": {
+        "description": "",
+        "keywords": "Supervisor Reset",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/mic811.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-143",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TCM809": {
+        "description": "",
+        "keywords": "supervisor reset push-pull",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "~{RESET}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "V_{DD}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "TCM809_1_1"
+        ]
+    },
+    "TCM810": {
+        "description": "",
+        "keywords": "supervisor reset push-pull",
+        "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "RESET",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "V_{DD}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "TCM810_1_1"
+        ]
+    },
+    "TL7702A": {
+        "description": "",
+        "keywords": "voltage supervisor",
+        "datasheet": "http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "REF",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "~{RESIN}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "CT",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "~{RESET}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "RESET",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "SENSE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "TL7702A_0_1",
+            "TL7702A_1_1"
+        ]
+    },
+    "TL7702B": {
+        "description": "",
+        "keywords": "voltage supervisor",
+        "datasheet": "http://www.ti.com.cn/cn/lit/ds/symlink/tl7705b.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TL7705A": {
+        "description": "",
+        "keywords": "voltage supervisor",
+        "datasheet": "http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TL7705AxPS": {
+        "description": "",
+        "keywords": "voltage supervisor",
+        "datasheet": "http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf",
+        "footprint": "Package_SO:SOIC-8_5.3x6.2mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "REF",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "~{RESIN}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "CT",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "~{RESET}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "RESET",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "SENSE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "TL7705AxPS_0_1",
+            "TL7705AxPS_1_1"
+        ]
+    },
+    "TL7705B": {
+        "description": "",
+        "keywords": "voltage supervisor",
+        "datasheet": "http://www.ti.com.cn/cn/lit/ds/symlink/tl7705b.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TL7709A": {
+        "description": "",
+        "keywords": "voltage supervisor",
+        "datasheet": "http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TL7712A": {
+        "description": "",
+        "keywords": "voltage supervisor",
+        "datasheet": "http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TL7715A": {
+        "description": "",
+        "keywords": "voltage supervisor",
+        "datasheet": "http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TL7733B": {
+        "description": "",
+        "keywords": "voltage supervisor",
+        "datasheet": "http://www.ti.com.cn/cn/lit/ds/symlink/tl7705b.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TLV810EA29DBZ": {
+        "description": "",
+        "keywords": "voltage supervisor low power small size",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/tlv803e.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TPS3430WDRC": {
+        "description": "",
+        "keywords": "watchdog supervisor",
+        "datasheet": "https://www.ti.com/lit/gpn/TPS3430",
+        "footprint": "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "2",
+                "name": "CWD",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "SET0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "CRST",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "6",
+                "name": "SET1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "WDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "~{WDO}",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "9",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "VDD2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "11",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            }
+        ],
+        "units": [
+            "TPS3430WDRC_0_1",
+            "TPS3430WDRC_1_0",
+            "TPS3430WDRC_1_1"
+        ]
+    },
+    "TPS3702": {
+        "description": "",
+        "keywords": "protection overvoltage unvervoltage monitor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/tps3702.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "UV",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "SENSE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "SET",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "OV",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "TPS3702_0_1",
+            "TPS3702_1_1"
+        ]
+    },
+    "TPS3808DBV": {
+        "description": "",
+        "keywords": "supply voltage supervisor",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/tps3808.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{RESET}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "~{MR}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "CT",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "SENSE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "TPS3808DBV_0_1",
+            "TPS3808DBV_1_1"
+        ]
+    },
+    "TPS3823-xxDBV": {
+        "description": "",
+        "keywords": "Texas-Instruments supply-voltage TPS3823-25DBV TPS3823-30DBV TPS3823-33DBV TPS3823-50DBV",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/tps3823.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{RESET}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "~{MR}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "WDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "V_{DD}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "TPS3823-xxDBV_0_1",
+            "TPS3823-xxDBV_1_1"
+        ]
+    },
+    "TPS3831": {
+        "description": "",
+        "keywords": "supply voltage supervisor",
+        "datasheet": "http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf",
+        "footprint": "Package_SON:Texas_X2SON-4_1x1mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{RESET}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "~{MR}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "TP",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "TPS3831_0_1",
+            "TPS3831_1_1"
+        ]
+    },
+    "TPS3839DBZ": {
+        "description": "",
+        "keywords": "supply voltage supervisor",
+        "datasheet": "http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "~{RESET}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "TPS3839DBZ_0_1",
+            "TPS3839DBZ_1_1"
+        ]
+    },
+    "TPS3839DQN": {
+        "description": "",
+        "keywords": "supply voltage supervisor",
+        "datasheet": "http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf",
+        "footprint": "Package_SON:Texas_X2SON-4_1x1mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{RESET}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -2.54,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "TP",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "TPS3839DQN_0_1",
+            "TPS3839DQN_1_1"
+        ]
+    }
+}

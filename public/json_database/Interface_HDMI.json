@@ -1,0 +1,1264 @@
+{
+    "ADV7611": {
+        "description": "",
+        "keywords": "hdmi",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/adv7611.pdf",
+        "footprint": "Package_QFP:LQFP-64-1EP_10x10mm_P0.5mm_EP5x5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "HPA_A/INT2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -33.02,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "CVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -20.32,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "3",
+                "name": "RXA_C-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -33.02,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "4",
+                "name": "RXA_C+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -33.02,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "5",
+                "name": "TVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "6",
+                "name": "RXA_0-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -33.02,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "7",
+                "name": "RXA_0+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -33.02,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "8",
+                "name": "TVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "9",
+                "name": "RXA_1-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -33.02,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "10",
+                "name": "RXA_1+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -33.02,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "11",
+                "name": "TVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 10.16,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "12",
+                "name": "RXA_2-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -33.02,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "13",
+                "name": "RXA_2+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -33.02,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "14",
+                "name": "CVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -17.78,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "15",
+                "name": "P23",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": 43.18
+                }
+            },
+            {
+                "number": "16",
+                "name": "P22",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "17",
+                "name": "P21",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "18",
+                "name": "P20",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "19",
+                "name": "P19",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "20",
+                "name": "P18",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "21",
+                "name": "P17",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "22",
+                "name": "P16",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "23",
+                "name": "DVDDIO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 15.24,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "24",
+                "name": "DVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -12.7,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "25",
+                "name": "LLC",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "26",
+                "name": "P15",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "27",
+                "name": "P14",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "28",
+                "name": "P13",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "29",
+                "name": "P12",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "30",
+                "name": "P11",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "31",
+                "name": "P10",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "32",
+                "name": "P9",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "33",
+                "name": "P8",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "34",
+                "name": "DVDDIO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 17.78,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "35",
+                "name": "P7",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "36",
+                "name": "P6",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": 0
+                }
+            },
+            {
+                "number": "37",
+                "name": "P5",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "38",
+                "name": "P4",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "39",
+                "name": "P3",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "40",
+                "name": "DVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -10.16,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "41",
+                "name": "P2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "42",
+                "name": "P1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "43",
+                "name": "P0",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "44",
+                "name": "DVDDIO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 20.32,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "45",
+                "name": "DE",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "46",
+                "name": "HS",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "47",
+                "name": "VS/FIELD/ALSB",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "48",
+                "name": "AP",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "49",
+                "name": "SCLK/INT2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "50",
+                "name": "LRCLK",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": -38.1
+                }
+            },
+            {
+                "number": "51",
+                "name": "MCLK/INT2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": -40.64
+                }
+            },
+            {
+                "number": "52",
+                "name": "DVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -7.62,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "53",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -33.02,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "54",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -33.02,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "55",
+                "name": "INT1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 33.02,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "56",
+                "name": "~{RESET}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -33.02,
+                    "y": 0
+                }
+            },
+            {
+                "number": "57",
+                "name": "PVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "58",
+                "name": "XTALP",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -33.02,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "59",
+                "name": "XTALN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -33.02,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "60",
+                "name": "DVDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "61",
+                "name": "CEC",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -33.02,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "62",
+                "name": "DDCA_SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -33.02,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "63",
+                "name": "DDCA_SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -33.02,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "64",
+                "name": "RXA_5V",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -33.02,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "65",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -50.8
+                }
+            }
+        ],
+        "units": [
+            "ADV7611_0_1",
+            "ADV7611_1_1"
+        ]
+    },
+    "TPD12S520DBT": {
+        "description": "",
+        "keywords": "hdmi",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/tpd12s520.pdf",
+        "footprint": "Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "5V_SUPPLY",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "2",
+                "name": "LV_SUPPLY",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "4",
+                "name": "TMDS_D2+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "5",
+                "name": "TMDS_GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "6",
+                "name": "TMDS_D2-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "7",
+                "name": "TMDS_D1+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "8",
+                "name": "TMDS_GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "9",
+                "name": "TMDS_D1-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "10",
+                "name": "TMDS_D0+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "11",
+                "name": "TMDS_GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "12",
+                "name": "TMDS_D0-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "13",
+                "name": "TMDS_CK+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "14",
+                "name": "TMDS_GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "15",
+                "name": "TMDS_CK-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "16",
+                "name": "CE_REMOTE_IN",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 0
+                }
+            },
+            {
+                "number": "17",
+                "name": "DDC_CLK_IN",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "18",
+                "name": "DDC_DAT_IN",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "19",
+                "name": "HOTPLUG_DET_IN",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "20",
+                "name": "HOTPLUG_DET_OUT",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "21",
+                "name": "DDC_DAT_OUT",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "22",
+                "name": "DDC_CLK_OUT",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "23",
+                "name": "CE_REMOTE_OUT",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 0
+                }
+            },
+            {
+                "number": "24",
+                "name": "TMDS_CK-",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "25",
+                "name": "TMDS_GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "26",
+                "name": "TMDS_CK+",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "27",
+                "name": "TMDS_D0-",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "28",
+                "name": "TMDS_GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "29",
+                "name": "TMDS_D0+",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "30",
+                "name": "TMDS_D1-",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "31",
+                "name": "TMDS_GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "32",
+                "name": "TMDS_D1+",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "33",
+                "name": "TMDS_D2-",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "34",
+                "name": "TMDS_GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "35",
+                "name": "TMDS_D2+",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -20.32,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "36",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -27.94
+                }
+            },
+            {
+                "number": "37",
+                "name": "ESD_BYP",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 20.32,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "38",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 20.32
+                }
+            }
+        ],
+        "units": [
+            "TPD12S520DBT_0_1",
+            "TPD12S520DBT_1_1"
+        ]
+    }
+}

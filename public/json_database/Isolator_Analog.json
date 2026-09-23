@@ -1,0 +1,964 @@
+{
+    "ACPL-C790": {
+        "description": "",
+        "keywords": "Isolation Amplifer",
+        "datasheet": "http://docs.avagotech.com/docs/AV02-2460EN",
+        "footprint": "Package_SO:SSO-8_6.8x5.9mm_P1.27mm_Clearance8mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "IN+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "IN-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "GND2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "6",
+                "name": "OUT-",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "OUT+",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VDD2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "ACPL-C790_0_1",
+            "ACPL-C790_1_1"
+        ]
+    },
+    "ACPL-C79A": {
+        "description": "",
+        "keywords": "Isolation Amplifer",
+        "datasheet": "http://docs.avagotech.com/docs/AV02-2460EN",
+        "footprint": "Package_SO:SSO-8_6.8x5.9mm_P1.27mm_Clearance8mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ACPL-C79B": {
+        "description": "",
+        "keywords": "Isolation Amplifer",
+        "datasheet": "http://docs.avagotech.com/docs/AV02-2460EN",
+        "footprint": "Package_SO:SSO-8_6.8x5.9mm_P1.27mm_Clearance8mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ACPL-C870": {
+        "description": "",
+        "keywords": "Optycally Isolated Voltage Sensor",
+        "datasheet": "www.avagotech.com/docs/AV02-3563EN",
+        "footprint": "Package_SO:SSO-8_6.8x5.9mm_P1.27mm_Clearance8mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "IN-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "GND2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "6",
+                "name": "OUT-",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "OUT+",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VDD2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "ACPL-C870_0_0",
+            "ACPL-C870_0_1",
+            "ACPL-C870_1_1"
+        ]
+    },
+    "ACPL-C87A": {
+        "description": "",
+        "keywords": "Optycally Isolated Voltage Sensor",
+        "datasheet": "www.avagotech.com/docs/AV02-3563EN",
+        "footprint": "Package_SO:SSO-8_6.8x5.9mm_P1.27mm_Clearance8mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ACPL-C87B": {
+        "description": "",
+        "keywords": "Optycally Isolated Voltage Sensor",
+        "datasheet": "www.avagotech.com/docs/AV02-3563EN",
+        "footprint": "Package_SO:SSO-8_6.8x5.9mm_P1.27mm_Clearance8mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AMC1100DWV": {
+        "description": "",
+        "keywords": "isolated difference amplifier",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/amc1100.pdf",
+        "footprint": "Package_SO:SOIC-8_7.5x5.85mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "VINP",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "VINN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "GND2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "6",
+                "name": "VOUTN",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "VOUTP",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VDD2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "AMC1100DWV_0_1",
+            "AMC1100DWV_1_1"
+        ]
+    },
+    "AMC1200BDWV": {
+        "description": "",
+        "keywords": "isolated difference amplifier",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/amc1200.pdf",
+        "footprint": "Package_SO:SOIC-8_7.5x5.85mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AMC1300BDWV": {
+        "description": "",
+        "keywords": "isolated difference amplifier",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/amc1300.pdf",
+        "footprint": "Package_SO:SOIC-8_7.5x5.85mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AMC1300DWV": {
+        "description": "",
+        "keywords": "isolated difference amplifier",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/amc1300.pdf",
+        "footprint": "Package_SO:SOIC-8_7.5x5.85mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AMC1350DWV": {
+        "description": "",
+        "keywords": "Isolation-Amplifer",
+        "datasheet": "https://www.ti.com/lit/gpn/AMC1350",
+        "footprint": "Package_SO:SOIC-8_7.5x5.85mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "AMC1351DWV": {
+        "description": "",
+        "keywords": "Isolation-Amplifer",
+        "datasheet": "https://www.ti.com/lit/gpn/AMC1351",
+        "footprint": "Package_SO:SOIC-8_7.5x5.85mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND1",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "GND2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "6",
+                "name": "OUTN",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "OUTP",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VDD2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "AMC1351DWV_0_0",
+            "AMC1351DWV_0_1",
+            "AMC1351DWV_1_1"
+        ]
+    },
+    "AMC3330": {
+        "description": "",
+        "keywords": "isolated analog amplifier integrated power supply",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/amc3330.pdf",
+        "footprint": "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "DCDC_OUT",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "2",
+                "name": "DCDC_HGND",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "HLDO_IN",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -7.62,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "5",
+                "name": "HLDO_OUT",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "INP",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "INN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "8",
+                "name": "HGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "9",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "10",
+                "name": "OUTN",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "11",
+                "name": "OUTP",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "12",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "13",
+                "name": "LDO_OUT",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "14",
+                "name": "DIAG",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "15",
+                "name": "DCDC_GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "16",
+                "name": "DCDC_IN",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 17.78,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "AMC3330_0_1",
+            "AMC3330_1_1"
+        ]
+    },
+    "IL300": {
+        "description": "",
+        "keywords": "Vishay",
+        "datasheet": "http://www.vishay.com/docs/83622/il300.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "IL300_0_1",
+            "IL300_1_1"
+        ]
+    },
+    "ISO224xDWV": {
+        "description": "",
+        "keywords": "Reinforced-Isolation VDE-V-0884-11 UL1577",
+        "datasheet": "https://www.ti.com/lit/gpn/ISO224",
+        "footprint": "Package_SO:SOIC-8_7.5x5.85mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VCAP",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "VDD1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "GND2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "6",
+                "name": "OUTN",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "OUTP",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "VDD2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "ISO224xDWV_0_0",
+            "ISO224xDWV_0_1",
+            "ISO224xDWV_1_0",
+            "ISO224xDWV_1_1"
+        ]
+    },
+    "LOC112": {
+        "description": "",
+        "keywords": "ixys littlefuse",
+        "datasheet": "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=996c6e8f-cc1b-44f6-811e-251c6e004c56&filename=littelfuse-integrated-circuits-loc112-datasheet",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "LOC112P": {
+        "description": "",
+        "keywords": "ixys littlefuse",
+        "datasheet": "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=996c6e8f-cc1b-44f6-811e-251c6e004c56&filename=littelfuse-integrated-circuits-loc112-datasheet",
+        "footprint": "Package_DIP:IXYS_Flatpak-8_6.3x9.7mm_P2.54mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "LOC112S": {
+        "description": "",
+        "keywords": "ixys littlefuse",
+        "datasheet": "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=996c6e8f-cc1b-44f6-811e-251c6e004c56&filename=littelfuse-integrated-circuits-loc112-datasheet",
+        "footprint": "Package_DIP:IXYS_SMD-8_6.3x9.7mm_P2.54mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    }
+}

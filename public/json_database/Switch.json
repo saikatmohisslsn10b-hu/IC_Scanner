@@ -1,0 +1,6409 @@
+{
+    "CK_KMS2xxG": {
+        "description": "",
+        "keywords": "switch normally-open pushbutton push-button",
+        "datasheet": "https://www.ckswitches.com/media/1482/kms.pdf",
+        "footprint": "Button_Switch_SMD:SW_SPST_CK_KMS2xxGP",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "CK_KMS2xxGP": {
+        "description": "",
+        "keywords": "switch normally-open pushbutton push-button",
+        "datasheet": "https://www.ckswitches.com/media/1482/kms.pdf",
+        "footprint": "Button_Switch_SMD:SW_SPST_CK_KMS2xxGP",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SW_Coded": {
+        "description": "",
+        "keywords": "rotary hex",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "CM",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "D0",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "D1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "D2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "D3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "SW_Coded_0_1",
+            "SW_Coded_1_1"
+        ]
+    },
+    "SW_Coded_SH-7010": {
+        "description": "",
+        "keywords": "rotary bcd Real",
+        "datasheet": "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "4",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "8",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "C",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "SW_Coded_SH-7010_0_0",
+            "SW_Coded_SH-7010_0_1",
+            "SW_Coded_SH-7010_1_1"
+        ]
+    },
+    "SW_Coded_SH-7030": {
+        "description": "",
+        "keywords": "rotary bcd Complementary",
+        "datasheet": "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SW_Coded_SH-7040": {
+        "description": "",
+        "keywords": "rotary bcd Gray",
+        "datasheet": "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf",
+        "footprint": "Button_Switch_SMD:Nidec_Copal_SH-7040B",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "4",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "8",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "C",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "SW_Coded_SH-7040_0_0",
+            "SW_Coded_SH-7040_0_1",
+            "SW_Coded_SH-7040_1_1"
+        ]
+    },
+    "SW_Coded_SH-7050": {
+        "description": "",
+        "keywords": "rotary hex Real",
+        "datasheet": "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "4",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "8",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "C",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "SW_Coded_SH-7050_0_0",
+            "SW_Coded_SH-7050_0_1",
+            "SW_Coded_SH-7050_1_1"
+        ]
+    },
+    "SW_Coded_SH-7070": {
+        "description": "",
+        "keywords": "rotary hex Complementary",
+        "datasheet": "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SW_Coded_SH-7080": {
+        "description": "",
+        "keywords": "rotary hex Gray",
+        "datasheet": "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf",
+        "footprint": "Button_Switch_SMD:Nidec_Copal_SH-7040B",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "4",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "8",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "C",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "SW_Coded_SH-7080_0_0",
+            "SW_Coded_SH-7080_0_1",
+            "SW_Coded_SH-7080_1_1"
+        ]
+    },
+    "SW_DIP_x01": {
+        "description": "",
+        "keywords": "dip switch",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SW_DIP_x01_0_0",
+            "SW_DIP_x01_0_1",
+            "SW_DIP_x01_1_1"
+        ]
+    },
+    "SW_DIP_x02": {
+        "description": "",
+        "keywords": "dip switch",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "SW_DIP_x02_0_0",
+            "SW_DIP_x02_0_1",
+            "SW_DIP_x02_1_1"
+        ]
+    },
+    "SW_DIP_x03": {
+        "description": "",
+        "keywords": "dip switch",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "SW_DIP_x03_0_0",
+            "SW_DIP_x03_0_1",
+            "SW_DIP_x03_1_1"
+        ]
+    },
+    "SW_DIP_x04": {
+        "description": "",
+        "keywords": "dip switch",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "SW_DIP_x04_0_0",
+            "SW_DIP_x04_0_1",
+            "SW_DIP_x04_1_1"
+        ]
+    },
+    "SW_DIP_x05": {
+        "description": "",
+        "keywords": "dip switch",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "9",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "10",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "SW_DIP_x05_0_0",
+            "SW_DIP_x05_0_1",
+            "SW_DIP_x05_1_1"
+        ]
+    },
+    "SW_DIP_x06": {
+        "description": "",
+        "keywords": "dip switch",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "9",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "10",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "12",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "SW_DIP_x06_0_0",
+            "SW_DIP_x06_0_1",
+            "SW_DIP_x06_1_1"
+        ]
+    },
+    "SW_DIP_x07": {
+        "description": "",
+        "keywords": "dip switch",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "10",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "12",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "13",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "14",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "SW_DIP_x07_0_0",
+            "SW_DIP_x07_0_1",
+            "SW_DIP_x07_1_1"
+        ]
+    },
+    "SW_DIP_x08": {
+        "description": "",
+        "keywords": "dip switch",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "11",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "12",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "13",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "14",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "15",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "16",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "SW_DIP_x08_0_0",
+            "SW_DIP_x08_0_1",
+            "SW_DIP_x08_1_1"
+        ]
+    },
+    "SW_DIP_x09": {
+        "description": "",
+        "keywords": "dip switch",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "10",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "11",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "12",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "13",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "14",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "15",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "16",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "17",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "18",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "SW_DIP_x09_0_0",
+            "SW_DIP_x09_0_1",
+            "SW_DIP_x09_1_1"
+        ]
+    },
+    "SW_DIP_x10": {
+        "description": "",
+        "keywords": "dip switch",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "9",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "11",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "12",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "13",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "14",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "15",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "16",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "17",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "18",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "19",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "20",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 12.7
+                }
+            }
+        ],
+        "units": [
+            "SW_DIP_x10_0_0",
+            "SW_DIP_x10_0_1",
+            "SW_DIP_x10_1_1"
+        ]
+    },
+    "SW_DIP_x11": {
+        "description": "",
+        "keywords": "dip switch",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "9",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "11",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "12",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "13",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "14",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "15",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "16",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "17",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "18",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "19",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "20",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "21",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "22",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 12.7
+                }
+            }
+        ],
+        "units": [
+            "SW_DIP_x11_0_0",
+            "SW_DIP_x11_0_1",
+            "SW_DIP_x11_1_1"
+        ]
+    },
+    "SW_DIP_x12": {
+        "description": "",
+        "keywords": "dip switch",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "8",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "9",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "10",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "11",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "12",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "13",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "14",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "15",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "16",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "17",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "18",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "19",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "20",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "21",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "22",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "23",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "24",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 15.24
+                }
+            }
+        ],
+        "units": [
+            "SW_DIP_x12_0_0",
+            "SW_DIP_x12_1_1"
+        ]
+    },
+    "SW_DP3T": {
+        "description": "",
+        "keywords": "switch dp3t ON-ON-ON",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "4",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "5",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "6",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "7",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "8",
+                "name": "8",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "SW_DP3T_0_1",
+            "SW_DP3T_1_1",
+            "SW_DP3T_2_1"
+        ]
+    },
+    "SW_DPDT_x2": {
+        "description": "",
+        "keywords": "switch dual-pole double-throw DPDT spdt ON-ON",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "SW_DPDT_x2_0_0",
+            "SW_DPDT_x2_0_1",
+            "SW_DPDT_x2_1_1",
+            "SW_DPDT_x2_2_1"
+        ]
+    },
+    "SW_DPST": {
+        "description": "",
+        "keywords": "switch dual double-pole single-throw OFF-ON",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "4",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "SW_DPST_0_0",
+            "SW_DPST_1_1"
+        ]
+    },
+    "SW_DPST_Temperature": {
+        "description": "",
+        "keywords": "temperature switch dual double-pole single-throw OFF-ON",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "4",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "SW_DPST_Temperature_0_0",
+            "SW_DPST_Temperature_1_1"
+        ]
+    },
+    "SW_DPST_x2": {
+        "description": "",
+        "keywords": "switch lever",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SW_DPST_x2_0_0",
+            "SW_DPST_x2_1_1",
+            "SW_DPST_x2_2_1"
+        ]
+    },
+    "SW_E3_SA3216": {
+        "description": "",
+        "keywords": "switch normally-open pushbutton push-button LCD",
+        "datasheet": "http://www.e3-keys.com/files/SA%20Technical%20Datasheet%20v2.0.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "5V",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "CLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "DAT",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "SW1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "SW2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "SW_E3_SA3216_0_0",
+            "SW_E3_SA3216_0_1",
+            "SW_E3_SA3216_1_1"
+        ]
+    },
+    "SW_E3_SA3624": {
+        "description": "",
+        "keywords": "switch normally-open pushbutton push-button LCD",
+        "datasheet": "http://www.e3-keys.com/files/SA%20Technical%20Datasheet%20v2.0.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SW_E3_SA6432": {
+        "description": "",
+        "keywords": "switch normally-open pushbutton push-button LCD",
+        "datasheet": "http://www.e3-keys.com/files/SA%20Technical%20Datasheet%20v2.0.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SW_MEC_5E": {
+        "description": "",
+        "keywords": "switch normally-open pushbutton push-button",
+        "datasheet": "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5E.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "K",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "SW_MEC_5E_0_1"
+        ]
+    },
+    "SW_MEC_5G": {
+        "description": "",
+        "keywords": "switch normally-open pushbutton push-button",
+        "datasheet": "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5G.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SW_MEC_5G_0_1",
+            "SW_MEC_5G_1_1"
+        ]
+    },
+    "SW_MEC_5G_2LED": {
+        "description": "",
+        "keywords": "switch normally-open pushbutton push-button LED",
+        "datasheet": "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5G.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "K",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "SW_MEC_5G_2LED_0_0",
+            "SW_MEC_5G_2LED_0_1",
+            "SW_MEC_5G_2LED_1_1"
+        ]
+    },
+    "SW_MEC_5G_LED": {
+        "description": "",
+        "keywords": "switch normally-open pushbutton push-button LED",
+        "datasheet": "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5G.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "K",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "SW_MEC_5G_LED_0_0",
+            "SW_MEC_5G_LED_0_1",
+            "SW_MEC_5G_LED_1_1"
+        ]
+    },
+    "SW_MMI_Q5-100": {
+        "description": "",
+        "keywords": "switch normally-open pushbutton push-button LCD",
+        "datasheet": "http://latest.ledswitches.co.uk/media/pdf/Q5-PCB-V1-withQ5data.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SW_Nidec_CAS-120A1": {
+        "description": "",
+        "keywords": "switch single-pole double-throw spdt ON-ON",
+        "datasheet": "https://www.nidec-components.com/e/catalog/switch/cas.pdf",
+        "footprint": "Button_Switch_SMD:Nidec_Copal_CAS-120A",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SW_NKK_GW12LJPCF": {
+        "description": "",
+        "keywords": "switch single-pole double-throw spdt ON-ON illuminated red green",
+        "datasheet": "http://www.nkkswitches.com/pdf/gwillum.pdf",
+        "footprint": "Button_Switch_THT:SW_NKK_GW12LJP",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "KR",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "KG",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "SW_NKK_GW12LJPCF_0_0",
+            "SW_NKK_GW12LJPCF_0_1",
+            "SW_NKK_GW12LJPCF_1_1"
+        ]
+    },
+    "SW_Omron_B3FS": {
+        "description": "",
+        "keywords": "switch normally-open pushbutton push-button",
+        "datasheet": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SW_Push": {
+        "description": "",
+        "keywords": "switch normally-open pushbutton push-button",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SW_Push_0_1"
+        ]
+    },
+    "SW_Push_45deg": {
+        "description": "",
+        "keywords": "switch normally-open pushbutton push-button",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -2.54,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 2.54,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "SW_Push_45deg_0_1"
+        ]
+    },
+    "SW_Push_DPDT": {
+        "description": "",
+        "keywords": "switch dual-pole double-throw spdt ON-ON",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "SW_Push_DPDT_0_0",
+            "SW_Push_DPDT_0_1",
+            "SW_Push_DPDT_1_1"
+        ]
+    },
+    "SW_Push_Dual": {
+        "description": "",
+        "keywords": "switch normally-open pushbutton push-button",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "4",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "SW_Push_Dual_0_1",
+            "SW_Push_Dual_1_1"
+        ]
+    },
+    "SW_Push_Dual_x2": {
+        "description": "",
+        "keywords": "switch normally-open pushbutton push-button",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "D",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "D",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SW_Push_Dual_x2_0_1",
+            "SW_Push_Dual_x2_1_1",
+            "SW_Push_Dual_x2_2_1"
+        ]
+    },
+    "SW_Push_Lamp": {
+        "description": "",
+        "keywords": "switch normally-open pushbutton push-button Lamp",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "L",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "L",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SW_Push_Lamp_0_1",
+            "SW_Push_Lamp_1_1"
+        ]
+    },
+    "SW_Push_LED": {
+        "description": "",
+        "keywords": "switch normally-open pushbutton push-button LED",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "K",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SW_Push_LED_0_0",
+            "SW_Push_LED_0_1",
+            "SW_Push_LED_1_1"
+        ]
+    },
+    "SW_Push_Open": {
+        "description": "",
+        "keywords": "switch normally-closed pushbutton push-button",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SW_Push_Open_0_1",
+            "SW_Push_Open_1_1"
+        ]
+    },
+    "SW_Push_Open_Dual": {
+        "description": "",
+        "keywords": "switch normally-closed pushbutton push-button",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "4",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "SW_Push_Open_Dual_0_1",
+            "SW_Push_Open_Dual_1_1"
+        ]
+    },
+    "SW_Push_Open_Dual_x2": {
+        "description": "",
+        "keywords": "switch normally-closed pushbutton push-button",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SW_Push_Open_Dual_x2_0_1",
+            "SW_Push_Open_Dual_x2_1_1",
+            "SW_Push_Open_Dual_x2_2_1"
+        ]
+    },
+    "SW_Push_Shielded": {
+        "description": "",
+        "keywords": "switch normally-open pushbutton momentary",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "SH",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -3.81
+                }
+            }
+        ],
+        "units": [
+            "SW_Push_Shielded_0_1",
+            "SW_Push_Shielded_1_1"
+        ]
+    },
+    "SW_Push_SPDT": {
+        "description": "",
+        "keywords": "switch single-pole double-throw spdt ON-ON",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "SW_Push_SPDT_0_0",
+            "SW_Push_SPDT_0_1",
+            "SW_Push_SPDT_1_1"
+        ]
+    },
+    "SW_Reed": {
+        "description": "",
+        "keywords": "reed magnetic switch",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SW_Reed_0_0",
+            "SW_Reed_1_1"
+        ]
+    },
+    "SW_Reed_Opener": {
+        "description": "",
+        "keywords": "reed magnetic switch",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SW_Reed_Opener_0_0",
+            "SW_Reed_Opener_0_1",
+            "SW_Reed_Opener_1_1"
+        ]
+    },
+    "SW_Reed_SPDT": {
+        "description": "",
+        "keywords": "reed magnetic switch SPDT",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "SW_Reed_SPDT_0_0",
+            "SW_Reed_SPDT_0_1",
+            "SW_Reed_SPDT_1_1"
+        ]
+    },
+    "SW_Rotary_1x12": {
+        "description": "",
+        "keywords": "rotary switch 1x12",
+        "datasheet": "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "3",
+                "name": "3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "4",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "5",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "6",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "7",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "8",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "9",
+                "name": "9",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "10",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "11",
+                "name": "11",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "12",
+                "name": "12",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "13",
+                "name": "13",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SW_Rotary_1x12_0_0",
+            "SW_Rotary_1x12_1_1"
+        ]
+    },
+    "SW_Rotary_1x3_MP": {
+        "description": "",
+        "keywords": "Rotary switch 1x3 SP3T",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "MP",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "SW_Rotary_1x3_MP_0_1",
+            "SW_Rotary_1x3_MP_1_1"
+        ]
+    },
+    "SW_Rotary_1x4_MP": {
+        "description": "",
+        "keywords": "Rotary switch 1x4 SP4T",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "MP",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "SW_Rotary_1x4_MP_0_1",
+            "SW_Rotary_1x4_MP_1_1"
+        ]
+    },
+    "SW_Rotary_1x5_MP": {
+        "description": "",
+        "keywords": "Rotary switch 1x5 SP5T",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "MP",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "SW_Rotary_1x5_MP_0_1",
+            "SW_Rotary_1x5_MP_1_1"
+        ]
+    },
+    "SW_Rotary_1x6_MP": {
+        "description": "",
+        "keywords": "Rotary switch 1x6 SP6T",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "MP",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "SW_Rotary_1x6_MP_0_1",
+            "SW_Rotary_1x6_MP_1_1"
+        ]
+    },
+    "SW_Rotary_1x7_MP": {
+        "description": "",
+        "keywords": "Rotary switch 1x7 SP7T",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "MP",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "SW_Rotary_1x7_MP_0_1",
+            "SW_Rotary_1x7_MP_1_1"
+        ]
+    },
+    "SW_Rotary_1x8_MP": {
+        "description": "",
+        "keywords": "Rotary switch 1x8 SP8T",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "MP",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "SW_Rotary_1x8_MP_0_1",
+            "SW_Rotary_1x8_MP_1_1"
+        ]
+    },
+    "SW_Rotary_1x9_MP": {
+        "description": "",
+        "keywords": "Rotary switch 1x8 SP8T",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "10",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "MP",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -10.16
+                }
+            }
+        ],
+        "units": [
+            "SW_Rotary_1x9_MP_0_1",
+            "SW_Rotary_1x9_MP_1_1"
+        ]
+    },
+    "SW_Rotary_2x6": {
+        "description": "",
+        "keywords": "rotary switch 2x6",
+        "datasheet": "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "3",
+                "name": "3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "4",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "5",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "6",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "7",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "8",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "9",
+                "name": "9",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "10",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "11",
+                "name": "11",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "12",
+                "name": "12",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "13",
+                "name": "13",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "14",
+                "name": "14",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -10.16
+                }
+            }
+        ],
+        "units": [
+            "SW_Rotary_2x6_0_0",
+            "SW_Rotary_2x6_0_1",
+            "SW_Rotary_2x6_1_1"
+        ]
+    },
+    "SW_Rotary_3x4": {
+        "description": "",
+        "keywords": "rotary switch 3x4",
+        "datasheet": "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "3",
+                "name": "3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "4",
+                "name": "4",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "5",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "6",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "7",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "8",
+                "name": "8",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "9",
+                "name": "9",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "10",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "11",
+                "name": "11",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "12",
+                "name": "12",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "13",
+                "name": "13",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "14",
+                "name": "14",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "15",
+                "name": "15",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -12.7
+                }
+            }
+        ],
+        "units": [
+            "SW_Rotary_3x4_0_0",
+            "SW_Rotary_3x4_0_1",
+            "SW_Rotary_3x4_1_1"
+        ]
+    },
+    "SW_Rotary_4x3": {
+        "description": "",
+        "keywords": "rotary switch 4x3",
+        "datasheet": "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "3",
+                "name": "3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "4",
+                "name": "4",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "5",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "6",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "7",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "8",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "9",
+                "name": "9",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "10",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "11",
+                "name": "11",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "12",
+                "name": "12",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "13",
+                "name": "13",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "14",
+                "name": "14",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "15",
+                "name": "15",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "16",
+                "name": "16",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -15.24
+                }
+            }
+        ],
+        "units": [
+            "SW_Rotary_4x3_0_0",
+            "SW_Rotary_4x3_0_1",
+            "SW_Rotary_4x3_1_1"
+        ]
+    },
+    "SW_Slide_DPDT": {
+        "description": "",
+        "keywords": "switch dual-pole double-throw dpdt ON-ON",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "SW_Slide_DPDT_0_0",
+            "SW_Slide_DPDT_0_1",
+            "SW_Slide_DPDT_1_1"
+        ]
+    },
+    "SW_SP3T": {
+        "description": "",
+        "keywords": "switch sp3t ON-ON-ON",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "4",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "SW_SP3T_0_1",
+            "SW_SP3T_1_1"
+        ]
+    },
+    "SW_SP3T_NR01103": {
+        "description": "",
+        "keywords": "NR01 SP3T Switch",
+        "datasheet": "https://www.nkkswitches.com/pdf/NR01%20Rotaries.pdf",
+        "footprint": "Button_Switch_THT:SW_NKK_NR01",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "C",
+                "name": "Common",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "MP",
+                "name": "MP",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "SW_SP3T_NR01103_0_1",
+            "SW_SP3T_NR01103_1_1"
+        ]
+    },
+    "SW_SP4T_NR01104": {
+        "description": "",
+        "keywords": "NR01 SP4T Switch",
+        "datasheet": "https://www.nkkswitches.com/pdf/NR01%20Rotaries.pdf",
+        "footprint": "Button_Switch_THT:SW_NKK_NR01",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "4",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "C",
+                "name": "Common",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "MP",
+                "name": "MP",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "SW_SP4T_NR01104_0_1",
+            "SW_SP4T_NR01104_1_1"
+        ]
+    },
+    "SW_SP5T_NR01105": {
+        "description": "",
+        "keywords": "NR01 SP5T Switch",
+        "datasheet": "https://www.nkkswitches.com/pdf/NR01%20Rotaries.pdf",
+        "footprint": "Button_Switch_THT:SW_NKK_NR01",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "4",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "5",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "C",
+                "name": "Common",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "MP",
+                "name": "MP",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "SW_SP5T_NR01105_0_1",
+            "SW_SP5T_NR01105_1_1"
+        ]
+    },
+    "SW_SPDT": {
+        "description": "",
+        "keywords": "switch single-pole double-throw spdt ON-ON",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "SW_SPDT_0_1",
+            "SW_SPDT_1_1"
+        ]
+    },
+    "SW_SPDT_MSM": {
+        "description": "",
+        "keywords": "switch spdt single-pole double-throw ON-OFF-ON",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "4",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "SW_SPDT_MSM_0_1",
+            "SW_SPDT_MSM_1_1"
+        ]
+    },
+    "SW_SPDT_XKB_DMx-xxxx-1": {
+        "description": "",
+        "keywords": "limit switch single pole double throw spdt microswitch",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "C",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "SW_SPDT_XKB_DMx-xxxx-1_1_1"
+        ]
+    },
+    "SW_SPST": {
+        "description": "",
+        "keywords": "switch lever",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SW_SPST_0_0",
+            "SW_SPST_1_1"
+        ]
+    },
+    "SW_SPST_Lamp": {
+        "description": "",
+        "keywords": "switch SPST LED OFF-ON lamp",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "L",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "L",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SW_SPST_Lamp_0_1",
+            "SW_SPST_Lamp_1_1"
+        ]
+    },
+    "SW_SPST_LED": {
+        "description": "",
+        "keywords": "switch SPST LED OFF-ON",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "K",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SW_SPST_LED_0_0",
+            "SW_SPST_LED_0_1",
+            "SW_SPST_LED_1_1"
+        ]
+    },
+    "SW_SPST_Temperature_NC": {
+        "description": "",
+        "keywords": "temperature switch normally closed",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "SW_SPST_Temperature_NC_0_0",
+            "SW_SPST_Temperature_NC_1_1"
+        ]
+    },
+    "SW_SPST_Temperature_NO": {
+        "description": "",
+        "keywords": "temperature switch normally open",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "SW_SPST_Temperature_NO_0_0",
+            "SW_SPST_Temperature_NO_1_1"
+        ]
+    }
+}

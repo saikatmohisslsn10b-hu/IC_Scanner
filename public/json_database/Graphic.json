@@ -1,0 +1,335 @@
+{
+    "Logo_Open_Hardware_Large": {
+        "description": "",
+        "keywords": "Logo",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "Logo_Open_Hardware_Large_1_1"
+        ]
+    },
+    "Logo_Open_Hardware_Small": {
+        "description": "",
+        "keywords": "Logo",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "Logo_Open_Hardware_Small_0_1"
+        ]
+    },
+    "SYM_Arrow45_Large": {
+        "description": "",
+        "keywords": "symbol arrow angled 45°",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Arrow45_Large_0_1"
+        ]
+    },
+    "SYM_Arrow45_Normal": {
+        "description": "",
+        "keywords": "symbol arrow angled 45°",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Arrow45_Normal_0_1"
+        ]
+    },
+    "SYM_Arrow45_Small": {
+        "description": "",
+        "keywords": "symbol arrow angled 45°",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Arrow45_Small_0_1"
+        ]
+    },
+    "SYM_Arrow45_Tiny": {
+        "description": "",
+        "keywords": "symbol arrow angled 45°",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Arrow45_Tiny_0_1"
+        ]
+    },
+    "SYM_Arrow45_XLarge": {
+        "description": "",
+        "keywords": "symbol arrow 45° angled",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Arrow45_XLarge_0_1"
+        ]
+    },
+    "SYM_Arrow_Large": {
+        "description": "",
+        "keywords": "symbol arrow",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Arrow_Large_0_1"
+        ]
+    },
+    "SYM_Arrow_Normal": {
+        "description": "",
+        "keywords": "symbol arrow",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Arrow_Normal_0_1"
+        ]
+    },
+    "SYM_Arrow_Small": {
+        "description": "",
+        "keywords": "symbol arrow",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Arrow_Small_0_1"
+        ]
+    },
+    "SYM_Arrow_Tiny": {
+        "description": "",
+        "keywords": "symbol arrow",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Arrow_Tiny_0_1"
+        ]
+    },
+    "SYM_Arrow_XLarge": {
+        "description": "",
+        "keywords": "symbol arrow",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Arrow_XLarge_0_1"
+        ]
+    },
+    "SYM_Earth_Protective_Large": {
+        "description": "",
+        "keywords": "graphical symbol earth protective",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Earth_Protective_Large_0_1"
+        ]
+    },
+    "SYM_Earth_Protective_Small": {
+        "description": "",
+        "keywords": "graphical symbol earth protective",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Earth_Protective_Small_0_1"
+        ]
+    },
+    "SYM_EasterEgg_42x60mm": {
+        "description": "",
+        "keywords": "egg easter oval",
+        "datasheet": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2013:347:0671:0854:de:PDF",
+        "footprint": "Symbol:EasterEgg_EWG1308-2013_ClassA",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_EasterEgg_42x60mm_0_0"
+        ]
+    },
+    "SYM_ESD_Large": {
+        "description": "",
+        "keywords": "symbol ESD",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_ESD_Large_0_0",
+            "SYM_ESD_Large_0_1"
+        ]
+    },
+    "SYM_ESD_Small": {
+        "description": "",
+        "keywords": "symbol ESD",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_ESD_Small_0_0"
+        ]
+    },
+    "SYM_Flash_Large": {
+        "description": "",
+        "keywords": "graphic symbol flash VAC 220VAC 110VAC power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Flash_Large_0_1"
+        ]
+    },
+    "SYM_Flash_Small": {
+        "description": "",
+        "keywords": "graphic symbol flash VAC 220VAC 110VAC power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Flash_Small_0_1"
+        ]
+    },
+    "SYM_Flash_XLarge": {
+        "description": "",
+        "keywords": "graphic symbol flash VAC 220VAC 110VAC power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Flash_XLarge_0_1"
+        ]
+    },
+    "SYM_Hot_Large": {
+        "description": "",
+        "keywords": "symbol logo hot surface warning heat",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Hot_Large_0_1"
+        ]
+    },
+    "SYM_Hot_Small": {
+        "description": "",
+        "keywords": "symbol logo hot surface warning heat",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Hot_Small_0_1"
+        ]
+    },
+    "SYM_LASER_Large": {
+        "description": "",
+        "keywords": "symbol logo laser warning",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_LASER_Large_0_1"
+        ]
+    },
+    "SYM_LASER_Small": {
+        "description": "",
+        "keywords": "symbol logo laser warning",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_LASER_Small_0_1"
+        ]
+    },
+    "SYM_Magnet_Large": {
+        "description": "",
+        "keywords": "symbol logo magnetic field warning",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Magnet_Large_0_1"
+        ]
+    },
+    "SYM_Magnet_Small": {
+        "description": "",
+        "keywords": "symbol logo magnetic field warning",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Magnet_Small_0_1"
+        ]
+    },
+    "SYM_Radioactive_Large": {
+        "description": "",
+        "keywords": "symbol logo radioactive radiation warning heat",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Radioactive_Large_0_0",
+            "SYM_Radioactive_Large_0_1"
+        ]
+    },
+    "SYM_Radioactive_Radiation_Small": {
+        "description": "",
+        "keywords": "symbol logo radioactive radiation warning",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Radioactive_Radiation_Small_0_0",
+            "SYM_Radioactive_Radiation_Small_0_1"
+        ]
+    },
+    "SYM_Radio_Waves_Large": {
+        "description": "",
+        "keywords": "symbol logo radio waves warning radiation",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Radio_Waves_Large_0_1"
+        ]
+    },
+    "SYM_Radio_Waves_Small": {
+        "description": "",
+        "keywords": "symbol logo radio waves warning radiation",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "SYM_Radio_Waves_Small_0_1"
+        ]
+    }
+}

@@ -1,0 +1,1908 @@
+{
+    "0": {
+        "description": "",
+        "keywords": "simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "0_0_1",
+            "0_1_1"
+        ]
+    },
+    "BSOURCE": {
+        "description": "",
+        "keywords": "simulation dependent",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Non_linear_Dependent_Sources",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "N+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "N-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "BSOURCE_0_1",
+            "BSOURCE_1_1"
+        ]
+    },
+    "D": {
+        "description": "",
+        "keywords": "simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_DIODEs",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "K",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -3.81,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "A",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 3.81,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "D_0_1",
+            "D_1_1"
+        ]
+    },
+    "ESOURCE": {
+        "description": "",
+        "keywords": "simulation vcvs dependent",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Exxxx__Linear_Voltage_Controlled",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "N+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "N-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "C+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "C-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "ESOURCE_0_1",
+            "ESOURCE_1_1"
+        ]
+    },
+    "GSOURCE": {
+        "description": "",
+        "keywords": "simulation vccs dependent",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Gxxxx__Linear_Voltage_Controlled",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "N+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "N-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "C+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "C-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "GSOURCE_0_1",
+            "GSOURCE_1_1"
+        ]
+    },
+    "IAM": {
+        "description": "",
+        "keywords": "simulation amplitude modulated",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "IAM_0_0",
+            "IAM_0_1",
+            "IAM_1_1"
+        ]
+    },
+    "IBIS_DEVICE": {
+        "description": "",
+        "keywords": "Simulation IBIS",
+        "datasheet": "https://ibis.org",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "REF",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "IBIS_DEVICE_0_1",
+            "IBIS_DEVICE_1_1"
+        ]
+    },
+    "IBIS_DEVICE_DIFF": {
+        "description": "",
+        "keywords": "Simulation IBIS",
+        "datasheet": "https://ibis.org",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "REF",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "IBIS_DEVICE_DIFF_0_1",
+            "IBIS_DEVICE_DIFF_1_1"
+        ]
+    },
+    "IBIS_DRIVER": {
+        "description": "",
+        "keywords": "Simulation IBIS",
+        "datasheet": "https://ibis.org",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "REF",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "IBIS_DRIVER_0_1",
+            "IBIS_DRIVER_1_1"
+        ]
+    },
+    "IBIS_DRIVER_DIFF": {
+        "description": "",
+        "keywords": "Simulation IBIS",
+        "datasheet": "https://ibis.org",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "REF",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "+",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "-",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "IBIS_DRIVER_DIFF_0_1",
+            "IBIS_DRIVER_DIFF_1_1"
+        ]
+    },
+    "IDC": {
+        "description": "",
+        "keywords": "simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "IDC_0_0",
+            "IDC_0_1",
+            "IDC_1_1"
+        ]
+    },
+    "IEXP": {
+        "description": "",
+        "keywords": "simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "IEXP_0_0",
+            "IEXP_0_1",
+            "IEXP_1_1"
+        ]
+    },
+    "IPULSE": {
+        "description": "",
+        "keywords": "simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "IPULSE_0_0",
+            "IPULSE_0_1",
+            "IPULSE_1_1"
+        ]
+    },
+    "IPWL": {
+        "description": "",
+        "keywords": "simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "IPWL_0_0",
+            "IPWL_0_1",
+            "IPWL_1_1"
+        ]
+    },
+    "ISFFM": {
+        "description": "",
+        "keywords": "simulation frequency modulated",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "ISFFM_0_1",
+            "ISFFM_1_1"
+        ]
+    },
+    "ISIN": {
+        "description": "",
+        "keywords": "simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "ISIN_0_0",
+            "ISIN_0_1",
+            "ISIN_1_1"
+        ]
+    },
+    "ITRNOISE": {
+        "description": "",
+        "keywords": "simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Transient_noise_source",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "ITRNOISE_0_1",
+            "ITRNOISE_1_1"
+        ]
+    },
+    "ITRRANDOM": {
+        "description": "",
+        "keywords": "simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Random_voltage_source",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "ITRRANDOM_0_1",
+            "ITRRANDOM_1_1"
+        ]
+    },
+    "NJFET": {
+        "description": "",
+        "keywords": "transistor NJFET N-JFET",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_JFETs",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "D",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "S",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "NJFET_0_1",
+            "NJFET_1_1"
+        ]
+    },
+    "NMOS": {
+        "description": "",
+        "keywords": "transistor NMOS N-MOS N-MOSFET simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "D",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "S",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "NMOS_0_1",
+            "NMOS_1_1"
+        ]
+    },
+    "NMOS_Substrate": {
+        "description": "",
+        "keywords": "mosfet nmos simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "D",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -3.81,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "S",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "Bulk",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "NMOS_Substrate_0_1",
+            "NMOS_Substrate_1_1"
+        ]
+    },
+    "NPN": {
+        "description": "",
+        "keywords": "simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "C",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "B",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "E",
+                "type": "open_emitter",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "NPN_0_1",
+            "NPN_1_1"
+        ]
+    },
+    "NPN_Substrate": {
+        "description": "",
+        "keywords": "simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "C",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "B",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "E",
+                "type": "open_emitter",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "Substrate",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "NPN_Substrate_0_1",
+            "NPN_Substrate_1_1"
+        ]
+    },
+    "OPAMP": {
+        "description": "",
+        "keywords": "simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "V-",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "OPAMP_0_1",
+            "OPAMP_1_1"
+        ]
+    },
+    "PJFET": {
+        "description": "",
+        "keywords": "transistor PJFET P-JFET",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_JFETs",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "D",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "S",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "PJFET_0_1",
+            "PJFET_1_1"
+        ]
+    },
+    "PMOS": {
+        "description": "",
+        "keywords": "transistor PMOS P-MOS P-MOSFET simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "D",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "S",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "PMOS_0_1",
+            "PMOS_1_1"
+        ]
+    },
+    "PMOS_Substrate": {
+        "description": "",
+        "keywords": "mosfet pmos simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "D",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -3.81,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "S",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "Bulk",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "PMOS_Substrate_0_1",
+            "PMOS_Substrate_1_1"
+        ]
+    },
+    "PNP": {
+        "description": "",
+        "keywords": "simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "C",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "B",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "E",
+                "type": "open_emitter",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "PNP_0_1",
+            "PNP_1_1"
+        ]
+    },
+    "PNP_Substrate": {
+        "description": "",
+        "keywords": "simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "C",
+                "type": "open_collector",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "B",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "E",
+                "type": "open_emitter",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "Substrate",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "PNP_Substrate_0_1",
+            "PNP_Substrate_1_1"
+        ]
+    },
+    "Potentiometer": {
+        "description": "",
+        "keywords": "resistor variable spice sim",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 3.81
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 3.81,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -3.81
+                }
+            }
+        ],
+        "units": [
+            "Potentiometer_0_1",
+            "Potentiometer_1_1"
+        ]
+    },
+    "SWITCH": {
+        "description": "",
+        "keywords": "simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Switches",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "N+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "N-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "C+",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "C-",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "SWITCH_0_1",
+            "SWITCH_1_1"
+        ]
+    },
+    "TLINE": {
+        "description": "",
+        "keywords": "lossless transmission line characteristic impedance",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Lossless_Transmission_Lines",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "TLINE_0_1",
+            "TLINE_1_1"
+        ]
+    },
+    "VAM": {
+        "description": "",
+        "keywords": "simulation amplitude modulated",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "VAM_0_0",
+            "VAM_0_1",
+            "VAM_1_1"
+        ]
+    },
+    "VDC": {
+        "description": "",
+        "keywords": "simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "VDC_0_0",
+            "VDC_0_1",
+            "VDC_1_1"
+        ]
+    },
+    "VEXP": {
+        "description": "",
+        "keywords": "simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "VEXP_0_0",
+            "VEXP_0_1",
+            "VEXP_1_1"
+        ]
+    },
+    "VOLTMETER_DIFF": {
+        "description": "",
+        "keywords": "voltmeter differential vdiff",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "+",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "-",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "out",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "VOLTMETER_DIFF_0_0",
+            "VOLTMETER_DIFF_0_1",
+            "VOLTMETER_DIFF_1_1"
+        ]
+    },
+    "VPULSE": {
+        "description": "",
+        "keywords": "simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "VPULSE_0_0",
+            "VPULSE_0_1",
+            "VPULSE_1_1"
+        ]
+    },
+    "VPWL": {
+        "description": "",
+        "keywords": "simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "VPWL_0_0",
+            "VPWL_0_1",
+            "VPWL_1_1"
+        ]
+    },
+    "VSFFM": {
+        "description": "",
+        "keywords": "simulation frequency modulated",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "VSFFM_0_0",
+            "VSFFM_0_1",
+            "VSFFM_1_1"
+        ]
+    },
+    "VSIN": {
+        "description": "",
+        "keywords": "simulation ac vac",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "VSIN_0_0",
+            "VSIN_0_1",
+            "VSIN_1_1"
+        ]
+    },
+    "VTRNOISE": {
+        "description": "",
+        "keywords": "simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Transient_noise_source",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "VTRNOISE_0_0",
+            "VTRNOISE_0_1",
+            "VTRNOISE_1_1"
+        ]
+    },
+    "VTRRANDOM": {
+        "description": "",
+        "keywords": "simulation",
+        "datasheet": "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Random_voltage_source",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "VTRRANDOM_0_0",
+            "VTRRANDOM_0_1",
+            "VTRRANDOM_1_1"
+        ]
+    }
+}

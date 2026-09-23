@@ -1,0 +1,677 @@
+{
+    "BSP75N": {
+        "description": "",
+        "keywords": "MOSFET ESD Overcurrent Obsolete",
+        "datasheet": "https://www.infineon.com/dgdl/Infineon-BSP75N-DS-v01_04-en.pdf?fileId=db3a30431ed1d7b2011f471f5a0256d1",
+        "footprint": "Package_TO_SOT_SMD:SOT-223",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "DRAIN",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "SOURCE",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 7.62,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "SOURCE",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 7.62,
+                    "y": -10.16
+                }
+            }
+        ],
+        "units": [
+            "BSP75N_0_0",
+            "BSP75N_0_1",
+            "BSP75N_1_0",
+            "BSP75N_1_1"
+        ]
+    },
+    "BSP76": {
+        "description": "",
+        "keywords": "MOSFET ESD Overcurrent LowSideSwitch automotive",
+        "datasheet": "https://www.infineon.com/dgdl/Infineon-BSP76-DS-v01_03-en.pdf?fileId=db3a3043271faefd01274d00e2695d45",
+        "footprint": "Package_TO_SOT_SMD:SOT-223-3_TabPin2",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "BTS4140N": {
+        "description": "",
+        "keywords": "MOSFET ESD Overcurrent",
+        "datasheet": "https://www.infineon.com/dgdl/Infineon-BTS4140N-DS-v01_01-EN.pdf?fileId=5546d46259d9a4bf015a852aac8b7785",
+        "footprint": "Package_TO_SOT_SMD:SOT-223",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "V_{bb}",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 7.62,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "V_{bb}",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "BTS4140N_0_0",
+            "BTS4140N_0_1",
+            "BTS4140N_1_0",
+            "BTS4140N_1_1"
+        ]
+    },
+    "DN2540N3-G": {
+        "description": "",
+        "keywords": "N-Channel Depletion-Mode MOSFET",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/DN2540%20B060313.pdf",
+        "footprint": "Package_TO_SOT_THT:TO-92_Inline",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "S",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "D",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "DN2540N3-G_0_1",
+            "DN2540N3-G_1_1"
+        ]
+    },
+    "DN2540N5-G": {
+        "description": "",
+        "keywords": "N-Channel Depletion-Mode MOSFET",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/DN2540%20B060313.pdf",
+        "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "D",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "S",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "DN2540N5-G_0_1",
+            "DN2540N5-G_1_1"
+        ]
+    },
+    "DN2540N8-G": {
+        "description": "",
+        "keywords": "N-Channel Depletion-Mode MOSFET",
+        "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/DN2540%20B060313.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "NCV8402xST": {
+        "description": "",
+        "keywords": "MOSFET ESD Overcurrent NCV8402STT1G-obsolete NCV8402STT3G-obsolete NCV8402ASTT1G NCV8402ASTT3G",
+        "datasheet": "https://www.onsemi.com/pub/Collateral/NCV8402-D.PDF",
+        "footprint": "Package_TO_SOT_SMD:SOT-223",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "D",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "S",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 7.62,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "D",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "NCV8402xST_0_0",
+            "NCV8402xST_0_1",
+            "NCV8402xST_1_1"
+        ]
+    },
+    "Q_NMOS_Depletion_DGS": {
+        "description": "",
+        "keywords": "NMOS",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "D",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "S",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "Q_NMOS_Depletion_DGS_0_1",
+            "Q_NMOS_Depletion_DGS_1_1"
+        ]
+    },
+    "Q_NMOS_Depletion_DSG": {
+        "description": "",
+        "keywords": "NMOS",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "D",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "S",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "Q_NMOS_Depletion_DSG_0_1",
+            "Q_NMOS_Depletion_DSG_1_1"
+        ]
+    },
+    "Q_NMOS_Depletion_GDS": {
+        "description": "",
+        "keywords": "NMOS",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "D",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "S",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "Q_NMOS_Depletion_GDS_0_1",
+            "Q_NMOS_Depletion_GDS_1_1"
+        ]
+    },
+    "Q_NMOS_Depletion_GSD": {
+        "description": "",
+        "keywords": "NMOS",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "S",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "D",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "Q_NMOS_Depletion_GSD_0_1",
+            "Q_NMOS_Depletion_GSD_1_1"
+        ]
+    },
+    "Q_NMOS_Depletion_SDG": {
+        "description": "",
+        "keywords": "NMOS",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "S",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "D",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "Q_NMOS_Depletion_SDG_0_1",
+            "Q_NMOS_Depletion_SDG_1_1"
+        ]
+    },
+    "Q_NMOS_Depletion_SGD": {
+        "description": "",
+        "keywords": "NMOS",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "S",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "G",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "D",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "Q_NMOS_Depletion_SGD_0_1",
+            "Q_NMOS_Depletion_SGD_1_1"
+        ]
+    },
+    "SP010N70T8": {
+        "description": "",
+        "keywords": "N-Channel Depletion-Mode MOSFET",
+        "datasheet": "https://www.siliup.com/upload/pdf/202205/SP010N70T8.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VNB35N07xx-E": {
+        "description": "",
+        "keywords": "N-Channel VIPower ESD VNB35N07-E",
+        "datasheet": "https://www.st.com/resource/en/datasheet/vnp35n07-e.pdf",
+        "footprint": "Package_TO_SOT_SMD:TO-263-2",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VNP10N07": {
+        "description": "",
+        "keywords": "N-Channel Power MOSFET OMNIFET",
+        "datasheet": "https://www.st.com/resource/en/datasheet/vnp10n07.pdf",
+        "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VNP35N07xx-E": {
+        "description": "",
+        "keywords": "N-Channel VIPower ESD VNP35N07-E",
+        "datasheet": "https://www.st.com/resource/en/datasheet/vnp35n07-e.pdf",
+        "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "INPUT",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -17.78,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "DRAIN",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "SOURCE",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "VNP35N07xx-E_0_0",
+            "VNP35N07xx-E_0_1",
+            "VNP35N07xx-E_1_1"
+        ]
+    }
+}

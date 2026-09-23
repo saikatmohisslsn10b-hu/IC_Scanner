@@ -1,0 +1,1772 @@
+{
+    "10M04SCE144": {
+        "description": "",
+        "keywords": "MAX10 PLD FPGA DSP 12-bit-ADC Flash",
+        "datasheet": "https://www.intel.com/programmable/technical-pdfs/max10-handbook.pdf",
+        "footprint": "Package_QFP:EQFP-144-1EP_20x20mm_P0.5mm_EP5x5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VCC_ONE",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 12.7,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "2",
+                "name": "VCCA6",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 15.24,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 12.7,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "5",
+                "name": "VCCA3",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "PIN_6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "PIN_7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "8",
+                "name": "PIN_8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "9",
+                "name": "VCCIO1A",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "10",
+                "name": "PIN_10",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "11",
+                "name": "PIN_11",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "12",
+                "name": "PIN_12",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "13",
+                "name": "PIN_13",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "14",
+                "name": "PIN_14",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "15",
+                "name": "PIN_15/JTAGEN",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "16",
+                "name": "PIN_16/TMS",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "17",
+                "name": "PIN_17/VREFB1N0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "18",
+                "name": "PIN_18/TCK",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "19",
+                "name": "PIN_19/TDI",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "20",
+                "name": "PIN_20/TDO",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "21",
+                "name": "PIN_21",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "22",
+                "name": "PIN_22",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "23",
+                "name": "VCCIO1B",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "24",
+                "name": "PIN_24",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "25",
+                "name": "PIN_25",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "26",
+                "name": "PIN_26/CLK0n",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "27",
+                "name": "PIN_27/CLK0p",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "28",
+                "name": "PIN_28/CLK1n",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "29",
+                "name": "PIN_29/CLK1p",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "30",
+                "name": "PIN_30/VREFB2N0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "31",
+                "name": "VCCIO2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "32",
+                "name": "PIN_32/PLL_L_CLKOUTn",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "33",
+                "name": "PIN_33/PLL_L_CLKOUTp",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "34",
+                "name": "VCCA2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "35",
+                "name": "VCCA1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "36",
+                "name": "VCC_ONE",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 10.16,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "37",
+                "name": "VCC_ONE",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "38",
+                "name": "PIN_38",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "39",
+                "name": "PIN_39",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "40",
+                "name": "VCCIO3",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "41",
+                "name": "PIN_41",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "42",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 10.16,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "43",
+                "name": "PIN_43",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "44",
+                "name": "PIN_44",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "45",
+                "name": "PIN_45",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "46",
+                "name": "PIN_46",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "47",
+                "name": "PIN_47",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "48",
+                "name": "PIN_48/VREFB3N0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "49",
+                "name": "VCCIO3",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "50",
+                "name": "PIN_50",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "51",
+                "name": "VCC_ONE",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "52",
+                "name": "PIN_52",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "53",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 7.62,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "54",
+                "name": "PIN_54",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "55",
+                "name": "PIN_55",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "56",
+                "name": "PIN_56",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "57",
+                "name": "PIN_57",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "58",
+                "name": "PIN_58",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "59",
+                "name": "PIN_59",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "60",
+                "name": "PIN_60",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "61",
+                "name": "PIN_61/VREFB4N0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "62",
+                "name": "PIN_62",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "63",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "64",
+                "name": "PIN_64",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "65",
+                "name": "PIN_65",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "66",
+                "name": "PIN_66",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "67",
+                "name": "VCCIO4",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "68",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "69",
+                "name": "PIN_69",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "70",
+                "name": "PIN_70",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "71",
+                "name": "VCCA5",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "72",
+                "name": "VCC_ONE",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "73",
+                "name": "VCC_ONE",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "74",
+                "name": "PIN_74",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "75",
+                "name": "PIN_75",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "76",
+                "name": "PIN_76",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "77",
+                "name": "PIN_77",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "78",
+                "name": "PIN_78",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "79",
+                "name": "PIN_79",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "80",
+                "name": "PIN_80/VREFB5N0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "81",
+                "name": "PIN_81",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "82",
+                "name": "VCCIO5",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "83",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "84",
+                "name": "PIN_84",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "85",
+                "name": "PIN_85",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "86",
+                "name": "PIN_86",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "87",
+                "name": "PIN_87",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "88",
+                "name": "PIN_88/CLK2p",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "89",
+                "name": "PIN_89/CLK2n",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "90",
+                "name": "PIN_90/CLK3p",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "91",
+                "name": "PIN_91/CLK3n",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "92",
+                "name": "PIN_92",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "93",
+                "name": "PIN_93",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "94",
+                "name": "VCCIO6",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "95",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "96",
+                "name": "PIN_96/DPCLK3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "97",
+                "name": "PIN_97/VREFB6N0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "98",
+                "name": "PIN_98/DPCLK2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "99",
+                "name": "PIN_99",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "100",
+                "name": "PIN_100",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "101",
+                "name": "PIN_101",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "102",
+                "name": "PIN_102",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "103",
+                "name": "VCCIO6",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "104",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "105",
+                "name": "PIN_105",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "106",
+                "name": "PIN_106",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "107",
+                "name": "VCCA3",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "108",
+                "name": "VCC_ONE",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "109",
+                "name": "VCC_ONE",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "110",
+                "name": "PIN_110",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "111",
+                "name": "PIN_111",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "112",
+                "name": "PIN_112/VREFB7N0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "113",
+                "name": "PIN_113",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "114",
+                "name": "PIN_114",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "115",
+                "name": "VCC_ONE",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -7.62,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "116",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -7.62,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "117",
+                "name": "VCCIO7",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "118",
+                "name": "PIN_118",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "119",
+                "name": "PIN_119",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "120",
+                "name": "PIN_120",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "121",
+                "name": "PIN_121/DEV_CLRn",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "122",
+                "name": "PIN_122/DEV_OE",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "123",
+                "name": "PIN_123/VREFB8N0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "124",
+                "name": "PIN_124",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "125",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -10.16,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "126",
+                "name": "PIN_126/CONFIG_SEL",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "127",
+                "name": "PIN_127",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "128",
+                "name": "VCCIO8",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "129",
+                "name": "PIN_129/nCONFIG",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "130",
+                "name": "PIN_130",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "131",
+                "name": "PIN_131",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "132",
+                "name": "PIN_132",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "133",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -12.7,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "134",
+                "name": "PIN_134/CRC_ERROR",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "135",
+                "name": "PIN_135",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "136",
+                "name": "PIN_136/nSTATUS",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": 0
+                }
+            },
+            {
+                "number": "137",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -15.24,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "138",
+                "name": "PIN_138/CONF_DONE",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "139",
+                "name": "VCCIO8",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -25.4,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "140",
+                "name": "PIN_140",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "141",
+                "name": "PIN_141",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "142",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -17.78,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "143",
+                "name": "VCCA4",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 25.4,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "144",
+                "name": "VCC_ONE",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -10.16,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "145",
+                "name": "EPAD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 17.78,
+                    "y": -35.56
+                }
+            }
+        ],
+        "units": [
+            "10M04SCE144_10_1",
+            "10M04SCE144_1_1",
+            "10M04SCE144_2_1",
+            "10M04SCE144_3_1",
+            "10M04SCE144_4_1",
+            "10M04SCE144_5_1",
+            "10M04SCE144_6_1",
+            "10M04SCE144_7_1",
+            "10M04SCE144_8_1",
+            "10M04SCE144_9_1"
+        ]
+    },
+    "10M08SCE144": {
+        "description": "",
+        "keywords": "MAX10 PLD FPGA DSP 12-bit-ADC Flash",
+        "datasheet": "https://www.intel.com/programmable/technical-pdfs/max10-handbook.pdf",
+        "footprint": "Package_QFP:EQFP-144-1EP_20x20mm_P0.5mm_EP5x5mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    }
+}

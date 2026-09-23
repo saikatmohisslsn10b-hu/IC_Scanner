@@ -1,0 +1,6467 @@
+{
+    "5P49V6965": {
+        "description": "",
+        "keywords": "Low-noise PLL Reference Clock",
+        "datasheet": "https://www.renesas.com/us/en/document/dst/5p49v6965-datasheet",
+        "footprint": "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.8x2.8mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "CLKIN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "CLKINB",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "XOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "4",
+                "name": "XIN/REF",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "5",
+                "name": "VDDA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -7.62,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "6",
+                "name": "CLKSEL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "SD/OE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "8",
+                "name": "SEL1/SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "9",
+                "name": "SEL0/SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "VDDO4",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "11",
+                "name": "OUT4",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "12",
+                "name": "OUT4B",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "13",
+                "name": "OUT3B",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "14",
+                "name": "OUT3",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "15",
+                "name": "VDDO3",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "16",
+                "name": "OUT2B",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "17",
+                "name": "OUT2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "18",
+                "name": "VDDO2",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "19",
+                "name": "OUT1B",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "20",
+                "name": "OUT1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "21",
+                "name": "VDDO1",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "22",
+                "name": "VDDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "23",
+                "name": "VDDO0",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "24",
+                "name": "OUT0_SEL_I2CB",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "25",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -27.94
+                }
+            }
+        ],
+        "units": [
+            "5P49V6965_0_1",
+            "5P49V6965_1_1"
+        ]
+    },
+    "ABLNO": {
+        "description": "",
+        "keywords": "XO VCXO",
+        "datasheet": "https://abracon.com/Precisiontiming/ABLNO.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_Abracon_ABLNO",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vctrl",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "RFout",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "ABLNO_0_1",
+            "ABLNO_1_1"
+        ]
+    },
+    "ACO-xxxMHz-A": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "http://www.conwin.com/datasheets/cx/cx030.pdf",
+        "footprint": "Oscillator:Oscillator_DIP-14",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Tri-State",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "14",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "ACO-xxxMHz-A_0_1",
+            "ACO-xxxMHz-A_1_1"
+        ]
+    },
+    "ACO-xxxMHz": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "http://www.conwin.com/datasheets/cx/cx030.pdf",
+        "footprint": "Oscillator:Oscillator_DIP-14",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "ASCO": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://abracon.com/Oscillators/ASCO.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Tri-State",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "ASCO_0_1",
+            "ASCO_1_1"
+        ]
+    },
+    "ASDMB-xxxMHz": {
+        "description": "",
+        "keywords": "1.8-3.3V SMD Ultra Miniature Crystal Clock Oscillator",
+        "datasheet": "https://abracon.com/Oscillators/ASDMB.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Standby",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "Out",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "ASDMB-xxxMHz_1_1"
+        ]
+    },
+    "ASE-xxxMHz": {
+        "description": "",
+        "keywords": "3.3V CMOS SMD Crystal Clock Oscillator",
+        "datasheet": "http://www.abracon.com/Oscillators/ASV.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "EN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "Vdd",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "ASE-xxxMHz_0_1",
+            "ASE-xxxMHz_1_1"
+        ]
+    },
+    "ASV-xxxMHz": {
+        "description": "",
+        "keywords": "3.3V HCMOS SMD Crystal Clock Oscillator",
+        "datasheet": "http://www.abracon.com/Oscillators/ASV.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "EN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "Vdd",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "ASV-xxxMHz_0_1",
+            "ASV-xxxMHz_1_1"
+        ]
+    },
+    "CFPS-72": {
+        "description": "",
+        "keywords": "XO",
+        "datasheet": "https://www.iqdfrequencyproducts.com/products/details/cfps-72-14-01.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_IQD_IQXO70-4Pin_7.5x5.0mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "EN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "Output",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "+Vs",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "CFPS-72_0_1",
+            "CFPS-72_1_1"
+        ]
+    },
+    "CVCO55xx": {
+        "description": "",
+        "keywords": "VCXO VCO Crystek",
+        "datasheet": "https://www.crystek.com/home/vco/cvco55.aspx",
+        "footprint": "RF_Mini-Circuits:Mini-Circuits_CK605_LandPatternPL-012",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "Vtune",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "RFout",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "11",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "12",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "13",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "14",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "15",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "16",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "CVCO55xx_0_0",
+            "CVCO55xx_0_1",
+            "CVCO55xx_1_1"
+        ]
+    },
+    "CXO_DIP14": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf",
+        "footprint": "Oscillator:Oscillator_DIP-14",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "EN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "14",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "CXO_DIP14_0_1",
+            "CXO_DIP14_1_1"
+        ]
+    },
+    "CXO_DIP8": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf",
+        "footprint": "Oscillator:Oscillator_DIP-8",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "EN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "8",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "CXO_DIP8_0_1",
+            "CXO_DIP8_1_1"
+        ]
+    },
+    "DFA-S11": {
+        "description": "",
+        "keywords": "Temperature compensated Crystal Clock Oscillator",
+        "datasheet": "http://www.metatech.com.hk/product/fordahl/pdf/2002%20TCXO%20Page%2043-58.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_Fordahl_DFAS11-4Pin_7.0x5.0mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vctrl",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "DFA-S11_0_1",
+            "DFA-S11_1_1"
+        ]
+    },
+    "DFA-S15": {
+        "description": "",
+        "keywords": "Temperature compensated Crystal Clock Oscillator",
+        "datasheet": "http://www.metatech.com.hk/product/fordahl/pdf/2002%20TCXO%20Page%2043-58.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_Fordahl_DFAS15-4Pin_5.0x3.2mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vctrl",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "DFA-S15_0_1",
+            "DFA-S15_1_1"
+        ]
+    },
+    "DFA-S2": {
+        "description": "",
+        "keywords": "Temperature compensated Crystal Clock Oscillator",
+        "datasheet": "http://www.metatech.com.hk/product/fordahl/pdf/2002%20TCXO%20Page%2043-58.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_Fordahl_DFAS2-4Pin_7.3x5.1mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vctrl",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "DFA-S2_0_1",
+            "DFA-S2_1_1"
+        ]
+    },
+    "DFA-S3": {
+        "description": "",
+        "keywords": "Temperature compensated Crystal Clock Oscillator",
+        "datasheet": "http://www.metatech.com.hk/product/fordahl/pdf/2002%20TCXO%20Page%2043-58.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_Fordahl_DFAS3-4Pin_9.1x7.2mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vctrl",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "DFA-S3_0_1",
+            "DFA-S3_1_1"
+        ]
+    },
+    "DGOF5S3": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "http://www.conwin.com/datasheets/cx/cx030.pdf",
+        "footprint": "Oscillator:Oscillator_DIP-14",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "14",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "DGOF5S3_0_1",
+            "DGOF5S3_1_1"
+        ]
+    },
+    "ECS-2520MV-xxx-xx": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator ECS SMD",
+        "datasheet": "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Tri-State",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "ECS-2520MV-xxx-xx_0_1",
+            "ECS-2520MV-xxx-xx_1_1"
+        ]
+    },
+    "FT5HN": {
+        "description": "",
+        "keywords": "TXCO",
+        "datasheet": "https://foxonline.com/wp-content/uploads/pdfs/T5HN_T5HV.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_Fox_FT5H_5.0x3.2mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "FT5HN_0_1",
+            "FT5HN_1_1"
+        ]
+    },
+    "FT5HV": {
+        "description": "",
+        "keywords": "TXCO VCTCXO",
+        "datasheet": "https://foxonline.com/wp-content/uploads/pdfs/T5HN_T5HV.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_Fox_FT5H_5.0x3.2mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VC",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "FT5HV_0_1",
+            "FT5HV_1_1"
+        ]
+    },
+    "GTXO-14T": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "http://www.golledge.com/pdf/products/tcxos/gtxo14.pdf",
+        "footprint": "Oscillator:Oscillator_DIP-14",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GTXO-14V": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "http://www.golledge.com/pdf/products/tcxos/gtxo14.pdf",
+        "footprint": "Oscillator:Oscillator_DIP-14",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GTXO-S14T": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "http://www.golledge.com/pdf/products/tcxos/gtxos14.pdf",
+        "footprint": "Oscillator:Oscillator_DIP-14",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "GTXO-S14V": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "http://www.golledge.com/pdf/products/tcxos/gtxos14.pdf",
+        "footprint": "Oscillator:Oscillator_DIP-14",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "IQXO-70": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "http://www.iqdfrequencyproducts.com/products/details/iqxo-70-11-30.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_IQD_IQXO70-4Pin_7.5x5.0mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "E/B",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "IQXO-70_0_1",
+            "IQXO-70_1_1"
+        ]
+    },
+    "JTOS-25": {
+        "description": "",
+        "keywords": "VCXO",
+        "datasheet": "https://www.minicircuits.com/pdfs/JTOS-25+.pdf",
+        "footprint": "RF_Mini-Circuits:Mini-Circuits_BK377_LandPatternPL-005",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "JTOS-50": {
+        "description": "",
+        "keywords": "VCXO",
+        "datasheet": "https://www.minicircuits.com/pdfs/JTOS-50+.pdf",
+        "footprint": "RF_Mini-Circuits:Mini-Circuits_BK377_LandPatternPL-005",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "Vtune",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "9",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "11",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "12",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "13",
+                "name": "RFout",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "14",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "JTOS-50_0_1",
+            "JTOS-50_1_1"
+        ]
+    },
+    "KC2520Z": {
+        "description": "",
+        "keywords": "xo",
+        "datasheet": "https://global.kyocera.com/prdct/electro/product/pdf/clock_z_xz_e.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_Kyocera_KC2520Z-4Pin_2.5x2.0mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "INH",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "CLK",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "KC2520Z_0_1",
+            "KC2520Z_1_1"
+        ]
+    },
+    "KT2520K-T": {
+        "description": "",
+        "keywords": "tcxo",
+        "datasheet": "https://global.kyocera.com/prdct/electro/product/pdf/kt2520_e.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_Kyocera_2520-6Pin_2.5x2.0mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "KT2520K-T_0_1",
+            "KT2520K-T_1_1"
+        ]
+    },
+    "LTC6905xS5-100": {
+        "description": "",
+        "keywords": "oscillator fixed frequency divider silicon",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/6905xfa.pdf",
+        "footprint": "Package_TO_SOT_SMD:TSOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "LTC6905xS5-133": {
+        "description": "",
+        "keywords": "oscillator fixed frequency divider silicon",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/6905xfa.pdf",
+        "footprint": "Package_TO_SOT_SMD:TSOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "LTC6905xS5-80": {
+        "description": "",
+        "keywords": "oscillator fixed frequency divider silicon",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/6905xfa.pdf",
+        "footprint": "Package_TO_SOT_SMD:TSOT-23-5",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "DIV",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "LTC6905xS5-80_1_1"
+        ]
+    },
+    "LTC6905xS5-96": {
+        "description": "",
+        "keywords": "oscillator fixed frequency divider silicon",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/6905xfa.pdf",
+        "footprint": "Package_TO_SOT_SMD:TSOT-23-5",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7375AXR105": {
+        "description": "",
+        "keywords": "Silicon Clock Oscillator 1MHz 1000kHz",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-323_SC-70",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7375AXR185": {
+        "description": "",
+        "keywords": "Silicon Clock Oscillator 1,84MHz 1840kHz",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-323_SC-70",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7375AXR365": {
+        "description": "",
+        "keywords": "Silicon Clock Oscillator 3.58MHz 3580kHz",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-323_SC-70",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7375AXR375": {
+        "description": "",
+        "keywords": "Silicon Clock Oscillator 3.69MHz 3690kHz",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-323_SC-70",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7375AXR405": {
+        "description": "",
+        "keywords": "Silicon Clock Oscillator 4MHz 4000kHz",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-323_SC-70",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7375AXR425": {
+        "description": "",
+        "keywords": "Silicon Clock Oscillator 4.19MHz 4190kHz",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-323_SC-70",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7375AXR805": {
+        "description": "",
+        "keywords": "Silicon Clock Oscillator 8MHz 8000kHz",
+        "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf",
+        "footprint": "Package_TO_SOT_SMD:SOT-323_SC-70",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "CLOCK",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "MAX7375AXR805_0_1",
+            "MAX7375AXR805_1_1"
+        ]
+    },
+    "MV267": {
+        "description": "",
+        "keywords": "OCXO",
+        "datasheet": "http://www.morion.com.ru/catalog_pdf/MV267.pdf",
+        "footprint": "Oscillator:Oscillator_OCXO_Morion_MV267",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Uref",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "Us",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "RF",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "Uin",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "MV267_0_1",
+            "MV267_1_1"
+        ]
+    },
+    "MV317": {
+        "description": "",
+        "keywords": "OCXO",
+        "datasheet": "https://www.morion-us.com/catalog_pdf/mv317.pdf",
+        "footprint": "Oscillator:Oscillator_OCXO_Morion_MV317",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Uref",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "Us",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "RF",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "Uin",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "MV317_0_1",
+            "MV317_1_1"
+        ]
+    },
+    "NB3N502": {
+        "description": "",
+        "keywords": "oscillator clock multiplier PLL",
+        "datasheet": "http://www.onsemi.com/pub/Collateral/NB3N502-D.PDF",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "X1/CLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "4",
+                "name": "REF",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "CLKOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "S0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "7",
+                "name": "S1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "X2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "NB3N502_0_1",
+            "NB3N502_1_1"
+        ]
+    },
+    "NB3N511": {
+        "description": "",
+        "keywords": "oscillator clock multiplier PLL",
+        "datasheet": "http://www.onsemi.com/pub/Collateral/NB3N511-D.PDF",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "X1/ICLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "S1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "CLKOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "S0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "OE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "X2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "NB3N511_0_1",
+            "NB3N511_1_1"
+        ]
+    },
+    "OCXO-14": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "http://www.petermann-technik.de/fileadmin/petermann/pdf/crystal-oscillators/OCXO-14_PETERMANN-TECHNIK.pdf",
+        "footprint": "Oscillator:Oscillator_DIP-14",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vcontrol",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "14",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "OCXO-14_0_1",
+            "OCXO-14_1_1"
+        ]
+    },
+    "OH300": {
+        "description": "",
+        "keywords": "OCXO",
+        "datasheet": "http://www.conwin.com/datasheets/cx/cx282.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_OCXO_ConnorWinfield_OH300",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vcontrol",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "OH300_0_1",
+            "OH300_1_1"
+        ]
+    },
+    "SG-210SCD": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-210SED",
+        "footprint": "Oscillator:Oscillator_SMD_SeikoEpson_SG210-4Pin_2.5x2.0mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SG-210SDD": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-210SED",
+        "footprint": "Oscillator:Oscillator_SMD_SeikoEpson_SG210-4Pin_2.5x2.0mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SG-210SED": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-210SED",
+        "footprint": "Oscillator:Oscillator_SMD_SeikoEpson_SG210-4Pin_2.5x2.0mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "OE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "SG-210SED_0_1",
+            "SG-210SED_1_1"
+        ]
+    },
+    "SG-210STF": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-210STF",
+        "footprint": "Oscillator:Oscillator_SMD_SeikoEpson_SG210-4Pin_2.5x2.0mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{ST}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "SG-210STF_0_1",
+            "SG-210STF_1_1"
+        ]
+    },
+    "SG-211": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-211SEE",
+        "footprint": "Oscillator:Oscillator_SMD_SeikoEpson_SG210-4Pin_2.5x2.0mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SG-3030CM": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-3030CM",
+        "footprint": "Oscillator:Oscillator_SMD_SeikoEpson_SG3030CM",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VIO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "SG-3030CM_0_1",
+            "SG-3030CM_1_1"
+        ]
+    },
+    "SG-5032CAN": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CAN&lang=en",
+        "footprint": "Oscillator:Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{ST}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "SG-5032CAN_0_1",
+            "SG-5032CAN_1_1"
+        ]
+    },
+    "SG-5032CBN": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CBN&lang=en",
+        "footprint": "Oscillator:Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SG-5032CCN": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CCN&lang=en",
+        "footprint": "Oscillator:Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SG-51": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-51P",
+        "footprint": "Oscillator:Oscillator_SeikoEpson_SG-8002DB",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SG-531": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-51P",
+        "footprint": "Oscillator:Oscillator_SeikoEpson_SG-8002DC",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SG-615": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-51P",
+        "footprint": "Oscillator:Oscillator_SMD_SeikoEpson_SG8002JA-4Pin_14.0x8.7mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SG-7050CAN": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG7050CAN&lang=en",
+        "footprint": "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CA-4Pin_7.0x5.0mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{ST}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "SG-7050CAN_0_1",
+            "SG-7050CAN_1_1"
+        ]
+    },
+    "SG-7050CBN": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG7050CBN&lang=en",
+        "footprint": "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CA-4Pin_7.0x5.0mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SG-7050CCN": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG7050CAN&lang=en",
+        "footprint": "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CA-4Pin_7.0x5.0mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SG-8002CA": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC",
+        "footprint": "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CA-4Pin_7.0x5.0mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "OE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "SG-8002CA_0_1",
+            "SG-8002CA_1_1"
+        ]
+    },
+    "SG-8002CE": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC",
+        "footprint": "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "OE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "SG-8002CE_0_1",
+            "SG-8002CE_1_1"
+        ]
+    },
+    "SG-8002DB": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG-8002DB&lang=en",
+        "footprint": "Oscillator:Oscillator_SeikoEpson_SG-8002DB",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "OE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "14",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "SG-8002DB_0_1",
+            "SG-8002DB_1_1"
+        ]
+    },
+    "SG-8002DC": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC",
+        "footprint": "Oscillator:Oscillator_SeikoEpson_SG-8002DC",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "OE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "8",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "SG-8002DC_0_1",
+            "SG-8002DC_1_1"
+        ]
+    },
+    "SG-8002JA": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC",
+        "footprint": "Oscillator:Oscillator_SMD_SeikoEpson_SG8002JA-4Pin_14.0x8.7mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "OE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "SG-8002JA_0_1",
+            "SG-8002JA_1_1"
+        ]
+    },
+    "SG-8002JC": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC",
+        "footprint": "Oscillator:Oscillator_SMD_SeikoEpson_SG8002JC-4Pin_10.5x5.0mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "OE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "SG-8002JC_0_1",
+            "SG-8002JC_1_1"
+        ]
+    },
+    "SG-8002LB": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG-8002LB&lang=en",
+        "footprint": "Oscillator:Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "OE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "SG-8002LB_0_1",
+            "SG-8002LB_1_1"
+        ]
+    },
+    "Si512A_2.5x3.2mm": {
+        "description": "",
+        "keywords": "Dual frequency crystal oscillator",
+        "datasheet": "https://www.silabs.com/documents/public/data-sheets/si512-13.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_Silicon_Labs_LGA-6_2.5x3.2mm_P1.25mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "FS",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "OE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "CLK",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "Si512A_2.5x3.2mm_0_1",
+            "Si512A_2.5x3.2mm_1_1"
+        ]
+    },
+    "Si513A_2.5x3.2mm": {
+        "description": "",
+        "keywords": "Dual frequency crystal oscillator",
+        "datasheet": "https://www.silabs.com/documents/public/data-sheets/si512-13.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_Silicon_Labs_LGA-6_2.5x3.2mm_P1.25mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "OE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "FS",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "CLK",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            }
+        ],
+        "units": [
+            "Si513A_2.5x3.2mm_0_1",
+            "Si513A_2.5x3.2mm_1_1"
+        ]
+    },
+    "Si5351A-B-GM": {
+        "description": "",
+        "keywords": "CMOS Synth Oscillator I2C",
+        "datasheet": "https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf",
+        "footprint": "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "XA",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "2",
+                "name": "XB",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "3",
+                "name": "A0",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "SSEN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "7",
+                "name": "OEB",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "8",
+                "name": "CLK3",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "9",
+                "name": "CLK2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "VDDOB",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "11",
+                "name": "VDDOA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "12",
+                "name": "CLK1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "13",
+                "name": "CLK0",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "14",
+                "name": "VDDOD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "15",
+                "name": "CLK7",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "16",
+                "name": "CLK6",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "17",
+                "name": "CLK5",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "18",
+                "name": "VDDOC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "19",
+                "name": "CLK4",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "20",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "21",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -22.86
+                }
+            }
+        ],
+        "units": [
+            "Si5351A-B-GM_1_1"
+        ]
+    },
+    "Si5351A-B-GT": {
+        "description": "",
+        "keywords": "CMOS Synth Oscillator I2C",
+        "datasheet": "https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf",
+        "footprint": "Package_SO:MSOP-10_3x3mm_P0.5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "2",
+                "name": "XA",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "XB",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "CLK2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "VDDO",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "8",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "9",
+                "name": "CLK1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "10",
+                "name": "CLK0",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 5.08
+                }
+            }
+        ],
+        "units": [
+            "Si5351A-B-GT_0_1",
+            "Si5351A-B-GT_1_1"
+        ]
+    },
+    "Si5351B-B-GM": {
+        "description": "",
+        "keywords": "CMOS Synth Oscillator I2C VCXO",
+        "datasheet": "https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf",
+        "footprint": "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "XA",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "2",
+                "name": "XB",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "3",
+                "name": "VC",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "SSEN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "7",
+                "name": "OEB",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "8",
+                "name": "CLK3",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "9",
+                "name": "CLK2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "VDDOB",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "11",
+                "name": "VDDOA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "12",
+                "name": "CLK1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "13",
+                "name": "CLK0",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "14",
+                "name": "VDDOD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "15",
+                "name": "CLK7",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "16",
+                "name": "CLK6",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "17",
+                "name": "CLK5",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "18",
+                "name": "VDDOC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "19",
+                "name": "CLK4",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "20",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "21",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -22.86
+                }
+            }
+        ],
+        "units": [
+            "Si5351B-B-GM_1_1"
+        ]
+    },
+    "Si5351C-B-GM": {
+        "description": "",
+        "keywords": "CMOS Synth Oscillator I2C",
+        "datasheet": "https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf",
+        "footprint": "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "XA",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "2",
+                "name": "XB",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "3",
+                "name": "INTR",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "CLKIN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "OEB",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "8",
+                "name": "CLK3",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "9",
+                "name": "CLK2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "VDDOB",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "11",
+                "name": "VDDOA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "12",
+                "name": "CLK1",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "13",
+                "name": "CLK0",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "14",
+                "name": "VDDOD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "15",
+                "name": "CLK7",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "16",
+                "name": "CLK6",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "17",
+                "name": "CLK5",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "18",
+                "name": "VDDOC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "19",
+                "name": "CLK4",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "20",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "21",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -22.86
+                }
+            }
+        ],
+        "units": [
+            "Si5351C-B-GM_1_1"
+        ]
+    },
+    "Si570": {
+        "description": "",
+        "keywords": "10 MHZ TO 1.4 GHZ I2C PROGRAMMABLE XO/VCXO",
+        "datasheet": "http://www.silabs.com/Support%20Documents/TechnicalDocs/si570.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_SI570_SI571_Standard",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "OE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "CLK+",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "CLK-",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "7",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "Si570_0_1",
+            "Si570_1_1"
+        ]
+    },
+    "Si571": {
+        "description": "",
+        "keywords": "10 MHZ TO 1.4 GHZ I2C PROGRAMMABLE XO/VCXO",
+        "datasheet": "http://www.silabs.com/Support%20Documents/TechnicalDocs/si570.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_SI570_SI571_Standard",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vc",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "OE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "4",
+                "name": "CLK+",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "CLK-",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "7",
+                "name": "SDA",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "SCL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "Si571_0_1",
+            "Si571_1_1"
+        ]
+    },
+    "SiT8008xx-1x-xxE": {
+        "description": "",
+        "keywords": "Mems",
+        "datasheet": "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_2.5x2.0mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SiT8008xx-1x-xxN": {
+        "description": "",
+        "keywords": "Mems",
+        "datasheet": "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_2.5x2.0mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SiT8008xx-1x-xxS": {
+        "description": "",
+        "keywords": "Mems oscillator",
+        "datasheet": "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_2.5x2.0mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SiT8008xx-2x-xxE": {
+        "description": "",
+        "keywords": "Mems",
+        "datasheet": "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_3.2x2.5mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SiT8008xx-2x-xxN": {
+        "description": "",
+        "keywords": "Mems",
+        "datasheet": "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_3.2x2.5mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SiT8008xx-2x-xxS": {
+        "description": "",
+        "keywords": "Mems oscillator",
+        "datasheet": "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_3.2x2.5mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SiT8008xx-3x-xxE": {
+        "description": "",
+        "keywords": "Mems",
+        "datasheet": "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_5.0x3.2mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SiT8008xx-3x-xxN": {
+        "description": "",
+        "keywords": "Mems",
+        "datasheet": "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_5.0x3.2mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SiT8008xx-3x-xxS": {
+        "description": "",
+        "keywords": "Mems",
+        "datasheet": "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_5.0x3.2mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SiT8008xx-7x-xxE": {
+        "description": "",
+        "keywords": "Mems",
+        "datasheet": "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_2.0x1.6mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "OE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "Vdd",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "SiT8008xx-7x-xxE_0_1",
+            "SiT8008xx-7x-xxE_1_1"
+        ]
+    },
+    "SiT8008xx-7x-xxN": {
+        "description": "",
+        "keywords": "Mems",
+        "datasheet": "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_2.0x1.6mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "Vdd",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "SiT8008xx-7x-xxN_0_1",
+            "SiT8008xx-7x-xxN_1_1"
+        ]
+    },
+    "SiT8008xx-7x-xxS": {
+        "description": "",
+        "keywords": "Mems",
+        "datasheet": "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_2.0x1.6mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{ST}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "Vdd",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "SiT8008xx-7x-xxS_0_1",
+            "SiT8008xx-7x-xxS_1_1"
+        ]
+    },
+    "SiT8008xx-8x-xxE": {
+        "description": "",
+        "keywords": "Mems",
+        "datasheet": "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_7.0x5.0mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SiT8008xx-8x-xxN": {
+        "description": "",
+        "keywords": "Mems",
+        "datasheet": "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_7.0x5.0mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SiT8008xx-8x-xxS": {
+        "description": "",
+        "keywords": "Mems",
+        "datasheet": "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_7.0x5.0mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SiT9365xx-xBx-xxE": {
+        "description": "",
+        "keywords": "LVDS LVPECL HCSL differential MEMS oscillatior",
+        "datasheet": "https://www.sitime.com/datasheet/SiT9365",
+        "footprint": "Oscillator:Oscillator_SMD_SiTime_PQFD-6L_3.2x2.5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "OE",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "OUT+",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT-",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "SiT9365xx-xBx-xxE_0_1",
+            "SiT9365xx-xBx-xxE_1_1"
+        ]
+    },
+    "SiT9365xx-xBx-xxN": {
+        "description": "",
+        "keywords": "LVDS LVPECL HCSL differential MEMS oscillatior",
+        "datasheet": "https://www.sitime.com/datasheet/SiT9365",
+        "footprint": "Oscillator:Oscillator_SMD_SiTime_PQFD-6L_3.2x2.5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "OUT+",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT-",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "SiT9365xx-xBx-xxN_0_1",
+            "SiT9365xx-xBx-xxN_1_1"
+        ]
+    },
+    "SiT9366xx-xBx-xxE": {
+        "description": "",
+        "keywords": "LVDS LVPECL HCSL differential MEMS oscillatior",
+        "datasheet": "https://www.sitime.com/datasheet/SiT9366",
+        "footprint": "Oscillator:Oscillator_SMD_SiTime_PQFD-6L_3.2x2.5mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SiT9366xx-xBx-xxN": {
+        "description": "",
+        "keywords": "LVDS LVPECL HCSL differential MEMS oscillatior",
+        "datasheet": "https://www.sitime.com/datasheet/SiT9366",
+        "footprint": "Oscillator:Oscillator_SMD_SiTime_PQFD-6L_3.2x2.5mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SiT9367xx-xBx-xxE": {
+        "description": "",
+        "keywords": "LVDS LVPECL HCSL differential MEMS oscillatior",
+        "datasheet": "https://www.sitime.com/datasheet/SiT9367",
+        "footprint": "Oscillator:Oscillator_SMD_SiTime_PQFD-6L_3.2x2.5mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SiT9367xx-xBx-xxN": {
+        "description": "",
+        "keywords": "LVDS LVPECL HCSL differential MEMS oscillatior",
+        "datasheet": "https://www.sitime.com/datasheet/SiT9367",
+        "footprint": "Oscillator:Oscillator_SMD_SiTime_PQFD-6L_3.2x2.5mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TCXO-14": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "http://www.golledge.com/pdf/products/tcxos/gtxos14.pdf",
+        "footprint": "Oscillator:Oscillator_DIP-14",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TCXO3": {
+        "description": "",
+        "keywords": "Temperature compensated crystal oscillator",
+        "datasheet": "http://www.hcelectronics.cz/PDF/TCXO3_A.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "FREQ",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "URef",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "9",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "10",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "11",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "12",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "13",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 7.62,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "14",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "15",
+                "name": "+5V",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "16",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "17",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "18",
+                "name": "Vctrl",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -15.24,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "19",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "20",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": -10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "21",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "22",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "23",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "TCXO3_0_1",
+            "TCXO3_1_1"
+        ]
+    },
+    "TFT660": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf",
+        "footprint": "Oscillator:Oscillator_DIP-8",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TFT680": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf",
+        "footprint": "Oscillator:Oscillator_DIP-14",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "TG2520SMN-xx.xxxxxxMhz-xxxxNM": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "https://support.epson.biz/td/api/doc_check.php?dl=app_TG2520SMN&lang=en",
+        "footprint": "Oscillator:Oscillator_SMD_SeikoEpson_TG2520SMN-xxx-xxxxxx-4Pin_2.5x2.0mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "TG2520SMN-xx.xxxxxxMhz-xxxxNM_0_1",
+            "TG2520SMN-xx.xxxxxxMhz-xxxxNM_1_1"
+        ]
+    },
+    "TXC-7C": {
+        "description": "",
+        "keywords": "CMOS SMD Crystal Clock Oscillator",
+        "datasheet": "http://www.txccorp.com/download/products/osc/7C_o.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_TXC_7C-4Pin_5.0x3.2mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "EN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "Vdd",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "TXC-7C_0_1",
+            "TXC-7C_1_1"
+        ]
+    },
+    "VC-81": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "http://www.scsiglobal.com/Hosonic/Documents/SCSI-VC-81&83.pdf",
+        "footprint": "Oscillator:Oscillator_DIP-8",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vcontrol",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "8",
+                "name": "Vcc",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "VC-81_0_1",
+            "VC-81_1_1"
+        ]
+    },
+    "VC-83": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "http://www.scsiglobal.com/Hosonic/Documents/SCSI-VC-81&83.pdf",
+        "footprint": "Oscillator:Oscillator_DIP-8",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "VTCXO-14": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "http://www.golledge.com/pdf/products/tcxos/gtxos14.pdf",
+        "footprint": "Oscillator:Oscillator_DIP-14",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "XO32": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "http://cdn-reichelt.de/documents/datenblatt/B400/XO32.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "EN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "XO32_0_1",
+            "XO32_1_1"
+        ]
+    },
+    "XO53": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "http://cdn-reichelt.de/documents/datenblatt/B400/XO53.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_EuroQuartz_XO53-4Pin_5.0x3.2mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "EN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "XO53_0_1",
+            "XO53_1_1"
+        ]
+    },
+    "XO91": {
+        "description": "",
+        "keywords": "Crystal Clock Oscillator",
+        "datasheet": "http://cdn-reichelt.de/documents/datenblatt/B400/XO91.pdf",
+        "footprint": "Oscillator:Oscillator_SMD_EuroQuartz_XO91-4Pin_7.0x5.0mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "EN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "XO91_0_1",
+            "XO91_1_1"
+        ]
+    },
+    "XUX51": {
+        "description": "",
+        "keywords": "OTP XHCMOS 1.8V VCXO",
+        "datasheet": "https://www.renesas.com/us/en/document/dst/xu-family-low-phase-noise-quartz-based-pll-oscillators-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_IDT_JS6-6_5.0x3.2mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "E/D",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "XUX51_0_1",
+            "XUX51_1_1"
+        ]
+    },
+    "XUX52": {
+        "description": "",
+        "keywords": "OTP XHCMOS 2.5V VCXO",
+        "datasheet": "https://www.renesas.com/us/en/document/dst/xu-family-low-phase-noise-quartz-based-pll-oscillators-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_IDT_JS6-6_5.0x3.2mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "XUX53": {
+        "description": "",
+        "keywords": "OTP XHCMOS 3.3V VCXO",
+        "datasheet": "https://www.renesas.com/us/en/document/dst/xu-family-low-phase-noise-quartz-based-pll-oscillators-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_IDT_JS6-6_5.0x3.2mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "XUX71": {
+        "description": "",
+        "keywords": "OTP XHCMOS 1.8V VCXO",
+        "datasheet": "https://www.renesas.com/us/en/document/dst/xu-family-low-phase-noise-quartz-based-pll-oscillators-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_IDT_JU6-6_7.0x5.0mm_P2.54mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "E/D",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "2",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "XUX71_0_1",
+            "XUX71_1_1"
+        ]
+    },
+    "XUX72": {
+        "description": "",
+        "keywords": "OTP XHCMOS 2.5V VCXO",
+        "datasheet": "https://www.renesas.com/us/en/document/dst/xu-family-low-phase-noise-quartz-based-pll-oscillators-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_IDT_JU6-6_7.0x5.0mm_P2.54mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "XUX73": {
+        "description": "",
+        "keywords": "OTP XHCMOS 3.3V VCXO",
+        "datasheet": "https://www.renesas.com/us/en/document/dst/xu-family-low-phase-noise-quartz-based-pll-oscillators-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_IDT_JU6-6_7.0x5.0mm_P2.54mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "XUY51": {
+        "description": "",
+        "keywords": "OTP HCMOS 1.8V VCXO",
+        "datasheet": "https://www.renesas.com/us/en/document/dst/xu-family-low-phase-noise-quartz-based-pll-oscillators-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_IDT_JS6-6_5.0x3.2mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "E/D",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "XUY51_0_1",
+            "XUY51_1_1"
+        ]
+    },
+    "XUY52": {
+        "description": "",
+        "keywords": "OTP XHCMOS 2.5V VCXO",
+        "datasheet": "https://www.renesas.com/us/en/document/dst/xu-family-low-phase-noise-quartz-based-pll-oscillators-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_IDT_JS6-6_5.0x3.2mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "XUY53": {
+        "description": "",
+        "keywords": "OTP XHCMOS 3.3V VCXO",
+        "datasheet": "https://www.renesas.com/us/en/document/dst/xu-family-low-phase-noise-quartz-based-pll-oscillators-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_IDT_JS6-6_5.0x3.2mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "XUY71": {
+        "description": "",
+        "keywords": "OTP HCMOS 1.8V VCXO",
+        "datasheet": "https://www.renesas.com/us/en/document/dst/xu-family-low-phase-noise-quartz-based-pll-oscillators-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_IDT_JU6-6_7.0x5.0mm_P2.54mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "E/D",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "4",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT2",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "6",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "XUY71_0_1",
+            "XUY71_1_1"
+        ]
+    },
+    "XUY72": {
+        "description": "",
+        "keywords": "OTP XHCMOS 2.5V VCXO",
+        "datasheet": "https://www.renesas.com/us/en/document/dst/xu-family-low-phase-noise-quartz-based-pll-oscillators-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_IDT_JU6-6_7.0x5.0mm_P2.54mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "XUY73": {
+        "description": "",
+        "keywords": "OTP XHCMOS 3.3V VCXO",
+        "datasheet": "https://www.renesas.com/us/en/document/dst/xu-family-low-phase-noise-quartz-based-pll-oscillators-datasheet",
+        "footprint": "Oscillator:Oscillator_SMD_IDT_JU6-6_7.0x5.0mm_P2.54mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    }
+}

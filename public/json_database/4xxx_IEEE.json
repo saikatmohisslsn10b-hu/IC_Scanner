@@ -1,0 +1,6307 @@
+{
+    "4001": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            }
+        ]
+    },
+    "4002": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            }
+        ]
+    },
+    "4006": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": "DA"
+            },
+            {
+                "number": "3",
+                "name": "~{CP}"
+            },
+            {
+                "number": "4",
+                "name": "DC"
+            },
+            {
+                "number": "5",
+                "name": "DB"
+            },
+            {
+                "number": "6",
+                "name": "DD"
+            },
+            {
+                "number": "8",
+                "name": "Q3D"
+            },
+            {
+                "number": "9",
+                "name": "Q4D"
+            },
+            {
+                "number": "10",
+                "name": "Q3B"
+            },
+            {
+                "number": "11",
+                "name": "Q3B"
+            },
+            {
+                "number": "12",
+                "name": "Q4C"
+            },
+            {
+                "number": "13",
+                "name": "Q3A"
+            }
+        ]
+    },
+    "4008": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "A3"
+            },
+            {
+                "number": "2",
+                "name": "B2"
+            },
+            {
+                "number": "3",
+                "name": "A2"
+            },
+            {
+                "number": "4",
+                "name": "B1"
+            },
+            {
+                "number": "5",
+                "name": "A1"
+            },
+            {
+                "number": "6",
+                "name": "B0"
+            },
+            {
+                "number": "7",
+                "name": "A0"
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "9",
+                "name": "Cin"
+            },
+            {
+                "number": "10",
+                "name": "S0"
+            },
+            {
+                "number": "11",
+                "name": "S1"
+            },
+            {
+                "number": "12",
+                "name": "S2"
+            },
+            {
+                "number": "13",
+                "name": "S3"
+            },
+            {
+                "number": "14",
+                "name": "Cout"
+            },
+            {
+                "number": "15",
+                "name": "B3"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            }
+        ]
+    },
+    "4009": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vcc"
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "7",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "14",
+                "name": ""
+            },
+            {
+                "number": "15",
+                "name": ""
+            }
+        ]
+    },
+    "4010": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vcc"
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "7",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "14",
+                "name": ""
+            },
+            {
+                "number": "15",
+                "name": ""
+            }
+        ]
+    },
+    "40104": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "EN"
+            },
+            {
+                "number": "2",
+                "name": "SRin"
+            },
+            {
+                "number": "3",
+                "name": "D0"
+            },
+            {
+                "number": "4",
+                "name": "D1"
+            },
+            {
+                "number": "5",
+                "name": "D2"
+            },
+            {
+                "number": "6",
+                "name": "D3"
+            },
+            {
+                "number": "7",
+                "name": "SLin"
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "9",
+                "name": "S0"
+            },
+            {
+                "number": "10",
+                "name": "S1"
+            },
+            {
+                "number": "11",
+                "name": "CK"
+            },
+            {
+                "number": "12",
+                "name": "Q3"
+            },
+            {
+                "number": "13",
+                "name": "Q2"
+            },
+            {
+                "number": "14",
+                "name": "Q1"
+            },
+            {
+                "number": "15",
+                "name": "Q0"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            }
+        ]
+    },
+    "40106": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            }
+        ]
+    },
+    "4011": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            }
+        ]
+    },
+    "40110": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "Qa"
+            },
+            {
+                "number": "2",
+                "name": "Qg"
+            },
+            {
+                "number": "3",
+                "name": "Qf"
+            },
+            {
+                "number": "4",
+                "name": "~{TE}"
+            },
+            {
+                "number": "5",
+                "name": "CLR"
+            },
+            {
+                "number": "6",
+                "name": "LE"
+            },
+            {
+                "number": "7",
+                "name": "CKd"
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "9",
+                "name": "CKu"
+            },
+            {
+                "number": "10",
+                "name": "C"
+            },
+            {
+                "number": "11",
+                "name": "B"
+            },
+            {
+                "number": "12",
+                "name": "Qe"
+            },
+            {
+                "number": "13",
+                "name": "Qd"
+            },
+            {
+                "number": "14",
+                "name": "Qc"
+            },
+            {
+                "number": "15",
+                "name": "Qb"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            }
+        ]
+    },
+    "4012": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            }
+        ]
+    },
+    "4013": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": "Q"
+            },
+            {
+                "number": "2",
+                "name": "~{Q}"
+            },
+            {
+                "number": "3",
+                "name": "Cp"
+            },
+            {
+                "number": "4",
+                "name": "R"
+            },
+            {
+                "number": "5",
+                "name": "D"
+            },
+            {
+                "number": "6",
+                "name": "S"
+            },
+            {
+                "number": "8",
+                "name": "S"
+            },
+            {
+                "number": "9",
+                "name": "D"
+            },
+            {
+                "number": "10",
+                "name": "R"
+            },
+            {
+                "number": "11",
+                "name": "Cp"
+            },
+            {
+                "number": "12",
+                "name": "~{Q}"
+            },
+            {
+                "number": "13",
+                "name": "Q"
+            }
+        ]
+    },
+    "4014": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "P7"
+            },
+            {
+                "number": "2",
+                "name": "Q5"
+            },
+            {
+                "number": "3",
+                "name": "Q7"
+            },
+            {
+                "number": "4",
+                "name": "P3"
+            },
+            {
+                "number": "5",
+                "name": "P2"
+            },
+            {
+                "number": "6",
+                "name": "P1"
+            },
+            {
+                "number": "7",
+                "name": "P0"
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "9",
+                "name": "PL"
+            },
+            {
+                "number": "10",
+                "name": "CP"
+            },
+            {
+                "number": "11",
+                "name": "DS"
+            },
+            {
+                "number": "12",
+                "name": "Q6"
+            },
+            {
+                "number": "13",
+                "name": "P4"
+            },
+            {
+                "number": "14",
+                "name": "P5"
+            },
+            {
+                "number": "15",
+                "name": "P6"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            }
+        ]
+    },
+    "4015": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            },
+            {
+                "number": "3",
+                "name": "Q3"
+            },
+            {
+                "number": "4",
+                "name": "Q2"
+            },
+            {
+                "number": "5",
+                "name": "Q1"
+            },
+            {
+                "number": "6",
+                "name": "MR"
+            },
+            {
+                "number": "7",
+                "name": "D"
+            },
+            {
+                "number": "9",
+                "name": "CP"
+            },
+            {
+                "number": "10",
+                "name": "Q4"
+            },
+            {
+                "number": "1",
+                "name": "CP"
+            },
+            {
+                "number": "2",
+                "name": "Q4"
+            },
+            {
+                "number": "11",
+                "name": "Q3"
+            },
+            {
+                "number": "12",
+                "name": "Q2"
+            },
+            {
+                "number": "13",
+                "name": "Q1"
+            },
+            {
+                "number": "14",
+                "name": "MR"
+            },
+            {
+                "number": "15",
+                "name": "D"
+            }
+        ]
+    },
+    "4016": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": "I/O"
+            },
+            {
+                "number": "2",
+                "name": "O/I"
+            },
+            {
+                "number": "13",
+                "name": "ON"
+            },
+            {
+                "number": "3",
+                "name": "O/I"
+            },
+            {
+                "number": "4",
+                "name": "I/O"
+            },
+            {
+                "number": "5",
+                "name": "ON"
+            },
+            {
+                "number": "6",
+                "name": "ON"
+            },
+            {
+                "number": "8",
+                "name": "I/O"
+            },
+            {
+                "number": "9",
+                "name": "O/I"
+            },
+            {
+                "number": "10",
+                "name": "O/I"
+            },
+            {
+                "number": "11",
+                "name": "I/O"
+            },
+            {
+                "number": "12",
+                "name": "ON"
+            }
+        ]
+    },
+    "4017": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "8",
+                "name": "VSS"
+            },
+            {
+                "number": "16",
+                "name": "VDD"
+            },
+            {
+                "number": "1",
+                "name": "Q5"
+            },
+            {
+                "number": "2",
+                "name": "Q1"
+            },
+            {
+                "number": "3",
+                "name": "Q0"
+            },
+            {
+                "number": "4",
+                "name": "Q2"
+            },
+            {
+                "number": "5",
+                "name": "Q6"
+            },
+            {
+                "number": "6",
+                "name": "Q7"
+            },
+            {
+                "number": "7",
+                "name": "Q3"
+            },
+            {
+                "number": "9",
+                "name": "Q8"
+            },
+            {
+                "number": "10",
+                "name": "Q4"
+            },
+            {
+                "number": "11",
+                "name": "Q9"
+            },
+            {
+                "number": "12",
+                "name": "Co"
+            },
+            {
+                "number": "13",
+                "name": "~{CP1}"
+            },
+            {
+                "number": "14",
+                "name": "CP0"
+            },
+            {
+                "number": "15",
+                "name": "MR"
+            }
+        ]
+    },
+    "40174": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{R}"
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "9",
+                "name": "Ck"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "7",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            },
+            {
+                "number": "14",
+                "name": ""
+            },
+            {
+                "number": "15",
+                "name": ""
+            }
+        ]
+    },
+    "40175": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{R}"
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "7",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "9",
+                "name": "Ck"
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            },
+            {
+                "number": "14",
+                "name": ""
+            },
+            {
+                "number": "15",
+                "name": ""
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            }
+        ]
+    },
+    "4018": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "D"
+            },
+            {
+                "number": "2",
+                "name": "P0"
+            },
+            {
+                "number": "3",
+                "name": "P1"
+            },
+            {
+                "number": "4",
+                "name": "~{Q1}"
+            },
+            {
+                "number": "5",
+                "name": "~{Q0}"
+            },
+            {
+                "number": "6",
+                "name": "~{Q2}"
+            },
+            {
+                "number": "7",
+                "name": "P2"
+            },
+            {
+                "number": "8",
+                "name": "VSS"
+            },
+            {
+                "number": "9",
+                "name": "P3"
+            },
+            {
+                "number": "10",
+                "name": "PL"
+            },
+            {
+                "number": "11",
+                "name": "~{Q3}"
+            },
+            {
+                "number": "12",
+                "name": "P4"
+            },
+            {
+                "number": "13",
+                "name": "~{Q4}"
+            },
+            {
+                "number": "14",
+                "name": "CP"
+            },
+            {
+                "number": "15",
+                "name": "MR"
+            },
+            {
+                "number": "16",
+                "name": "VDD"
+            }
+        ]
+    },
+    "4019": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": "B3"
+            },
+            {
+                "number": "2",
+                "name": "A2"
+            },
+            {
+                "number": "3",
+                "name": "B2"
+            },
+            {
+                "number": "4",
+                "name": "A1"
+            },
+            {
+                "number": "5",
+                "name": "B1"
+            },
+            {
+                "number": "6",
+                "name": "A0"
+            },
+            {
+                "number": "7",
+                "name": "B0"
+            },
+            {
+                "number": "9",
+                "name": "SA"
+            },
+            {
+                "number": "10",
+                "name": "Q0"
+            },
+            {
+                "number": "11",
+                "name": "Q1"
+            },
+            {
+                "number": "12",
+                "name": "Q2"
+            },
+            {
+                "number": "13",
+                "name": "Q3"
+            },
+            {
+                "number": "14",
+                "name": "SB"
+            },
+            {
+                "number": "15",
+                "name": "A3"
+            }
+        ]
+    },
+    "40192": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "P1"
+            },
+            {
+                "number": "2",
+                "name": "Q1"
+            },
+            {
+                "number": "3",
+                "name": "Q0"
+            },
+            {
+                "number": "4",
+                "name": "DOWN"
+            },
+            {
+                "number": "5",
+                "name": "UP"
+            },
+            {
+                "number": "6",
+                "name": "Q2"
+            },
+            {
+                "number": "7",
+                "name": "Q3"
+            },
+            {
+                "number": "8",
+                "name": "VSS"
+            },
+            {
+                "number": "9",
+                "name": "P3"
+            },
+            {
+                "number": "10",
+                "name": "P2"
+            },
+            {
+                "number": "11",
+                "name": "LOAD"
+            },
+            {
+                "number": "12",
+                "name": "CO"
+            },
+            {
+                "number": "13",
+                "name": "BO"
+            },
+            {
+                "number": "14",
+                "name": "MR"
+            },
+            {
+                "number": "15",
+                "name": "P0"
+            },
+            {
+                "number": "16",
+                "name": "VDD"
+            }
+        ]
+    },
+    "40193": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "P1"
+            },
+            {
+                "number": "2",
+                "name": "Q1"
+            },
+            {
+                "number": "3",
+                "name": "Q0"
+            },
+            {
+                "number": "4",
+                "name": "DOWN"
+            },
+            {
+                "number": "5",
+                "name": "UP"
+            },
+            {
+                "number": "6",
+                "name": "Q2"
+            },
+            {
+                "number": "7",
+                "name": "Q3"
+            },
+            {
+                "number": "8",
+                "name": "VSS"
+            },
+            {
+                "number": "9",
+                "name": "P3"
+            },
+            {
+                "number": "10",
+                "name": "P2"
+            },
+            {
+                "number": "11",
+                "name": "LOAD"
+            },
+            {
+                "number": "12",
+                "name": "CO"
+            },
+            {
+                "number": "13",
+                "name": "BO"
+            },
+            {
+                "number": "14",
+                "name": "MR"
+            },
+            {
+                "number": "15",
+                "name": "P0"
+            },
+            {
+                "number": "16",
+                "name": "VDD"
+            }
+        ]
+    },
+    "40194": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": "MR"
+            },
+            {
+                "number": "2",
+                "name": "DSr"
+            },
+            {
+                "number": "3",
+                "name": "D0"
+            },
+            {
+                "number": "4",
+                "name": "D1"
+            },
+            {
+                "number": "5",
+                "name": "D2"
+            },
+            {
+                "number": "6",
+                "name": "D3"
+            },
+            {
+                "number": "7",
+                "name": "DSl"
+            },
+            {
+                "number": "9",
+                "name": "S0"
+            },
+            {
+                "number": "10",
+                "name": "S1"
+            },
+            {
+                "number": "11",
+                "name": "CK"
+            },
+            {
+                "number": "12",
+                "name": "Q3"
+            },
+            {
+                "number": "13",
+                "name": "Q2"
+            },
+            {
+                "number": "14",
+                "name": "Q1"
+            },
+            {
+                "number": "15",
+                "name": "Q0"
+            }
+        ]
+    },
+    "4020": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "8",
+                "name": "VSS"
+            },
+            {
+                "number": "16",
+                "name": "VDD"
+            },
+            {
+                "number": "1",
+                "name": "Q11"
+            },
+            {
+                "number": "2",
+                "name": "Q12"
+            },
+            {
+                "number": "3",
+                "name": "Q13"
+            },
+            {
+                "number": "4",
+                "name": "Q5"
+            },
+            {
+                "number": "5",
+                "name": "Q4"
+            },
+            {
+                "number": "6",
+                "name": "Q6"
+            },
+            {
+                "number": "7",
+                "name": "Q3"
+            },
+            {
+                "number": "9",
+                "name": "Q0"
+            },
+            {
+                "number": "10",
+                "name": "~{CLK}"
+            },
+            {
+                "number": "11",
+                "name": "MR"
+            },
+            {
+                "number": "12",
+                "name": "Q8"
+            },
+            {
+                "number": "13",
+                "name": "Q7"
+            },
+            {
+                "number": "14",
+                "name": "Q9"
+            },
+            {
+                "number": "15",
+                "name": "Q10"
+            }
+        ]
+    },
+    "4021": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": "P7"
+            },
+            {
+                "number": "2",
+                "name": "Q5"
+            },
+            {
+                "number": "3",
+                "name": "Q7"
+            },
+            {
+                "number": "4",
+                "name": "P3"
+            },
+            {
+                "number": "5",
+                "name": "P2"
+            },
+            {
+                "number": "6",
+                "name": "P1"
+            },
+            {
+                "number": "7",
+                "name": "P0"
+            },
+            {
+                "number": "9",
+                "name": "PL"
+            },
+            {
+                "number": "10",
+                "name": "CP"
+            },
+            {
+                "number": "11",
+                "name": "DS"
+            },
+            {
+                "number": "12",
+                "name": "Q6"
+            },
+            {
+                "number": "13",
+                "name": "P4"
+            },
+            {
+                "number": "14",
+                "name": "P5"
+            },
+            {
+                "number": "15",
+                "name": "P6"
+            }
+        ]
+    },
+    "4022": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "8",
+                "name": "VSS"
+            },
+            {
+                "number": "16",
+                "name": "VDD"
+            },
+            {
+                "number": "1",
+                "name": "Q1"
+            },
+            {
+                "number": "2",
+                "name": "Q0"
+            },
+            {
+                "number": "3",
+                "name": "Q2"
+            },
+            {
+                "number": "4",
+                "name": "Q5"
+            },
+            {
+                "number": "5",
+                "name": "Q6"
+            },
+            {
+                "number": "7",
+                "name": "Q3"
+            },
+            {
+                "number": "10",
+                "name": "Q7"
+            },
+            {
+                "number": "11",
+                "name": "Q4"
+            },
+            {
+                "number": "12",
+                "name": "Co"
+            },
+            {
+                "number": "13",
+                "name": "~{CP1}"
+            },
+            {
+                "number": "14",
+                "name": "CP0"
+            },
+            {
+                "number": "15",
+                "name": "MR"
+            }
+        ]
+    },
+    "4023": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            }
+        ]
+    },
+    "4024": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "VSS"
+            },
+            {
+                "number": "14",
+                "name": "VDD"
+            },
+            {
+                "number": "1",
+                "name": "~{CLK}"
+            },
+            {
+                "number": "2",
+                "name": "MR"
+            },
+            {
+                "number": "3",
+                "name": "Q6"
+            },
+            {
+                "number": "4",
+                "name": "Q5"
+            },
+            {
+                "number": "5",
+                "name": "Q4"
+            },
+            {
+                "number": "6",
+                "name": "Q3"
+            },
+            {
+                "number": "9",
+                "name": "Q2"
+            },
+            {
+                "number": "11",
+                "name": "Q1"
+            },
+            {
+                "number": "12",
+                "name": "Q0"
+            }
+        ]
+    },
+    "40240": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "10",
+                "name": "Vss"
+            },
+            {
+                "number": "20",
+                "name": "Vdd"
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "14",
+                "name": ""
+            },
+            {
+                "number": "16",
+                "name": ""
+            },
+            {
+                "number": "18",
+                "name": ""
+            },
+            {
+                "number": "1",
+                "name": "~{EN}"
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "15",
+                "name": ""
+            },
+            {
+                "number": "17",
+                "name": ""
+            },
+            {
+                "number": "19",
+                "name": "~{EN}"
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "7",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            }
+        ]
+    },
+    "40245": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "Dir"
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "7",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": "Vss"
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            },
+            {
+                "number": "14",
+                "name": ""
+            },
+            {
+                "number": "15",
+                "name": ""
+            },
+            {
+                "number": "16",
+                "name": ""
+            },
+            {
+                "number": "17",
+                "name": ""
+            },
+            {
+                "number": "18",
+                "name": ""
+            },
+            {
+                "number": "19",
+                "name": "~{G}"
+            },
+            {
+                "number": "20",
+                "name": "Vdd"
+            }
+        ]
+    },
+    "4025": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            }
+        ]
+    },
+    "4027": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "8",
+                "name": "VSS"
+            },
+            {
+                "number": "16",
+                "name": "VDD"
+            },
+            {
+                "number": "1",
+                "name": "Q"
+            },
+            {
+                "number": "2",
+                "name": "~{Q}"
+            },
+            {
+                "number": "3",
+                "name": "CK"
+            },
+            {
+                "number": "4",
+                "name": "R"
+            },
+            {
+                "number": "5",
+                "name": "K"
+            },
+            {
+                "number": "6",
+                "name": "J"
+            },
+            {
+                "number": "7",
+                "name": "S"
+            },
+            {
+                "number": "9",
+                "name": "S"
+            },
+            {
+                "number": "10",
+                "name": "J"
+            },
+            {
+                "number": "11",
+                "name": "K"
+            },
+            {
+                "number": "12",
+                "name": "R"
+            },
+            {
+                "number": "13",
+                "name": "CK"
+            },
+            {
+                "number": "14",
+                "name": "~{Q}"
+            },
+            {
+                "number": "15",
+                "name": "Q"
+            }
+        ]
+    },
+    "4028": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "16",
+                "name": "VDD"
+            },
+            {
+                "number": "8",
+                "name": "VSS"
+            },
+            {
+                "number": "1",
+                "name": "S4"
+            },
+            {
+                "number": "2",
+                "name": "S2"
+            },
+            {
+                "number": "3",
+                "name": "S0"
+            },
+            {
+                "number": "4",
+                "name": "S7"
+            },
+            {
+                "number": "5",
+                "name": "S9"
+            },
+            {
+                "number": "6",
+                "name": "S5"
+            },
+            {
+                "number": "7",
+                "name": "S6"
+            },
+            {
+                "number": "9",
+                "name": "S8"
+            },
+            {
+                "number": "10",
+                "name": "A"
+            },
+            {
+                "number": "11",
+                "name": "D"
+            },
+            {
+                "number": "12",
+                "name": "C"
+            },
+            {
+                "number": "13",
+                "name": "B"
+            },
+            {
+                "number": "14",
+                "name": "S1"
+            },
+            {
+                "number": "15",
+                "name": "S3"
+            }
+        ]
+    },
+    "4029": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "PL"
+            },
+            {
+                "number": "2",
+                "name": "Q3"
+            },
+            {
+                "number": "3",
+                "name": "P3"
+            },
+            {
+                "number": "4",
+                "name": "P0"
+            },
+            {
+                "number": "5",
+                "name": "~{CE}"
+            },
+            {
+                "number": "6",
+                "name": "Q0"
+            },
+            {
+                "number": "7",
+                "name": "~{TC}"
+            },
+            {
+                "number": "8",
+                "name": "VSS"
+            },
+            {
+                "number": "9",
+                "name": "B/D"
+            },
+            {
+                "number": "10",
+                "name": "U/D"
+            },
+            {
+                "number": "11",
+                "name": "Q1"
+            },
+            {
+                "number": "12",
+                "name": "P1"
+            },
+            {
+                "number": "13",
+                "name": "P2"
+            },
+            {
+                "number": "14",
+                "name": "Q2"
+            },
+            {
+                "number": "15",
+                "name": "CK"
+            },
+            {
+                "number": "16",
+                "name": "VDD"
+            }
+        ]
+    },
+    "4030": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            }
+        ]
+    },
+    "40373": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{EN}"
+            },
+            {
+                "number": "10",
+                "name": "Vss"
+            },
+            {
+                "number": "11",
+                "name": "ST"
+            },
+            {
+                "number": "20",
+                "name": "Vdd"
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "7",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            },
+            {
+                "number": "14",
+                "name": ""
+            },
+            {
+                "number": "15",
+                "name": ""
+            },
+            {
+                "number": "16",
+                "name": ""
+            },
+            {
+                "number": "17",
+                "name": ""
+            },
+            {
+                "number": "18",
+                "name": ""
+            },
+            {
+                "number": "19",
+                "name": ""
+            }
+        ]
+    },
+    "40374": {
+        "description": "",
+        "keywords": "CMOS BUFFER 3State",
+        "datasheet": "https://www.digchip.com/datasheets/download_datasheet.php?id=369790&part-number=HEF40374BDB",
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{E}"
+            },
+            {
+                "number": "10",
+                "name": "Vss"
+            },
+            {
+                "number": "11",
+                "name": "Ck"
+            },
+            {
+                "number": "20",
+                "name": "Vdd"
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "7",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            },
+            {
+                "number": "14",
+                "name": ""
+            },
+            {
+                "number": "15",
+                "name": ""
+            },
+            {
+                "number": "16",
+                "name": ""
+            },
+            {
+                "number": "17",
+                "name": ""
+            },
+            {
+                "number": "18",
+                "name": ""
+            },
+            {
+                "number": "19",
+                "name": ""
+            }
+        ]
+    },
+    "4040": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "8",
+                "name": "VSS"
+            },
+            {
+                "number": "16",
+                "name": "VDD"
+            },
+            {
+                "number": "1",
+                "name": "Q13"
+            },
+            {
+                "number": "2",
+                "name": "Q7"
+            },
+            {
+                "number": "3",
+                "name": "Q6"
+            },
+            {
+                "number": "4",
+                "name": "Q8"
+            },
+            {
+                "number": "5",
+                "name": "Q5"
+            },
+            {
+                "number": "6",
+                "name": "Q4"
+            },
+            {
+                "number": "7",
+                "name": "Q3"
+            },
+            {
+                "number": "9",
+                "name": "Q0"
+            },
+            {
+                "number": "10",
+                "name": "CLK"
+            },
+            {
+                "number": "11",
+                "name": "MR"
+            },
+            {
+                "number": "12",
+                "name": "Q10"
+            },
+            {
+                "number": "13",
+                "name": "Q9"
+            },
+            {
+                "number": "14",
+                "name": "Q11"
+            },
+            {
+                "number": "15",
+                "name": "Q12"
+            }
+        ]
+    },
+    "4041": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            }
+        ]
+    },
+    "4042": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": "E0"
+            },
+            {
+                "number": "6",
+                "name": "E1"
+            },
+            {
+                "number": "7",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            },
+            {
+                "number": "14",
+                "name": ""
+            },
+            {
+                "number": "15",
+                "name": ""
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            }
+        ]
+    },
+    "4043": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": "EN"
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "7",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "14",
+                "name": ""
+            },
+            {
+                "number": "15",
+                "name": ""
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            }
+        ]
+    },
+    "4044": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": "EN"
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "7",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            },
+            {
+                "number": "14",
+                "name": ""
+            },
+            {
+                "number": "15",
+                "name": ""
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            }
+        ]
+    },
+    "4046": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "8",
+                "name": "VSS"
+            },
+            {
+                "number": "16",
+                "name": "VDD"
+            },
+            {
+                "number": "1",
+                "name": "PCP"
+            },
+            {
+                "number": "2",
+                "name": "PC1"
+            },
+            {
+                "number": "3",
+                "name": "RefIn"
+            },
+            {
+                "number": "4",
+                "name": "FOUT"
+            },
+            {
+                "number": "5",
+                "name": "Inh"
+            },
+            {
+                "number": "6",
+                "name": "C1"
+            },
+            {
+                "number": "7",
+                "name": "C2"
+            },
+            {
+                "number": "9",
+                "name": "VCOin"
+            },
+            {
+                "number": "10",
+                "name": "SFout"
+            },
+            {
+                "number": "11",
+                "name": "R1"
+            },
+            {
+                "number": "12",
+                "name": "R2"
+            },
+            {
+                "number": "13",
+                "name": "PC2"
+            },
+            {
+                "number": "14",
+                "name": "SigIn"
+            },
+            {
+                "number": "15",
+                "name": "ZOUT"
+            }
+        ]
+    },
+    "4048": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "J"
+            },
+            {
+                "number": "2",
+                "name": "EN"
+            },
+            {
+                "number": "3",
+                "name": "H"
+            },
+            {
+                "number": "4",
+                "name": "G"
+            },
+            {
+                "number": "5",
+                "name": "F"
+            },
+            {
+                "number": "6",
+                "name": "E"
+            },
+            {
+                "number": "7",
+                "name": "Kb"
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "9",
+                "name": "Kc"
+            },
+            {
+                "number": "10",
+                "name": "Ka"
+            },
+            {
+                "number": "11",
+                "name": "D"
+            },
+            {
+                "number": "12",
+                "name": "C"
+            },
+            {
+                "number": "13",
+                "name": "B"
+            },
+            {
+                "number": "14",
+                "name": "A"
+            },
+            {
+                "number": "15",
+                "name": "Ex"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            }
+        ]
+    },
+    "4049": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vdd"
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "7",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "14",
+                "name": ""
+            },
+            {
+                "number": "15",
+                "name": ""
+            }
+        ]
+    },
+    "4050": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vdd"
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "7",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "14",
+                "name": ""
+            },
+            {
+                "number": "15",
+                "name": ""
+            }
+        ]
+    },
+    "4051": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": "X4"
+            },
+            {
+                "number": "2",
+                "name": "X6"
+            },
+            {
+                "number": "3",
+                "name": "X"
+            },
+            {
+                "number": "4",
+                "name": "X7"
+            },
+            {
+                "number": "5",
+                "name": "X5"
+            },
+            {
+                "number": "6",
+                "name": "~{E}"
+            },
+            {
+                "number": "7",
+                "name": "VEE"
+            },
+            {
+                "number": "9",
+                "name": "C"
+            },
+            {
+                "number": "10",
+                "name": "B"
+            },
+            {
+                "number": "11",
+                "name": "A"
+            },
+            {
+                "number": "12",
+                "name": "X3"
+            },
+            {
+                "number": "13",
+                "name": "X0"
+            },
+            {
+                "number": "14",
+                "name": "X1"
+            },
+            {
+                "number": "15",
+                "name": "X2"
+            }
+        ]
+    },
+    "4052": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": "Y0"
+            },
+            {
+                "number": "2",
+                "name": "Y2"
+            },
+            {
+                "number": "3",
+                "name": "Y"
+            },
+            {
+                "number": "4",
+                "name": "Y3"
+            },
+            {
+                "number": "5",
+                "name": "Y1"
+            },
+            {
+                "number": "6",
+                "name": "~{E}"
+            },
+            {
+                "number": "7",
+                "name": "VEE"
+            },
+            {
+                "number": "9",
+                "name": "A1"
+            },
+            {
+                "number": "10",
+                "name": "A0"
+            },
+            {
+                "number": "11",
+                "name": "X3"
+            },
+            {
+                "number": "12",
+                "name": "X0"
+            },
+            {
+                "number": "13",
+                "name": "X"
+            },
+            {
+                "number": "14",
+                "name": "X1"
+            },
+            {
+                "number": "15",
+                "name": "X2"
+            }
+        ]
+    },
+    "4053": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "8",
+                "name": "VSS"
+            },
+            {
+                "number": "16",
+                "name": "VDD"
+            },
+            {
+                "number": "1",
+                "name": "Y1"
+            },
+            {
+                "number": "2",
+                "name": "Y0"
+            },
+            {
+                "number": "3",
+                "name": "Z0"
+            },
+            {
+                "number": "4",
+                "name": "Z"
+            },
+            {
+                "number": "5",
+                "name": "Z0"
+            },
+            {
+                "number": "6",
+                "name": "~{E}"
+            },
+            {
+                "number": "7",
+                "name": "VEE"
+            },
+            {
+                "number": "9",
+                "name": "C"
+            },
+            {
+                "number": "10",
+                "name": "B"
+            },
+            {
+                "number": "11",
+                "name": "A"
+            },
+            {
+                "number": "12",
+                "name": "X0"
+            },
+            {
+                "number": "13",
+                "name": "X1"
+            },
+            {
+                "number": "14",
+                "name": "X"
+            },
+            {
+                "number": "15",
+                "name": "Y"
+            }
+        ]
+    },
+    "4060": {
+        "description": "",
+        "keywords": "binary counter oscillator",
+        "datasheet": "https://www.st.com/resource/en/datasheet/m74hc4060.pdf",
+        "pins": [
+            {
+                "number": "1",
+                "name": "Q12"
+            },
+            {
+                "number": "2",
+                "name": "Q13"
+            },
+            {
+                "number": "3",
+                "name": "Q14"
+            },
+            {
+                "number": "4",
+                "name": "Q6"
+            },
+            {
+                "number": "5",
+                "name": "Q5"
+            },
+            {
+                "number": "6",
+                "name": "Q7"
+            },
+            {
+                "number": "7",
+                "name": "Q4"
+            },
+            {
+                "number": "8",
+                "name": "VSS"
+            },
+            {
+                "number": "9",
+                "name": "~{\u03a60}"
+            },
+            {
+                "number": "10",
+                "name": "\u03a60"
+            },
+            {
+                "number": "11",
+                "name": "~{\u03a61}"
+            },
+            {
+                "number": "12",
+                "name": "CLR"
+            },
+            {
+                "number": "13",
+                "name": "Q9"
+            },
+            {
+                "number": "14",
+                "name": "Q8"
+            },
+            {
+                "number": "15",
+                "name": "Q10"
+            },
+            {
+                "number": "16",
+                "name": "VDD"
+            }
+        ]
+    },
+    "4068": {
+        "description": "",
+        "keywords": "cmos nand and 8-input",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/cd4068b.pdf",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": "K"
+            },
+            {
+                "number": "2",
+                "name": "A"
+            },
+            {
+                "number": "3",
+                "name": "B"
+            },
+            {
+                "number": "4",
+                "name": "C"
+            },
+            {
+                "number": "5",
+                "name": "D"
+            },
+            {
+                "number": "6",
+                "name": "NC"
+            },
+            {
+                "number": "8",
+                "name": "NC"
+            },
+            {
+                "number": "9",
+                "name": "E"
+            },
+            {
+                "number": "10",
+                "name": "F"
+            },
+            {
+                "number": "11",
+                "name": "G"
+            },
+            {
+                "number": "12",
+                "name": "H"
+            },
+            {
+                "number": "13",
+                "name": "J"
+            }
+        ]
+    },
+    "4069": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            }
+        ]
+    },
+    "4070": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            }
+        ]
+    },
+    "4071": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            }
+        ]
+    },
+    "4072": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            }
+        ]
+    },
+    "4073": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            }
+        ]
+    },
+    "4075": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            }
+        ]
+    },
+    "4077": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            }
+        ]
+    },
+    "4078": {
+        "description": "",
+        "keywords": "cmos",
+        "datasheet": "https://www.ti.com/lit/ds/symlink/cd4078b.pdf",
+        "pins": [
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            }
+        ]
+    },
+    "4081": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            }
+        ]
+    },
+    "4082": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            }
+        ]
+    },
+    "4093": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            }
+        ]
+    },
+    "4095": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "2",
+                "name": "R"
+            },
+            {
+                "number": "3",
+                "name": "J1"
+            },
+            {
+                "number": "4",
+                "name": "J2"
+            },
+            {
+                "number": "5",
+                "name": "J3"
+            },
+            {
+                "number": "6",
+                "name": "~{Q}"
+            },
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "8",
+                "name": "Q"
+            },
+            {
+                "number": "9",
+                "name": "K3"
+            },
+            {
+                "number": "10",
+                "name": "K2"
+            },
+            {
+                "number": "11",
+                "name": "K1"
+            },
+            {
+                "number": "12",
+                "name": "CK"
+            },
+            {
+                "number": "13",
+                "name": "S"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            }
+        ]
+    },
+    "4096": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "2",
+                "name": "R"
+            },
+            {
+                "number": "3",
+                "name": "J1"
+            },
+            {
+                "number": "4",
+                "name": "J2"
+            },
+            {
+                "number": "5",
+                "name": "~{J3}"
+            },
+            {
+                "number": "6",
+                "name": "~{Q}"
+            },
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "8",
+                "name": "Q"
+            },
+            {
+                "number": "9",
+                "name": "~{K3}"
+            },
+            {
+                "number": "10",
+                "name": "K2"
+            },
+            {
+                "number": "11",
+                "name": "K1"
+            },
+            {
+                "number": "12",
+                "name": "CK"
+            },
+            {
+                "number": "13",
+                "name": "S"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            }
+        ]
+    },
+    "4099": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "Q7"
+            },
+            {
+                "number": "2",
+                "name": "R"
+            },
+            {
+                "number": "3",
+                "name": "D"
+            },
+            {
+                "number": "4",
+                "name": "WR"
+            },
+            {
+                "number": "5",
+                "name": "A0"
+            },
+            {
+                "number": "6",
+                "name": "A1"
+            },
+            {
+                "number": "7",
+                "name": "A2"
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "9",
+                "name": "Q0"
+            },
+            {
+                "number": "10",
+                "name": "Q1"
+            },
+            {
+                "number": "11",
+                "name": "Q2"
+            },
+            {
+                "number": "12",
+                "name": "Q3"
+            },
+            {
+                "number": "13",
+                "name": "Q4"
+            },
+            {
+                "number": "14",
+                "name": "Q5"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            }
+        ]
+    },
+    "4104": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vddo"
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "7",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            },
+            {
+                "number": "14",
+                "name": ""
+            },
+            {
+                "number": "15",
+                "name": "EN"
+            },
+            {
+                "number": "16",
+                "name": "Vddi"
+            }
+        ]
+    },
+    "4160": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "MR"
+            },
+            {
+                "number": "2",
+                "name": "CP"
+            },
+            {
+                "number": "3",
+                "name": "P0"
+            },
+            {
+                "number": "4",
+                "name": "P1"
+            },
+            {
+                "number": "5",
+                "name": "P2"
+            },
+            {
+                "number": "6",
+                "name": "P3"
+            },
+            {
+                "number": "7",
+                "name": "CEP"
+            },
+            {
+                "number": "8",
+                "name": "VSS"
+            },
+            {
+                "number": "9",
+                "name": "PE"
+            },
+            {
+                "number": "10",
+                "name": "CET"
+            },
+            {
+                "number": "11",
+                "name": "Q3"
+            },
+            {
+                "number": "12",
+                "name": "Q2"
+            },
+            {
+                "number": "13",
+                "name": "Q1"
+            },
+            {
+                "number": "14",
+                "name": "Q0"
+            },
+            {
+                "number": "15",
+                "name": "TC"
+            },
+            {
+                "number": "16",
+                "name": "VDD"
+            }
+        ]
+    },
+    "4161": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "MR"
+            },
+            {
+                "number": "2",
+                "name": "CP"
+            },
+            {
+                "number": "3",
+                "name": "P0"
+            },
+            {
+                "number": "4",
+                "name": "P1"
+            },
+            {
+                "number": "5",
+                "name": "P2"
+            },
+            {
+                "number": "6",
+                "name": "P3"
+            },
+            {
+                "number": "7",
+                "name": "CEP"
+            },
+            {
+                "number": "8",
+                "name": "VSS"
+            },
+            {
+                "number": "9",
+                "name": "PE"
+            },
+            {
+                "number": "10",
+                "name": "CET"
+            },
+            {
+                "number": "11",
+                "name": "Q3"
+            },
+            {
+                "number": "12",
+                "name": "Q2"
+            },
+            {
+                "number": "13",
+                "name": "Q1"
+            },
+            {
+                "number": "14",
+                "name": "Q0"
+            },
+            {
+                "number": "15",
+                "name": "TC"
+            },
+            {
+                "number": "16",
+                "name": "VDD"
+            }
+        ]
+    },
+    "4162": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "MR"
+            },
+            {
+                "number": "2",
+                "name": "CP"
+            },
+            {
+                "number": "3",
+                "name": "P0"
+            },
+            {
+                "number": "4",
+                "name": "P1"
+            },
+            {
+                "number": "5",
+                "name": "P2"
+            },
+            {
+                "number": "6",
+                "name": "P3"
+            },
+            {
+                "number": "7",
+                "name": "CEP"
+            },
+            {
+                "number": "8",
+                "name": "VSS"
+            },
+            {
+                "number": "9",
+                "name": "PE"
+            },
+            {
+                "number": "10",
+                "name": "CET"
+            },
+            {
+                "number": "11",
+                "name": "Q3"
+            },
+            {
+                "number": "12",
+                "name": "Q2"
+            },
+            {
+                "number": "13",
+                "name": "Q1"
+            },
+            {
+                "number": "14",
+                "name": "Q0"
+            },
+            {
+                "number": "15",
+                "name": "TC"
+            },
+            {
+                "number": "16",
+                "name": "VDD"
+            }
+        ]
+    },
+    "4163": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "MR"
+            },
+            {
+                "number": "2",
+                "name": "CP"
+            },
+            {
+                "number": "3",
+                "name": "P0"
+            },
+            {
+                "number": "4",
+                "name": "P1"
+            },
+            {
+                "number": "5",
+                "name": "P2"
+            },
+            {
+                "number": "6",
+                "name": "P3"
+            },
+            {
+                "number": "7",
+                "name": "CEP"
+            },
+            {
+                "number": "8",
+                "name": "VSS"
+            },
+            {
+                "number": "9",
+                "name": "PE"
+            },
+            {
+                "number": "10",
+                "name": "CET"
+            },
+            {
+                "number": "11",
+                "name": "Q3"
+            },
+            {
+                "number": "12",
+                "name": "Q2"
+            },
+            {
+                "number": "13",
+                "name": "Q1"
+            },
+            {
+                "number": "14",
+                "name": "Q0"
+            },
+            {
+                "number": "15",
+                "name": "TC"
+            },
+            {
+                "number": "16",
+                "name": "VDD"
+            }
+        ]
+    },
+    "4174": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{R}"
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "9",
+                "name": "Ck"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "7",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            },
+            {
+                "number": "14",
+                "name": ""
+            },
+            {
+                "number": "15",
+                "name": ""
+            }
+        ]
+    },
+    "4175": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "~{R}"
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "7",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "9",
+                "name": "Ck"
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            },
+            {
+                "number": "14",
+                "name": ""
+            },
+            {
+                "number": "15",
+                "name": ""
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            }
+        ]
+    },
+    "4502": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": "A3"
+            },
+            {
+                "number": "2",
+                "name": "~{Y3}"
+            },
+            {
+                "number": "3",
+                "name": "A1"
+            },
+            {
+                "number": "4",
+                "name": "~{EN}"
+            },
+            {
+                "number": "5",
+                "name": "~{Y1}"
+            },
+            {
+                "number": "6",
+                "name": "A2"
+            },
+            {
+                "number": "7",
+                "name": "~{Y2}"
+            },
+            {
+                "number": "9",
+                "name": "~{Y4}"
+            },
+            {
+                "number": "10",
+                "name": "A4"
+            },
+            {
+                "number": "11",
+                "name": "~{Y5}"
+            },
+            {
+                "number": "12",
+                "name": "~{V1}"
+            },
+            {
+                "number": "13",
+                "name": "A5"
+            },
+            {
+                "number": "14",
+                "name": "~{Y6}"
+            },
+            {
+                "number": "15",
+                "name": "A6"
+            }
+        ]
+    },
+    "4504": {
+        "description": "",
+        "keywords": "cmos, level converter",
+        "datasheet": "http://www.ti.com/lit/ds/symlink/cd4504b.pdf",
+        "pins": [
+            {
+                "number": "1",
+                "name": "Vcc"
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "7",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": "EN"
+            },
+            {
+                "number": "14",
+                "name": ""
+            },
+            {
+                "number": "15",
+                "name": ""
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            }
+        ]
+    },
+    "4507": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "7",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "8",
+                "name": ""
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            }
+        ]
+    },
+    "4508": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "12",
+                "name": "Vss"
+            },
+            {
+                "number": "24",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": "MR"
+            },
+            {
+                "number": "2",
+                "name": "ST"
+            },
+            {
+                "number": "3",
+                "name": "~{EN}"
+            },
+            {
+                "number": "4",
+                "name": "D0"
+            },
+            {
+                "number": "5",
+                "name": "Q0"
+            },
+            {
+                "number": "6",
+                "name": "D1"
+            },
+            {
+                "number": "7",
+                "name": "Q1"
+            },
+            {
+                "number": "8",
+                "name": "D2"
+            },
+            {
+                "number": "9",
+                "name": "Q2"
+            },
+            {
+                "number": "10",
+                "name": "D3"
+            },
+            {
+                "number": "11",
+                "name": "Q3"
+            },
+            {
+                "number": "13",
+                "name": "MR"
+            },
+            {
+                "number": "14",
+                "name": "ST"
+            },
+            {
+                "number": "15",
+                "name": "~{EN}"
+            },
+            {
+                "number": "16",
+                "name": "D0"
+            },
+            {
+                "number": "17",
+                "name": "Q0"
+            },
+            {
+                "number": "18",
+                "name": "D1"
+            },
+            {
+                "number": "19",
+                "name": "Q1"
+            },
+            {
+                "number": "20",
+                "name": "D2"
+            },
+            {
+                "number": "21",
+                "name": "Q2"
+            },
+            {
+                "number": "22",
+                "name": "D3"
+            },
+            {
+                "number": "23",
+                "name": "Q3"
+            }
+        ]
+    },
+    "4510": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "PE"
+            },
+            {
+                "number": "2",
+                "name": "Q4"
+            },
+            {
+                "number": "3",
+                "name": "A4"
+            },
+            {
+                "number": "4",
+                "name": "A1"
+            },
+            {
+                "number": "5",
+                "name": "~{Cin}"
+            },
+            {
+                "number": "6",
+                "name": "Q1"
+            },
+            {
+                "number": "7",
+                "name": "~{Cout}"
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "9",
+                "name": "RST"
+            },
+            {
+                "number": "10",
+                "name": "U/D"
+            },
+            {
+                "number": "11",
+                "name": "Q2"
+            },
+            {
+                "number": "12",
+                "name": "A2"
+            },
+            {
+                "number": "13",
+                "name": "A3"
+            },
+            {
+                "number": "14",
+                "name": "Q3"
+            },
+            {
+                "number": "15",
+                "name": "CLK"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            }
+        ]
+    },
+    "4511": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "DB"
+            },
+            {
+                "number": "2",
+                "name": "DC"
+            },
+            {
+                "number": "3",
+                "name": "~{LT}"
+            },
+            {
+                "number": "4",
+                "name": "~{BI}"
+            },
+            {
+                "number": "5",
+                "name": "~{EL}"
+            },
+            {
+                "number": "6",
+                "name": "DD"
+            },
+            {
+                "number": "7",
+                "name": "DA"
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "9",
+                "name": "Qe"
+            },
+            {
+                "number": "10",
+                "name": "Qd"
+            },
+            {
+                "number": "11",
+                "name": "Qc"
+            },
+            {
+                "number": "12",
+                "name": "Qb"
+            },
+            {
+                "number": "13",
+                "name": "Qa"
+            },
+            {
+                "number": "14",
+                "name": "Qg"
+            },
+            {
+                "number": "15",
+                "name": "Qf"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            }
+        ]
+    },
+    "4512": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "I0"
+            },
+            {
+                "number": "2",
+                "name": "I1"
+            },
+            {
+                "number": "3",
+                "name": "I2"
+            },
+            {
+                "number": "4",
+                "name": "I3"
+            },
+            {
+                "number": "5",
+                "name": "I4"
+            },
+            {
+                "number": "6",
+                "name": "I5"
+            },
+            {
+                "number": "7",
+                "name": "I6"
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "9",
+                "name": "I7"
+            },
+            {
+                "number": "10",
+                "name": "~{E}"
+            },
+            {
+                "number": "11",
+                "name": "S0"
+            },
+            {
+                "number": "12",
+                "name": "S1"
+            },
+            {
+                "number": "13",
+                "name": "S2"
+            },
+            {
+                "number": "14",
+                "name": "Q"
+            },
+            {
+                "number": "15",
+                "name": "~{EN}"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            }
+        ]
+    },
+    "4514": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "EL"
+            },
+            {
+                "number": "2",
+                "name": "A0"
+            },
+            {
+                "number": "3",
+                "name": "A1"
+            },
+            {
+                "number": "4",
+                "name": "Q7"
+            },
+            {
+                "number": "5",
+                "name": "Q6"
+            },
+            {
+                "number": "6",
+                "name": "Q5"
+            },
+            {
+                "number": "7",
+                "name": "Q4"
+            },
+            {
+                "number": "8",
+                "name": "Q3"
+            },
+            {
+                "number": "9",
+                "name": "Q1"
+            },
+            {
+                "number": "10",
+                "name": "Q2"
+            },
+            {
+                "number": "11",
+                "name": "Q0"
+            },
+            {
+                "number": "12",
+                "name": "Vss"
+            },
+            {
+                "number": "13",
+                "name": "Q13"
+            },
+            {
+                "number": "14",
+                "name": "Q12"
+            },
+            {
+                "number": "15",
+                "name": "Q15"
+            },
+            {
+                "number": "16",
+                "name": "Q14"
+            },
+            {
+                "number": "17",
+                "name": "Q9"
+            },
+            {
+                "number": "18",
+                "name": "Q8"
+            },
+            {
+                "number": "19",
+                "name": "Q11"
+            },
+            {
+                "number": "20",
+                "name": "Q10"
+            },
+            {
+                "number": "21",
+                "name": "A2"
+            },
+            {
+                "number": "22",
+                "name": "A3"
+            },
+            {
+                "number": "23",
+                "name": "~{EN}"
+            },
+            {
+                "number": "24",
+                "name": "Vdd"
+            }
+        ]
+    },
+    "4515": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "EL"
+            },
+            {
+                "number": "2",
+                "name": "A0"
+            },
+            {
+                "number": "3",
+                "name": "A1"
+            },
+            {
+                "number": "4",
+                "name": "Q7"
+            },
+            {
+                "number": "5",
+                "name": "Q6"
+            },
+            {
+                "number": "6",
+                "name": "Q5"
+            },
+            {
+                "number": "7",
+                "name": "Q4"
+            },
+            {
+                "number": "8",
+                "name": "Q3"
+            },
+            {
+                "number": "9",
+                "name": "Q1"
+            },
+            {
+                "number": "10",
+                "name": "Q2"
+            },
+            {
+                "number": "11",
+                "name": "Q0"
+            },
+            {
+                "number": "12",
+                "name": "Vss"
+            },
+            {
+                "number": "13",
+                "name": "Q13"
+            },
+            {
+                "number": "14",
+                "name": "Q12"
+            },
+            {
+                "number": "15",
+                "name": "Q15"
+            },
+            {
+                "number": "16",
+                "name": "Q14"
+            },
+            {
+                "number": "17",
+                "name": "Q9"
+            },
+            {
+                "number": "18",
+                "name": "Q8"
+            },
+            {
+                "number": "19",
+                "name": "Q11"
+            },
+            {
+                "number": "20",
+                "name": "Q10"
+            },
+            {
+                "number": "21",
+                "name": "A2"
+            },
+            {
+                "number": "22",
+                "name": "A3"
+            },
+            {
+                "number": "23",
+                "name": "EN"
+            },
+            {
+                "number": "24",
+                "name": "Vdd"
+            }
+        ]
+    },
+    "4518": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": "CP0"
+            },
+            {
+                "number": "2",
+                "name": "CP1"
+            },
+            {
+                "number": "3",
+                "name": "Q0"
+            },
+            {
+                "number": "4",
+                "name": "Q1"
+            },
+            {
+                "number": "5",
+                "name": "Q2"
+            },
+            {
+                "number": "6",
+                "name": "Q3"
+            },
+            {
+                "number": "7",
+                "name": "MR"
+            },
+            {
+                "number": "9",
+                "name": "CP0"
+            },
+            {
+                "number": "10",
+                "name": "CP1"
+            },
+            {
+                "number": "11",
+                "name": "Q0"
+            },
+            {
+                "number": "12",
+                "name": "Q1"
+            },
+            {
+                "number": "13",
+                "name": "Q2"
+            },
+            {
+                "number": "14",
+                "name": "Q3"
+            },
+            {
+                "number": "15",
+                "name": "MR"
+            }
+        ]
+    },
+    "4520": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": "CP0"
+            },
+            {
+                "number": "2",
+                "name": "CP1"
+            },
+            {
+                "number": "3",
+                "name": "Q0"
+            },
+            {
+                "number": "4",
+                "name": "Q1"
+            },
+            {
+                "number": "5",
+                "name": "Q2"
+            },
+            {
+                "number": "6",
+                "name": "Q3"
+            },
+            {
+                "number": "7",
+                "name": "MR"
+            },
+            {
+                "number": "9",
+                "name": "CP0"
+            },
+            {
+                "number": "10",
+                "name": "CP1"
+            },
+            {
+                "number": "11",
+                "name": "Q0"
+            },
+            {
+                "number": "12",
+                "name": "Q1"
+            },
+            {
+                "number": "13",
+                "name": "Q2"
+            },
+            {
+                "number": "14",
+                "name": "Q3"
+            },
+            {
+                "number": "15",
+                "name": "MR"
+            }
+        ]
+    },
+    "4529": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "STX"
+            },
+            {
+                "number": "2",
+                "name": "X0"
+            },
+            {
+                "number": "3",
+                "name": "X1"
+            },
+            {
+                "number": "4",
+                "name": "X2"
+            },
+            {
+                "number": "5",
+                "name": "X3"
+            },
+            {
+                "number": "6",
+                "name": "A"
+            },
+            {
+                "number": "7",
+                "name": "B"
+            },
+            {
+                "number": "8",
+                "name": "VSS"
+            },
+            {
+                "number": "9",
+                "name": "Z"
+            },
+            {
+                "number": "10",
+                "name": "W"
+            },
+            {
+                "number": "11",
+                "name": "Y3"
+            },
+            {
+                "number": "12",
+                "name": "Y2"
+            },
+            {
+                "number": "13",
+                "name": "Y1"
+            },
+            {
+                "number": "14",
+                "name": "Y0"
+            },
+            {
+                "number": "15",
+                "name": "STY"
+            },
+            {
+                "number": "16",
+                "name": "VDD"
+            }
+        ]
+    },
+    "4530": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": ""
+            },
+            {
+                "number": "2",
+                "name": ""
+            },
+            {
+                "number": "3",
+                "name": ""
+            },
+            {
+                "number": "4",
+                "name": ""
+            },
+            {
+                "number": "5",
+                "name": ""
+            },
+            {
+                "number": "6",
+                "name": ""
+            },
+            {
+                "number": "7",
+                "name": "Y"
+            },
+            {
+                "number": "9",
+                "name": ""
+            },
+            {
+                "number": "10",
+                "name": ""
+            },
+            {
+                "number": "11",
+                "name": ""
+            },
+            {
+                "number": "12",
+                "name": ""
+            },
+            {
+                "number": "13",
+                "name": ""
+            },
+            {
+                "number": "14",
+                "name": ""
+            },
+            {
+                "number": "15",
+                "name": "Y"
+            }
+        ]
+    },
+    "4538": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "CX"
+            },
+            {
+                "number": "2",
+                "name": "Rx"
+            },
+            {
+                "number": "3",
+                "name": "R"
+            },
+            {
+                "number": "4",
+                "name": "B"
+            },
+            {
+                "number": "5",
+                "name": "A"
+            },
+            {
+                "number": "6",
+                "name": "Q"
+            },
+            {
+                "number": "7",
+                "name": "Q"
+            },
+            {
+                "number": "8",
+                "name": "VSS"
+            },
+            {
+                "number": "16",
+                "name": "VDD"
+            },
+            {
+                "number": "8",
+                "name": "VSS"
+            },
+            {
+                "number": "9",
+                "name": "Q"
+            },
+            {
+                "number": "10",
+                "name": "Q"
+            },
+            {
+                "number": "11",
+                "name": "A"
+            },
+            {
+                "number": "12",
+                "name": "B"
+            },
+            {
+                "number": "13",
+                "name": "R"
+            },
+            {
+                "number": "14",
+                "name": "Rx"
+            },
+            {
+                "number": "15",
+                "name": "CX"
+            },
+            {
+                "number": "16",
+                "name": "VDD"
+            }
+        ]
+    },
+    "4539": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "2",
+                "name": "S1"
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "14",
+                "name": "S0"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": "~{EN}"
+            },
+            {
+                "number": "3",
+                "name": "I3"
+            },
+            {
+                "number": "4",
+                "name": "I2"
+            },
+            {
+                "number": "5",
+                "name": "I1"
+            },
+            {
+                "number": "6",
+                "name": "I0"
+            },
+            {
+                "number": "7",
+                "name": "Q"
+            },
+            {
+                "number": "9",
+                "name": "Q"
+            },
+            {
+                "number": "10",
+                "name": "I0"
+            },
+            {
+                "number": "11",
+                "name": "I1"
+            },
+            {
+                "number": "12",
+                "name": "I2"
+            },
+            {
+                "number": "13",
+                "name": "I3"
+            },
+            {
+                "number": "15",
+                "name": "~{EN}"
+            }
+        ]
+    },
+    "4543": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "1",
+                "name": "LD"
+            },
+            {
+                "number": "2",
+                "name": "DC"
+            },
+            {
+                "number": "3",
+                "name": "DB"
+            },
+            {
+                "number": "4",
+                "name": "DD"
+            },
+            {
+                "number": "5",
+                "name": "DA"
+            },
+            {
+                "number": "6",
+                "name": "PH"
+            },
+            {
+                "number": "7",
+                "name": "BI"
+            },
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "9",
+                "name": "Qa"
+            },
+            {
+                "number": "10",
+                "name": "Qb"
+            },
+            {
+                "number": "11",
+                "name": "Qc"
+            },
+            {
+                "number": "12",
+                "name": "Qd"
+            },
+            {
+                "number": "13",
+                "name": "Qe"
+            },
+            {
+                "number": "14",
+                "name": "Qg"
+            },
+            {
+                "number": "15",
+                "name": "Qf"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            }
+        ]
+    },
+    "4555": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": "~{EN}"
+            },
+            {
+                "number": "2",
+                "name": "A0"
+            },
+            {
+                "number": "3",
+                "name": "A1"
+            },
+            {
+                "number": "4",
+                "name": "Q0"
+            },
+            {
+                "number": "5",
+                "name": "Q1"
+            },
+            {
+                "number": "6",
+                "name": "Q2"
+            },
+            {
+                "number": "7",
+                "name": "Q3"
+            },
+            {
+                "number": "9",
+                "name": "Q3"
+            },
+            {
+                "number": "10",
+                "name": "Q2"
+            },
+            {
+                "number": "11",
+                "name": "Q1"
+            },
+            {
+                "number": "12",
+                "name": "Q0"
+            },
+            {
+                "number": "13",
+                "name": "A1"
+            },
+            {
+                "number": "14",
+                "name": "A0"
+            },
+            {
+                "number": "15",
+                "name": "~{EN}"
+            }
+        ]
+    },
+    "4556": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": "~{EN}"
+            },
+            {
+                "number": "2",
+                "name": "A0"
+            },
+            {
+                "number": "3",
+                "name": "A1"
+            },
+            {
+                "number": "4",
+                "name": "~{Q0}"
+            },
+            {
+                "number": "5",
+                "name": "~{Q1}"
+            },
+            {
+                "number": "6",
+                "name": "~{Q2}"
+            },
+            {
+                "number": "7",
+                "name": "~{Q3}"
+            },
+            {
+                "number": "9",
+                "name": "~{Q3}"
+            },
+            {
+                "number": "10",
+                "name": "~{Q2}"
+            },
+            {
+                "number": "11",
+                "name": "~{Q1}"
+            },
+            {
+                "number": "12",
+                "name": "~{Q0}"
+            },
+            {
+                "number": "13",
+                "name": "A1"
+            },
+            {
+                "number": "14",
+                "name": "A0"
+            },
+            {
+                "number": "15",
+                "name": "~{EN}"
+            }
+        ]
+    },
+    "4585": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "",
+        "pins": [
+            {
+                "number": "8",
+                "name": "Vss"
+            },
+            {
+                "number": "16",
+                "name": "Vdd"
+            },
+            {
+                "number": "1",
+                "name": "B2"
+            },
+            {
+                "number": "2",
+                "name": "A2"
+            },
+            {
+                "number": "3",
+                "name": "Qa=b"
+            },
+            {
+                "number": "4",
+                "name": "Ia>b"
+            },
+            {
+                "number": "5",
+                "name": "Ia<b"
+            },
+            {
+                "number": "6",
+                "name": "Ia=b"
+            },
+            {
+                "number": "7",
+                "name": "A1"
+            },
+            {
+                "number": "9",
+                "name": "B1"
+            },
+            {
+                "number": "10",
+                "name": "A0"
+            },
+            {
+                "number": "11",
+                "name": "B0"
+            },
+            {
+                "number": "12",
+                "name": "Qa<b"
+            },
+            {
+                "number": "13",
+                "name": "Qa>b"
+            },
+            {
+                "number": "14",
+                "name": "B3"
+            },
+            {
+                "number": "15",
+                "name": "A3"
+            }
+        ]
+    }
+}

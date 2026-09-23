@@ -1,0 +1,1752 @@
+{
+    "T8Q144xx": {
+        "description": "",
+        "keywords": "FPGA programmable logic",
+        "datasheet": "https://www.efinixinc.com/docs/trion8-ds-v4.4.pdf",
+        "footprint": "Package_QFP:LQFP-144_20x20mm_P0.5mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "2",
+                "name": "VCCA_TL",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 12.7,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "3",
+                "name": "GPIOL_53_CDI10",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "GPIOL_54_CDI11",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "6",
+                "name": "GPIOL_46",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "GPIOL_41_CDI9",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "GPIOL_40_CDI8",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 0
+                }
+            },
+            {
+                "number": "9",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "10",
+                "name": "GPIOL_32_CTRL4_CDI7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "GPIOL_31_CLK7_CDI6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "12",
+                "name": "VCCIO1C_1D",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "13",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "14",
+                "name": "GPIOL_25_CLK1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 0
+                }
+            },
+            {
+                "number": "15",
+                "name": "GPIOL_24_CLK0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "16",
+                "name": "GPIOL_22_CTRL2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "17",
+                "name": "GPIOL_21_CTRL1_CDI5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "18",
+                "name": "GPIOL_20_CTRL0_CDI4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 0
+                }
+            },
+            {
+                "number": "19",
+                "name": "GPIOL_13_CDI3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "20",
+                "name": "GPIOL_12_CDI2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "21",
+                "name": "VCCIO1B",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "22",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -12.7,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "23",
+                "name": "VCCIO1A",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "24",
+                "name": "TDO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "25",
+                "name": "TMS",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "26",
+                "name": "TCK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 0
+                }
+            },
+            {
+                "number": "27",
+                "name": "TDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "28",
+                "name": "GPIOL_09_CDI1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "29",
+                "name": "GPIOL_08_CDI0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 0
+                }
+            },
+            {
+                "number": "30",
+                "name": "GPIOL_01_CCK",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "31",
+                "name": "GPIOL_00_SS_N",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "32",
+                "name": "GPIOL_04_CSI",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "33",
+                "name": "GPIOL_05_CSO",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "34",
+                "name": "CDONE",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "35",
+                "name": "CRESET_N",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "36",
+                "name": "REF_RES",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "37",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "38",
+                "name": "GPIOB_TXP00",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "39",
+                "name": "GPIOB_TXN00",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "40",
+                "name": "GPIOB_TXP02",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "41",
+                "name": "GPIOB_TXN02",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "42",
+                "name": "GPIOB_TXP04",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "43",
+                "name": "GPIOB_TXN04",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -22.86,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "44",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "45",
+                "name": "GPIOB_TXP06",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "46",
+                "name": "GPIOB_TXN06",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "47",
+                "name": "GPIOB_TXP09",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "48",
+                "name": "GPIOB_TXN09",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "49",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -10.16,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "50",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "51",
+                "name": "VCCIO4B",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "52",
+                "name": "VCCIO4B",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "53",
+                "name": "GPIOB_TXP11",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "54",
+                "name": "GPIOB_TXN11",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 22.86,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "55",
+                "name": "GPIOB_RXP00",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "56",
+                "name": "GPIOB_RXN00",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "57",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -7.62,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "58",
+                "name": "GPIOB_RXP02",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "59",
+                "name": "GPIOB_RXN02",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "60",
+                "name": "GPIOB_RXN03",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "61",
+                "name": "GPIOB_RXP03",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "62",
+                "name": "VCCIO4A",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "63",
+                "name": "VCCIO4A",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "64",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "65",
+                "name": "GPIOB_RXN07",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "66",
+                "name": "GPIOB_RXP07",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "67",
+                "name": "GPIOB_RXP10",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "68",
+                "name": "GPIOB_RXN10",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "69",
+                "name": "GPIOB_RXN12_EXTFB0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "70",
+                "name": "GPIOB_RXP12_EXTFB0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "71",
+                "name": "GPIOB_CLKP0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "72",
+                "name": "GPIOB_CLKN0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "73",
+                "name": "VCCA_BR",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 10.16,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "74",
+                "name": "GPIOR_158_TEST_N",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 0
+                }
+            },
+            {
+                "number": "75",
+                "name": "GPIOR_157_PLLIN",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "76",
+                "name": "GPIOR_155",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "77",
+                "name": "GPIOR_154",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "78",
+                "name": "GPIOR_151_CBUS0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 0
+                }
+            },
+            {
+                "number": "79",
+                "name": "GPIOR_150_CBUS1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "80",
+                "name": "GPIOR_149_CBUS2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "81",
+                "name": "GPIOR_139",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "82",
+                "name": "GPIOR_138",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 0
+                }
+            },
+            {
+                "number": "83",
+                "name": "GPIOR_136_CDI16",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "84",
+                "name": "GPIOR_135_CDI17",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "85",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "86",
+                "name": "GPIOR_133_CDI18",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "87",
+                "name": "GPIOR_132_CDI19",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "88",
+                "name": "VCCIO3E",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "89",
+                "name": "GPIOR_129_CTRL10",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 0
+                }
+            },
+            {
+                "number": "90",
+                "name": "GPIOR_128_CTRL11",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "91",
+                "name": "VCCIO3D",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "92",
+                "name": "GPIOR_125_CLK10",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "93",
+                "name": "GPIOR_123_CLK12_CDI20",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "94",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "95",
+                "name": "VCCIO3B_3C",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "96",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "97",
+                "name": "GPIOR_122_CLK13_CDI21",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "98",
+                "name": "GPIOR_117_CTRL14",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": 0
+                }
+            },
+            {
+                "number": "99",
+                "name": "GPIOR_116_CTRL15",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "100",
+                "name": "GPIOR_113_CDI22",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "101",
+                "name": "GPIOR_112_CDI23",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "102",
+                "name": "GPIOR_105_CDI24",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "103",
+                "name": "GPIOR_104_CDI25",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "104",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "105",
+                "name": "GPIOR_95_CDI26",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "106",
+                "name": "GPIOR_94_CDI27",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": 0
+                }
+            },
+            {
+                "number": "107",
+                "name": "VCCA_TR",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 15.24,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "108",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "109",
+                "name": "GPIOR_88_CDI28",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "110",
+                "name": "GPIOR_87_CDI29",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "111",
+                "name": "GPIOR_85",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "112",
+                "name": "GPIOR_86",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": 0
+                }
+            },
+            {
+                "number": "113",
+                "name": "GPIOR_84",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "114",
+                "name": "GPIOR_83",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "115",
+                "name": "GPIOR_82",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "116",
+                "name": "GPIOR_81_MREFCLK",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "117",
+                "name": "GPIOR_80",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "118",
+                "name": "GPIOR_79_EXTFB1_CDI30",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": 0
+                }
+            },
+            {
+                "number": "119",
+                "name": "GPIOR_78_EXTFB0_CDI31",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "120",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "121",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "122",
+                "name": "VCCIO3A",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "123",
+                "name": "GPIOR_77_PLLIN1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "124",
+                "name": "GPIOR_76_PLLIN0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "125",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "126",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "127",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "128",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "129",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "130",
+                "name": "VCC",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "131",
+                "name": "GPIOL_75_PLLIN1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "132",
+                "name": "GPIOL_74_PLLIN0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "133",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "134",
+                "name": "GPIOL_73_EXTFB1_CDI15",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": 0
+                }
+            },
+            {
+                "number": "135",
+                "name": "GPIOL_72_EXTFB0_CDI14",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "136",
+                "name": "GPIOL_71_NSTATUS",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "137",
+                "name": "GPIOL_70_CBSEL0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 30.48,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "138",
+                "name": "GPIOL_69_CBSEL1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "139",
+                "name": "GPIOL_68",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "140",
+                "name": "GPIOL_67_CDI13",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": 0
+                }
+            },
+            {
+                "number": "141",
+                "name": "GPIOL_65",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "142",
+                "name": "GPIOL_66_CDI12",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "143",
+                "name": "VCCIO1E",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "144",
+                "name": "GPIOL_64",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -30.48,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "T8Q144xx_10_1",
+            "T8Q144xx_11_1",
+            "T8Q144xx_1_1",
+            "T8Q144xx_2_1",
+            "T8Q144xx_3_1",
+            "T8Q144xx_4_1",
+            "T8Q144xx_5_1",
+            "T8Q144xx_6_1",
+            "T8Q144xx_7_1",
+            "T8Q144xx_8_1",
+            "T8Q144xx_9_1"
+        ]
+    }
+}

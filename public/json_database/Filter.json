@@ -1,0 +1,2813 @@
+{
+    "0603USB-142": {
+        "description": "",
+        "keywords": "signal line filter",
+        "datasheet": "https://www.coilcraft.com/pdfs/0603usb.pdf",
+        "footprint": "Inductor_SMD:L_CommonModeChoke_Coilcraft_0603USB",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "0603USB-222": {
+        "description": "",
+        "keywords": "signal line filter",
+        "datasheet": "https://www.coilcraft.com/pdfs/0603usb.pdf",
+        "footprint": "Inductor_SMD:L_CommonModeChoke_Coilcraft_0603USB",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "0603USB-251": {
+        "description": "",
+        "keywords": "signal line filter",
+        "datasheet": "https://www.coilcraft.com/pdfs/0603usb.pdf",
+        "footprint": "Inductor_SMD:L_CommonModeChoke_Coilcraft_0603USB",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "0603USB-601": {
+        "description": "",
+        "keywords": "signal line filter",
+        "datasheet": "https://www.coilcraft.com/pdfs/0603usb.pdf",
+        "footprint": "Inductor_SMD:L_CommonModeChoke_Coilcraft_0603USB",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "0603USB-951": {
+        "description": "",
+        "keywords": "signal line filter",
+        "datasheet": "https://www.coilcraft.com/pdfs/0603usb.pdf",
+        "footprint": "Inductor_SMD:L_CommonModeChoke_Coilcraft_0603USB",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "0850BM14E0016": {
+        "description": "",
+        "keywords": "Sub-GHz Balun",
+        "datasheet": "https://www.johansontechnology.com/datasheets/0850BM14E0016/0850BM14E0016.pdf",
+        "footprint": "RF_Converter:Balun_Johanson_1.6x0.8mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "UBP",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "RX/TX",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "RF_N",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "RF_P",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "0850BM14E0016_0_0",
+            "0850BM14E0016_0_1"
+        ]
+    },
+    "0900FM15K0039": {
+        "description": "",
+        "keywords": "Sub-GHz filter",
+        "datasheet": "https://www.johansontechnology.com/datasheets/0900FM15K0039/0900FM15K0039.pdf",
+        "footprint": "RF_Converter:Balun_Johanson_0900FM15K0039",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "RFO",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "3",
+                "name": "RFI_N",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "RFI_P",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "6",
+                "name": "SW_RFI",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "7",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "8",
+                "name": "SW_RFO",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "9",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "10",
+                "name": "GND",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -7.62
+                }
+            }
+        ],
+        "units": [
+            "0900FM15K0039_0_0",
+            "0900FM15K0039_0_1"
+        ]
+    },
+    "1FP41-4R": {
+        "description": "",
+        "keywords": "EMI",
+        "datasheet": "https://filtercon.com.pl/wp-content/uploads/2019/07/Karta-katalogowa-FP-12-1.pdf",
+        "footprint": "Filter:Filter_FILTERCON_1FPxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "1FP42-3R": {
+        "description": "",
+        "keywords": "EMI",
+        "datasheet": "https://filtercon.com.pl/wp-content/uploads/2019/07/Karta-katalogowa-FP-12-1.pdf",
+        "footprint": "Filter:Filter_FILTERCON_1FPxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "1FP44-2R": {
+        "description": "",
+        "keywords": "EMI",
+        "datasheet": "https://filtercon.com.pl/wp-content/uploads/2019/07/Karta-katalogowa-FP-12-1.pdf",
+        "footprint": "Filter:Filter_FILTERCON_1FPxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "1FP45-0R": {
+        "description": "",
+        "keywords": "EMI",
+        "datasheet": "https://filtercon.com.pl/wp-content/uploads/2019/07/Karta-katalogowa-FP-12-1.pdf",
+        "footprint": "Filter:Filter_FILTERCON_1FPxx",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "P",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "P'",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "N",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -12.7,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "N'",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 12.7,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "1FP45-0R_1_1"
+        ]
+    },
+    "1FP45-1R": {
+        "description": "",
+        "keywords": "EMI",
+        "datasheet": "https://filtercon.com.pl/wp-content/uploads/2019/07/Karta-katalogowa-FP-12-1.pdf",
+        "footprint": "Filter:Filter_FILTERCON_1FPxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "1FP61-4R": {
+        "description": "",
+        "keywords": "EMI",
+        "datasheet": "https://filtercon.com.pl/wp-content/uploads/2019/07/Karta-katalogowa-FP-12-1.pdf",
+        "footprint": "Filter:Filter_FILTERCON_1FPxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "1FP62-3R": {
+        "description": "",
+        "keywords": "EMI",
+        "datasheet": "https://filtercon.com.pl/wp-content/uploads/2019/07/Karta-katalogowa-FP-12-1.pdf",
+        "footprint": "Filter:Filter_FILTERCON_1FPxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "1FP64-2R": {
+        "description": "",
+        "keywords": "EMI",
+        "datasheet": "https://filtercon.com.pl/wp-content/uploads/2019/07/Karta-katalogowa-FP-12-1.pdf",
+        "footprint": "Filter:Filter_FILTERCON_1FPxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "1FP65-0R": {
+        "description": "",
+        "keywords": "EMI",
+        "datasheet": "https://filtercon.com.pl/wp-content/uploads/2019/07/Karta-katalogowa-FP-12-1.pdf",
+        "footprint": "Filter:Filter_FILTERCON_1FPxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "1FP65-1R": {
+        "description": "",
+        "keywords": "EMI",
+        "datasheet": "https://filtercon.com.pl/wp-content/uploads/2019/07/Karta-katalogowa-FP-12-1.pdf",
+        "footprint": "Filter:Filter_FILTERCON_1FPxx",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "B39162B8813P810": {
+        "description": "",
+        "keywords": "SAW filter",
+        "datasheet": "https://product.tdk.com/search-template/en/documents/data_sheet/40/ds/mc/B9482.pdf",
+        "footprint": "Filter:Filter_1109-5_1.1x0.9mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "B39162B8813P810_0_1",
+            "B39162B8813P810_1_1"
+        ]
+    },
+    "BNX025": {
+        "description": "",
+        "keywords": "EMI Filter SMD Murata",
+        "datasheet": "https://www.murata.com/en-us/products/productdetail.aspx?cate=luNoiseSupprFilteBlockType&partno=BNX025H01%23",
+        "footprint": "Filter:Filter_Murata_BNX025",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "B",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "CB",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "PSG",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "CG",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "BNX025_0_1",
+            "BNX025_1_1"
+        ]
+    },
+    "Choke_CommonMode_PulseElectronics_PH9455x105NL": {
+        "description": "",
+        "keywords": "common-mode common mode choke powerline power line filter",
+        "datasheet": "https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/ph9455.105nl",
+        "footprint": "Inductor_THT:L_CommonMode_PulseElectronics_PH9455x105NL_1",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "4",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "Choke_CommonMode_PulseElectronics_PH9455x105NL_1_1"
+        ]
+    },
+    "Choke_CommonMode_PulseElectronics_PH9455x155NL": {
+        "description": "",
+        "keywords": "common-mode common mode choke powerline power line filter",
+        "datasheet": "https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/ph9455.105nl",
+        "footprint": "Inductor_THT:L_CommonMode_PulseElectronics_PH9455x155NL_1",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Choke_CommonMode_PulseElectronics_PH9455x156NL": {
+        "description": "",
+        "keywords": "common-mode common mode choke powerline power line filter",
+        "datasheet": "https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/ph9455.105nl",
+        "footprint": "Inductor_THT:L_CommonMode_PulseElectronics_PH9455xxx6NL_2",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Choke_CommonMode_PulseElectronics_PH9455x205NL": {
+        "description": "",
+        "keywords": "common-mode common mode choke powerline power line filter",
+        "datasheet": "https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/ph9455.105nl",
+        "footprint": "Inductor_THT:L_CommonMode_PulseElectronics_PH9455x205NL_1",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Choke_CommonMode_PulseElectronics_PH9455x356NL": {
+        "description": "",
+        "keywords": "common-mode common mode choke powerline power line filter",
+        "datasheet": "https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/ph9455.105nl",
+        "footprint": "Inductor_THT:L_CommonMode_PulseElectronics_PH9455xxx6NL_2",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Choke_CommonMode_PulseElectronics_PH9455x405NL": {
+        "description": "",
+        "keywords": "common-mode common mode choke powerline power line filter",
+        "datasheet": "https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/ph9455.105nl",
+        "footprint": "Inductor_THT:L_CommonMode_PulseElectronics_PH9455x405NL_1",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Choke_CommonMode_PulseElectronics_PH9455x705NL": {
+        "description": "",
+        "keywords": "common-mode common mode choke powerline power line filter",
+        "datasheet": "https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/ph9455.105nl",
+        "footprint": "Inductor_THT:L_CommonMode_PulseElectronics_PH9455x705NL_1",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Choke_CommonMode_PulseElectronics_PH9455x826NL": {
+        "description": "",
+        "keywords": "common-mode common mode choke powerline power line filter",
+        "datasheet": "https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/ph9455.105nl",
+        "footprint": "Inductor_THT:L_CommonMode_PulseElectronics_PH9455xxx6NL_2",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Choke_Schaffner_RN102-0.3-02-12M": {
+        "description": "",
+        "keywords": "common-mode common mode choke powerline power line filter",
+        "datasheet": "https://www.schaffner.com/products/download/product/datasheet/rn-series-common-mode-chokes-new/",
+        "footprint": "Inductor_THT:Choke_Schaffner_RN102-04-14.0x14.0mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Choke_Schaffner_RN102-0.3-02-22M": {
+        "description": "",
+        "keywords": "common-mode common mode choke powerline power line filter",
+        "datasheet": "https://www.schaffner.com/products/download/product/datasheet/rn-series-common-mode-chokes-new/",
+        "footprint": "Inductor_THT:Choke_Schaffner_RN102-04-14.0x14.0mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "4",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "Choke_Schaffner_RN102-0.3-02-22M_1_1"
+        ]
+    },
+    "Choke_Schaffner_RN102-0.6-02-4M4": {
+        "description": "",
+        "keywords": "common-mode common mode choke powerline power line filter",
+        "datasheet": "https://www.schaffner.com/products/download/product/datasheet/rn-series-common-mode-chokes-new/",
+        "footprint": "Inductor_THT:Choke_Schaffner_RN102-04-14.0x14.0mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Choke_Schaffner_RN102-1-02-3M0": {
+        "description": "",
+        "keywords": "common-mode common mode choke powerline power line filter",
+        "datasheet": "https://www.schaffner.com/products/download/product/datasheet/rn-series-common-mode-chokes-new/",
+        "footprint": "Inductor_THT:Choke_Schaffner_RN102-04-14.0x14.0mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Choke_Schaffner_RN102-1.5-02-1M6": {
+        "description": "",
+        "keywords": "common-mode common mode choke powerline power line filter",
+        "datasheet": "https://www.schaffner.com/products/download/product/datasheet/rn-series-common-mode-chokes-new/",
+        "footprint": "Inductor_THT:Choke_Schaffner_RN102-04-14.0x14.0mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "Choke_Schaffner_RN102-2-02-1M1": {
+        "description": "",
+        "keywords": "common-mode common mode choke powerline power line filter",
+        "datasheet": "https://www.schaffner.com/products/download/product/datasheet/rn-series-common-mode-chokes-new/",
+        "footprint": "Inductor_THT:Choke_Schaffner_RN102-04-14.0x14.0mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "FN405-0.5-02": {
+        "description": "",
+        "keywords": "EMI",
+        "datasheet": "https://www.schaffner.com/de/produkte/download/product/datasheet/fn-405-pcb-mounting-filter/",
+        "footprint": "Filter:Filter_Schaffner_FN405",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "N",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "N'",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "E",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "P'",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "P",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "FN405-0.5-02_0_1",
+            "FN405-0.5-02_1_1"
+        ]
+    },
+    "FN405-1-02": {
+        "description": "",
+        "keywords": "EMI",
+        "datasheet": "https://www.schaffner.com/de/produkte/download/product/datasheet/fn-405-pcb-mounting-filter/",
+        "footprint": "Filter:Filter_Schaffner_FN405",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "FN405-10-02": {
+        "description": "",
+        "keywords": "EMI",
+        "datasheet": "https://www.schaffner.com/de/produkte/download/product/datasheet/fn-405-pcb-mounting-filter/",
+        "footprint": "Filter:Filter_Schaffner_FN405",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "FN405-3-02": {
+        "description": "",
+        "keywords": "EMI",
+        "datasheet": "https://www.schaffner.com/de/produkte/download/product/datasheet/fn-405-pcb-mounting-filter/",
+        "footprint": "Filter:Filter_Schaffner_FN405",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "FN405-6-02": {
+        "description": "",
+        "keywords": "EMI",
+        "datasheet": "https://www.schaffner.com/de/produkte/download/product/datasheet/fn-405-pcb-mounting-filter/",
+        "footprint": "Filter:Filter_Schaffner_FN405",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "FN406-0.5-02": {
+        "description": "",
+        "keywords": "EMI mains",
+        "datasheet": "https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/",
+        "footprint": "Filter:Filter_Schaffner_FN406",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "P",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "N",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "PE",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 0
+                }
+            },
+            {
+                "number": "4",
+                "name": "N'",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "P'",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "FN406-0.5-02_0_1",
+            "FN406-0.5-02_1_1"
+        ]
+    },
+    "FN406-1-02": {
+        "description": "",
+        "keywords": "EMI mains",
+        "datasheet": "https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/",
+        "footprint": "Filter:Filter_Schaffner_FN406",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "FN406-3-02": {
+        "description": "",
+        "keywords": "EMI mains",
+        "datasheet": "https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/",
+        "footprint": "Filter:Filter_Schaffner_FN406",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "FN406-6-02": {
+        "description": "",
+        "keywords": "EMI mains",
+        "datasheet": "https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/",
+        "footprint": "Filter:Filter_Schaffner_FN406",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "FN406-8.4-02": {
+        "description": "",
+        "keywords": "EMI mains",
+        "datasheet": "https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/",
+        "footprint": "Filter:Filter_Schaffner_FN406",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "FN406B-0.5-02": {
+        "description": "",
+        "keywords": "EMI mains",
+        "datasheet": "https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/",
+        "footprint": "Filter:Filter_Schaffner_FN406",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "FN406B-1-02": {
+        "description": "",
+        "keywords": "EMI mains",
+        "datasheet": "https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/",
+        "footprint": "Filter:Filter_Schaffner_FN406",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "FN406B-3-02": {
+        "description": "",
+        "keywords": "EMI mains",
+        "datasheet": "https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/",
+        "footprint": "Filter:Filter_Schaffner_FN406",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "FN406B-6-02": {
+        "description": "",
+        "keywords": "EMI mains",
+        "datasheet": "https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/",
+        "footprint": "Filter:Filter_Schaffner_FN406",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "FN406B-8.4-02": {
+        "description": "",
+        "keywords": "EMI mains",
+        "datasheet": "https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/",
+        "footprint": "Filter:Filter_Schaffner_FN406",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "LTC1063xN8": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/en/ltc1063/datasheet",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "LTC1063xSW": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/en/ltc1063/datasheet",
+        "footprint": "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "LTC1065xN8": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/1065fb.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "V_{IN}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "V-",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "CLK_{OUT}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "5",
+                "name": "CLK_{IN}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "7",
+                "name": "V_{OUT}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "Vos_ADJ",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "LTC1065xN8_1_1"
+        ]
+    },
+    "LTC1065xSW": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/1065fb.pdf",
+        "footprint": "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "NC",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "2",
+                "name": "V_{IN}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "4",
+                "name": "NC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "V-",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "6",
+                "name": "NC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "7",
+                "name": "NC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "8",
+                "name": "CLK_{OUT}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "9",
+                "name": "CLK_{IN}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "10",
+                "name": "NC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "11",
+                "name": "NC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "12",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "13",
+                "name": "NC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "14",
+                "name": "V_{OUT}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "15",
+                "name": "NC",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "16",
+                "name": "Vos_ADJ",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "LTC1065xSW_1_1"
+        ]
+    },
+    "LTC1562xG-2": {
+        "description": "",
+        "keywords": "filter opamp quad",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/15622fa.pdf",
+        "footprint": "Package_SO:SSOP-20_5.3x7.2mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "LTC1562xxG": {
+        "description": "",
+        "keywords": "filter opamp quad",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/1562fa.pdf",
+        "footprint": "Package_SO:SSOP-20_5.3x7.2mm_P0.65mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "INV_B",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "2",
+                "name": "V1_B",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "3",
+                "name": "V2_B",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "V-",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "5",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "6",
+                "name": "SHDN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "7",
+                "name": "V-",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "8",
+                "name": "V2_A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "9",
+                "name": "V1_A",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "10",
+                "name": "INV_A",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "11",
+                "name": "INV_D",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "12",
+                "name": "V1_D",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "13",
+                "name": "V2_D",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "14",
+                "name": "V-",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "15",
+                "name": "AGND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "16",
+                "name": "V-",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "17",
+                "name": "V-",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "18",
+                "name": "V2_C",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "19",
+                "name": "V1_C",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "20",
+                "name": "INV_C",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 7.62
+                }
+            }
+        ],
+        "units": [
+            "LTC1562xxG_0_1",
+            "LTC1562xxG_1_1"
+        ]
+    },
+    "MAX291xPA": {
+        "description": "",
+        "keywords": "butterworth dual-supply",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX291-MAX296.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "CLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "V-",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "3",
+                "name": "OP_{OUT}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "OP_{IN-}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "7",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "8",
+                "name": "IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "MAX291xPA_1_1"
+        ]
+    },
+    "MAX291xSA": {
+        "description": "",
+        "keywords": "butterworth dual-supply",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX291-MAX296.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX291xWE": {
+        "description": "",
+        "keywords": "butterworth dual-supply",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX291-MAX296.pdf",
+        "footprint": "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "CLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "4",
+                "name": "V-",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "OP_{OUT}",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "6",
+                "name": "OP_{IN-}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "7",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "8",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "9",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "10",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "11",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "12",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "13",
+                "name": "V+",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "14",
+                "name": "IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "15",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "16",
+                "name": "NC",
+                "type": "no_connect",
+                "style": "line",
+                "hidden": true,
+                "rotation": 180,
+                "position": {
+                    "x": 5.08,
+                    "y": 2.54
+                }
+            }
+        ],
+        "units": [
+            "MAX291xWE_1_1"
+        ]
+    },
+    "MAX292xPA": {
+        "description": "",
+        "keywords": "bessel dual-supply",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX291-MAX296.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX292xSA": {
+        "description": "",
+        "keywords": "bessel dual-supply",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX291-MAX296.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX292xWE": {
+        "description": "",
+        "keywords": "bessel dual-supply",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX291-MAX296.pdf",
+        "footprint": "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX293xPA": {
+        "description": "",
+        "keywords": "elliptic dual-supply",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX293-MAX297.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX293xSA": {
+        "description": "",
+        "keywords": "elliptic dual-supply",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX293-MAX297.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX293xWE": {
+        "description": "",
+        "keywords": "elliptic dual-supply",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX293-MAX297.pdf",
+        "footprint": "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX294xPA": {
+        "description": "",
+        "keywords": "elliptic dual-supply",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX293-MAX297.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX294xSA": {
+        "description": "",
+        "keywords": "elliptic dual-supply",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX293-MAX297.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX294xWE": {
+        "description": "",
+        "keywords": "elliptic dual-supply",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX293-MAX297.pdf",
+        "footprint": "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX295xPA": {
+        "description": "",
+        "keywords": "butterworth dual-supply",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX291-MAX296.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX295xSA": {
+        "description": "",
+        "keywords": "butterworth dual-supply",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX291-MAX296.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX295xWE": {
+        "description": "",
+        "keywords": "butterworth dual-supply",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX291-MAX296.pdf",
+        "footprint": "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX296xPA": {
+        "description": "",
+        "keywords": "bessel dual-supply",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX291-MAX296.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX296xSA": {
+        "description": "",
+        "keywords": "bessel dual-supply",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX291-MAX296.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX296xWE": {
+        "description": "",
+        "keywords": "bessel dual-supply",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX291-MAX296.pdf",
+        "footprint": "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX297xPA": {
+        "description": "",
+        "keywords": "elliptic dual-supply",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX293-MAX297.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX297xSA": {
+        "description": "",
+        "keywords": "elliptic dual-supply",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX293-MAX297.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX297xWE": {
+        "description": "",
+        "keywords": "butterworth dual-supply",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX293-MAX297.pdf",
+        "footprint": "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7400xPA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/en/max7400/datasheet",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7400xSA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/en/max7400/datasheet",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "COM",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "2",
+                "name": "IN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "3",
+                "name": "GND",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "4",
+                "name": "V_{DD}",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "5",
+                "name": "OUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": 0
+                }
+            },
+            {
+                "number": "6",
+                "name": "OS",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 10.16,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "7",
+                "name": "~{SHDN}",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "8",
+                "name": "CLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -10.16,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "MAX7400xSA_1_1"
+        ]
+    },
+    "MAX7401xPA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7401-MAX7405.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7401xSA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7401-MAX7405.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7403xPA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/en/max7400/datasheet",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7403xSA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/en/max7400/datasheet",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7404xPA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/en/max7400/datasheet",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7404xSA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/en/max7400/datasheet",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7405xPA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7401-MAX7405.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7405xSA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7401-MAX7405.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7407xPA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/en/max7400/datasheet",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7407xSA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/en/max7400/datasheet",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7408xPA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7408-MAX7415.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7408xUA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7408-MAX7415.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7409xPA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7409-MAX7414.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7409xUA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7409-MAX7414.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7410xPA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7409-MAX7414.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7410xUA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7409-MAX7414.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7411xPA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7408-MAX7415.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7411xUA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7408-MAX7415.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7412xPA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7408-MAX7415.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7412xUA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7408-MAX7415.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7413xPA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7409-MAX7414.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7413xUA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7409-MAX7414.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7414xPA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7409-MAX7414.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7414xUA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7409-MAX7414.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7415xPA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7408-MAX7415.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7415xUA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7408-MAX7415.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7418xUA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/max7418-max7425.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7419xUA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/max7418-max7425.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7420xUA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/max7418-max7425.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7421xUA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/max7418-max7425.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7422xUA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/max7418-max7425.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7423xUA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/max7418-max7425.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7424xUA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/max7418-max7425.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7425xUA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/max7418-max7425.pdf",
+        "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7480xPA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7480.pdf",
+        "footprint": "Package_DIP:DIP-8_W7.62mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "MAX7480xSA": {
+        "description": "",
+        "keywords": "Analog-Devices",
+        "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7480.pdf",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "P300PL104M275xC222": {
+        "description": "",
+        "keywords": "suppressor filter cap",
+        "datasheet": "https://content.kemet.com/datasheets/KEM_F3019_PZB300X2_2XY2_275.pdf",
+        "footprint": "Filter:Filter_KEMET_PZB300_24.0x12.5mm_P10.0mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "2",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "3",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "P300PL104M275xC222_0_1",
+            "P300PL104M275xC222_1_1"
+        ]
+    },
+    "P300PL104M275xC332": {
+        "description": "",
+        "keywords": "suppressor filter cap",
+        "datasheet": "https://content.kemet.com/datasheets/KEM_F3019_PZB300X2_2XY2_275.pdf",
+        "footprint": "Filter:Filter_KEMET_PZB300_24.0x12.5mm_P10.0mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "P300PL104M275xC472": {
+        "description": "",
+        "keywords": "suppressor filter cap",
+        "datasheet": "https://content.kemet.com/datasheets/KEM_F3019_PZB300X2_2XY2_275.pdf",
+        "footprint": "Filter:Filter_KEMET_PZB300_24.0x12.5mm_P10.0mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "P300PL154M275xC222": {
+        "description": "",
+        "keywords": "suppressor filter cap",
+        "datasheet": "https://content.kemet.com/datasheets/KEM_F3019_PZB300X2_2XY2_275.pdf",
+        "footprint": "Filter:Filter_KEMET_PZB300_24.0x12.5mm_P10.0mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "P300PL154M275xC332": {
+        "description": "",
+        "keywords": "suppressor filter cap",
+        "datasheet": "https://content.kemet.com/datasheets/KEM_F3019_PZB300X2_2XY2_275.pdf",
+        "footprint": "Filter:Filter_KEMET_PZB300_24.0x12.5mm_P10.0mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "P300PL154M275xC472": {
+        "description": "",
+        "keywords": "suppressor filter cap",
+        "datasheet": "https://content.kemet.com/datasheets/KEM_F3019_PZB300X2_2XY2_275.pdf",
+        "footprint": "Filter:Filter_KEMET_PZB300_24.0x12.5mm_P10.0mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SAFFA1G58KA0F0A": {
+        "description": "",
+        "keywords": "SAW filter",
+        "datasheet": "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/filter/rf/p73e.ashx?la=en",
+        "footprint": "Filter:Filter_1411-5_1.4x1.1mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SAFFA1G96FN0F0A": {
+        "description": "",
+        "keywords": "SAW filter",
+        "datasheet": "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/filter/rf/p73e.ashx?la=en",
+        "footprint": "Filter:Filter_1411-5_1.4x1.1mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SAFFA2G14FA0F0A": {
+        "description": "",
+        "keywords": "SAW filter",
+        "datasheet": "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/filter/rf/p73e.ashx?la=en",
+        "footprint": "Filter:Filter_1411-5_1.4x1.1mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SAFFA881MFL0F0A": {
+        "description": "",
+        "keywords": "SAW filter",
+        "datasheet": "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/filter/rf/p73e.ashx?la=en",
+        "footprint": "Filter:Filter_1411-5_1.4x1.1mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SAFFA942MFM0F0A": {
+        "description": "",
+        "keywords": "SAW filter",
+        "datasheet": "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/filter/rf/p73e.ashx?la=en",
+        "footprint": "Filter:Filter_1411-5_1.4x1.1mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SAFFB1G58KA0F0A": {
+        "description": "",
+        "keywords": "SAW filter",
+        "datasheet": "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/filter/rf/p73e.ashx?la=en",
+        "footprint": "Filter:Filter_1109-5_1.1x0.9mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SAFFB1G96FN0F0A": {
+        "description": "",
+        "keywords": "SAW filter",
+        "datasheet": "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/filter/rf/p73e.ashx?la=en",
+        "footprint": "Filter:Filter_1109-5_1.1x0.9mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SAFFB2G14FA0F0A": {
+        "description": "",
+        "keywords": "SAW filter",
+        "datasheet": "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/filter/rf/p73e.ashx?la=en",
+        "footprint": "Filter:Filter_1109-5_1.1x0.9mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SAFFB881MFL0F0A": {
+        "description": "",
+        "keywords": "SAW filter",
+        "datasheet": "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/filter/rf/p73e.ashx?la=en",
+        "footprint": "Filter:Filter_1109-5_1.1x0.9mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SAFFB942MFM0F0A": {
+        "description": "",
+        "keywords": "SAW filter",
+        "datasheet": "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/filter/rf/p73e.ashx?la=en",
+        "footprint": "Filter:Filter_1109-5_1.1x0.9mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    },
+    "SF14-1575F5UUA1": {
+        "description": "",
+        "keywords": "SAW filter",
+        "datasheet": "https://global.kyocera.com/prdct/electro/product/pdf/sf14_gnss.pdf",
+        "footprint": "Filter:Filter_1411-5_1.4x1.1mm",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "4",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 7.62,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "5",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": true,
+                "rotation": 0,
+                "position": {
+                    "x": -7.62,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "SF14-1575F5UUA1_0_1",
+            "SF14-1575F5UUA1_1_1"
+        ]
+    },
+    "SF14-1575F5UUC1": {
+        "description": "",
+        "keywords": "SAW filter",
+        "datasheet": "https://global.kyocera.com/prdct/electro/product/pdf/sf14_gnss.pdf",
+        "footprint": "Filter:Filter_1411-5_1.4x1.1mm",
+        "aliases": [],
+        "pins": [],
+        "units": []
+    }
+}

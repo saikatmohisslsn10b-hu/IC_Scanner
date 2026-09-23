@@ -1,0 +1,265 @@
+{
+    "DIN_Rail_Adapter": {
+        "description": "",
+        "keywords": "Mounting holes, DIN rail adapter",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "DIN_Rail_Adapter_0_1"
+        ]
+    },
+    "Fiducial": {
+        "description": "",
+        "keywords": "fiducial marker",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "Fiducial_0_1"
+        ]
+    },
+    "Heatsink": {
+        "description": "",
+        "keywords": "thermal heat temperature",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "Heatsink_0_1"
+        ]
+    },
+    "Heatsink_Pad": {
+        "description": "",
+        "keywords": "thermal heat temperature",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "Heatsink_Pad_0_1",
+            "Heatsink_Pad_1_1"
+        ]
+    },
+    "Heatsink_Pad_2Pin": {
+        "description": "",
+        "keywords": "thermal heat temperature",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "Heatsink_Pad_2Pin_0_1",
+            "Heatsink_Pad_2Pin_1_1"
+        ]
+    },
+    "Heatsink_Pad_3Pin": {
+        "description": "",
+        "keywords": "thermal heat temperature",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "2",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "3",
+                "name": "",
+                "type": "passive",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "Heatsink_Pad_3Pin_0_1",
+            "Heatsink_Pad_3Pin_1_1"
+        ]
+    },
+    "Housing": {
+        "description": "",
+        "keywords": "housing enclosure",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "Housing_0_1"
+        ]
+    },
+    "Housing_Pad": {
+        "description": "",
+        "keywords": "housing enclosure shield",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "PAD",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -5.08
+                }
+            }
+        ],
+        "units": [
+            "Housing_Pad_0_1",
+            "Housing_Pad_1_1"
+        ]
+    },
+    "Mechanical_Shape": {
+        "description": "",
+        "keywords": "Mechanical Shape Outline",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "Mechanical_Shape_1_1"
+        ]
+    },
+    "MountingHole": {
+        "description": "",
+        "keywords": "mounting hole",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "MountingHole_0_1"
+        ]
+    },
+    "MountingHole_Pad": {
+        "description": "",
+        "keywords": "mounting hole",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "1",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "MountingHole_Pad_0_1",
+            "MountingHole_Pad_1_1"
+        ]
+    },
+    "MountingHole_Pad_MP": {
+        "description": "",
+        "keywords": "mounting hole",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "MP",
+                "name": "MP",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -2.54
+                }
+            }
+        ],
+        "units": [
+            "MountingHole_Pad_MP_0_1",
+            "MountingHole_Pad_MP_1_1"
+        ]
+    },
+    "MouseBite": {
+        "description": "",
+        "keywords": "mouse break line",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [],
+        "units": [
+            "MouseBite_1_1"
+        ]
+    }
+}

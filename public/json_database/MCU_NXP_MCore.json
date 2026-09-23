@@ -1,0 +1,1203 @@
+{
+    "MMC2114CFCPU": {
+        "description": "",
+        "keywords": "",
+        "datasheet": "https://www.nxp.com/docs/en/data-sheet/MMC2114.pdf",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "PA6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "2",
+                "name": "PA5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 48.26
+                }
+            },
+            {
+                "number": "3",
+                "name": "PA4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "4",
+                "name": "PA3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 53.34
+                }
+            },
+            {
+                "number": "5",
+                "name": "PA2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 55.88
+                }
+            },
+            {
+                "number": "6",
+                "name": "PA1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 58.42
+                }
+            },
+            {
+                "number": "7",
+                "name": "PA0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 60.96
+                }
+            },
+            {
+                "number": "8",
+                "name": "PB7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "9",
+                "name": "PB6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 22.86
+                }
+            },
+            {
+                "number": "10",
+                "name": "PB5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "11",
+                "name": "PB4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "12",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -7.62,
+                    "y": -71.12
+                }
+            },
+            {
+                "number": "13",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -2.54,
+                    "y": 71.12
+                }
+            },
+            {
+                "number": "14",
+                "name": "PB3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "15",
+                "name": "PB2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "16",
+                "name": "PB1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "17",
+                "name": "PB0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "18",
+                "name": "PC7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "19",
+                "name": "PC6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 0
+                }
+            },
+            {
+                "number": "20",
+                "name": "PC5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "21",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -5.08,
+                    "y": -71.12
+                }
+            },
+            {
+                "number": "22",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 71.12
+                }
+            },
+            {
+                "number": "23",
+                "name": "PC4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "24",
+                "name": "PC3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "25",
+                "name": "PC2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "26",
+                "name": "PC1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "27",
+                "name": "PC0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "28",
+                "name": "PD7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "29",
+                "name": "PD6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "30",
+                "name": "PD5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -20.32
+                }
+            },
+            {
+                "number": "31",
+                "name": "PD4",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "32",
+                "name": "PD3",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "33",
+                "name": "PD2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "34",
+                "name": "PD1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "35",
+                "name": "PD0",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -7.62
+                }
+            },
+            {
+                "number": "36",
+                "name": "ICOC23",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -58.42
+                }
+            },
+            {
+                "number": "37",
+                "name": "ICOC22",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -55.88
+                }
+            },
+            {
+                "number": "38",
+                "name": "ICOC21",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -53.34
+                }
+            },
+            {
+                "number": "39",
+                "name": "ICOC20",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -50.8
+                }
+            },
+            {
+                "number": "40",
+                "name": "ICOC13",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -48.26
+                }
+            },
+            {
+                "number": "41",
+                "name": "ICOC12",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -45.72
+                }
+            },
+            {
+                "number": "42",
+                "name": "IC0C11",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "43",
+                "name": "ICOC10",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -40.64
+                }
+            },
+            {
+                "number": "44",
+                "name": "TEST",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 25.4
+                }
+            },
+            {
+                "number": "45",
+                "name": "TXD2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "46",
+                "name": "RXD2",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "47",
+                "name": "TXD1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -22.86
+                }
+            },
+            {
+                "number": "48",
+                "name": "RXD1",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -25.4
+                }
+            },
+            {
+                "number": "49",
+                "name": "INT0",
+                "type": "bidirectional",
+                "style": "inverted",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -38.1
+                }
+            },
+            {
+                "number": "50",
+                "name": "INT1",
+                "type": "bidirectional",
+                "style": "inverted",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -40.64
+                }
+            },
+            {
+                "number": "51",
+                "name": "VSSF",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 5.08,
+                    "y": -71.12
+                }
+            },
+            {
+                "number": "52",
+                "name": "VDDF",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 10.16,
+                    "y": 71.12
+                }
+            },
+            {
+                "number": "53",
+                "name": "INT2",
+                "type": "bidirectional",
+                "style": "inverted",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -43.18
+                }
+            },
+            {
+                "number": "54",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -2.54,
+                    "y": -71.12
+                }
+            },
+            {
+                "number": "55",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 2.54,
+                    "y": 71.12
+                }
+            },
+            {
+                "number": "56",
+                "name": "INT3",
+                "type": "bidirectional",
+                "style": "inverted",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -45.72
+                }
+            },
+            {
+                "number": "57",
+                "name": "INT4",
+                "type": "bidirectional",
+                "style": "inverted",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -48.26
+                }
+            },
+            {
+                "number": "58",
+                "name": "INT5",
+                "type": "bidirectional",
+                "style": "inverted",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -50.8
+                }
+            },
+            {
+                "number": "60",
+                "name": "INT6",
+                "type": "bidirectional",
+                "style": "inverted",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -53.34
+                }
+            },
+            {
+                "number": "61",
+                "name": "INT7",
+                "type": "bidirectional",
+                "style": "inverted",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -55.88
+                }
+            },
+            {
+                "number": "62",
+                "name": "MOSI",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -10.16
+                }
+            },
+            {
+                "number": "63",
+                "name": "MISO",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -12.7
+                }
+            },
+            {
+                "number": "64",
+                "name": "VSTBY",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -10.16,
+                    "y": 71.12
+                }
+            },
+            {
+                "number": "65",
+                "name": "SCK",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -15.24
+                }
+            },
+            {
+                "number": "66",
+                "name": "SS",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -17.78
+                }
+            },
+            {
+                "number": "67",
+                "name": "PE7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -35.56
+                }
+            },
+            {
+                "number": "68",
+                "name": "PE6",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -33.02
+                }
+            },
+            {
+                "number": "69",
+                "name": "PE5",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": -30.48
+                }
+            },
+            {
+                "number": "70",
+                "name": "VDDH",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -5.08,
+                    "y": 71.12
+                }
+            },
+            {
+                "number": "71",
+                "name": "PQB3",
+                "type": "bidirectional",
+                "style": "inverted",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 2.54
+                }
+            },
+            {
+                "number": "72",
+                "name": "PQB2",
+                "type": "bidirectional",
+                "style": "inverted",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 5.08
+                }
+            },
+            {
+                "number": "73",
+                "name": "PQB1",
+                "type": "bidirectional",
+                "style": "inverted",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 7.62
+                }
+            },
+            {
+                "number": "74",
+                "name": "PQB0",
+                "type": "bidirectional",
+                "style": "inverted",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 10.16
+                }
+            },
+            {
+                "number": "75",
+                "name": "PQA4",
+                "type": "bidirectional",
+                "style": "inverted",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 12.7
+                }
+            },
+            {
+                "number": "76",
+                "name": "PQA3",
+                "type": "bidirectional",
+                "style": "inverted",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 15.24
+                }
+            },
+            {
+                "number": "77",
+                "name": "PQA1",
+                "type": "bidirectional",
+                "style": "inverted",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 17.78
+                }
+            },
+            {
+                "number": "78",
+                "name": "PQA0",
+                "type": "bidirectional",
+                "style": "inverted",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 20.32
+                }
+            },
+            {
+                "number": "79",
+                "name": "VrL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -5.08
+                }
+            },
+            {
+                "number": "80",
+                "name": "VrH",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": -2.54
+                }
+            },
+            {
+                "number": "81",
+                "name": "VSSA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": -10.16,
+                    "y": -71.12
+                }
+            },
+            {
+                "number": "82",
+                "name": "VDDA",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": -7.62,
+                    "y": 71.12
+                }
+            },
+            {
+                "number": "83",
+                "name": "RESET",
+                "type": "input",
+                "style": "input_low",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 45.72
+                }
+            },
+            {
+                "number": "84",
+                "name": "RSTOUT",
+                "type": "output",
+                "style": "output_low",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 48.26
+                }
+            },
+            {
+                "number": "85",
+                "name": "PLLEN",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 50.8
+                }
+            },
+            {
+                "number": "86",
+                "name": "XTAL",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 58.42
+                }
+            },
+            {
+                "number": "87",
+                "name": "EXTAL",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 60.96
+                }
+            },
+            {
+                "number": "88",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": -71.12
+                }
+            },
+            {
+                "number": "89",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 2.54,
+                    "y": -71.12
+                }
+            },
+            {
+                "number": "90",
+                "name": "CLKOUT",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 53.34
+                }
+            },
+            {
+                "number": "91",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 5.08,
+                    "y": 71.12
+                }
+            },
+            {
+                "number": "92",
+                "name": "TCLK",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 33.02
+                }
+            },
+            {
+                "number": "93",
+                "name": "TDI",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 38.1
+                }
+            },
+            {
+                "number": "94",
+                "name": "TDO",
+                "type": "output",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 40.64
+                }
+            },
+            {
+                "number": "95",
+                "name": "TMS",
+                "type": "input",
+                "style": "line",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 35.56
+                }
+            },
+            {
+                "number": "96",
+                "name": "VSS",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 7.62,
+                    "y": -71.12
+                }
+            },
+            {
+                "number": "97",
+                "name": "VDD",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 7.62,
+                    "y": 71.12
+                }
+            },
+            {
+                "number": "98",
+                "name": "TRST",
+                "type": "input",
+                "style": "input_low",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 30.48
+                }
+            },
+            {
+                "number": "99",
+                "name": "DE",
+                "type": "output",
+                "style": "inverted",
+                "hidden": false,
+                "rotation": 0,
+                "position": {
+                    "x": -27.94,
+                    "y": 27.94
+                }
+            },
+            {
+                "number": "100",
+                "name": "PA7",
+                "type": "bidirectional",
+                "style": "line",
+                "hidden": false,
+                "rotation": 180,
+                "position": {
+                    "x": 27.94,
+                    "y": 43.18
+                }
+            }
+        ],
+        "units": [
+            "MMC2114CFCPU_0_1",
+            "MMC2114CFCPU_1_1"
+        ]
+    }
+}

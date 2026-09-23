@@ -1,0 +1,2527 @@
+{
+    "+10V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+10V_0_1",
+            "+10V_1_1"
+        ]
+    },
+    "+12C": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+12C_0_1",
+            "+12C_1_1"
+        ]
+    },
+    "+12L": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+12L_0_1",
+            "+12L_1_1"
+        ]
+    },
+    "+12LF": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+12LF_0_1",
+            "+12LF_1_1"
+        ]
+    },
+    "+12P": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+12P_0_1",
+            "+12P_1_1"
+        ]
+    },
+    "+12V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+12V_0_1",
+            "+12V_1_1"
+        ]
+    },
+    "+12VA": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+12VA_0_1",
+            "+12VA_1_1"
+        ]
+    },
+    "+15V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+15V_0_1",
+            "+15V_1_1"
+        ]
+    },
+    "+1V0": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+1V0_0_1",
+            "+1V0_1_1"
+        ]
+    },
+    "+1V1": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+1V1_0_1",
+            "+1V1_1_1"
+        ]
+    },
+    "+1V2": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+1V2_0_1",
+            "+1V2_1_1"
+        ]
+    },
+    "+1V35": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+1V35_0_1",
+            "+1V35_1_1"
+        ]
+    },
+    "+1V5": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+1V5_0_1",
+            "+1V5_1_1"
+        ]
+    },
+    "+1V8": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+1V8_0_1",
+            "+1V8_1_1"
+        ]
+    },
+    "+24V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+24V_0_1",
+            "+24V_1_1"
+        ]
+    },
+    "+28V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+28V_0_1",
+            "+28V_1_1"
+        ]
+    },
+    "+2V5": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+2V5_0_1",
+            "+2V5_1_1"
+        ]
+    },
+    "+2V8": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+2V8_0_1",
+            "+2V8_1_1"
+        ]
+    },
+    "+3.3V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+3.3V_0_1",
+            "+3.3V_1_1"
+        ]
+    },
+    "+3.3VA": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+3.3VA_0_1",
+            "+3.3VA_1_1"
+        ]
+    },
+    "+3.3VADC": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+3.3VADC_0_0",
+            "+3.3VADC_0_1"
+        ]
+    },
+    "+3.3VDAC": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+3.3VDAC_0_0",
+            "+3.3VDAC_0_1"
+        ]
+    },
+    "+3.3VP": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+3.3VP_0_0",
+            "+3.3VP_0_1"
+        ]
+    },
+    "+36V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+36V_0_1",
+            "+36V_1_1"
+        ]
+    },
+    "+3V0": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+3V0_0_1",
+            "+3V0_1_1"
+        ]
+    },
+    "+3V3": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+3V3_0_1",
+            "+3V3_1_1"
+        ]
+    },
+    "+3V8": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+3V8_0_1",
+            "+3V8_1_1"
+        ]
+    },
+    "+48V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+48V_0_1",
+            "+48V_1_1"
+        ]
+    },
+    "+4V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+4V_0_1",
+            "+4V_1_1"
+        ]
+    },
+    "+5C": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+5C_0_1",
+            "+5C_1_1"
+        ]
+    },
+    "+5F": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+5F_0_1",
+            "+5F_1_1"
+        ]
+    },
+    "+5P": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+5P_0_1",
+            "+5P_1_1"
+        ]
+    },
+    "+5V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+5V_0_1",
+            "+5V_1_1"
+        ]
+    },
+    "+5VA": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+5VA_0_1",
+            "+5VA_1_1"
+        ]
+    },
+    "+5VD": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+5VD_0_1",
+            "+5VD_1_1"
+        ]
+    },
+    "+5VL": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+5VL_0_1",
+            "+5VL_1_1"
+        ]
+    },
+    "+5VP": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+5VP_0_1",
+            "+5VP_1_1"
+        ]
+    },
+    "+6V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+6V_0_1",
+            "+6V_1_1"
+        ]
+    },
+    "+7.5V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+7.5V_0_1",
+            "+7.5V_1_1"
+        ]
+    },
+    "+8V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+8V_0_1",
+            "+8V_1_1"
+        ]
+    },
+    "+9V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+9V_0_1",
+            "+9V_1_1"
+        ]
+    },
+    "+9VA": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+9VA_0_1",
+            "+9VA_1_1"
+        ]
+    },
+    "+BATT": {
+        "description": "",
+        "keywords": "global power battery",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+BATT_0_1",
+            "+BATT_1_1"
+        ]
+    },
+    "+VDC": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+VDC_0_1",
+            "+VDC_1_1"
+        ]
+    },
+    "+VSW": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "+VSW_0_1",
+            "+VSW_1_1"
+        ]
+    },
+    "-10V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "-10V_0_0",
+            "-10V_0_1"
+        ]
+    },
+    "-12V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "-12V_0_0",
+            "-12V_0_1"
+        ]
+    },
+    "-12VA": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "-12VA_0_0",
+            "-12VA_0_1"
+        ]
+    },
+    "-15V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "-15V_0_0",
+            "-15V_0_1"
+        ]
+    },
+    "-24V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "-24V_0_0",
+            "-24V_0_1"
+        ]
+    },
+    "-2V5": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "-2V5_0_0",
+            "-2V5_0_1"
+        ]
+    },
+    "-36V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "-36V_0_0",
+            "-36V_0_1"
+        ]
+    },
+    "-3V3": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "-3V3_0_0",
+            "-3V3_0_1"
+        ]
+    },
+    "-48V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "-48V_0_0",
+            "-48V_0_1"
+        ]
+    },
+    "-5V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "-5V_0_0",
+            "-5V_0_1"
+        ]
+    },
+    "-5VA": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "-5VA_0_0",
+            "-5VA_0_1"
+        ]
+    },
+    "-6V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "-6V_0_0",
+            "-6V_0_1"
+        ]
+    },
+    "-8V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "-8V_0_0",
+            "-8V_0_1"
+        ]
+    },
+    "-9V": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "-9V_0_1",
+            "-9V_1_1"
+        ]
+    },
+    "-9VA": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "-9VA_0_1",
+            "-9VA_1_1"
+        ]
+    },
+    "-BATT": {
+        "description": "",
+        "keywords": "global power battery",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "-BATT_0_1",
+            "-BATT_1_1"
+        ]
+    },
+    "-VDC": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "-VDC_0_1",
+            "-VDC_1_1"
+        ]
+    },
+    "-VSW": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "-VSW_0_0",
+            "-VSW_0_1"
+        ]
+    },
+    "AC": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "AC_0_1",
+            "AC_1_1"
+        ]
+    },
+    "Earth": {
+        "description": "",
+        "keywords": "global ground gnd",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "Earth_0_1",
+            "Earth_1_1"
+        ]
+    },
+    "Earth_Clean": {
+        "description": "",
+        "keywords": "global ground gnd clean signal",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "Earth_Clean_0_1",
+            "Earth_Clean_1_1"
+        ]
+    },
+    "Earth_Protective": {
+        "description": "",
+        "keywords": "global ground gnd clean",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "Earth_Protective_0_1",
+            "Earth_Protective_1_1"
+        ]
+    },
+    "GND": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "GND_0_1",
+            "GND_1_1"
+        ]
+    },
+    "GND1": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "GND1_0_1",
+            "GND1_1_1"
+        ]
+    },
+    "GND2": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "GND2_0_1",
+            "GND2_1_1"
+        ]
+    },
+    "GND3": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "GND3_0_1",
+            "GND3_1_1"
+        ]
+    },
+    "GNDA": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "GNDA_0_1",
+            "GNDA_1_1"
+        ]
+    },
+    "GNDD": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "GNDD_0_1",
+            "GNDD_1_1"
+        ]
+    },
+    "GNDPWR": {
+        "description": "",
+        "keywords": "global ground",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "GNDPWR_0_1",
+            "GNDPWR_1_1"
+        ]
+    },
+    "GNDREF": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "GNDREF_0_1",
+            "GNDREF_1_1"
+        ]
+    },
+    "GNDS": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 270,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "GNDS_0_1",
+            "GNDS_1_1"
+        ]
+    },
+    "HT": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "HT_0_0",
+            "HT_0_1"
+        ]
+    },
+    "LINE": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "LINE_0_1",
+            "LINE_1_1"
+        ]
+    },
+    "NEUT": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "NEUT_0_1",
+            "NEUT_1_1"
+        ]
+    },
+    "PRI_HI": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "PRI_HI_0_1",
+            "PRI_HI_1_1"
+        ]
+    },
+    "PRI_LO": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "PRI_LO_0_1",
+            "PRI_LO_1_1"
+        ]
+    },
+    "PRI_MID": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "PRI_MID_0_1",
+            "PRI_MID_1_1"
+        ]
+    },
+    "PWR_FLAG": {
+        "description": "",
+        "keywords": "flag power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_out",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "PWR_FLAG_0_0",
+            "PWR_FLAG_0_1"
+        ]
+    },
+    "VAA": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "VAA_0_1",
+            "VAA_1_1"
+        ]
+    },
+    "VAC": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "VAC_0_1",
+            "VAC_1_1"
+        ]
+    },
+    "VBUS": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "VBUS_0_1",
+            "VBUS_1_1"
+        ]
+    },
+    "VCC": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "VCC_0_1",
+            "VCC_1_1"
+        ]
+    },
+    "VCCQ": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "VCCQ_0_1",
+            "VCCQ_1_1"
+        ]
+    },
+    "VCOM": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "VCOM_0_1",
+            "VCOM_1_1"
+        ]
+    },
+    "VD": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "VD_0_1",
+            "VD_1_1"
+        ]
+    },
+    "VDC": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "VDC_0_1",
+            "VDC_1_1"
+        ]
+    },
+    "VDD": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "VDD_0_1",
+            "VDD_1_1"
+        ]
+    },
+    "VDDA": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "VDDA_0_1",
+            "VDDA_1_1"
+        ]
+    },
+    "VDDF": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "VDDF_0_1",
+            "VDDF_1_1"
+        ]
+    },
+    "Vdrive": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "Vdrive_0_1",
+            "Vdrive_1_1"
+        ]
+    },
+    "VEE": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "VEE_0_1",
+            "VEE_1_1"
+        ]
+    },
+    "VMEM": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "VMEM_0_1",
+            "VMEM_1_1"
+        ]
+    },
+    "VPP": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "VPP_0_1",
+            "VPP_1_1"
+        ]
+    },
+    "VS": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "VS_0_1",
+            "VS_1_1"
+        ]
+    },
+    "VSS": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "VSS_0_1",
+            "VSS_1_1"
+        ]
+    },
+    "VSSA": {
+        "description": "",
+        "keywords": "global power",
+        "datasheet": "",
+        "footprint": "",
+        "aliases": [],
+        "pins": [
+            {
+                "number": "1",
+                "name": "",
+                "type": "power_in",
+                "style": "line",
+                "hidden": false,
+                "rotation": 90,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "units": [
+            "VSSA_0_1",
+            "VSSA_1_1"
+        ]
+    }
+}
