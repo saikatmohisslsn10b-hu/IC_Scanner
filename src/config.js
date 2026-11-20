@@ -4,14 +4,14 @@
 // 1. OPENROUTER API KEY:
 //    Insert your actual OpenRouter API key below, replacing the placeholder.
 //    Alternatively, set the VITE_OPENROUTER_API_KEY environment variable.
-export const OPENROUTER_API_KEY = 'YOUR_OPENROUTER_API_KEY_HERE';
+export const OPENROUTER_API_KEY = '';
 
 // 2. OPENROUTER MODEL IDENTIFIER:
 //    Intended Model: Gemini 3.1 Flash
 //    Do not guess or hardcode an unverified identifier. Manually configure your
 //    verified OpenRouter model identifier below, or set VITE_OPENROUTER_MODEL.
 //    (Example: 'google/gemini-2.0-flash-001' or your intended model on OpenRouter)
-export const OPENROUTER_MODEL = 'YOUR_OPENROUTER_MODEL_HERE';
+export const OPENROUTER_MODEL = 'google/gemini-3.1-flash-lite';
 
 // OpenRouter API base endpoint
 export const OPENROUTER_BASE_URL = 'https://openrouter.ai/api/v1';

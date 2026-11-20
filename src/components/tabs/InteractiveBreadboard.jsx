@@ -1,144 +1,31 @@
 import React, { useState, useMemo, useRef, useEffect } from 'react';
 import { AlertCircle, CheckCircle2, Trash2, Zap, AlertTriangle } from 'lucide-react';
-import { extractICNumber, getStandardPinName } from './PinTopologyTab';
+import { extractICNumber } from './PinTopologyTab';
 
 // =====================================================================
-// Locate an IC number anywhere inside the report object
-// (mirrors the helper used in PinTopologyTab.jsx / ICViewer3DTab.jsx)
-// =====================================================================
-function findICNumberInReport(obj) {
-  if (!obj) return null;
-  const regex =
-    /\b(?:SN)?(?:74(?:HC|HCT|LS|ALS|F|S|AC|ACT)?\d+|CD40\d{2}|HEF40\d{2}|HCF40\d{2}|40\d{2}|14\d{3})\b/i;
-
-  const walk = (value) => {
-    if (!value) return null;
-    if (typeof value === 'string') {
-      const m = value.match(regex);
-      if (m) return m[0].replace(/^SN/i, '');
-      return null;
-    }
-    if (Array.isArray(value)) {
-      for (const v of value) {
-        const r = walk(v);
-        if (r) return r;
-      }
-    }
-    if (typeof value === 'object') {
-      for (const k of Object.keys(value)) {
-        const r = walk(value[k]);
-        if (r) return r;
-      }
-    }
-    return null;
-  };
-
-  return walk(obj);
-}
-
-// =====================================================================
-// Fetch the SAME verified local-DB pinout used by PinTopologyTab /
-// ICViewer3DTab (master index -> category file -> hardware override -> AI fallback)
+// OpenRouter API Pinout Resolution (Direct from API response)
 // =====================================================================
 function useVerifiedPinout(report) {
-  const [pins, setPins] = useState(null); // null = still resolving
+  const [pins, setPins] = useState(null);
 
   useEffect(() => {
-    let isMounted = true;
-
-    const run = async () => {
-      const displayIcName =
-        report?.identification?.number || report?.identification?.name || '';
-      const rawIcName = findICNumberInReport(report) || displayIcName;
-      const requestedPackageType = report?.packageType || '';
-      const aiFallbackPinout = report?.pinout?.table || [];
-
-      const coreNumber = extractICNumber(rawIcName);
-
-      try {
-        if (!coreNumber) throw new Error('no core number');
-
-        const indexRes = await fetch('/json_database/master_search_index.json');
-        if (!indexRes.ok) throw new Error('index missing');
-        const index = await indexRes.json();
-
-        const targetFilePrefix = index[coreNumber];
-        if (!targetFilePrefix) throw new Error('not in index');
-
-        const symbolRes = await fetch(`/json_database/${targetFilePrefix}.json`);
-        if (!symbolRes.ok) throw new Error('category missing');
-        const symbolLibrary = await symbolRes.json();
-
-        const icData = symbolLibrary[coreNumber];
-        if (!icData) throw new Error('ic missing');
-
-        let rawPins = [];
-        const packages = icData.packages || [];
-
-        if (packages.length > 0) {
-          let targetPackage = packages[0];
-          if (requestedPackageType) {
-            const reqType = requestedPackageType.toUpperCase();
-            const match = packages.find(
-              (p) => p.package && p.package.toUpperCase().includes(reqType)
-            );
-            if (match) targetPackage = match;
-          }
-          rawPins = targetPackage.pins || [];
-        } else if (icData.pins && icData.pins.length > 0) {
-          rawPins = icData.pins;
-        }
-
-        if (rawPins.length === 0) throw new Error('no pins');
-
-        const enhancedPins = rawPins.map((pin) => {
-          const pinNum = String(pin.number || pin.pin);
-          const aiData = aiFallbackPinout.find(
-            (ap) => String(ap.number || ap.pin) === pinNum
-          );
-
-          const hwOverrideName = getStandardPinName(coreNumber, pinNum);
-          let finalName;
-          if (hwOverrideName) {
-            finalName = hwOverrideName;
-          } else {
-            finalName = pin.name;
-            if (!finalName || finalName.trim() === '' || finalName === '~') {
-              finalName = `PIN_${pinNum}`;
-            }
-          }
-
-          return { ...pin, number: pinNum, name: finalName, description: pin.description || aiData?.description || '-' };
-        });
-
-        enhancedPins.sort((a, b) => parseInt(a.number, 10) - parseInt(b.number, 10));
-
-        if (isMounted) setPins(enhancedPins);
-      } catch (err) {
-        if (isMounted) {
-          if (aiFallbackPinout && aiFallbackPinout.length > 0) {
-            const formatted = aiFallbackPinout.map((pin) => {
-              const pinNum = String(pin.number || pin.pin);
-              return {
-                ...pin,
-                number: pinNum,
-                name: pin.name || `PIN_${pinNum}`,
-                description: pin.description || '-',
-              };
-            });
-            formatted.sort((a, b) => parseInt(a.number, 10) - parseInt(b.number, 10));
-            setPins(formatted);
-          } else {
-            setPins([]);
-          }
-        }
-      }
-    };
-
-    run();
-    return () => {
-      isMounted = false;
-    };
+    const aiPins = report?.pinout?.table || [];
+    if (aiPins && aiPins.length > 0) {
+      const formatted = aiPins.map((pin) => {
+        const pinNum = String(pin.number || pin.pin);
+        return {
+          ...pin,
+          number: pinNum,
+          name: pin.name || `PIN_${pinNum}`,
+          description: pin.description || '-',
+          type: pin.type || 'generic'
+        };
+      });
+      formatted.sort((a, b) => parseInt(a.number, 10) - parseInt(b.number, 10));
+      setPins(formatted);
+    } else {
+      setPins([]);
+    }
   }, [report]);
 
   return pins;
@@ -195,7 +82,7 @@ function classifyNet(netId) {
 
 const HOLE_SPACING = 15;
 const BB_START_X = 270;
-const IC_START_COL = 10; 
+const IC_START_COL = 10;
 const IC_Y = 250;
 const IC_HEIGHT = 60;
 
@@ -239,31 +126,31 @@ export default function InteractiveBreadboard({ report, mode }) {
 
   // dynamic pin -> breadboard net/column, works for any pin count
   const pinWireEndpoint = (pinNum) => {
-  const p = parseInt(pinNum, 10);
-  if (!p) return null;
+    const p = parseInt(pinNum, 10);
+    if (!p) return null;
 
-  // Leave one free hole between the IC leg and the jumper wire.
-  // Pins 1-7 (bottom side) -> use the row just BELOW the IC.
-  if (p <= pinsPerSide) {
-    const col = IC_START_COL + (p - 1);
+    // Leave one free hole between the IC leg and the jumper wire.
+    // Pins 1-7 (bottom side) -> use the row just BELOW the IC.
+    if (p <= pinsPerSide) {
+      const col = IC_START_COL + (p - 1);
+
+      return {
+        x: columnX(col),
+        y: PIN_BOTTOM_Y + 15,
+        net: `BB_COL_B_${col}`,
+      };
+    }
+
+    // Pins 8-14 (top side) -> use the row just ABOVE the IC.
+    const i = totalPins - p;
+    const col = IC_START_COL + i;
 
     return {
       x: columnX(col),
-      y: PIN_BOTTOM_Y + 15,
-      net: `BB_COL_B_${col}`,
+      y: PIN_TOP_Y - 15,
+      net: `BB_COL_T_${col}`,
     };
-  }
-
-  // Pins 8-14 (top side) -> use the row just ABOVE the IC.
-  const i = totalPins - p;
-  const col = IC_START_COL + i;
-
-  return {
-    x: columnX(col),
-    y: PIN_TOP_Y - 15,
-    net: `BB_COL_T_${col}`,
   };
-};
   const pinToNet = (pinNum) => pinWireEndpoint(pinNum)?.net || null;
 
   // --- Parse verified pins into per-gate {inputs, output} structure ---
@@ -464,7 +351,7 @@ export default function InteractiveBreadboard({ report, mode }) {
   };
 
   const renderWires = () => activeWires.map(wire => (
-    <path key={wire.id} d={`M ${wire.start.x} ${wire.start.y} Q ${(wire.start.x + wire.end.x)/2} ${(wire.start.y + wire.end.y)/2 + 40} ${wire.end.x} ${wire.end.y}`}
+    <path key={wire.id} d={`M ${wire.start.x} ${wire.start.y} Q ${(wire.start.x + wire.end.x) / 2} ${(wire.start.y + wire.end.y) / 2 + 40} ${wire.end.x} ${wire.end.y}`}
       fill="none" stroke={wire.color} strokeWidth="5" strokeLinecap="round" className="drop-shadow-lg" />
   ));
 
@@ -476,7 +363,7 @@ export default function InteractiveBreadboard({ report, mode }) {
     <div className="flex flex-col gap-4">
       {mode === 'custom' && (
         <div className="flex justify-end p-3 bg-slate-900 rounded-xl">
-          <button onClick={() => { setCustomWires([]); setLeds([0,0,0,0]); setSwitches([0,0,0,0]); }} className="px-3 py-1.5 text-xs text-slate-300 hover:text-white flex items-center gap-1">
+          <button onClick={() => { setCustomWires([]); setLeds([0, 0, 0, 0]); setSwitches([0, 0, 0, 0]); }} className="px-3 py-1.5 text-xs text-slate-300 hover:text-white flex items-center gap-1">
             <Trash2 size={14} /> Clear Board
           </button>
         </div>
@@ -522,12 +409,12 @@ export default function InteractiveBreadboard({ report, mode }) {
               <g key={`sw_${i}`}>
                 <rect x="30" y={80 + (i * 70)} width="40" height="24" fill="#333" rx="4" />
                 <rect x={state ? 50 : 32} y={82 + (i * 70)} width="18" height="20" fill={state ? "#ef4444" : "#94a3b8"} rx="2"
-                  className="cursor-pointer transition-all" onClick={() => {const s=[...switches]; s[i]=s[i]===0?1:0; setSwitches(s);}} />
-                <text x="50" y={75 + (i * 70)} fill="#f87171" fontSize="10" textAnchor="middle">SW{i+1}</text>
+                  className="cursor-pointer transition-all" onClick={() => { const s = [...switches]; s[i] = s[i] === 0 ? 1 : 0; setSwitches(s); }} />
+                <text x="50" y={75 + (i * 70)} fill="#f87171" fontSize="10" textAnchor="middle">SW{i + 1}</text>
 
                 <circle cx="140" cy={92 + (i * 70)} r="10" fill="#222" stroke="#555" strokeWidth="2" />
                 <circle cx="140" cy={92 + (i * 70)} r="4" fill="#000" className="cursor-crosshair hover:fill-yellow-400"
-                  onPointerDown={(e) => handlePointerDown(e, `SRC_SW_${i+1}`, 180, 292 + (i * 70))} onPointerUp={(e) => handlePointerUpHole(e, `SRC_SW_${i+1}`, 180, 292 + (i * 70))} />
+                  onPointerDown={(e) => handlePointerDown(e, `SRC_SW_${i + 1}`, 180, 292 + (i * 70))} onPointerUp={(e) => handlePointerUpHole(e, `SRC_SW_${i + 1}`, 180, 292 + (i * 70))} />
               </g>
             ))}
           </g>
@@ -541,9 +428,9 @@ export default function InteractiveBreadboard({ report, mode }) {
               <g key={`led_${i}`}>
                 <circle cx="40" cy={92 + (i * 70)} r="10" fill="#222" stroke="#555" strokeWidth="2" />
                 <circle cx="40" cy={92 + (i * 70)} r="4" fill="#000" className="cursor-crosshair hover:fill-yellow-400"
-                  onPointerDown={(e) => handlePointerDown(e, `DEST_LED_${i+1}`, 840, 292 + (i * 70))} onPointerUp={(e) => handlePointerUpHole(e, `DEST_LED_${i+1}`, 840, 292 + (i * 70))} />
+                  onPointerDown={(e) => handlePointerDown(e, `DEST_LED_${i + 1}`, 840, 292 + (i * 70))} onPointerUp={(e) => handlePointerUpHole(e, `DEST_LED_${i + 1}`, 840, 292 + (i * 70))} />
                 <circle cx="110" cy={92 + (i * 70)} r="14" fill={state ? "#22c55e" : "#1e293b"} stroke={state ? "#4ade80" : "#0f172a"} strokeWidth="3" />
-                <text x="110" y={72 + (i * 70)} fill="#f87171" fontSize="10" textAnchor="middle">L{i+1}</text>
+                <text x="110" y={72 + (i * 70)} fill="#f87171" fontSize="10" textAnchor="middle">L{i + 1}</text>
               </g>
             ))}
           </g>
@@ -552,12 +439,12 @@ export default function InteractiveBreadboard({ report, mode }) {
           <g transform={`translate(0, 0)`}>
             <rect x={BB_START_X - 15} y={110} width={30 * HOLE_SPACING + 30} height="340" fill="#f4f4f0" rx="8" />
             <rect
-                x={BB_START_X}
-                y={260}
-                width={30 * HOLE_SPACING}
-                height="40"
-                fill="#d1d1ca"
-                rx="2"
+              x={BB_START_X}
+              y={260}
+              width={30 * HOLE_SPACING}
+              height="40"
+              fill="#d1d1ca"
+              rx="2"
             />
 
             <line x1={BB_START_X} y1={125} x2={BB_START_X + 30 * HOLE_SPACING} y2={125} stroke="#ef4444" strokeWidth="3" />
@@ -628,42 +515,42 @@ export default function InteractiveBreadboard({ report, mode }) {
                 {icPartNumber}
               </text>
               {Array.from({ length: pinsPerSide }).map((_, i) => (
-  <React.Fragment key={`pin_labels_${i}`}>
-    {/* Bottom Pin Number (1 → pinsPerSide) */}
-    <text
-      x={i * HOLE_SPACING + 7.5}
-      y={IC_HEIGHT - 4}
-      fill="#fbbf24"
-      fontSize="9"
-      fontWeight="bold"
-      fontFamily="monospace"
-      textAnchor="middle"
-      dominantBaseline="middle"
-    >
-      {i + 1}
-    </text>
+                <React.Fragment key={`pin_labels_${i}`}>
+                  {/* Bottom Pin Number (1 → pinsPerSide) */}
+                  <text
+                    x={i * HOLE_SPACING + 7.5}
+                    y={IC_HEIGHT - 4}
+                    fill="#fbbf24"
+                    fontSize="9"
+                    fontWeight="bold"
+                    fontFamily="monospace"
+                    textAnchor="middle"
+                    dominantBaseline="middle"
+                  >
+                    {i + 1}
+                  </text>
 
-    {/* Top Pin Number (totalPins → pinsPerSide+1) */}
-    <text
-      x={i * HOLE_SPACING + 7.5}
-      y="8"
-      fill="#fbbf24"
-      fontSize="9"
-      fontWeight="bold"
-      fontFamily="monospace"
-      textAnchor="middle"
-      dominantBaseline="middle"
-    >
-      {totalPins - i}
-    </text>
-  </React.Fragment>
-))}
+                  {/* Top Pin Number (totalPins → pinsPerSide+1) */}
+                  <text
+                    x={i * HOLE_SPACING + 7.5}
+                    y="8"
+                    fill="#fbbf24"
+                    fontSize="9"
+                    fontWeight="bold"
+                    fontFamily="monospace"
+                    textAnchor="middle"
+                    dominantBaseline="middle"
+                  >
+                    {totalPins - i}
+                  </text>
+                </React.Fragment>
+              ))}
             </g>
           </g>
 
           {/* In-progress wire being dragged — always rendered on top so it's visible */}
           {drawingWire && (
-            <path d={`M ${drawingWire.start.x} ${drawingWire.start.y} Q ${(drawingWire.start.x + drawingWire.current.x)/2} ${(drawingWire.start.y + drawingWire.current.y)/2 + 40} ${drawingWire.current.x} ${drawingWire.current.y}`}
+            <path d={`M ${drawingWire.start.x} ${drawingWire.start.y} Q ${(drawingWire.start.x + drawingWire.current.x) / 2} ${(drawingWire.start.y + drawingWire.current.y) / 2 + 40} ${drawingWire.current.x} ${drawingWire.current.y}`}
               fill="none" stroke={drawingWire.color} strokeWidth="5" strokeLinecap="round" strokeDasharray="6 6" />
           )}
         </svg>

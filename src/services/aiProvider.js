@@ -174,13 +174,10 @@ async function callOpenRouter({ prompt, messages, responseFormat, temperature = 
 
   const outputText = data.choices?.[0]?.message?.content || '';
 
-  // Asynchronous local CSV token and usage logging (non-blocking)
+  // Asynchronous local CSV token statistics logging (non-blocking)
   logApiUsage({
-    input: inputSummary || (messages ? JSON.stringify(messages) : prompt),
-    output: outputText,
     usage: data.usage,
-    model: data.model || s.model,
-    timestamp: new Date().toISOString(),
+    timestamp: new Date(),
   }).catch(() => {});
 
   return outputText;
@@ -213,7 +210,7 @@ export const analyzeIC = async (base64Image, mimeType = 'image/jpeg') => {
     responseFormat: { type: 'json_object' },
     temperature: 0.1,
     maxTokens: 4000,
-    inputSummary: SCAN_PROMPT,
+    inputSummary: 'Identify IC from image',
   });
 
   return extractJSON(rawText);
@@ -231,7 +228,7 @@ export const askAboutIC = async (icName, question, icData) => {
     prompt,
     temperature: 0.5,
     maxTokens: 2000,
-    inputSummary: `[Ask about ${icName}] ${question}`,
+    inputSummary: question || (icName ? `Explain ${icName}` : 'IC Question'),
   });
 };
 
@@ -255,7 +252,7 @@ Respond with ONLY valid JSON (no markdown):
     responseFormat: { type: 'json_object' },
     temperature: 0.4,
     maxTokens: 4000,
-    inputSummary: `[Viva Generation for ${icName}] Seed: ${randomSeed}`,
+    inputSummary: `Generate viva questions for ${icName}`,
   });
 
   return extractJSON(rawText);

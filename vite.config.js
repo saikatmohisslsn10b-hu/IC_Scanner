@@ -4,17 +4,25 @@ import fs from 'fs';
 import path from 'path';
 
 /**
- * Vite plugin for local OpenRouter CSV token & usage logging.
+ * Vite plugin for local OpenRouter CSV token statistics logging.
  * Handles POST requests to /api/log-usage from the frontend
- * and appends usage rows to openrouter_usage_log.csv in the project root.
+ * and appends token stats to openrouter_usage_log.csv in the project root.
+ * Exactly 4 columns: Timestamp, Input_Tokens, Output_Tokens, Total_Tokens
  */
 function openRouterCsvLogger() {
   const CSV_FILE = path.resolve(process.cwd(), 'openrouter_usage_log.csv');
-  const CSV_HEADER = 'Timestamp,Input,Output,Input_Tokens,Output_Tokens,Total_Tokens,Model\r\n';
+  const CSV_HEADER = 'Timestamp,Input_Tokens,Output_Tokens,Total_Tokens\r\n';
+
+  function formatReadableTimestamp(val) {
+    const d = val ? (val instanceof Date ? val : new Date(val)) : new Date();
+    if (isNaN(d.getTime())) return String(val || '');
+    const pad = (n) => String(n).padStart(2, '0');
+    return `${pad(d.getDate())}-${pad(d.getMonth() + 1)}-${d.getFullYear()} ${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
+  }
 
   function escapeCsv(value) {
     if (value === null || value === undefined) return '';
-    const str = typeof value === 'object' ? JSON.stringify(value) : String(value);
+    const str = String(value);
     if (/[",\r\n]/.test(str)) {
       return `"${str.replace(/"/g, '""')}"`;
     }
@@ -27,13 +35,10 @@ function openRouterCsvLogger() {
         fs.writeFileSync(CSV_FILE, CSV_HEADER, { encoding: 'utf8' });
       }
       const row = [
-        escapeCsv(entry.timestamp || new Date().toISOString()),
-        escapeCsv(entry.input || ''),
-        escapeCsv(entry.output || ''),
+        escapeCsv(entry.timestamp || formatReadableTimestamp()),
         escapeCsv(entry.inputTokens ?? ''),
         escapeCsv(entry.outputTokens ?? ''),
-        escapeCsv(entry.totalTokens ?? ''),
-        escapeCsv(entry.model || '')
+        escapeCsv(entry.totalTokens ?? '')
       ].join(',') + '\r\n';
 
       fs.appendFileSync(CSV_FILE, row, { encoding: 'utf8' });
@@ -77,5 +82,6 @@ function openRouterCsvLogger() {
 }
 
 export default defineConfig({
+  base: process.env.NODE_ENV === 'production' ? '/IC_Scanner/' : '/',
   plugins: [react(), openRouterCsvLogger()],
 });

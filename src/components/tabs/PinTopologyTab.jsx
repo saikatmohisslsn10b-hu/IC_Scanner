@@ -31,93 +31,63 @@ export const extractICNumber = (rawName) => {
 };
 
 // =====================================================================
-// UTILITY: HARDWARE OVERRIDE DICTIONARY (HIGHEST PRIORITY)
-// =====================================================================
-export const getStandardPinName = (coreNumber, pinNumber) => {
-  const num = parseInt(pinNumber, 10);
-  
-  // CMOS Quad 2-Input (Outputs on 3, 4, 10, 11)
-  const cmosQuadGates = ["4011", "4071", "4081", "4001", "4070", "4077"];
-  if (cmosQuadGates.includes(coreNumber)) {
-    const map = { 1:"1A", 2:"1B", 3:"1Y", 4:"2Y", 5:"2A", 6:"2B", 7:"VSS", 8:"3A", 9:"3B", 10:"3Y", 11:"4Y", 12:"4A", 13:"4B", 14:"VDD" };
-    return map[num] || null;
-  }
-  
-  // TTL Quad 2-Input (Outputs on 3, 6, 8, 11)
-  const ttlQuadGates = ["7400", "7408", "7432", "7486"];
-  if (ttlQuadGates.includes(coreNumber)) {
-    const map = { 1:"1A", 2:"1B", 3:"1Y", 4:"2A", 5:"2B", 6:"2Y", 7:"GND", 8:"3Y", 9:"3A", 10:"3B", 11:"4Y", 12:"4A", 13:"4B", 14:"VCC" };
-    return map[num] || null;
-  }
-  
-  // Hex Inverters
-  const hexInverters = ["7404", "7414", "4069"];
-  if (hexInverters.includes(coreNumber)) {
-    const map = { 1:"1A", 2:"1Y", 3:"2A", 4:"2Y", 5:"3A", 6:"3Y", 7:"GND", 8:"4Y", 9:"4A", 10:"5Y", 11:"5A", 12:"6Y", 13:"6A", 14:"VCC" };
-    return map[num] || null;
-  }
-  
-  return null;
-};
-
-// =====================================================================
 // MAIN COMPONENT
 // =====================================================================
 export default function PinTopologyTab({ report, pinout }) {
   // --- AGGRESSIVE FALLBACK FOR RAW IC NAME ---
   // Searches the entire report for something that looks like an IC number
-const findICNumber = (obj) => {
-  if (!obj) return null;
+  const findICNumber = (obj) => {
+    if (!obj) return null;
 
-  const regex =
-    /\b(?:SN)?(?:74(?:HC|HCT|LS|ALS|F|S|AC|ACT)?\d+|CD40\d{2}|HEF40\d{2}|HCF40\d{2}|40\d{2}|14\d{3})\b/i;
+    const regex =
+      /\b(?:SN)?(?:74(?:HC|HCT|LS|ALS|F|S|AC|ACT)?\d+|CD40\d{2}|HEF40\d{2}|HCF40\d{2}|40\d{2}|14\d{3})\b/i;
 
-  const walk = (value) => {
-    if (!value) return null;
+    const walk = (value) => {
+      if (!value) return null;
 
-    if (typeof value === "string") {
-      const m = value.match(regex);
-      if (m) return m[0].replace(/^SN/i, "");
+      if (typeof value === "string") {
+        const m = value.match(regex);
+        if (m) return m[0].replace(/^SN/i, "");
+        return null;
+      }
+
+      if (Array.isArray(value)) {
+        for (const v of value) {
+          const r = walk(v);
+          if (r) return r;
+        }
+      }
+
+      if (typeof value === "object") {
+        for (const k of Object.keys(value)) {
+          const r = walk(value[k]);
+          if (r) return r;
+        }
+      }
+
       return null;
-    }
+    };
 
-    if (Array.isArray(value)) {
-      for (const v of value) {
-        const r = walk(v);
-        if (r) return r;
-      }
-    }
-
-    if (typeof value === "object") {
-      for (const k of Object.keys(value)) {
-        const r = walk(value[k]);
-        if (r) return r;
-      }
-    }
-
-    return null;
+    return walk(obj);
   };
 
-  return walk(obj);
-};
-
-const displayIcName =
+  const displayIcName =
     report?.identification?.number ||
     report?.identification?.name ||
     "";
 
-const rawIcName =
+  const rawIcName =
     findICNumber(report) ||
     displayIcName;
 
   const requestedPackageType = report?.packageType || '';
-  const aiFallbackPinout = pinout?.table || []; 
+  const aiFallbackPinout = pinout?.table || [];
 
   const [search, setSearch] = useState('');
-  const [displayData, setDisplayData] = useState(null); 
+  const [displayData, setDisplayData] = useState(null);
   const [selectedPackageName, setSelectedPackageName] = useState('');
   const [logs, setLogs] = useState([]);
-  
+
   const [dbState, setDbState] = useState({
     isLoading: true,
     error: null,
@@ -129,204 +99,50 @@ const rawIcName =
   }, []);
 
   // =====================================================================
-  // DATABASE LOADING & MERGE PIPELINE
+  // OPENROUTER API PINOUT PIPELINE
   // =====================================================================
   useEffect(() => {
     let isMounted = true;
+    setDbState({ isLoading: true, error: null, coreNumber: null });
+    setLogs([]);
+    setDisplayData(null);
+    setSelectedPackageName(requestedPackageType || report?.packageType || 'Standard Package');
 
-    const executePipeline = async () => {
-      setDbState({ isLoading: true, error: null, coreNumber: null });
-      setLogs([]); 
-      setDisplayData(null);
-      setSelectedPackageName('');
+    const aiPins = pinout?.table || report?.pinout?.table || [];
 
-      const coreNumber = extractICNumber(rawIcName);
+    if (aiPins && aiPins.length > 0) {
+      const formattedAIPins = aiPins.map((pin) => {
+        const pinNum = String(pin.number || pin.pin);
+        return {
+          ...pin,
+          number: pinNum,
+          name: pin.name || `PIN_${pinNum}`,
+          description: pin.description || '-',
+          type: pin.type || 'generic'
+        };
+      });
 
-      try {
-        // --- STEP 1: Extract IC Number ---
-        if (!coreNumber) throw new Error("IC not found locally (could not extract valid number).");
-        addLog(`✔ Extracted IC number: [${coreNumber}]`);
+      formattedAIPins.sort((a, b) => parseInt(a.number, 10) - parseInt(b.number, 10));
 
-        // --- STEP 2: Load Master Index ---
-        const indexRes = await fetch('/json_database/master_search_index.json');
-        if (!indexRes.ok) throw new Error("Master index missing or failed to load.");
-        const index = await indexRes.json();
-        addLog(`✔ Loaded master index`);
-
-        // --- STEP 3: Locate Category ---
-        const targetFilePrefix = index[coreNumber];
-        if (!targetFilePrefix) throw new Error(`IC not found locally (missing from master index).`);
-        addLog(`✔ Category located: [${targetFilePrefix}]`);
-
-        // --- STEP 4: Load Category File & Locate IC ---
-        const symbolRes = await fetch(`/json_database/${targetFilePrefix}.json`);
-        if (!symbolRes.ok) throw new Error(`Category file missing or failed to load.`);
-        const symbolLibrary = await symbolRes.json();
-        
-        const icData = symbolLibrary[coreNumber];
-        if (!icData) throw new Error(`IC not found locally (missing in category file).`);
-
-        // --- STEP 5 & 6: Select Package & Load Pins (Dual Schema Support) ---
-        let pkgName = "Unknown Package";
-        let rawPins = [];
-
-        const packages = icData.packages || [];
-
-        if (packages.length > 0) {
-            // SCHEMA 2 (New): Using the packages array
-            addLog(`✔ Using package schema`);
-            let targetPackage = packages[0]; // Default to first package
-            if (requestedPackageType) {
-               const reqType = requestedPackageType.toUpperCase();
-               const match = packages.find(p => p.package && p.package.toUpperCase().includes(reqType));
-               if (match) targetPackage = match;
-            }
-            pkgName = targetPackage.package || "Default Package";
-            rawPins = targetPackage.pins || [];
-            addLog(`✔ Local package found: [${pkgName}]`);
-            
-        } else if (icData.pins && icData.pins.length > 0) {
-            // SCHEMA 1 (Legacy): Direct pins array on the IC object
-            addLog(`✔ Using legacy pin schema`);
-            pkgName = "Standard Package";
-            rawPins = icData.pins;
-            
-        } else {
-            // BOTH SCHEMAS FAILED
-            addLog(`⚠ No local pins found`, 'warning');
-            throw new Error(`Pins missing (Neither package schema nor legacy schema contained pins).`);
-        }
-
-        if (rawPins.length === 0) {
-            addLog(`⚠ No local pins found`, 'warning');
-            throw new Error(`Pins missing (Empty array for package ${pkgName}).`);
-        }
-        
-        addLog(`✔ Local pins loaded (${rawPins.length} found)`);
-
-        // --- STEP 7: Strict Hardware Merge Pipeline (Local DB Success) ---
-        let overrideApplied = false;
-
-        const enhancedPins = rawPins.map(pin => {
-            const pinNum = String(pin.number || pin.pin);
-            const aiData = aiFallbackPinout.find(ap => String(ap.number || ap.pin) === pinNum);
-
-            // RESOLVE NAME: Hardware Mapping -> Local DB -> Placeholder. (NO AI)
-            const hwOverrideName = getStandardPinName(coreNumber, pinNum);
-            let finalName;
-
-            if (hwOverrideName) {
-                finalName = hwOverrideName; // Priority 1: Hardware Override
-                overrideApplied = true;
-            } else {
-                finalName = pin.name;       // Priority 2: Database Pin Name
-                if (!finalName || finalName.trim() === "" || finalName === "~") {
-                    finalName = `PIN_${pinNum}`; // Priority 3: Safe Placeholder
-                }
-            }
-
-            // RESOLVE DESCRIPTION
-let finalDesc = pin.description;
-
-// If local DB has no description, generate it from the FINAL pin name
-if (!finalDesc || finalDesc.trim() === "") {
-
-    const pinLabel = finalName.toUpperCase();
-
-    if (pinLabel === "VCC" || pinLabel === "VDD")
-        finalDesc = "Power Supply";
-
-    else if (pinLabel === "GND" || pinLabel === "VSS")
-        finalDesc = "Ground";
-
-    else {
-        const m = pinLabel.match(/^(\d+)(A|B|C|D|Y)$/);
-
-        if (m) {
-            const gate = m[1];
-            const suffix = m[2];
-
-            if (suffix === "Y")
-                finalDesc = `Output for Gate ${gate}`;
-            else
-                finalDesc = `Input ${suffix} for Gate ${gate}`;
-        } else {
-            finalDesc = aiData?.description || "-";
-        }
-    }
-}
-
-            return {
-                ...pin,
-                number: pinNum,
-                name: finalName,
-                description: finalDesc
-            };
-        });
-
-        if (overrideApplied) {
-            addLog(`✔ Hardware override applied`);
-        }
-
-        // Strict Numeric Sort
-        enhancedPins.sort((a, b) => parseInt(a.number, 10) - parseInt(b.number, 10));
-        addLog(`✔ Merged AI descriptions`);
-
-        if (isMounted) {
-            setDisplayData(enhancedPins);
-            setSelectedPackageName(pkgName);
-            setDbState({ isLoading: false, error: null, coreNumber });
-        }
-
-      } catch (err) {
-        // =====================================================================
-        // THE FALLBACK MECHANISM (Triggers if ANY local step fails)
-        // =====================================================================
-        if (isMounted) {
-            addLog(`⚠ ${err.message}`, 'warning');
-            addLog(`⚠ Falling back to AI pinout`, 'warning');
-
-            // Check if AI Fallback actually has data
-            if (aiFallbackPinout && aiFallbackPinout.length > 0) {
-                
-                // Format pure AI data
-                const formattedAIPins = aiFallbackPinout.map(pin => {
-                    const pinNum = String(pin.number || pin.pin);
-                    return {
-                        ...pin,
-                        number: pinNum,
-                        name: pin.name || `PIN_${pinNum}`,
-                        description: pin.description || "-"
-                    };
-                });
-
-                // Sort AI data numerically
-                formattedAIPins.sort((a, b) => parseInt(a.number, 10) - parseInt(b.number, 10));
-
-                addLog(`✔ AI pinout loaded`, 'success');
-
-                // Render the AI Data and CLEAR the error state
-                setDisplayData(formattedAIPins);
-                setSelectedPackageName('AI Generated (Verify with Datasheet)');
-                setDbState({ isLoading: false, error: null, coreNumber }); 
-            } else {
-                // The ultimate failure: No local DB AND No AI data
-                addLog(`✖ AI pinout is also missing or empty`, 'error');
-                setDbState({ 
-                    isLoading: false, 
-                    error: "No pin information available.", 
-                    coreNumber 
-                });
-            }
-        }
+      if (isMounted) {
+        setDisplayData(formattedAIPins);
+        setDbState({ isLoading: false, error: null, coreNumber: rawIcName });
+        addLog(`✔ OpenRouter API pinout loaded (${formattedAIPins.length} pins)`);
       }
-    };
-
-    // Always trigger pipeline to allow fallback to execute even if extraction fails
-    executePipeline();
+    } else {
+      if (isMounted) {
+        setDisplayData([]);
+        setDbState({
+          isLoading: false,
+          error: 'No pin information returned by OpenRouter API.',
+          coreNumber: rawIcName,
+        });
+        addLog(`✖ No pin information returned by OpenRouter API`, 'error');
+      }
+    }
 
     return () => { isMounted = false; };
-  }, [rawIcName, requestedPackageType, aiFallbackPinout, addLog]);
+  }, [rawIcName, requestedPackageType, report, pinout, addLog]);
 
   // =====================================================================
   // UI & SVG RENDERERS
@@ -344,11 +160,11 @@ if (!finalDesc || finalDesc.trim() === "") {
     if (dbState.error || !displayData || displayData.length === 0) return null;
 
     const pkgString = (selectedPackageName + ' ' + requestedPackageType).toUpperCase();
-    const isQuadPackage = pkgString.includes('QFP') || 
-                          pkgString.includes('PLCC') || 
-                          pkgString.includes('QFN') || 
-                          pkgString.includes('LCC') || 
-                          pkgString.includes('BGA');
+    const isQuadPackage = pkgString.includes('QFP') ||
+      pkgString.includes('PLCC') ||
+      pkgString.includes('QFN') ||
+      pkgString.includes('LCC') ||
+      pkgString.includes('BGA');
 
     const maxPin = Math.max(...displayData.map(p => parseInt(p.number) || 0));
     const getPin = (num) => displayData.find(p => parseInt(p.number) === num) || { name: 'NC' };
@@ -359,7 +175,7 @@ if (!finalDesc || finalDesc.trim() === "") {
       const pps = totalPins / 4;
       const PIN_SPACING = 30;
       const CHIP_SIZE = Math.max(160, (pps + 1) * PIN_SPACING);
-      const SVG_WIDTH = CHIP_SIZE + 400; 
+      const SVG_WIDTH = CHIP_SIZE + 400;
       const SVG_HEIGHT = CHIP_SIZE + 400;
       const CENTER_X = SVG_WIDTH / 2;
       const CENTER_Y = SVG_HEIGHT / 2;
@@ -368,8 +184,8 @@ if (!finalDesc || finalDesc.trim() === "") {
         <div className="w-full overflow-x-auto bg-[#0b1121] rounded-xl border border-slate-700 shadow-inner custom-scroll select-none relative mb-6">
           <div className="absolute inset-0 pointer-events-none opacity-20" style={{ backgroundImage: 'linear-gradient(#334155 1px, transparent 1px), linear-gradient(90deg, #334155 1px, transparent 1px)', backgroundSize: '20px 20px' }} />
           <svg viewBox={`0 0 ${SVG_WIDTH} ${SVG_HEIGHT}`} className="w-full min-w-[700px] h-auto drop-shadow-2xl py-4">
-            <rect x={CENTER_X - CHIP_SIZE/2} y={CENTER_Y - CHIP_SIZE/2} width={CHIP_SIZE} height={CHIP_SIZE} fill="#1e293b" stroke="#334155" strokeWidth="3" rx="8" />
-            <circle cx={CENTER_X - CHIP_SIZE/2 + 20} cy={CENTER_Y - CHIP_SIZE/2 + 20} r="6" fill="#334155" />
+            <rect x={CENTER_X - CHIP_SIZE / 2} y={CENTER_Y - CHIP_SIZE / 2} width={CHIP_SIZE} height={CHIP_SIZE} fill="#1e293b" stroke="#334155" strokeWidth="3" rx="8" />
+            <circle cx={CENTER_X - CHIP_SIZE / 2 + 20} cy={CENTER_Y - CHIP_SIZE / 2 + 20} r="6" fill="#334155" />
             <text x={CENTER_X} y={CENTER_Y + 8} fill="#475569" fontSize="24" fontWeight="bold" fontFamily="monospace" textAnchor="middle">{displayIcName || rawIcName || 'UNKNOWN IC'}</text>
 
             {Array.from({ length: pps }).map((_, i) => {
@@ -378,32 +194,32 @@ if (!finalDesc || finalDesc.trim() === "") {
               const rightNum = 2 * pps + i + 1;
               const topNum = 3 * pps + i + 1;
 
-              const lY = CENTER_Y - CHIP_SIZE/2 + (i + 1) * PIN_SPACING;
-              const bX = CENTER_X - CHIP_SIZE/2 + (i + 1) * PIN_SPACING;
-              const rY = CENTER_Y + CHIP_SIZE/2 - (i + 1) * PIN_SPACING;
-              const tX = CENTER_X + CHIP_SIZE/2 - (i + 1) * PIN_SPACING;
+              const lY = CENTER_Y - CHIP_SIZE / 2 + (i + 1) * PIN_SPACING;
+              const bX = CENTER_X - CHIP_SIZE / 2 + (i + 1) * PIN_SPACING;
+              const rY = CENTER_Y + CHIP_SIZE / 2 - (i + 1) * PIN_SPACING;
+              const tX = CENTER_X + CHIP_SIZE / 2 - (i + 1) * PIN_SPACING;
 
               return (
                 <g key={`quad_pins_${i}`}>
-                  <rect x={CENTER_X - CHIP_SIZE/2 - 20} y={lY - 5} width="20" height="10" fill="#94a3b8" />
-                  <text x={CENTER_X - CHIP_SIZE/2 + 15} y={lY + 4} fill="#fbbf24" fontSize="12" fontWeight="bold" fontFamily="monospace" textAnchor="middle">{leftNum}</text>
-                  <text x={CENTER_X - CHIP_SIZE/2 - 30} y={lY + 4} fill="#38bdf8" fontSize="12" fontFamily="monospace" textAnchor="end">{getPin(leftNum).name}</text>
-                  <line x1={CENTER_X - CHIP_SIZE/2 - 20} y1={lY} x2={CENTER_X - CHIP_SIZE/2 - 120} y2={lY} stroke="#0ea5e9" strokeWidth="1" strokeDasharray="4 2" opacity="0.4" />
+                  <rect x={CENTER_X - CHIP_SIZE / 2 - 20} y={lY - 5} width="20" height="10" fill="#94a3b8" />
+                  <text x={CENTER_X - CHIP_SIZE / 2 + 15} y={lY + 4} fill="#fbbf24" fontSize="12" fontWeight="bold" fontFamily="monospace" textAnchor="middle">{leftNum}</text>
+                  <text x={CENTER_X - CHIP_SIZE / 2 - 30} y={lY + 4} fill="#38bdf8" fontSize="12" fontFamily="monospace" textAnchor="end">{getPin(leftNum).name}</text>
+                  <line x1={CENTER_X - CHIP_SIZE / 2 - 20} y1={lY} x2={CENTER_X - CHIP_SIZE / 2 - 120} y2={lY} stroke="#0ea5e9" strokeWidth="1" strokeDasharray="4 2" opacity="0.4" />
 
-                  <rect x={bX - 5} y={CENTER_Y + CHIP_SIZE/2} width="10" height="20" fill="#94a3b8" />
-                  <text x={bX} y={CENTER_Y + CHIP_SIZE/2 - 15} fill="#fbbf24" fontSize="12" fontWeight="bold" fontFamily="monospace" textAnchor="middle">{botNum}</text>
-                  <text x={bX} y={CENTER_Y + CHIP_SIZE/2 + 40} fill="#38bdf8" fontSize="12" fontFamily="monospace" textAnchor="start" transform={`rotate(90, ${bX}, ${CENTER_Y + CHIP_SIZE/2 + 40})`}>{getPin(botNum).name}</text>
-                  <line x1={bX} y1={CENTER_Y + CHIP_SIZE/2 + 20} x2={bX} y2={CENTER_Y + CHIP_SIZE/2 + 120} stroke="#0ea5e9" strokeWidth="1" strokeDasharray="4 2" opacity="0.4" />
+                  <rect x={bX - 5} y={CENTER_Y + CHIP_SIZE / 2} width="10" height="20" fill="#94a3b8" />
+                  <text x={bX} y={CENTER_Y + CHIP_SIZE / 2 - 15} fill="#fbbf24" fontSize="12" fontWeight="bold" fontFamily="monospace" textAnchor="middle">{botNum}</text>
+                  <text x={bX} y={CENTER_Y + CHIP_SIZE / 2 + 40} fill="#38bdf8" fontSize="12" fontFamily="monospace" textAnchor="start" transform={`rotate(90, ${bX}, ${CENTER_Y + CHIP_SIZE / 2 + 40})`}>{getPin(botNum).name}</text>
+                  <line x1={bX} y1={CENTER_Y + CHIP_SIZE / 2 + 20} x2={bX} y2={CENTER_Y + CHIP_SIZE / 2 + 120} stroke="#0ea5e9" strokeWidth="1" strokeDasharray="4 2" opacity="0.4" />
 
-                  <rect x={CENTER_X + CHIP_SIZE/2} y={rY - 5} width="20" height="10" fill="#94a3b8" />
-                  <text x={CENTER_X + CHIP_SIZE/2 - 15} y={rY + 4} fill="#fbbf24" fontSize="12" fontWeight="bold" fontFamily="monospace" textAnchor="middle">{rightNum}</text>
-                  <text x={CENTER_X + CHIP_SIZE/2 + 30} y={rY + 4} fill="#38bdf8" fontSize="12" fontFamily="monospace" textAnchor="start">{getPin(rightNum).name}</text>
-                  <line x1={CENTER_X + CHIP_SIZE/2 + 20} y1={rY} x2={CENTER_X + CHIP_SIZE/2 + 120} y2={rY} stroke="#0ea5e9" strokeWidth="1" strokeDasharray="4 2" opacity="0.4" />
+                  <rect x={CENTER_X + CHIP_SIZE / 2} y={rY - 5} width="20" height="10" fill="#94a3b8" />
+                  <text x={CENTER_X + CHIP_SIZE / 2 - 15} y={rY + 4} fill="#fbbf24" fontSize="12" fontWeight="bold" fontFamily="monospace" textAnchor="middle">{rightNum}</text>
+                  <text x={CENTER_X + CHIP_SIZE / 2 + 30} y={rY + 4} fill="#38bdf8" fontSize="12" fontFamily="monospace" textAnchor="start">{getPin(rightNum).name}</text>
+                  <line x1={CENTER_X + CHIP_SIZE / 2 + 20} y1={rY} x2={CENTER_X + CHIP_SIZE / 2 + 120} y2={rY} stroke="#0ea5e9" strokeWidth="1" strokeDasharray="4 2" opacity="0.4" />
 
-                  <rect x={tX - 5} y={CENTER_Y - CHIP_SIZE/2 - 20} width="10" height="20" fill="#94a3b8" />
-                  <text x={tX} y={CENTER_Y - CHIP_SIZE/2 + 20} fill="#fbbf24" fontSize="12" fontWeight="bold" fontFamily="monospace" textAnchor="middle">{topNum}</text>
-                  <text x={tX} y={CENTER_Y - CHIP_SIZE/2 - 40} fill="#38bdf8" fontSize="12" fontFamily="monospace" textAnchor="start" transform={`rotate(-90, ${tX}, ${CENTER_Y - CHIP_SIZE/2 - 40})`}>{getPin(topNum).name}</text>
-                  <line x1={tX} y1={CENTER_Y - CHIP_SIZE/2 - 20} x2={tX} y2={CENTER_Y - CHIP_SIZE/2 - 120} stroke="#0ea5e9" strokeWidth="1" strokeDasharray="4 2" opacity="0.4" />
+                  <rect x={tX - 5} y={CENTER_Y - CHIP_SIZE / 2 - 20} width="10" height="20" fill="#94a3b8" />
+                  <text x={tX} y={CENTER_Y - CHIP_SIZE / 2 + 20} fill="#fbbf24" fontSize="12" fontWeight="bold" fontFamily="monospace" textAnchor="middle">{topNum}</text>
+                  <text x={tX} y={CENTER_Y - CHIP_SIZE / 2 - 40} fill="#38bdf8" fontSize="12" fontFamily="monospace" textAnchor="start" transform={`rotate(-90, ${tX}, ${CENTER_Y - CHIP_SIZE / 2 - 40})`}>{getPin(topNum).name}</text>
+                  <line x1={tX} y1={CENTER_Y - CHIP_SIZE / 2 - 20} x2={tX} y2={CENTER_Y - CHIP_SIZE / 2 - 120} stroke="#0ea5e9" strokeWidth="1" strokeDasharray="4 2" opacity="0.4" />
                 </g>
               );
             })}
@@ -413,7 +229,7 @@ if (!finalDesc || finalDesc.trim() === "") {
     }
 
     // --- RENDER: DUAL PACKAGE (2-Sided DIP/SOIC) ---
-    const totalPins = maxPin % 2 === 0 ? maxPin : maxPin + 1; 
+    const totalPins = maxPin % 2 === 0 ? maxPin : maxPin + 1;
     const pinsPerSide = totalPins / 2;
     const PIN_SPACING = 40;
     const CHIP_WIDTH = 180;
@@ -427,10 +243,10 @@ if (!finalDesc || finalDesc.trim() === "") {
       <div className="w-full overflow-x-auto bg-[#0b1121] rounded-xl border border-slate-700 shadow-inner custom-scroll select-none relative mb-6">
         <div className="absolute inset-0 pointer-events-none opacity-20" style={{ backgroundImage: 'linear-gradient(#334155 1px, transparent 1px), linear-gradient(90deg, #334155 1px, transparent 1px)', backgroundSize: '20px 20px' }} />
         <svg viewBox={`0 0 ${SVG_WIDTH} ${SVG_HEIGHT}`} className="w-full min-w-[500px] h-auto drop-shadow-2xl py-4">
-          
-          <rect x={CENTER_X - CHIP_WIDTH/2} y={START_Y} width={CHIP_WIDTH} height={CHIP_HEIGHT} fill="#1e293b" stroke="#334155" strokeWidth="3" rx="8" />
+
+          <rect x={CENTER_X - CHIP_WIDTH / 2} y={START_Y} width={CHIP_WIDTH} height={CHIP_HEIGHT} fill="#1e293b" stroke="#334155" strokeWidth="3" rx="8" />
           <path d={`M ${CENTER_X - 20} ${START_Y} a 20 20 0 0 0 40 0`} fill="#0b1121" stroke="#334155" strokeWidth="3" />
-          <circle cx={CENTER_X - CHIP_WIDTH/2 + 25} cy={START_Y + 30} r="6" fill="#334155" />
+          <circle cx={CENTER_X - CHIP_WIDTH / 2 + 25} cy={START_Y + 30} r="6" fill="#334155" />
           <text x={CENTER_X} y={START_Y + CHIP_HEIGHT / 2} fill="#475569" fontSize="24" fontWeight="bold" fontFamily="monospace" textAnchor="middle" transform={`rotate(-90, ${CENTER_X}, ${START_Y + CHIP_HEIGHT / 2})`}>{displayIcName || rawIcName || 'UNKNOWN IC'}</text>
 
           {Array.from({ length: pinsPerSide }).map((_, i) => {
@@ -440,15 +256,15 @@ if (!finalDesc || finalDesc.trim() === "") {
 
             return (
               <g key={`dip_pins_${i}`}>
-                <rect x={CENTER_X - CHIP_WIDTH/2 - 30} y={yPos - 6} width="30" height="12" fill="#94a3b8" />
-                <text x={CENTER_X - CHIP_WIDTH/2 + 15} y={yPos + 4} fill="#fbbf24" fontSize="12" fontWeight="bold" fontFamily="monospace" textAnchor="middle">{leftPinNum}</text>
-                <text x={CENTER_X - CHIP_WIDTH/2 - 40} y={yPos + 4} fill="#38bdf8" fontSize="13" fontFamily="monospace" textAnchor="end">{getPin(leftPinNum).name}</text>
-                <line x1={CENTER_X - CHIP_WIDTH/2 - 30} y1={yPos} x2="40" y2={yPos} stroke="#0ea5e9" strokeWidth="1" strokeDasharray="4 2" opacity="0.5" />
+                <rect x={CENTER_X - CHIP_WIDTH / 2 - 30} y={yPos - 6} width="30" height="12" fill="#94a3b8" />
+                <text x={CENTER_X - CHIP_WIDTH / 2 + 15} y={yPos + 4} fill="#fbbf24" fontSize="12" fontWeight="bold" fontFamily="monospace" textAnchor="middle">{leftPinNum}</text>
+                <text x={CENTER_X - CHIP_WIDTH / 2 - 40} y={yPos + 4} fill="#38bdf8" fontSize="13" fontFamily="monospace" textAnchor="end">{getPin(leftPinNum).name}</text>
+                <line x1={CENTER_X - CHIP_WIDTH / 2 - 30} y1={yPos} x2="40" y2={yPos} stroke="#0ea5e9" strokeWidth="1" strokeDasharray="4 2" opacity="0.5" />
 
-                <rect x={CENTER_X + CHIP_WIDTH/2} y={yPos - 6} width="30" height="12" fill="#94a3b8" />
-                <text x={CENTER_X + CHIP_WIDTH/2 - 15} y={yPos + 4} fill="#fbbf24" fontSize="12" fontWeight="bold" fontFamily="monospace" textAnchor="middle">{rightPinNum}</text>
-                <text x={CENTER_X + CHIP_WIDTH/2 + 40} y={yPos + 4} fill="#38bdf8" fontSize="13" fontFamily="monospace" textAnchor="start">{getPin(rightPinNum).name}</text>
-                <line x1={CENTER_X + CHIP_WIDTH/2 + 30} y1={yPos} x2={SVG_WIDTH - 40} y2={yPos} stroke="#0ea5e9" strokeWidth="1" strokeDasharray="4 2" opacity="0.5" />
+                <rect x={CENTER_X + CHIP_WIDTH / 2} y={yPos - 6} width="30" height="12" fill="#94a3b8" />
+                <text x={CENTER_X + CHIP_WIDTH / 2 - 15} y={yPos + 4} fill="#fbbf24" fontSize="12" fontWeight="bold" fontFamily="monospace" textAnchor="middle">{rightPinNum}</text>
+                <text x={CENTER_X + CHIP_WIDTH / 2 + 40} y={yPos + 4} fill="#38bdf8" fontSize="13" fontFamily="monospace" textAnchor="start">{getPin(rightPinNum).name}</text>
+                <line x1={CENTER_X + CHIP_WIDTH / 2 + 30} y1={yPos} x2={SVG_WIDTH - 40} y2={yPos} stroke="#0ea5e9" strokeWidth="1" strokeDasharray="4 2" opacity="0.5" />
               </g>
             );
           })}
@@ -463,7 +279,7 @@ if (!finalDesc || finalDesc.trim() === "") {
     const q = search.toLowerCase();
     if (!q) return displayData;
     return displayData.filter(p =>
-      (p.number)?.toString().toLowerCase().includes(q) || 
+      (p.number)?.toString().toLowerCase().includes(q) ||
       (p.name || '').toLowerCase().includes(q) ||
       (p.description || '').toLowerCase().includes(q)
     );
@@ -496,9 +312,9 @@ if (!finalDesc || finalDesc.trim() === "") {
           {logs.length === 0 && !dbState.isLoading && <li className="text-slate-500 italic">No logs generated.</li>}
           {logs.map((log, i) => (
             <li key={i} className={
-                log.type === 'error' ? 'text-red-400 font-bold' : 
-                log.type === 'warning' ? 'text-amber-400' : 
-                log.type === 'success' ? 'text-emerald-400' : 'text-slate-300'
+              log.type === 'error' ? 'text-red-400 font-bold' :
+                log.type === 'warning' ? 'text-amber-400' :
+                  log.type === 'success' ? 'text-emerald-400' : 'text-slate-300'
             }>
               {log.msg}
             </li>
@@ -564,7 +380,7 @@ if (!finalDesc || finalDesc.trim() === "") {
               </tbody>
             </table>
             {filtered.length === 0 && displayData.length > 0 && (
-                <p className="text-center py-8 text-sm text-slate-400">No pins match your search.</p>
+              <p className="text-center py-8 text-sm text-slate-400">No pins match your search.</p>
             )}
           </div>
         </>

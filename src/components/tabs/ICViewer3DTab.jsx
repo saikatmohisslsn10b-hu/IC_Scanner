@@ -4,171 +4,32 @@ import { Text, ContactShadows, Html, OrbitControls } from '@react-three/drei';
 import * as THREE from 'three';
 import { Box, RotateCw, Settings2, RefreshCcw } from 'lucide-react';
 import { parsePinCount, getPinsPerSide } from '../../utils/helpers';
-import { extractICNumber, getStandardPinName } from './PinTopologyTab';
+import { extractICNumber } from './PinTopologyTab';
 
 // =====================================================================
-// NEW: Locate an IC number anywhere inside the report object
-// (mirrors the same helper used in PinTopologyTab.jsx)
-// =====================================================================
-function findICNumberInReport(obj) {
-  if (!obj) return null;
-
-  const regex =
-    /\b(?:SN)?(?:74(?:HC|HCT|LS|ALS|F|S|AC|ACT)?\d+|CD40\d{2}|HEF40\d{2}|HCF40\d{2}|40\d{2}|14\d{3})\b/i;
-
-  const walk = (value) => {
-    if (!value) return null;
-
-    if (typeof value === 'string') {
-      const m = value.match(regex);
-      if (m) return m[0].replace(/^SN/i, '');
-      return null;
-    }
-
-    if (Array.isArray(value)) {
-      for (const v of value) {
-        const r = walk(v);
-        if (r) return r;
-      }
-    }
-
-    if (typeof value === 'object') {
-      for (const k of Object.keys(value)) {
-        const r = walk(value[k]);
-        if (r) return r;
-      }
-    }
-
-    return null;
-  };
-
-  return walk(obj);
-}
-
-// =====================================================================
-// NEW: Fetch the SAME verified local-DB pinout used by PinTopologyTab
-// (master index -> category file -> hardware override -> AI fallback)
+// OpenRouter API Pinout Resolution (Direct from API response)
 // =====================================================================
 function useVerifiedPinout(report) {
-  const [pins, setPins] = useState(null); // null = still resolving
+  const [pins, setPins] = useState(null);
 
   useEffect(() => {
-    let isMounted = true;
-
-    const run = async () => {
-      const displayIcName =
-        report?.identification?.number || report?.identification?.name || '';
-      const rawIcName = findICNumberInReport(report) || displayIcName;
-      const requestedPackageType = report?.packageType || '';
-      const aiFallbackPinout = report?.pinout?.table || [];
-
-      const coreNumber = extractICNumber(rawIcName);
-
-      try {
-        if (!coreNumber) throw new Error('no core number');
-
-        const indexRes = await fetch('/json_database/master_search_index.json');
-        if (!indexRes.ok) throw new Error('index missing');
-        const index = await indexRes.json();
-
-        const targetFilePrefix = index[coreNumber];
-        if (!targetFilePrefix) throw new Error('not in index');
-
-        const symbolRes = await fetch(`/json_database/${targetFilePrefix}.json`);
-        if (!symbolRes.ok) throw new Error('category missing');
-        const symbolLibrary = await symbolRes.json();
-
-        const icData = symbolLibrary[coreNumber];
-        if (!icData) throw new Error('ic missing');
-
-        let rawPins = [];
-        const packages = icData.packages || [];
-
-        if (packages.length > 0) {
-          let targetPackage = packages[0];
-          if (requestedPackageType) {
-            const reqType = requestedPackageType.toUpperCase();
-            const match = packages.find(
-              (p) => p.package && p.package.toUpperCase().includes(reqType)
-            );
-            if (match) targetPackage = match;
-          }
-          rawPins = targetPackage.pins || [];
-        } else if (icData.pins && icData.pins.length > 0) {
-          rawPins = icData.pins;
-        }
-
-        if (rawPins.length === 0) throw new Error('no pins');
-
-        const enhancedPins = rawPins.map((pin) => {
-          const pinNum = String(pin.number || pin.pin);
-          const aiData = aiFallbackPinout.find(
-            (ap) => String(ap.number || ap.pin) === pinNum
-          );
-
-          const hwOverrideName = getStandardPinName(coreNumber, pinNum);
-          let finalName;
-          if (hwOverrideName) {
-            finalName = hwOverrideName;
-          } else {
-            finalName = pin.name;
-            if (!finalName || finalName.trim() === '' || finalName === '~') {
-              finalName = `PIN_${pinNum}`;
-            }
-          }
-
-          let finalDesc = pin.description;
-          if (!finalDesc || finalDesc.trim() === '') {
-            const pinLabel = finalName.toUpperCase();
-            if (pinLabel === 'VCC' || pinLabel === 'VDD') {
-              finalDesc = 'Power Supply';
-            } else if (pinLabel === 'GND' || pinLabel === 'VSS') {
-              finalDesc = 'Ground';
-            } else {
-              const m = pinLabel.match(/^(\d+)(A|B|C|D|Y)$/);
-              if (m) {
-                const gate = m[1];
-                const suffix = m[2];
-                finalDesc =
-                  suffix === 'Y' ? `Output for Gate ${gate}` : `Input ${suffix} for Gate ${gate}`;
-              } else {
-                finalDesc = aiData?.description || '-';
-              }
-            }
-          }
-
-          return { ...pin, number: pinNum, name: finalName, description: finalDesc };
-        });
-
-        enhancedPins.sort((a, b) => parseInt(a.number, 10) - parseInt(b.number, 10));
-
-        if (isMounted) setPins(enhancedPins);
-      } catch (err) {
-        // Same fallback behavior as PinTopologyTab: use AI pinout if local DB fails
-        if (isMounted) {
-          if (aiFallbackPinout && aiFallbackPinout.length > 0) {
-            const formatted = aiFallbackPinout.map((pin) => {
-              const pinNum = String(pin.number || pin.pin);
-              return {
-                ...pin,
-                number: pinNum,
-                name: pin.name || `PIN_${pinNum}`,
-                description: pin.description || '-',
-              };
-            });
-            formatted.sort((a, b) => parseInt(a.number, 10) - parseInt(b.number, 10));
-            setPins(formatted);
-          } else {
-            setPins([]);
-          }
-        }
-      }
-    };
-
-    run();
-    return () => {
-      isMounted = false;
-    };
+    const aiPins = report?.pinout?.table || [];
+    if (aiPins && aiPins.length > 0) {
+      const formatted = aiPins.map((pin) => {
+        const pinNum = String(pin.number || pin.pin);
+        return {
+          ...pin,
+          number: pinNum,
+          name: pin.name || `PIN_${pinNum}`,
+          description: pin.description || '-',
+          type: pin.type || 'generic'
+        };
+      });
+      formatted.sort((a, b) => parseInt(a.number, 10) - parseInt(b.number, 10));
+      setPins(formatted);
+    } else {
+      setPins([]);
+    }
   }, [report]);
 
   return pins;

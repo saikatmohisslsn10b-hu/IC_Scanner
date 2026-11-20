@@ -25,22 +25,22 @@ export default function Navbar({ onHistory, onFullscreen, isFullscreen, provider
         {/* CENTER SECTION - LOGOS */}
         <div className="hidden lg:flex items-center justify-center gap-8 flex-shrink-0">
           <img 
-            src="/IEM LOGO.jpeg" 
+            src={`${import.meta.env.BASE_URL}IEM LOGO.jpeg`} 
             alt="IEM Logo" 
             className="h-12 w-auto object-contain" 
           />
           <img 
-            src="/DEPT CSE DATA SCIENCE LOGO.jpeg" 
+            src={`${import.meta.env.BASE_URL}DEPT CSE DATA SCIENCE LOGO.jpeg`} 
             alt="CSE Data Science Logo" 
             className="h-12 w-auto object-contain rounded-full" 
           />
           <img 
-            src="/IEDC-WHITE.png" 
+            src={`${import.meta.env.BASE_URL}IEDC-WHITE.png`} 
             alt="IEDC Logo" 
             className="h-12 w-auto object-contain" 
           />
           <img 
-            src="/UEM LOGO (1).jpeg" 
+            src={`${import.meta.env.BASE_URL}UEM LOGO (1).jpeg`} 
             alt="UEM Logo" 
             className="h-12 w-auto object-contain" 
           />

@@ -57,13 +57,10 @@ Open your browser and navigate to `http://localhost:5173`.
 Every successful API request made to OpenRouter is automatically recorded in a local CSV file:
 - **File location:** `openrouter_usage_log.csv` (in the project root directory).
 - **Recorded columns:**
-  1. `Timestamp` – Date and time of API request (ISO 8601)
-  2. `Input` – Actual input/prompt sent to the model
-  3. `Output` – Actual response received from the model
-  4. `Input_Tokens` – Reported prompt tokens consumed
-  5. `Output_Tokens` – Reported completion tokens consumed
-  6. `Total_Tokens` – Total tokens calculated from reported input and output tokens
-  7. `Model` – Model identifier used
+  1. `Timestamp` – Readable date and time (`DD-MM-YYYY HH:mm:ss`)
+  2. `Input_Tokens` – Actual prompt/input token count from OpenRouter
+  3. `Output_Tokens` – Actual completion/output token count from OpenRouter
+  4. `Total_Tokens` – Total token count (`Input_Tokens + Output_Tokens`)
 - **Security:** The CSV file is strictly local, added to `.gitignore`, and is **never** uploaded to GitHub.
 - **Resilience:** CSV logging errors are handled gracefully and will never crash or interrupt scanning.
 
