@@ -11,7 +11,7 @@ import HistoryPanel from './components/HistoryPanel';
 
 export default function App() {
   const [apiKeyReady, setApiKeyReady] = useState(() => !!getSettings().apiKey);
-  const [currentProvider, setCurrentProvider] = useState(() => getSettings().provider || 'gemini');
+  const [currentProvider, setCurrentProvider] = useState(() => getSettings().provider || 'openrouter');
   const [image, setImage] = useState(null);
   const [report, setReport] = useState(null);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
@@ -126,7 +126,7 @@ export default function App() {
     setApiKeyReady(false);
   };
 
-  if (!apiKeyReady) return <ApiKeyGate onReady={(s) => { setApiKeyReady(true); setCurrentProvider(s.provider || 'gemini'); }} />;
+  if (!apiKeyReady) return <ApiKeyGate onReady={(s) => { setApiKeyReady(true); setCurrentProvider(s.provider || 'openrouter'); }} />;
 
   return (
     <div className="min-h-screen bg-bg">

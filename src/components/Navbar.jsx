@@ -3,7 +3,7 @@ import { Cpu, History, Maximize2, Minimize2, Settings } from 'lucide-react';
 import { PROVIDERS } from '../config';
 
 export default function Navbar({ onHistory, onFullscreen, isFullscreen, provider, onResetProvider }) {
-  const providerName = PROVIDERS[provider]?.name || provider || 'Gemini';
+  const providerName = PROVIDERS[provider]?.name || provider || 'OpenRouter';
 
   return (
     // Changed bg-white/80 to bg-white and removed backdrop-blur-xl for a solid background

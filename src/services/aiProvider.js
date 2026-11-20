@@ -1,6 +1,7 @@
-import { getSettings, PROVIDERS } from '../config';
+import { getSettings, isApiKeyConfigured, isModelConfigured } from '../config';
+import { logApiUsage } from './csvLogger';
 
-// ── SCHEMA & PROMPT DEFINITION ──
+// ── SCHEMA & PROMPT DEFINITION (PRESERVED EXACTLY) ──
 const SCHEMA_HINT = `You MUST respond with valid JSON matching this exact structure. Do not include markdown formatting, backticks, or conversational text. Return ONLY this raw JSON object:
 {
   "identification": { "name": "string", "number": "string", "manufacturer": "string", "family": "string", "confidence": 85 },
@@ -72,7 +73,8 @@ TASKS:
 13. Package type.
 
 ${SCHEMA_HINT}`;
-// ── UTILITIES ──
+
+// ── UTILITIES (PRESERVED EXACTLY) ──
 async function compressImage(base64Str, maxWidth = 800, quality = 0.7) {
   return new Promise((resolve, reject) => {
     const img = new Image();
@@ -106,159 +108,87 @@ function extractJSON(text) {
   throw new Error('The AI response could not be parsed as JSON. Try scanning again.');
 }
 
-// ── LOCAL QWEN (FASTAPI) PROVIDER ──
-async function callLocalVision(baseUrl, base64Image) {
-  const url = `${baseUrl.replace(/\/$/, '')}/ocr`;
-  try {
-    const fetchResponse = await fetch(base64Image);
-    const blob = await fetchResponse.blob();
-    const formData = new FormData();
-    formData.append('image', blob, 'ic_scan.jpg');
-    formData.append('prompt', SCAN_PROMPT); 
+// ── OPENROUTER API INTEGRATION ──
+async function callOpenRouter({ prompt, messages, responseFormat, temperature = 0.1, maxTokens = 4000, inputSummary }) {
+  const s = getSettings();
 
-    const res = await fetch(url, { method: 'POST', body: formData });
-    const rawText = await res.text();
-    
-    if (!res.ok) {
-      let errMsg = `HTTP ${res.status}`;
-      try { const errJson = JSON.parse(rawText); errMsg = errJson?.detail || errMsg; } catch {}
-      throw new Error(`Local AI error (${res.status}): ${errMsg}`);
-    }
-    const data = JSON.parse(rawText);
-    return extractJSON(data.text);
-  } catch (err) {
-    console.error('[Local AI] Error:', err);
-    throw new Error(`Local AI Connection Error: ${err.message}`);
+  if (!isApiKeyConfigured(s.apiKey)) {
+    throw new Error('OpenRouter API key is not configured. Please insert your API key in src/config.js, .env, or the configuration screen.');
   }
-}
 
-async function callLocalChat(baseUrl, prompt, maxTokens = 1500) {
-  const url = `${baseUrl.replace(/\/$/, '')}/chat`;
-  try {
-    const res = await fetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ prompt, max_tokens: maxTokens }),
-    });
-    const rawText = await res.text();
-    if (!res.ok) throw new Error(`Local AI Chat error (${res.status})`);
-    const data = JSON.parse(rawText);
-    return data.text;
-  } catch (err) {
-    console.error('[Local AI Chat] Error:', err);
-    throw new Error(`Local AI Connection Error: ${err.message}`);
+  if (!isModelConfigured(s.model)) {
+    throw new Error('OpenRouter model identifier is not configured. Please set your verified OpenRouter model identifier (intended: Gemini 3.1 Flash) in src/config.js, .env, or the configuration screen.');
   }
-}
 
-// ── GEMINI (REST API) PROVIDER ──
-async function callGemini(apiKey, model, base64Image, mimeType) {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
-  const imageData = base64Image.includes(',') ? base64Image.split(',')[1] : base64Image;
-  const body = {
-    contents: [{ parts: [ { inlineData: { mimeType, data: imageData } }, { text: SCAN_PROMPT } ] }],
-    generationConfig: { responseMimeType: "application/json", temperature: 0.1 }
+  const endpoint = `${(s.baseUrl || 'https://openrouter.ai/api/v1').replace(/\/$/, '')}/chat/completions`;
+
+  const headers = {
+    'Content-Type': 'application/json',
+    'Authorization': `Bearer ${s.apiKey.trim()}`,
+    'HTTP-Referer': typeof window !== 'undefined' ? window.location.origin : 'http://localhost:5173',
+    'X-Title': 'IC Scanner',
   };
-  const res = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
-  const rawText = await res.text();
+
+  const body = {
+    model: s.model.trim(),
+    messages: messages || [{ role: 'user', content: prompt }],
+    temperature,
+    max_tokens: maxTokens,
+  };
+
+  if (responseFormat) {
+    body.response_format = responseFormat;
+  }
+
+  let res;
+  let rawText = '';
+  try {
+    res = await fetch(endpoint, {
+      method: 'POST',
+      headers,
+      body: JSON.stringify(body),
+    });
+    rawText = await res.text();
+  } catch (netErr) {
+    throw new Error(`OpenRouter Network Error: ${netErr.message}`);
+  }
+
   if (!res.ok) {
     let errMsg = `HTTP ${res.status}`;
-    try { const errJson = JSON.parse(rawText); errMsg = errJson?.error?.message || errMsg; } catch {}
-    throw new Error(`Gemini API error (${res.status}): ${errMsg}`);
+    try {
+      const errJson = JSON.parse(rawText);
+      errMsg = errJson?.error?.message || errJson?.detail || errMsg;
+    } catch {}
+    if (res.status === 401) {
+      throw new Error(`OpenRouter Authentication Failed (401): Invalid or unauthorized API key.`);
+    }
+    throw new Error(`OpenRouter API Error (${res.status}): ${errMsg}`);
   }
-  const data = JSON.parse(rawText);
-  return extractJSON(data.candidates?.[0]?.content?.parts?.[0]?.text);
+
+  let data;
+  try {
+    data = JSON.parse(rawText);
+  } catch {
+    throw new Error('OpenRouter returned an unparseable response.');
+  }
+
+  const outputText = data.choices?.[0]?.message?.content || '';
+
+  // Asynchronous local CSV token and usage logging (non-blocking)
+  logApiUsage({
+    input: inputSummary || (messages ? JSON.stringify(messages) : prompt),
+    output: outputText,
+    usage: data.usage,
+    model: data.model || s.model,
+    timestamp: new Date().toISOString(),
+  }).catch(() => {});
+
+  return outputText;
 }
 
-async function callGeminiChat(apiKey, model, prompt) {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] }),
-  });
-  const rawText = await res.text();
-  if (!res.ok) throw new Error(`Gemini chat error (${res.status})`);
-  const data = JSON.parse(rawText);
-  return data.candidates?.[0]?.content?.parts?.[0]?.text || 'No response.';
-}
+// ── EXPORTED SCANNER METHODS ──
 
-async function callGeminiViva(apiKey, model, prompt) {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: { responseMimeType: "application/json", temperature: 0.4 }
-    }),
-  });
-  const rawText = await res.text();
-  if (!res.ok) throw new Error(`Gemini viva error (${res.status})`);
-  const data = JSON.parse(rawText);
-  return extractJSON(data.candidates?.[0]?.content?.parts?.[0]?.text || '{}');
-}
-
-// ── OPENAI-COMPATIBLE PROVIDERS ──
-function getBaseUrl(provider) {
-  const settings = getSettings();
-  if (provider === 'custom') return settings.customBaseUrl || '';
-  return PROVIDERS[provider]?.baseUrl || '';
-}
-
-function buildImagePart(base64Image, mimeType) {
-  const data = base64Image.includes(',') ? base64Image.split(',')[1] : base64Image;
-  return { type: 'image_url', image_url: { url: `data:${mimeType};base64,${data}` } };
-}
-
-async function callOpenAICompatible(provider, apiKey, targetModel, base64Image, mimeType) {
-  const baseUrl = getBaseUrl(provider);
-  if (!baseUrl) throw new Error(`No base URL for "${provider}". Check provider settings.`);
-  const res = await fetch(`${baseUrl}/chat/completions`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${apiKey}` },
-    body: JSON.stringify({
-      model: targetModel,
-      messages: [{ role: 'user', content: [ { type: 'text', text: SCAN_PROMPT }, buildImagePart(base64Image, mimeType) ] }],
-      temperature: 0.1,
-      max_tokens: 4000,
-      response_format: { type: "json_object" }
-    }),
-  });
-  const rawText = await res.text();
-  if (!res.ok) throw new Error(`${PROVIDERS[provider]?.name || provider} error (${res.status})`);
-  const data = JSON.parse(rawText);
-  return extractJSON(data.choices?.[0]?.message?.content);
-}
-
-async function callOpenAIChat(provider, apiKey, model, prompt) {
-  const baseUrl = getBaseUrl(provider);
-  const res = await fetch(`${baseUrl}/chat/completions`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${apiKey}` },
-    body: JSON.stringify({ model, messages: [{ role: 'user', content: prompt }], temperature: 0.5, max_tokens: 2000 }),
-  });
-  const rawText = await res.text();
-  if (!res.ok) throw new Error(`Chat error (${res.status})`);
-  const data = JSON.parse(rawText);
-  return data.choices?.[0]?.message?.content || 'No response.';
-}
-
-async function callOpenAIViva(provider, apiKey, model, prompt) {
-  const baseUrl = getBaseUrl(provider);
-  const res = await fetch(`${baseUrl}/chat/completions`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${apiKey}` },
-    body: JSON.stringify({ model, messages: [{ role: 'user', content: prompt }], temperature: 0.4, max_tokens: 4000 }),
-  });
-  const rawText = await res.text();
-  if (!res.ok) throw new Error(`Viva error (${res.status})`);
-  const data = JSON.parse(rawText);
-  return extractJSON(data.choices?.[0]?.message?.content || '{}');
-}
-
-// ── UNIFIED ROUTER EXPORTS ──
 export const analyzeIC = async (base64Image, mimeType = 'image/jpeg') => {
-  const s = getSettings();
   let processedImage = base64Image;
   try {
     processedImage = await compressImage(base64Image, 800, 0.7);
@@ -267,23 +197,29 @@ export const analyzeIC = async (base64Image, mimeType = 'image/jpeg') => {
     console.warn('Failed to compress image, using original', err);
   }
 
-  if (s.provider === 'local_qwen') {
-    const localBaseUrl = s.customBaseUrl || 'http://192.168.57.148:8001';
-    return callLocalVision(localBaseUrl, processedImage);
-  }
+  const imageData = processedImage.includes(',') ? processedImage.split(',')[1] : processedImage;
+  const messages = [
+    {
+      role: 'user',
+      content: [
+        { type: 'text', text: SCAN_PROMPT },
+        { type: 'image_url', image_url: { url: `data:${mimeType};base64,${imageData}` } },
+      ],
+    },
+  ];
 
-  if (!s.apiKey) throw new Error('API key not configured.');
-  const targetModel = s.provider === 'custom' ? s.customModel : s.model;
+  const rawText = await callOpenRouter({
+    messages,
+    responseFormat: { type: 'json_object' },
+    temperature: 0.1,
+    maxTokens: 4000,
+    inputSummary: SCAN_PROMPT,
+  });
 
-  if (s.provider === 'gemini') {
-    return callGemini(s.apiKey, targetModel, processedImage, mimeType);
-  } else {
-    return callOpenAICompatible(s.provider, s.apiKey, targetModel, processedImage, mimeType);
-  }
+  return extractJSON(rawText);
 };
 
 export const askAboutIC = async (icName, question, icData) => {
-  const s = getSettings();
   const prompt = `System Instruction: You are an electronics expert. You have access to technical data for a scanned IC: ${icData}. 
   The user is asking a question about a specific IC. 
   1. If the question is about the scanned IC (${icName}), use the provided data.
@@ -291,23 +227,15 @@ export const askAboutIC = async (icName, question, icData) => {
   3. Keep answers direct and concise.
   User Question: ${question}`;
 
-  if (s.provider === 'local_qwen') {
-    const localBaseUrl = s.customBaseUrl || 'http://192.168.57.148:8001';
-    return callLocalChat(localBaseUrl, prompt, 1000);
-  }
-
-  if (!s.apiKey) throw new Error('API key not configured.');
-  const targetModel = s.provider === 'custom' ? s.customModel : s.model;
-
-  if (s.provider === 'gemini') {
-    return callGeminiChat(s.apiKey, targetModel, prompt); 
-  } else {
-    return callOpenAIChat(s.provider, s.apiKey, targetModel, prompt);
-  }
+  return callOpenRouter({
+    prompt,
+    temperature: 0.5,
+    maxTokens: 2000,
+    inputSummary: `[Ask about ${icName}] ${question}`,
+  });
 };
 
 export const generateVivaQuestions = async (icName, icData) => {
-  const s = getSettings();
   const randomSeed = Math.floor(Math.random() * 1000000);
   const timestamp = Date.now();
   const prompt = `You are a strict electronics lab viva examiner. Generate exactly 10 MCQ questions about this IC: ${icName}.
@@ -322,36 +250,47 @@ CRITICAL INSTRUCTIONS FOR VARIETY:
 Respond with ONLY valid JSON (no markdown):
 {"questions": [{"question": "...", "options": ["A", "B", "C", "D"], "correctIndex": 0}]}`;
 
-  if (s.provider === 'local_qwen') {
-    const localBaseUrl = s.customBaseUrl || 'http://192.168.57.148:8001';
-    const rawResponse = await callLocalChat(localBaseUrl, prompt, 2500);
-    return extractJSON(rawResponse);
-  }
+  const rawText = await callOpenRouter({
+    prompt,
+    responseFormat: { type: 'json_object' },
+    temperature: 0.4,
+    maxTokens: 4000,
+    inputSummary: `[Viva Generation for ${icName}] Seed: ${randomSeed}`,
+  });
 
-  if (!s.apiKey) throw new Error('API key not configured.');
-  const targetModel = s.provider === 'custom' ? s.customModel : s.model;
-
-  if (s.provider === 'gemini') {
-    return callGeminiViva(s.apiKey, targetModel, prompt);
-  } else {
-    return callOpenAIViva(s.provider, s.apiKey, targetModel, prompt);
-  }
+  return extractJSON(rawText);
 };
 
 export const testConnection = async () => {
   const s = getSettings();
-
-  if (s.provider === 'local_qwen') {
-    const baseUrl = s.customBaseUrl || 'http://192.168.57.148:8001';
-    try {
-      const res = await fetch(`${baseUrl.replace(/\/$/, '')}/docs`);
-      if (res.ok) return { ok: true, provider: 'Local Qwen VL', model: 'vLLM Qwen' };
-      throw new Error(`Server returned status ${res.status}`);
-    } catch (err) {
-      throw new Error(`Could not connect to local server at ${baseUrl}. Details: ${err.message}`);
-    }
+  if (!isApiKeyConfigured(s.apiKey)) {
+    throw new Error('OpenRouter API key is not configured. Please enter your API key first.');
   }
 
-  if (!s.apiKey) throw new Error('Please enter an API key first.');
-  return { ok: true, provider: s.provider, model: s.model };
+  try {
+    const res = await fetch('https://openrouter.ai/api/v1/auth/key', {
+      method: 'GET',
+      headers: {
+        'Authorization': `Bearer ${s.apiKey.trim()}`,
+      },
+    });
+
+    if (res.status === 401) {
+      throw new Error('Invalid OpenRouter API Key (401 Unauthorized).');
+    }
+
+    if (!res.ok) {
+      const txt = await res.text();
+      let msg = `HTTP ${res.status}`;
+      try { msg = JSON.parse(txt)?.error?.message || msg; } catch {}
+      throw new Error(`OpenRouter verification error (${res.status}): ${msg}`);
+    }
+
+    return { ok: true, provider: 'OpenRouter', model: s.model };
+  } catch (err) {
+    if (err.message.includes('Invalid OpenRouter API Key') || err.message.includes('OpenRouter verification error')) {
+      throw err;
+    }
+    throw new Error(`OpenRouter Connection Error: ${err.message}`);
+  }
 };

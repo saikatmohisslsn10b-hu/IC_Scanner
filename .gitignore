@@ -3,3 +3,14 @@ dist
 .env.local
 .env
 *.local
+
+# Environment & local secret files
+.env*.local
+*.env
+local_config.json
+openrouter.local.json
+
+# Local OpenRouter usage & token CSV logs (MUST NEVER BE UPLOADED TO GITHUB)
+*.csv
+openrouter_usage_log.csv
+api_usage_log.csv

@@ -1,77 +1,109 @@
-/* ── Multi-Provider Configuration ── */
+// ============================================================================
+// OPENROUTER CONFIGURATION (USER CONFIGURABLE)
+// ============================================================================
+// 1. OPENROUTER API KEY:
+//    Insert your actual OpenRouter API key below, replacing the placeholder.
+//    Alternatively, set the VITE_OPENROUTER_API_KEY environment variable.
+export const OPENROUTER_API_KEY = 'YOUR_OPENROUTER_API_KEY_HERE';
+
+// 2. OPENROUTER MODEL IDENTIFIER:
+//    Intended Model: Gemini 3.1 Flash
+//    Do not guess or hardcode an unverified identifier. Manually configure your
+//    verified OpenRouter model identifier below, or set VITE_OPENROUTER_MODEL.
+//    (Example: 'google/gemini-2.0-flash-001' or your intended model on OpenRouter)
+export const OPENROUTER_MODEL = 'YOUR_OPENROUTER_MODEL_HERE';
+
+// OpenRouter API base endpoint
+export const OPENROUTER_BASE_URL = 'https://openrouter.ai/api/v1';
+// ============================================================================
+
+/**
+ * Checks if an API key is configured with a real value (not empty or default placeholder).
+ */
+export const isApiKeyConfigured = (key) => {
+  return Boolean(
+    key &&
+    typeof key === 'string' &&
+    key.trim() !== '' &&
+    key.trim() !== 'YOUR_OPENROUTER_API_KEY_HERE'
+  );
+};
+
+/**
+ * Checks if a model identifier is configured with a real value (not empty or default placeholder).
+ */
+export const isModelConfigured = (model) => {
+  return Boolean(
+    model &&
+    typeof model === 'string' &&
+    model.trim() !== '' &&
+    model.trim() !== 'YOUR_OPENROUTER_MODEL_HERE'
+  );
+};
+
+/* ── Provider Configuration (OpenRouter Active; Previous Integrations Disabled) ── */
 export const PROVIDERS = {
-  local_qwen: {
-    name: 'Local Qwen-VL (College Server)',
-    baseUrl: 'http://192.168.57.148:8001',
-    models: ['qwen2.5-vl'],
+  openrouter: {
+    name: 'OpenRouter',
+    models: [OPENROUTER_MODEL],
+    defaultModel: OPENROUTER_MODEL,
+    keyHint: 'sk-or-v1-...',
+    keyUrl: 'https://openrouter.ai/keys',
+    baseUrl: OPENROUTER_BASE_URL,
+    inputType: 'openrouter',
   },
-deepseek: {
-    name: 'Local DeepSeek OCR',
-    baseUrl: 'http://192.168.57.148:8001', // <-- Hardcoded to your college VPN IP
-    models: ['deepseek-ocr'], // <-- This array stops the .map() crash!
-  },
-  gemini: {
-    name: 'Google Gemini',
-    models: ['gemini-2.0-flash', 'gemini-1.5-flash', 'gemini-1.5-pro'],
-    defaultModel: 'gemini-2.0-flash',
-    keyHint: 'AIzaSy...',
-    keyUrl: 'https://aistudio.google.com/apikey',
-    inputType: 'gemini', // uses Gemini REST API
-  },
-  glm: {
-    name: 'GLM (ZhipuAI)',
-    models: ['glm-4-flash', 'glm-4-plus', 'glm-4-air'],
-    defaultModel: 'glm-4-flash',
-    keyHint: 'xxxxxxxx.yyyyyyyy',
-    keyUrl: 'https://open.bigmodel.cn/usercenter/apikeys',
-    inputType: 'openai',
-    baseUrl: 'https://open.bigmodel.cn/api/paas/v4',
-  },
-  sarvam: {
-    name: 'Sarvam AI',
-    models: ['sarvam-2b', 'sarvam-1'],
-    defaultModel: 'sarvam-2b',
-    keyHint: 'your-sarvam-key',
-    keyUrl: 'https://portal.sarvam.ai/',
-    inputType: 'openai',
-    baseUrl: 'https://api.sarvam.ai/v1',
-  },
-  custom: {
-    name: 'Custom (OpenAI-Compatible)',
-    models: [],
-    defaultModel: '',
-    keyHint: 'your-api-key',
-    keyUrl: '',
-    inputType: 'openai',
-    baseUrl: '',
-  },
+  /* 
+   * Previous local database connections, local models (local_qwen, deepseek),
+   * and other third-party servers (gemini direct, glm, sarvam) have been disabled
+   * as per project requirements in favor of online OpenRouter API.
+   */
 };
 
 export const getSettings = () => {
   try {
     const saved = JSON.parse(localStorage.getItem('ic_provider_settings') || '{}');
+    const envKey = import.meta.env?.VITE_OPENROUTER_API_KEY;
+    const envModel = import.meta.env?.VITE_OPENROUTER_MODEL;
+
+    const apiKey =
+      (isApiKeyConfigured(OPENROUTER_API_KEY) ? OPENROUTER_API_KEY : '') ||
+      (isApiKeyConfigured(envKey) ? envKey : '') ||
+      (isApiKeyConfigured(saved.apiKey) ? saved.apiKey : '');
+
+    const model =
+      (isModelConfigured(OPENROUTER_MODEL) ? OPENROUTER_MODEL : '') ||
+      (isModelConfigured(envModel) ? envModel : '') ||
+      (isModelConfigured(saved.model) ? saved.model : '') ||
+      OPENROUTER_MODEL;
+
     return {
-      provider: saved.provider || 'gemini',
-      apiKey: saved.apiKey || import.meta.env.VITE_GEMINI_API_KEY || '',
-      model: saved.model || PROVIDERS.gemini.defaultModel,
-      customBaseUrl: saved.customBaseUrl || '',
-      customModel: saved.customModel || '',
+      provider: 'openrouter',
+      apiKey,
+      model,
+      baseUrl: OPENROUTER_BASE_URL,
     };
   } catch {
     return {
-      provider: 'gemini',
-      apiKey: import.meta.env.VITE_GEMINI_API_KEY || '',
-      model: PROVIDERS.gemini.defaultModel,
-      customBaseUrl: '',
-      customModel: '',
+      provider: 'openrouter',
+      apiKey: isApiKeyConfigured(OPENROUTER_API_KEY) ? OPENROUTER_API_KEY : '',
+      model: OPENROUTER_MODEL,
+      baseUrl: OPENROUTER_BASE_URL,
     };
   }
 };
 
 export const saveSettings = (settings) => {
-  localStorage.setItem('ic_provider_settings', JSON.stringify(settings));
+  try {
+    localStorage.setItem('ic_provider_settings', JSON.stringify(settings));
+  } catch (e) {
+    console.warn('[Config] Failed to save settings to localStorage:', e);
+  }
 };
 
 export const clearSettings = () => {
-  localStorage.removeItem('ic_provider_settings');
+  try {
+    localStorage.removeItem('ic_provider_settings');
+  } catch (e) {
+    console.warn('[Config] Failed to clear settings from localStorage:', e);
+  }
 };
