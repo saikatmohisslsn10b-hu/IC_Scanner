@@ -92,7 +92,7 @@ export default function HeroUpload({ onFileSelect, onCameraClick, isAnalyzing, o
       {/* PROJECT INFORMATION — LANDING PAGE */}
       <div className="mt-14 text-left card p-6 sm:p-8 animate-fade-up-delay">
         <div className="inline-block px-3 py-1 bg-primary-50 text-primary-700 border border-primary-100 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
-          Internal Granted Project
+          Internal Grant-In-Aid Project
         </div>
 
         <h3 className="text-lg sm:text-xl font-display font-bold text-slate-900 tracking-tight mb-1">

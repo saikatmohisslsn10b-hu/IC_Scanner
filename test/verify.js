@@ -132,7 +132,7 @@ console.log('   ✓ Exact API requirement notice present directly above upload a
 // --- Test 7: Project Information (Landing Page and Other Pages) ---
 console.log('7. Verifying Project Information Content...');
 const requiredStrings = [
-  'Internal Granted Project',
+  'Internal Grant-In-Aid Project',
   'AI-Based Smart IC Scanner for In-Circuit Testing and Identification',
   'IC Navigator',
   'Prof. Subhojit Paul',

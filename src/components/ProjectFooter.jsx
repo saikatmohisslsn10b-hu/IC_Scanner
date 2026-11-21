@@ -8,7 +8,7 @@ export default function ProjectFooter() {
           <div className="space-y-1">
             <div className="flex items-center gap-2">
               <span className="text-[10px] font-bold text-primary-700 uppercase tracking-wider px-2.5 py-0.5 bg-primary-50 border border-primary-100 rounded-full">
-                Internal Granted Project
+                Internal Grant-In-Aid Project
               </span>
               <span className="text-xs font-bold text-slate-900">
                 IC Navigator
