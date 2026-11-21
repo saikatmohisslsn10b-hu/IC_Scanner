@@ -1,4 +1,4 @@
-import { getSettings, isApiKeyConfigured, isModelConfigured } from '../config';
+import { getSettings, isApiKeyConfigured, isModelConfigured, checkVisionSupport, PROVIDERS } from '../config';
 import { logApiUsage } from './csvLogger';
 
 // ── SCHEMA & PROMPT DEFINITION (PRESERVED EXACTLY) ──
@@ -97,7 +97,7 @@ async function compressImage(base64Str, maxWidth = 800, quality = 0.7) {
   });
 }
 
-function extractJSON(text) {
+export function extractJSON(text) {
   if (!text) throw new Error('The AI returned an empty response.');
   try { return JSON.parse(text); } catch {}
   const m = text.match(/```(?:json)?\s*([\s\S]*?)```/);
@@ -108,30 +108,35 @@ function extractJSON(text) {
   throw new Error('The AI response could not be parsed as JSON. Try scanning again.');
 }
 
-// ── OPENROUTER API INTEGRATION ──
-async function callOpenRouter({ prompt, messages, responseFormat, temperature = 0.1, maxTokens = 4000, inputSummary }) {
-  const s = getSettings();
-
-  if (!isApiKeyConfigured(s.apiKey)) {
-    throw new Error('OpenRouter API key is not configured. Please insert your API key in src/config.js, .env, or the configuration screen.');
-  }
-
-  if (!isModelConfigured(s.model)) {
-    throw new Error('OpenRouter model identifier is not configured. Please set your verified OpenRouter model identifier (intended: Gemini 3.1 Flash) in src/config.js, .env, or the configuration screen.');
-  }
-
-  const endpoint = `${(s.baseUrl || 'https://openrouter.ai/api/v1').replace(/\/$/, '')}/chat/completions`;
+// ── ADAPTER: OPENAI & COMPATIBLE PROVIDERS ──
+async function callOpenAICompatible({
+  provider,
+  baseUrl,
+  apiKey,
+  model,
+  messages,
+  temperature = 0.1,
+  maxTokens = 4000,
+  responseFormat,
+}) {
+  const endpoint = `${(baseUrl || 'https://api.openai.com/v1').replace(/\/$/, '')}/chat/completions`;
 
   const headers = {
     'Content-Type': 'application/json',
-    'Authorization': `Bearer ${s.apiKey.trim()}`,
-    'HTTP-Referer': typeof window !== 'undefined' ? window.location.origin : 'http://localhost:5173',
-    'X-Title': 'IC Scanner',
   };
 
+  if (apiKey && apiKey.trim()) {
+    headers['Authorization'] = `Bearer ${apiKey.trim()}`;
+  }
+
+  if (provider === 'openrouter') {
+    headers['HTTP-Referer'] = typeof window !== 'undefined' ? window.location.origin : 'http://localhost:5173';
+    headers['X-Title'] = 'IC Navigator';
+  }
+
   const body = {
-    model: s.model.trim(),
-    messages: messages || [{ role: 'user', content: prompt }],
+    model: model.trim(),
+    messages,
     temperature,
     max_tokens: maxTokens,
   };
@@ -150,37 +155,321 @@ async function callOpenRouter({ prompt, messages, responseFormat, temperature = 
     });
     rawText = await res.text();
   } catch (netErr) {
-    throw new Error(`OpenRouter Network Error: ${netErr.message}`);
+    throw new Error(`${PROVIDERS[provider]?.name || provider} Network Error: ${netErr.message}`);
   }
 
   if (!res.ok) {
     let errMsg = `HTTP ${res.status}`;
     try {
       const errJson = JSON.parse(rawText);
-      errMsg = errJson?.error?.message || errJson?.detail || errMsg;
+      errMsg = errJson?.error?.message || errJson?.detail || errJson?.message || errMsg;
     } catch {}
     if (res.status === 401) {
-      throw new Error(`OpenRouter Authentication Failed (401): Invalid or unauthorized API key.`);
+      throw new Error(`${PROVIDERS[provider]?.name || provider} Authentication Failed (401): Invalid or unauthorized API key.`);
     }
-    throw new Error(`OpenRouter API Error (${res.status}): ${errMsg}`);
+    throw new Error(`${PROVIDERS[provider]?.name || provider} API Error (${res.status}): ${errMsg}`);
   }
 
   let data;
   try {
     data = JSON.parse(rawText);
   } catch {
-    throw new Error('OpenRouter returned an unparseable response.');
+    throw new Error(`${PROVIDERS[provider]?.name || provider} returned an unparseable response.`);
   }
 
   const outputText = data.choices?.[0]?.message?.content || '';
 
-  // Asynchronous local CSV token statistics logging (non-blocking)
+  // Non-blocking usage logging
   logApiUsage({
     usage: data.usage,
     timestamp: new Date(),
   }).catch(() => {});
 
   return outputText;
+}
+
+// ── ADAPTER: GOOGLE GEMINI ──
+async function callGemini({
+  baseUrl,
+  apiKey,
+  model,
+  prompt,
+  base64Image,
+  mimeType = 'image/jpeg',
+  temperature = 0.1,
+  maxTokens = 4000,
+  jsonMode = false,
+}) {
+  const cleanModel = model.replace(/^models\//, '').trim();
+  const endpoint = `${(baseUrl || 'https://generativelanguage.googleapis.com/v1beta').replace(/\/$/, '')}/models/${cleanModel}:generateContent?key=${apiKey.trim()}`;
+
+  const parts = [];
+  if (prompt) {
+    parts.push({ text: prompt });
+  }
+
+  if (base64Image) {
+    const rawData = base64Image.includes(',') ? base64Image.split(',')[1] : base64Image;
+    parts.push({
+      inlineData: {
+        mimeType,
+        data: rawData,
+      },
+    });
+  }
+
+  const body = {
+    contents: [{ parts }],
+    generationConfig: {
+      temperature,
+      maxOutputTokens: maxTokens,
+      ...(jsonMode ? { responseMimeType: 'application/json' } : {}),
+    },
+  };
+
+  let res;
+  let rawText = '';
+  try {
+    res = await fetch(endpoint, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+    });
+    rawText = await res.text();
+  } catch (netErr) {
+    throw new Error(`Google Gemini Network Error: ${netErr.message}`);
+  }
+
+  if (!res.ok) {
+    let errMsg = `HTTP ${res.status}`;
+    try {
+      const errJson = JSON.parse(rawText);
+      errMsg = errJson?.error?.message || errMsg;
+    } catch {}
+    if (res.status === 400 && errMsg.toLowerCase().includes('api_key_invalid')) {
+      throw new Error('Google Gemini Authentication Failed: Invalid API key.');
+    }
+    throw new Error(`Google Gemini API Error (${res.status}): ${errMsg}`);
+  }
+
+  let data;
+  try {
+    data = JSON.parse(rawText);
+  } catch {
+    throw new Error('Google Gemini returned an unparseable response.');
+  }
+
+  const outputText = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+
+  // Format token usage metadata from Gemini
+  if (data.usageMetadata) {
+    logApiUsage({
+      usage: {
+        prompt_tokens: data.usageMetadata.promptTokenCount,
+        completion_tokens: data.usageMetadata.candidatesTokenCount,
+        total_tokens: data.usageMetadata.totalTokenCount,
+      },
+      timestamp: new Date(),
+    }).catch(() => {});
+  }
+
+  return outputText;
+}
+
+// ── ADAPTER: ANTHROPIC CLAUDE ──
+async function callAnthropic({
+  baseUrl,
+  apiKey,
+  model,
+  prompt,
+  base64Image,
+  mimeType = 'image/jpeg',
+  temperature = 0.1,
+  maxTokens = 4000,
+}) {
+  const endpoint = `${(baseUrl || 'https://api.anthropic.com/v1').replace(/\/$/, '')}/messages`;
+
+  const headers = {
+    'Content-Type': 'application/json',
+    'x-api-key': apiKey.trim(),
+    'anthropic-version': '2023-06-01',
+    'anthropic-dangerous-direct-browser-access': 'true',
+  };
+
+  const content = [];
+
+  if (base64Image) {
+    const rawData = base64Image.includes(',') ? base64Image.split(',')[1] : base64Image;
+    content.push({
+      type: 'image',
+      source: {
+        type: 'base64',
+        media_type: mimeType,
+        data: rawData,
+      },
+    });
+  }
+
+  if (prompt) {
+    content.push({ type: 'text', text: prompt });
+  }
+
+  const body = {
+    model: model.trim(),
+    max_tokens: maxTokens,
+    temperature,
+    messages: [{ role: 'user', content }],
+  };
+
+  let res;
+  let rawText = '';
+  try {
+    res = await fetch(endpoint, {
+      method: 'POST',
+      headers,
+      body: JSON.stringify(body),
+    });
+    rawText = await res.text();
+  } catch (netErr) {
+    throw new Error(`Anthropic Claude Network Error: ${netErr.message}`);
+  }
+
+  if (!res.ok) {
+    let errMsg = `HTTP ${res.status}`;
+    try {
+      const errJson = JSON.parse(rawText);
+      errMsg = errJson?.error?.message || errMsg;
+    } catch {}
+    if (res.status === 401) {
+      throw new Error('Anthropic Authentication Failed (401): Invalid API key.');
+    }
+    throw new Error(`Anthropic Claude API Error (${res.status}): ${errMsg}`);
+  }
+
+  let data;
+  try {
+    data = JSON.parse(rawText);
+  } catch {
+    throw new Error('Anthropic Claude returned an unparseable response.');
+  }
+
+  const outputText = data.content?.find(c => c.type === 'text')?.text || data.content?.[0]?.text || '';
+
+  // Usage metadata
+  if (data.usage) {
+    logApiUsage({
+      usage: {
+        prompt_tokens: data.usage.input_tokens,
+        completion_tokens: data.usage.output_tokens,
+      },
+      timestamp: new Date(),
+    }).catch(() => {});
+  }
+
+  return outputText;
+}
+
+// ── GENERAL MULTI-PROVIDER DISPATCHER ──
+async function callConfiguredProvider({
+  prompt,
+  base64Image,
+  mimeType = 'image/jpeg',
+  messages,
+  responseFormat,
+  temperature = 0.1,
+  maxTokens = 4000,
+  jsonMode = false,
+  overrideSettings = null,
+}) {
+  const s = overrideSettings || getSettings();
+  const provider = s.provider || 'openrouter';
+  const providerConfig = PROVIDERS[provider] || PROVIDERS.custom;
+
+  // Validate API key if required
+  if (providerConfig.requiresKey && !isApiKeyConfigured(s.apiKey)) {
+    throw new Error(
+      `No API key configured for ${providerConfig.name}. Please open Provider Settings and enter your API key.`
+    );
+  }
+
+  // Validate Model
+  if (!isModelConfigured(s.model)) {
+    throw new Error(
+      `No model configured for ${providerConfig.name}. Please select or enter a valid model identifier.`
+    );
+  }
+
+  // Vision Capability Verification
+  if (base64Image) {
+    const visionCheck = checkVisionSupport(provider, s.model);
+    if (!visionCheck.supported) {
+      throw new Error(
+        `Vision Incompatible: ${visionCheck.reason || 'The configured model does not support image/vision input for IC identification.'}`
+      );
+    }
+  }
+
+  const pType = providerConfig.type;
+
+  if (pType === 'gemini') {
+    return callGemini({
+      baseUrl: s.baseUrl || providerConfig.baseUrl,
+      apiKey: s.apiKey,
+      model: s.model,
+      prompt,
+      base64Image,
+      mimeType,
+      temperature,
+      maxTokens,
+      jsonMode: jsonMode || Boolean(responseFormat),
+    });
+  }
+
+  if (pType === 'anthropic') {
+    return callAnthropic({
+      baseUrl: s.baseUrl || providerConfig.baseUrl,
+      apiKey: s.apiKey,
+      model: s.model,
+      prompt,
+      base64Image,
+      mimeType,
+      temperature,
+      maxTokens,
+    });
+  }
+
+  // Default: OpenAI-compatible
+  const rawData = base64Image
+    ? (base64Image.includes(',') ? base64Image.split(',')[1] : base64Image)
+    : null;
+
+  let finalMessages = messages;
+  if (!finalMessages) {
+    if (base64Image) {
+      finalMessages = [
+        {
+          role: 'user',
+          content: [
+            { type: 'text', text: prompt },
+            { type: 'image_url', image_url: { url: `data:${mimeType};base64,${rawData}` } },
+          ],
+        },
+      ];
+    } else {
+      finalMessages = [{ role: 'user', content: prompt }];
+    }
+  }
+
+  return callOpenAICompatible({
+    provider,
+    baseUrl: s.baseUrl || providerConfig.baseUrl,
+    apiKey: s.apiKey,
+    model: s.model,
+    messages: finalMessages,
+    temperature,
+    maxTokens,
+    responseFormat: responseFormat || (jsonMode ? { type: 'json_object' } : undefined),
+  });
 }
 
 // ── EXPORTED SCANNER METHODS ──
@@ -194,23 +483,14 @@ export const analyzeIC = async (base64Image, mimeType = 'image/jpeg') => {
     console.warn('Failed to compress image, using original', err);
   }
 
-  const imageData = processedImage.includes(',') ? processedImage.split(',')[1] : processedImage;
-  const messages = [
-    {
-      role: 'user',
-      content: [
-        { type: 'text', text: SCAN_PROMPT },
-        { type: 'image_url', image_url: { url: `data:${mimeType};base64,${imageData}` } },
-      ],
-    },
-  ];
-
-  const rawText = await callOpenRouter({
-    messages,
+  const rawText = await callConfiguredProvider({
+    prompt: SCAN_PROMPT,
+    base64Image: processedImage,
+    mimeType,
+    jsonMode: true,
     responseFormat: { type: 'json_object' },
     temperature: 0.1,
     maxTokens: 4000,
-    inputSummary: 'Identify IC from image',
   });
 
   return extractJSON(rawText);
@@ -218,17 +498,16 @@ export const analyzeIC = async (base64Image, mimeType = 'image/jpeg') => {
 
 export const askAboutIC = async (icName, question, icData) => {
   const prompt = `System Instruction: You are an electronics expert. You have access to technical data for a scanned IC: ${icData}. 
-  The user is asking a question about a specific IC. 
-  1. If the question is about the scanned IC (${icName}), use the provided data.
-  2. If the user asks about a DIFFERENT IC (like 4001), answer based on your general knowledge.
-  3. Keep answers direct and concise.
-  User Question: ${question}`;
+The user is asking a question about a specific IC. 
+1. If the question is about the scanned IC (${icName}), use the provided data.
+2. If the user asks about a DIFFERENT IC (like 4001), answer based on your general knowledge.
+3. Keep answers direct and concise.
+User Question: ${question}`;
 
-  return callOpenRouter({
+  return callConfiguredProvider({
     prompt,
     temperature: 0.5,
     maxTokens: 2000,
-    inputSummary: question || (icName ? `Explain ${icName}` : 'IC Question'),
   });
 };
 
@@ -247,47 +526,155 @@ CRITICAL INSTRUCTIONS FOR VARIETY:
 Respond with ONLY valid JSON (no markdown):
 {"questions": [{"question": "...", "options": ["A", "B", "C", "D"], "correctIndex": 0}]}`;
 
-  const rawText = await callOpenRouter({
+  const rawText = await callConfiguredProvider({
     prompt,
+    jsonMode: true,
     responseFormat: { type: 'json_object' },
     temperature: 0.4,
     maxTokens: 4000,
-    inputSummary: `Generate viva questions for ${icName}`,
   });
 
   return extractJSON(rawText);
 };
 
-export const testConnection = async () => {
-  const s = getSettings();
-  if (!isApiKeyConfigured(s.apiKey)) {
-    throw new Error('OpenRouter API key is not configured. Please enter your API key first.');
+/**
+ * Tests connection to the selected AI provider.
+ * Can be called with explicitly provided settings or uses current in-memory settings.
+ */
+export const testConnection = async (customSettings = null) => {
+  const s = customSettings || getSettings();
+  const provider = s.provider || 'openrouter';
+  const providerConfig = PROVIDERS[provider] || PROVIDERS.custom;
+
+  if (providerConfig.requiresKey && !isApiKeyConfigured(s.apiKey)) {
+    throw new Error(`Please enter an API key for ${providerConfig.name} to test connection.`);
   }
 
+  const model = s.model || providerConfig.defaultModel;
+  const baseUrl = s.baseUrl || providerConfig.baseUrl;
+
+  // Check vision compatibility as part of testing
+  const visionStatus = checkVisionSupport(provider, model);
+
   try {
-    const res = await fetch('https://openrouter.ai/api/v1/auth/key', {
-      method: 'GET',
-      headers: {
-        'Authorization': `Bearer ${s.apiKey.trim()}`,
-      },
-    });
-
-    if (res.status === 401) {
-      throw new Error('Invalid OpenRouter API Key (401 Unauthorized).');
+    if (provider === 'gemini') {
+      const endpoint = `${baseUrl.replace(/\/$/, '')}/models?key=${s.apiKey.trim()}`;
+      const res = await fetch(endpoint);
+      if (!res.ok) {
+        const txt = await res.text();
+        let msg = `HTTP ${res.status}`;
+        try { msg = JSON.parse(txt)?.error?.message || msg; } catch {}
+        throw new Error(`Gemini verification error: ${msg}`);
+      }
+    } else if (provider === 'anthropic') {
+      const endpoint = `${baseUrl.replace(/\/$/, '')}/messages`;
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-api-key': s.apiKey.trim(),
+          'anthropic-version': '2023-06-01',
+          'anthropic-dangerous-direct-browser-access': 'true',
+        },
+        body: JSON.stringify({
+          model: model.trim(),
+          max_tokens: 1,
+          messages: [{ role: 'user', content: 'ping' }],
+        }),
+      });
+      if (!res.ok) {
+        const txt = await res.text();
+        let msg = `HTTP ${res.status}`;
+        try { msg = JSON.parse(txt)?.error?.message || msg; } catch {}
+        throw new Error(`Anthropic verification error: ${msg}`);
+      }
+    } else if (provider === 'openrouter') {
+      const res = await fetch('https://openrouter.ai/api/v1/auth/key', {
+        headers: { 'Authorization': `Bearer ${s.apiKey.trim()}` },
+      });
+      if (!res.ok) {
+        const txt = await res.text();
+        let msg = `HTTP ${res.status}`;
+        try { msg = JSON.parse(txt)?.error?.message || msg; } catch {}
+        throw new Error(`OpenRouter verification error: ${msg}`);
+      }
+    } else {
+      // General OpenAI-compatible: try GET /models first
+      const endpoint = `${baseUrl.replace(/\/$/, '')}/models`;
+      const headers = { 'Content-Type': 'application/json' };
+      if (s.apiKey && s.apiKey.trim()) {
+        headers['Authorization'] = `Bearer ${s.apiKey.trim()}`;
+      }
+      const res = await fetch(endpoint, { headers });
+      if (!res.ok) {
+        // If /models isn't supported or returned an error, test with a 1-token completion
+        const compEndpoint = `${baseUrl.replace(/\/$/, '')}/chat/completions`;
+        const compRes = await fetch(compEndpoint, {
+          method: 'POST',
+          headers,
+          body: JSON.stringify({
+            model: model.trim(),
+            messages: [{ role: 'user', content: 'ping' }],
+            max_tokens: 1,
+          }),
+        });
+        if (!compRes.ok) {
+          const txt = await compRes.text();
+          let msg = `HTTP ${compRes.status}`;
+          try { msg = JSON.parse(txt)?.error?.message || msg; } catch {}
+          throw new Error(`${providerConfig.name} connection error: ${msg}`);
+        }
+      }
     }
 
-    if (!res.ok) {
-      const txt = await res.text();
-      let msg = `HTTP ${res.status}`;
-      try { msg = JSON.parse(txt)?.error?.message || msg; } catch {}
-      throw new Error(`OpenRouter verification error (${res.status}): ${msg}`);
-    }
-
-    return { ok: true, provider: 'OpenRouter', model: s.model };
+    return {
+      ok: true,
+      provider: providerConfig.name,
+      model,
+      visionSupported: visionStatus.supported,
+      visionWarning: visionStatus.reason || visionStatus.advisory || null,
+    };
   } catch (err) {
-    if (err.message.includes('Invalid OpenRouter API Key') || err.message.includes('OpenRouter verification error')) {
-      throw err;
+    throw new Error(err.message || `Failed to connect to ${providerConfig.name}.`);
+  }
+};
+
+/**
+ * Automatically discovers available models from the provider endpoint.
+ */
+export const fetchAvailableModels = async (provider, apiKey, baseUrl) => {
+  const cfg = PROVIDERS[provider];
+  if (!cfg) return null;
+
+  try {
+    if (provider === 'gemini') {
+      if (!apiKey) return null;
+      const url = `${(baseUrl || cfg.baseUrl).replace(/\/$/, '')}/models?key=${apiKey.trim()}`;
+      const res = await fetch(url);
+      if (!res.ok) return null;
+      const data = await res.json();
+      return (data.models || [])
+        .map(m => m.name.replace(/^models\//, ''))
+        .filter(name => !name.includes('embedding') && !name.includes('aqa'));
     }
-    throw new Error(`OpenRouter Connection Error: ${err.message}`);
+
+    if (provider === 'anthropic') {
+      // Anthropic does not provide an open CORS models endpoint for client-side listing
+      return cfg.models;
+    }
+
+    // OpenAI-compatible /models endpoint
+    const url = `${(baseUrl || cfg.baseUrl).replace(/\/$/, '')}/models`;
+    const headers = {};
+    if (apiKey && apiKey.trim()) {
+      headers['Authorization'] = `Bearer ${apiKey.trim()}`;
+    }
+    const res = await fetch(url, { headers });
+    if (!res.ok) return null;
+    const data = await res.json();
+    const list = Array.isArray(data?.data) ? data.data : (Array.isArray(data) ? data : []);
+    return list.map(m => m.id || m.name).filter(Boolean);
+  } catch {
+    return null;
   }
 };

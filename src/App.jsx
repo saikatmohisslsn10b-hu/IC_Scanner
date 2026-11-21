@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { getSettings } from './config';
+import { getSettings, isApiKeyConfigured, PROVIDERS } from './config';
 import { analyzeIC } from './services/aiProvider';
 import { generateReportPDF, generateLabRecordPDF } from './services/pdfExport';
 import Navbar from './components/Navbar';
@@ -8,10 +8,11 @@ import HeroUpload from './components/HeroUpload';
 import AnalysisLoader from './components/AnalysisLoader';
 import ReportShell from './components/ReportShell';
 import HistoryPanel from './components/HistoryPanel';
+import ProjectFooter from './components/ProjectFooter';
 
 export default function App() {
-  const [apiKeyReady, setApiKeyReady] = useState(() => !!getSettings().apiKey);
   const [currentProvider, setCurrentProvider] = useState(() => getSettings().provider || 'openrouter');
+  const [showApiConfig, setShowApiConfig] = useState(false);
   const [image, setImage] = useState(null);
   const [report, setReport] = useState(null);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
@@ -54,7 +55,26 @@ export default function App() {
     return () => { if (stream) stream.getTracks().forEach(t => t.stop()); };
   }, [cameraActive]);
 
+  const verifyKeyBeforeAction = () => {
+    const s = getSettings();
+    const cfg = PROVIDERS[s.provider] || PROVIDERS.custom;
+    if (cfg.requiresKey && !isApiKeyConfigured(s.apiKey)) {
+      setError(`API Key Required: Please configure your ${cfg.name} API key before scanning an IC.`);
+      setShowApiConfig(true);
+      return false;
+    }
+    return true;
+  };
+
   const processImage = useCallback(async (base64, mimeType = 'image/jpeg') => {
+    const s = getSettings();
+    const cfg = PROVIDERS[s.provider] || PROVIDERS.custom;
+    if (cfg.requiresKey && !isApiKeyConfigured(s.apiKey)) {
+      setError(`API Key Required: Please configure your ${cfg.name} API key before scanning.`);
+      setShowApiConfig(true);
+      return;
+    }
+
     setImage(base64);
     setReport(null);
     setError(null);
@@ -69,15 +89,25 @@ export default function App() {
       }, ...prev].slice(0, 20));
       setTimeout(() => reportRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 400);
     } catch (e) {
-      // Show the ACTUAL error — no override, no guessing
       const msg = e.message || 'Unknown error occurred.';
       console.error('[App] Analysis failed:', msg);
       setError(msg);
+      if (msg.includes('No API key configured') || msg.includes('Authentication Failed')) {
+        setShowApiConfig(true);
+      }
     }
     setIsAnalyzing(false);
   }, []);
 
-  const handleFileSelect = (base64, mimeType) => processImage(base64, mimeType);
+  const handleFileSelect = (base64, mimeType) => {
+    if (!verifyKeyBeforeAction()) return;
+    processImage(base64, mimeType);
+  };
+
+  const handleCameraStart = () => {
+    if (!verifyKeyBeforeAction()) return;
+    setCameraActive(true);
+  };
 
   const handleCapture = () => {
     const ctx = canvasRef.current?.getContext('2d');
@@ -121,81 +151,99 @@ export default function App() {
   const handleClearHistory = () => { setHistory([]); localStorage.removeItem('ic_scan_history'); };
   const newScan = () => { setReport(null); setImage(null); setError(null); setChatOpen(false); };
 
-  const handleResetProvider = () => {
-    localStorage.removeItem('ic_provider_settings');
-    setApiKeyReady(false);
+  const handleApiConfigReady = (settings) => {
+    setCurrentProvider(settings.provider || 'openrouter');
+    setShowApiConfig(false);
+    setError(null);
   };
 
-  if (!apiKeyReady) return <ApiKeyGate onReady={(s) => { setApiKeyReady(true); setCurrentProvider(s.provider || 'openrouter'); }} />;
-
   return (
-    <div className="min-h-screen bg-bg">
-      <Navbar
-        onHistory={() => setShowHistory(true)}
-        onFullscreen={toggleFullscreen}
-        isFullscreen={isFullscreen}
-        provider={currentProvider}
-        onResetProvider={handleResetProvider}
-      />
+    <div className="min-h-screen bg-bg flex flex-col justify-between">
+      <div>
+        <Navbar
+          onHistory={() => setShowHistory(true)}
+          onFullscreen={toggleFullscreen}
+          isFullscreen={isFullscreen}
+          provider={currentProvider}
+          onOpenApiConfig={() => setShowApiConfig(true)}
+        />
 
-      <main className="max-w-[1600px] mx-auto px-4 sm:px-6 pb-20">
-        {error && (
-          <div className="mt-4 p-4 bg-red-50 border border-red-200 rounded-xl flex items-start gap-3 animate-fade-up">
-            <span className="text-red-600 text-sm leading-relaxed flex-1">{error}</span>
-            <button onClick={() => setError(null)} className="text-red-400 hover:text-red-600 text-xs font-semibold shrink-0 ml-2">✕</button>
-          </div>
-        )}
+        <main className="max-w-[1600px] mx-auto px-4 sm:px-6 pb-20">
+          {error && (
+            <div className="mt-4 p-4 bg-red-50 border border-red-200 rounded-xl flex items-start gap-3 animate-fade-up">
+              <span className="text-red-600 text-sm leading-relaxed flex-1">{error}</span>
+              <button onClick={() => setError(null)} className="text-red-400 hover:text-red-600 text-xs font-semibold shrink-0 ml-2">✕</button>
+            </div>
+          )}
 
-        {isGeneratingPdf && (
-          <div className="fixed inset-0 z-[100] bg-white/90 backdrop-blur-xl flex flex-col items-center justify-center">
-            <div className="w-12 h-12 border-4 border-primary-200 border-t-primary-600 rounded-full animate-spin mb-4" />
-            <p className="text-sm font-semibold text-slate-600">Generating PDF...</p>
-          </div>
-        )}
+          {isGeneratingPdf && (
+            <div className="fixed inset-0 z-[100] bg-white/90 backdrop-blur-xl flex flex-col items-center justify-center">
+              <div className="w-12 h-12 border-4 border-primary-200 border-t-primary-600 rounded-full animate-spin mb-4" />
+              <p className="text-sm font-semibold text-slate-600">Generating PDF...</p>
+            </div>
+          )}
 
-        {!report && !isAnalyzing && !cameraActive && (
-          <HeroUpload onFileSelect={handleFileSelect} onCameraClick={() => setCameraActive(true)} isAnalyzing={isAnalyzing} />
-        )}
+          {!report && !isAnalyzing && !cameraActive && (
+            <HeroUpload
+              onFileSelect={handleFileSelect}
+              onCameraClick={handleCameraStart}
+              isAnalyzing={isAnalyzing}
+              onConfigureApi={() => setShowApiConfig(true)}
+            />
+          )}
 
-        {cameraActive && (
-          <div className="fixed inset-0 z-50 bg-black flex flex-col">
-            <div className="flex-1 relative">
-              <video ref={videoRef} autoPlay playsInline muted className="w-full h-full object-contain" />
-              <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                <div className="w-64 h-64 sm:w-80 sm:h-80 border-2 border-primary-400/50 rounded-2xl relative">
-                  <div className="absolute -top-0.5 -left-0.5 w-6 h-6 border-t-2 border-l-2 border-primary-500 rounded-tl-lg" />
-                  <div className="absolute -top-0.5 -right-0.5 w-6 h-6 border-t-2 border-r-2 border-primary-500 rounded-tr-lg" />
-                  <div className="absolute -bottom-0.5 -left-0.5 w-6 h-6 border-b-2 border-l-2 border-primary-500 rounded-bl-lg" />
-                  <div className="absolute -bottom-0.5 -right-0.5 w-6 h-6 border-b-2 border-r-2 border-primary-500 rounded-br-lg" />
+          {cameraActive && (
+            <div className="fixed inset-0 z-50 bg-black flex flex-col">
+              <div className="flex-1 relative">
+                <video ref={videoRef} autoPlay playsInline muted className="w-full h-full object-contain" />
+                <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                  <div className="w-64 h-64 sm:w-80 sm:h-80 border-2 border-primary-400/50 rounded-2xl relative">
+                    <div className="absolute -top-0.5 -left-0.5 w-6 h-6 border-t-2 border-l-2 border-primary-500 rounded-tl-lg" />
+                    <div className="absolute -top-0.5 -right-0.5 w-6 h-6 border-t-2 border-r-2 border-primary-500 rounded-tr-lg" />
+                    <div className="absolute -bottom-0.5 -left-0.5 w-6 h-6 border-b-2 border-l-2 border-primary-500 rounded-bl-lg" />
+                    <div className="absolute -bottom-0.5 -right-0.5 w-6 h-6 border-b-2 border-r-2 border-primary-500 rounded-br-lg" />
+                  </div>
+                </div>
+                <div className="absolute top-4 left-4 flex items-center gap-2 bg-black/60 px-3 py-1.5 rounded-full backdrop-blur-sm">
+                  <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
+                  <span className="text-[10px] font-semibold text-white uppercase tracking-wider">Live</span>
                 </div>
               </div>
-              <div className="absolute top-4 left-4 flex items-center gap-2 bg-black/60 px-3 py-1.5 rounded-full backdrop-blur-sm">
-                <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
-                <span className="text-[10px] font-semibold text-white uppercase tracking-wider">Live</span>
+              <div className="py-8 flex justify-center gap-6 bg-black">
+                <button onClick={handleCapture} className="w-16 h-16 bg-white rounded-full flex items-center justify-center active:scale-90 transition-transform shadow-2xl">
+                  <div className="w-12 h-12 border-4 border-slate-200 rounded-full" />
+                </button>
+                <button onClick={() => setCameraActive(false)} className="w-16 h-16 bg-slate-800 rounded-full flex items-center justify-center text-white active:scale-90 transition-transform">✕</button>
               </div>
+              <canvas ref={canvasRef} className="hidden" />
             </div>
-            <div className="py-8 flex justify-center gap-6 bg-black">
-              <button onClick={handleCapture} className="w-16 h-16 bg-white rounded-full flex items-center justify-center active:scale-90 transition-transform shadow-2xl">
-                <div className="w-12 h-12 border-4 border-slate-200 rounded-full" />
-              </button>
-              <button onClick={() => setCameraActive(false)} className="w-16 h-16 bg-slate-800 rounded-full flex items-center justify-center text-white active:scale-90 transition-transform">✕</button>
+          )}
+
+          {isAnalyzing && <AnalysisLoader />}
+
+          {report && !isAnalyzing && (
+            <div ref={reportRef} className="mt-6">
+              <ReportShell
+                report={report} image={image} onNewScan={newScan}
+                onPdf={handlePdf} onLabPdf={handleLabPdf}
+                isGenerating={isGeneratingPdf} chatOpen={chatOpen} setChatOpen={setChatOpen}
+              />
             </div>
-            <canvas ref={canvasRef} className="hidden" />
-          </div>
-        )}
+          )}
+        </main>
+      </div>
 
-        {isAnalyzing && <AnalysisLoader />}
+      {/* Project information footer on all pages */}
+      <ProjectFooter />
 
-        {report && !isAnalyzing && (
-          <div ref={reportRef} className="mt-6">
-            <ReportShell
-              report={report} image={image} onNewScan={newScan}
-              onPdf={handlePdf} onLabPdf={handleLabPdf}
-              isGenerating={isGeneratingPdf} chatOpen={chatOpen} setChatOpen={setChatOpen}
-            />
-          </div>
-        )}
-      </main>
+      {/* API Configuration Modal */}
+      {showApiConfig && (
+        <ApiKeyGate
+          isModal={true}
+          onClose={() => setShowApiConfig(false)}
+          onReady={handleApiConfigReady}
+        />
+      )}
 
       {showHistory && (
         <HistoryPanel history={history} onClose={() => setShowHistory(false)}
